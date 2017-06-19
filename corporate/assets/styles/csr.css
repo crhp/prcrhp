@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+.content a:link,.content a:visited,
+.content a:hover,.content a:focus{color:#1f4894;text-decoration:underline;}
+
+/* clearfix */
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;height:0;visibility:hidden;}
+.clear{clear:both;line-height:0;}
+
+.content {
+	color:#333;font-size:16px;line-height:1.875;
+	font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+.content,
+.content *{box-sizing:content-box;}
+
+.br-add{display:none;}
+.nowp{white-space:nowrap;}
+
+/*==================== *** default *** ====================*/
+#outerCont{border-top:3px solid #ff6e01;}
+
+.company-ttl{font-weight:bold;color:#ff6e01;}
+
+.company-csr .main{font-weight:bold;}
+.company-csr .manifesto dt{font-weight:bold;}
+.company-csr .manifesto dd li{position:relative;}
+.company-csr .manifesto dd li:before{content:"\30FB";display:block;position:absolute;top:0;left:0;}
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.br-add-sp{display:block;}
+	.content{font-size:14px;font-size:4.3vw;line-height:1.7em;}
+	#csr{padding:1.6em 0.93em 0.9em;}
+	.company-ttl{font-size:1.43em;letter-spacing:0.15em;padding-bottom:0.8em;}
+
+	.company-csr .main{font-size:1.214em;padding-bottom:1.4em;line-height:1.706em;letter-spacing:-0.02em;margin-right:-0.9em;}
+	.company-csr .manifesto dt{font-size:1.071em;padding-bottom:0.8em;}
+	.company-csr .manifesto dd{font-size:1em;padding-bottom:0.9em;}
+	.company-csr .manifesto dd li{letter-spacing:-0.007em;padding-bottom:1.214em;padding-left:0.929em;margin-left:-0.321em;margin-right:-0.143em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.br-add-tab{display:block;}
+	.content{font-size:18px;line-height:1.889;}
+	#csr{padding:35px 20px 135px;}
+	.company-ttl{font-size:30px;letter-spacing:5px;padding-bottom:26px;}
+
+	.company-csr .main{font-size:23px;padding-bottom:60px;}
+	.company-csr .manifesto dt{font-size:20px;padding-bottom:26px;}
+	.company-csr .manifesto dd{font-size:18px;padding-bottom:30px;}
+	.company-csr .manifesto dd li{letter-spacing:-0.2px;padding-bottom:34px;padding-left:26px;margin-left:-9px;margin-right:-4px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.br-add-pc{display:block;}
+	/*#outerCont{padding-left:212px;}*/
+	#csr{width:980px;margin-left:auto;margin-right:auto;padding-top:91px;padding-bottom:48px;}
+	.company-ttl{font-size:28px;letter-spacing:5px;padding-bottom:10px;}
+
+	.company-csr .main{font-size:21px;padding-bottom:60px;}
+	.company-csr .manifesto dt{font-size:18px;padding-bottom:21px;}
+	.company-csr .manifesto dd{font-size:16px;padding-bottom:53px;}
+	.company-csr .manifesto dd li{padding-bottom:10px;padding-left:16px;}
+}
+

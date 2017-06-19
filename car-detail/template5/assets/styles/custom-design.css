@@ -1,0 +1,382 @@
+@charset "UTF-8";
+
+.car-dt-design05{color:#333;background-color:#fff;}
+.car-dt-design05 .br-add-5{display:block;}
+.car-dt-design05 .br-sub-5{display:none;}
+
+/*==================== *** inherit *** ====================*/
+.car-dt-design05 .car-dt-color #carDetailsPickup .clone-ttl.fColor,
+.car-dt-design05 .car-dt-color .data-panel.fColor{color:inherit;}
+.car-dt-design05 .car-dt-color .clone-btn .cntxt-in.gColor{background-image:inherit;}
+.car-dt-design05 .car-dt-color .clone-btn a.bColor{background:#fff;}
+.car-dt-design05 .car-dt-color .pdf-btn.fColor{color:#333;}
+
+/*==================== *** carDetails *** ====================*/
+/* .car-dt-design05 #carDetails{border-top-width:3px;border-top-style:solid;} */
+
+/*==================== *** main-navi *** ====================*/
+.car-dt-design05 .main-navi{background-color:#eee;}
+.car-dt-design05 .main-navi li .btn-in{padding-left:14.5px;padding-right:14.5px;}
+
+/*==================== *** clone-parts *** ====================*/
+.car-dt-design05 .clone-head-ttl{display:none;}
+.car-dt-design05 .clone-ttl{font-weight:600;letter-spacing:5px;border-bottom:1px solid #777;text-align:center;}
+.car-dt-design05 .clone-txt{font-weight:bold;}
+.car-dt-design05 .clone-btn a{font-weight:600;}
+.car-dt-design05 .clone-btn a,
+.car-dt-design05 .clone-btn .cntxt-in{
+	-webkit-border-radius:30px;-moz-border-radius:30px;
+	-moz-border-radius:30px;-0-border-radius:30px;border-radius:30px;
+}
+/*==================== *** data-table *** ====================*/
+.car-dt-design05 .data-table .data-panel{float:left;}
+
+.car-dt-design05 .data-table .data-th,
+.car-dt-design05 .data-table .data-td,
+.car-dt-design05 .data-table .cntr-td{border-right:1px solid #ddd;border-bottom:1px solid #ddd;}
+.car-dt-design05 .data-table .cntr-td .data-td{border-right:none;}
+.car-dt-design05 .data-table .data-th{width:120px;border-left:1px solid #ddd;background-color:#fafafa;}
+.car-dt-design05 .data-table .data-th .label{font-weight:normal;}
+.car-dt-design05 .data-table .data-th .label img{height:1.2em;}
+.car-dt-design05 .data-table .data-td{background-color:#fff;text-align:left;}
+.car-dt-design05 .data-table .data{color:#4d4d4d;}
+
+.car-dt-design05 .data-table .data-label{background-color:#eee;}
+
+.car-dt-design05 .data-table .data-ln .data-td{border-bottom:none;}
+.car-dt-design05 .data-table .data-ln .join-tr .data-label{border-top:1px solid #ddd;}
+.car-dt-design05 .data-table .data-ln .join-tr .data-val{border-top:1px solid #ddd;}
+
+
+/*******************2017/01/25*******************/
+.data-2 .cntr-td .cntr-panel .cntr-tr:nth-child(n+2) .data-label{border-top:1px solid #ddd;}
+.data-2 .cntr-td .cntr-panel .cntr-tr:nth-child(n+2) .data-val{border-top:1px solid #ddd;}
+.car-dt-design05 .data-table .data .about_value { vertical-align: bottom; }
+
+
+
+/*==================== *** pdf-btn *** ====================*/
+.car-dt-design05 .pdf-btn{font-weight:bold;}
+.car-dt-design05 .pdf-btn a:after{background-image:url("../../../common/assets/images/icon-newwin.png");}
+
+/*==================== *** residual-case *** ====================*/
+.car-dt-design05 .residual-case{color:#4d4d4d;background-color:transparent;}
+.car-dt-design05 .residual-case .case-data-ttl{font-weight:bold;letter-spacing:0.8px;padding-bottom:2px;}
+.car-dt-design05 .residual-case .case-data-ttl .clone-ic{display:none;}
+.car-dt-design05 .residual-case .case-2-phase{float:none;}
+
+.car-dt-design05 .residual-case .case-data-2{border-bottom-width:1px;border-bottom-style:solid;}
+.car-dt-design05 .residual-case .case-data-2 .yen{font-weight:bold;letter-spacing:1.8px;}
+.car-dt-design05 .residual-case .case-data-2-3 *{font-weight:bold;}
+
+.car-dt-design05 .residual-case .case-data-4{padding-left:2px;padding-right:2px;padding-bottom:2px;}
+.car-dt-design05 .residual-case .case-data-4 .paren{letter-spacing:2px;}
+.car-dt-design05 .residual-case .case-data-4 .in *{letter-spacing:0.1px;}
+
+.car-dt-design05 .residual-case .case-data-4 dt{padding-left:8px;padding-right:2px;}
+.car-dt-design05 .residual-case .case-data-4 dt:first-child{padding-left:0;}
+.car-dt-design05 .residual-case .case-data-4 .num{padding-right:2px;}
+.car-dt-design05 .residual-case .case-data-4 .label{padding-left:9px;}
+/*==================== *** pankuzu *** ====================*/
+.car-dt-design05 .pankuzu a:link,.car-dt-design05 .pankuzu a:visited,
+.car-dt-design05 .pankuzu a:hover,.car-dt-design05 .pankuzu a:focus{color:#4d4d4d;}
+
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.car-dt-design05 .br-add-5-sp{display:block;}
+	.car-dt-design05 #carDetailsCont{padding-left:0.833em;padding-right:0.833em;}
+	.car-dt-design05 .main-navi li{width:100%;float:none;padding-top:0.35em;padding-bottom:0.35em;}
+	.car-dt-design05 .main-navi li .btn-in{padding-left:0;padding-right:0;padding-bottom:0.083em;}
+	.car-dt-design05 .main-navi .in{padding:0.5em 0.833em;}
+	/*==================== *** clone-parts *** ====================*/
+	.car-dt-design05 .clone-ic{width:4.4vw;height:4.4vw;line-height:4.4vw;margin-right:2.2vw;}
+	.car-dt-design05 .clone-ttl{font-size:1.5em;line-height:2.1em;letter-spacing:0.1em;margin-bottom:0.677em;border-bottom-width:2px;}
+	.car-dt-design05 .clone-txt{font-size:0.917em;line-height:2em;margin-bottom:2.5em;letter-spacing:0.12em;text-align:center;}
+	.car-dt-design05 .clone-txt sup{
+		font-size: 10px;
+    vertical-align: super;
+	}
+	.car-dt-design05 .clone-btn a{font-size:1.167em;height:3.1em;line-height:1.1em;border:2px solid;}
+	.car-dt-design05 .clone-btn a.sizeL{font-size:1.167em;height:3.1em;}
+	.car-dt-design05 .clone-btn a,
+	.car-dt-design05 .clone-btn .cntxt-in{
+		-webkit-border-radius:1.55em;-moz-border-radius:1.55em;
+		-moz-border-radius:1.55em;-0-border-radius:1.55em;border-radius:1.55em;
+	}
+	.car-dt-design05 .clone-btn a{box-sizing:border-box;}
+	.car-dt-design05 .clone-btn .txt-in .br-add-sp{display:none;}
+
+	/*==================== *** data-table *** ====================*/
+	.car-dt-design05 .data-table .data-th,.car-dt-design05 .data-table .data-td,
+	.car-dt-design05 .data-table .cntr-td,.car-dt-design05 .data-table .data-th,
+	.car-dt-design05 .data-table .data-ln .join-tr .data-label,
+	.car-dt-design05 .data-table .data-ln .join-tr .data-val{border-width:2px;}
+
+	.car-dt-design05 .data-table{border-top:2px solid #ddd;}
+	.car-dt-design05 .data-table .data-panel{font-size:0.833em;text-align:left;}
+	.car-dt-design05 .data-table{padding-bottom:2em;}
+	.car-dt-design05 .data-table .data-th{width:6.85em;padding-left:0.6em;}
+	.car-dt-design05 .data-table .data-th .label{font-size:0.583em;line-height:1.5;}
+	.car-dt-design05 .data-table .data-td{height:4.7em;}
+	.car-dt-design05 .data-table .data-ln .data-td{height:9em;}
+	.car-dt-design05 .data-table .data-label{font-size:1em;width:7.7em;}
+
+	.car-dt-design05 .data-table .data-label .data-label-l-text{font-size:1.2em;}
+
+
+	.car-dt-design05 .data-table .data-td .data{padding-left:1.1em;}
+	.car-dt-design05 .data-table .data-ln .data-td .data{padding-left:0.5em;}
+
+	.car-dt-design05 .data-table .data-1 .data{font-size:1.3em;}
+	.car-dt-design05 .data-table .data-2 .data{font-size:2em;}
+	.car-dt-design05 .data-table .data-3 .data{font-size:1.8em;}
+	.car-dt-design05 .data-table .data-4 .data{font-size:2em;}
+
+	.car-dt-design05 .data-table .data-2 .data sup{
+		font-size: 10px;
+    vertical-align: top;
+	}
+
+
+	/*==================== *** pdf-btn *** ====================*/
+	.car-dt-design05 .pdf-btn{padding-bottom:2.2em;}
+	.car-dt-design05 .pdf-btn a{font-size:0.833em;}
+
+	/*==================== *** annotation *** ====================*/
+	.car-dt-design05 .annotation-a{font-size:0.75em;margin-bottom:3em;line-height:2em;}
+	.car-dt-design05 .annotation-a .note-b{padding-top:2em;}
+	.car-dt-design05 .annotation-a .suptxt{padding-left:0.5em;}
+	.car-dt-design05 .annotation-b{font-size:0.833em;line-height:1.8em;}
+
+	/*==================== *** residual-case *** ====================*/
+	.car-dt-design05 .recommend-head{padding-bottom1.8em;}
+	.car-dt-design05 .pickup-visual{padding-bottom:1.3em;}
+	.car-dt-design05 .residual-case{margin-bottom:3.7em;}
+	.car-dt-design05 .residual-case .case-data-ttl{font-size:1.2em;padding-bottom:1.5em;}
+	.car-dt-design05 .residual-case .case-data-pic{width:auto;}
+	.car-dt-design05 .residual-case .case-data-5{padding-bottom:2.5em;}
+
+	.car-dt-design05 .residual-case .case-data-2{font-size:1.3em;line-height:1.3em;padding-bottom:0.7em;margin-bottom:0.4em;font-weight:normal;border-bottom-width:2px;}
+	.car-dt-design05 .residual-case .case-data-2 .times{font-size:1em;font-weight:normal;letter-spacing:0.2em;padding-left:0.7em;}
+	.car-dt-design05 .residual-case .case-data-2 .times *{font-weight:normal;}
+	.car-dt-design05 .residual-case .case-data-2 .yen{font-size:3.5em;padding-left:0.15em;}
+	.car-dt-design05 .residual-case .case-data-2 .yen .unit{font-size:0.286em;/*padding-left:0.15em;*/}
+
+	.car-dt-design05 .residual-case .case-data-3{font-size:1.167em;line-height:1.4em;padding-bottom:0.6em;}
+	.car-dt-design05 .residual-case .case-data-3 dt,
+	.car-dt-design05 .residual-case .case-data-3 dd{height:1.5em;}
+	.car-dt-design05 .residual-case .case-data-3 dt{padding-right:0.5em;}
+	.car-dt-design05 .residual-case .case-data-3 dd{padding-right:0.5em;}
+	.car-dt-design05 .residual-case .case-data-3 .num{padding-right:0.5em;}
+	.car-dt-design05 .residual-case .case-data-3 .label{padding-left:0.9em;font-size:1em;}
+
+	.car-dt-design05 .residual-case .case-data-4{font-size:0.833em;letter-spacing:0;line-height:1.8em;}
+	.car-dt-design05 .residual-case .case-data-4 dt{padding-left:0.6em;padding-right:0.3em;}
+	.car-dt-design05 .residual-case .case-data-4 .paren{letter-spacing:0.05em;}
+
+	.car-dt-design05 .residual-case .case-data-pic{text-align:center;}
+	.car-dt-design05 .residual-case .case-data-pic img{width:72%;}
+
+	/*==================== *** carDetailsCont *** ====================*/
+	.car-dt-design05 #carDetailsCont{padding-top:2.5em;}
+	.car-dt-design05 #carDetailsData{padding-bottom:4.5em;}
+	.car-dt-design05 #carDetailsPickup{padding-bottom:5.5em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.car-dt-design05{font-size:18px;line-height:2.0;letter-spacing:2.0px;}
+	.car-dt-design05 #carDetailsCont{padding-left:20px;padding-right:20px;}
+	.car-dt-design05 .br-add-5-tab{display:block;}
+	.car-dt-design05 .main-navi .in{padding:18px 12px;}
+	.car-dt-design05 .main-navi li .btn-in{padding-left:10px;padding-right:10px;}
+	/*==================== *** clone-parts *** ====================*/
+	.car-dt-design05 .clone-ttl{font-size:28px;line-height:1.5;letter-spacing:3px;margin-bottom:18px;padding-bottom:14px;}
+	.car-dt-design05 .clone-txt{margin-bottom:38px;}
+	.car-dt-design05 .clone-txt sup{
+		font-size: 10px;
+    vertical-align: super;
+	}
+	.car-dt-design05 .clone-btn a{font-size:18px;height:56px;line-height:28px;}
+	.car-dt-design05 .clone-btn a,
+	.car-dt-design05 .clone-btn .cntxt-in{
+		-webkit-border-radius:30px;-moz-border-radius:30px;
+		-moz-border-radius:30px;-0-border-radius:30px;border-radius:30px;
+	}
+	.car-dt-design05 .clone-btn a.sizeL{font-size:18px;height:46px;}
+	.car-dt-design05 .clone-btn a.sizeL,
+	.car-dt-design05 .clone-btn a.sizeL .cntxt-in{
+		-webkit-border-radius:25px;-moz-border-radius:25px;
+		-moz-border-radius:25px;-0-border-radius:25px;border-radius:25px;
+	}
+	.car-dt-design05 .clone-btn-one .clone-btn{width:276px;}
+
+	/*==================== *** data-table *** ====================*/
+	.car-dt-design05 .data-table{border-top:1px solid #ddd;}
+	.car-dt-design05 .data-table .data-panel{font-size:16px;}
+	.car-dt-design05 .data-table{margin-left:65px;margin-right:65px;padding-bottom:50px;}
+	.car-dt-design05 .data-table .data-th{width:21.5%;line-height:1.5;}
+	.car-dt-design05 .data-table .data-th .label{font-size:10px;}
+	.car-dt-design05 .data-table .data-td{height:70px;}
+	.car-dt-design05 .data-table .data-ln .data-td{height:130px;}
+	.car-dt-design05 .data-table .data-label{font-size:87%;width:25%;}
+
+	.car-dt-design05 .data-table .data-td .data{padding-left:28px;}
+	.car-dt-design05 .data-table .data-ln .data-td .data{padding-left:20px;}
+
+	.car-dt-design05 .data-table .data-1 .data{font-size:24px;}
+	.car-dt-design05 .data-table .data-2 .data{font-size:42px;}
+	.car-dt-design05 .data-table .data-3 .data{font-size:30px;}
+	.car-dt-design05 .data-table .data-4 .data{font-size:30px;}
+
+	.car-dt-design05 .data-table .data-2 .data sup{
+		font-size: 12px;
+    vertical-align: top;
+	}
+
+	/*==================== *** pdf-btn *** ====================*/
+	.car-dt-design05 .pdf-btn{padding-bottom:50px;}
+	.car-dt-design05 .pdf-btn a{font-size:15px;}
+
+	/*==================== *** annotation *** ====================*/
+	.car-dt-design05 .annotation-a{font-size:11px;line-height:1.7;margin-bottom:37px;}
+	.car-dt-design05 .annotation-a .note-b{padding-top:22px;}
+	.car-dt-design05 .annotation-a .suptxt{padding-left:10px;}
+	.car-dt-design05 .annotation-b{font-size:12px;line-height:1.5;letter-spacing:-0.3px;}
+
+	/*==================== *** residual-case *** ====================*/
+	.car-dt-design05 .recommend-head{padding-bottom:100px;}
+	.car-dt-design05 .pickup-visual{padding-bottom:25px;}
+	.car-dt-design05 .residual-case{margin-bottom:46px;}
+	.car-dt-design05 .residual-case .case-4-phase{min-height:218px;}
+	.car-dt-design05 .residual-case .case-2-phase{width:355px;float:left;}
+	.car-dt-design05 .residual-case .case-data-ttl{font-size:20px;line-height:1.5;}
+	.car-dt-design05 .residual-case .case-data-pic{max-height:218px;margin-left:420px;padding-right:50px;}
+	.car-dt-design05 .residual-case .case-data-4{font-size:11px;letter-spacing:0;line-height:1.7;}
+
+	.car-dt-design05 .residual-case .case-data-2{font-size:20px;line-height:1.3;padding-bottom:10px;margin-bottom:17px;}
+	.car-dt-design05 .residual-case .case-data-2 .times{font-size:1em;padding-left:15px;}
+	.car-dt-design05 .residual-case .case-data-2 .yen{font-size:58px;padding-left:15px;}
+	.car-dt-design05 .residual-case .case-data-2 .yen .unit{font-size:23px;padding-left:4px;}
+
+	.car-dt-design05 .residual-case .case-data-3{font-size:16px;letter-spacing:1.2px;line-height:1.3;padding-bottom:10px;}
+	.car-dt-design05 .residual-case .case-data-3 dt,
+	.car-dt-design05 .residual-case .case-data-3 dd{padding-bottom:10px;}
+	.car-dt-design05 .residual-case .case-data-3 dt{padding-right:5px;clear:both;}
+	.car-dt-design05 .residual-case .case-data-3 dd{padding-right:12px;}
+	.car-dt-design05 .residual-case .case-data-3 .num{padding-right:5px;}
+	.car-dt-design05 .residual-case .case-data-3 .label{padding-left:9px;font-size:100%;}
+
+
+	/*==================== *** carDetailsCont *** ====================*/
+	.car-dt-design05 #carDetailsCont{padding-top:74px;}
+	.car-dt-design05 #carDetailsData{padding-bottom:127px;}
+	.car-dt-design05 #carDetailsPickup{padding-bottom:133px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.car-dt-design05 .br-add-5-pc{display:block;}
+	.car-dt-design05{font-size:18px;line-height:2.0;letter-spacing:2.0px;}
+	/*.car-dt-design05 #carDetails{padding-left:212px;}*/
+	.car-dt-design05 .main-navi .in{width:1009px;padding:20px 0;}
+	/*==================== *** clone-parts *** ====================*/
+	.car-dt-design05 .clone-ttl{font-size:28px;margin-bottom:30px;line-height:1.4;padding-bottom:16px;}
+	.car-dt-design05 .clone-txt{margin-bottom:52px;}
+	.car-dt-design05 .clone-txt sup{
+		font-size: 10px;
+    vertical-align: super;
+	}
+	.car-dt-design05 .clone-btn a{font-size:20px;height:56px;line-height:28px;}
+	.car-dt-design05 .clone-btn a,
+	.car-dt-design05 .clone-btn .cntxt-in{
+		-webkit-border-radius:30px;-moz-border-radius:30px;
+		-moz-border-radius:30px;-0-border-radius:30px;border-radius:30px;
+	}
+	.car-dt-design05 .clone-btn a.sizeL{font-size:20px;height:46px;}
+	.car-dt-design05 .clone-btn a.sizeL,
+	.car-dt-design05 .clone-btn a.sizeL .cntxt-in{
+		-webkit-border-radius:25px;-moz-border-radius:25px;
+		-moz-border-radius:25px;-0-border-radius:25px;border-radius:25px;
+	}
+	.car-dt-design05 .clone-btn-one .clone-btn{width:276px;}
+
+	/*==================== *** data-table *** ====================*/
+	.car-dt-design05 .data-table .data-panel{font-size:16px;border-top:1px solid #ddd;width:auto;}
+	.car-dt-design05 .fuel-0-table .data-panel{height: 186px;}
+	.car-dt-design05 .fuel-1-table .data-panel,
+	.car-dt-design05 .fuel-2-table .data-panel{height:330px;}
+	.car-dt-design05 .fuel-3-table .data-panel{height:440px;}
+	.car-dt-design05 .fuel-4-table .data-panel{height:440px;}
+	.car-dt-design05 .data-table .join-panel .data-th,
+	.car-dt-design05 .data-table .join-panel .cntr-th{border-left:none;}
+
+	.car-dt-design05 .data-table{padding-bottom:29px;}
+	.car-dt-design05 .data-table .data-th{width:118px;}
+	.car-dt-design05 .data-table .join-panel .data-th{width:128px;}
+	.car-dt-design05 .data-table .data-th .label{font-size:10px;}
+	.car-dt-design05 .data-table .data-td,
+	.car-dt-design05 .data-table .cntr-td{width:369px;}
+	.car-dt-design05 .data-table .join-panel .data-td{width:360px;}
+	.car-dt-design05 .data-table .data-td .data{padding-left:30px;}
+	.car-dt-design05 .data-table .data-ln .data-td .data{padding-left:20px;}
+	.car-dt-design05 .data-table .data-label{font-size:80%;width:114px;}
+	.car-dt-design05 .data-table .data-label .data-label-l-text{font-size:140%;}
+
+	.car-dt-design05 .data-table .data-1 .data{font-size:20px;}
+	.car-dt-design05 .data-table .data-2 .data{font-size:30px;}
+	.car-dt-design05 .data-table .data-3 .data{font-size:30px;}
+	.car-dt-design05 .data-table .data-4 .data{font-size:30px;}
+
+	.car-dt-design05 .data-table .data-2 .data sup{
+		font-size: 12px;
+    vertical-align: top;
+	}
+
+	/*==================== *** pdf-btn *** ====================*/
+	.car-dt-design05 .pdf-btn{padding-bottom:55px;}
+	.car-dt-design05 .pdf-btn a{font-size:15px;}
+
+	/*==================== *** annotation *** ====================*/
+	.car-dt-design05 .annotation-a{font-size:11px;line-height:1.7;margin-bottom:38px;}
+	.car-dt-design05 .annotation-a .note-b{padding-top:21px;}
+	.car-dt-design05 .annotation-a .suptxt{padding-left:10px;}
+	.car-dt-design05 .annotation-b{font-size:11px;line-height:1.7;}
+
+	/*==================== *** residual-case *** ====================*/
+	.car-dt-design05 .recommend-head{padding-bottom:100px;}
+	.car-dt-design05 .pickup-visual{padding-bottom:25px;}
+	.car-dt-design05 .residual-case{margin-bottom:46px;}
+	.car-dt-design05 .residual-case .case-4-phase{min-height:218px;}
+	.car-dt-design05 .residual-case .case-2-phase{width:470px;float:left;}
+	.car-dt-design05 .residual-case .case-data-ttl{font-size:20px;}
+	.car-dt-design05 .residual-case .case-data-pic{display:table;width:374px;height:218px;margin-left:490px;padding-right:62px;}
+	.car-dt-design05 .residual-case .case-data-pic .in{display:table-cell;vertical-align:middle;}
+	.car-dt-design05 .residual-case .case-data-pic img{max-width:81%;}
+	.car-dt-design05 .residual-case .case-data-4{font-size:11px;letter-spacing:0;line-height:1.7;}
+
+	.car-dt-design05 .residual-case .case-data-2{font-size:20px;line-height:1.3;padding-bottom:5px;margin-bottom:17px;}
+	.car-dt-design05 .residual-case .case-data-2 .times{font-size:1em;padding-left:15px;}
+	.car-dt-design05 .residual-case .case-data-2 .yen{font-size:58px;padding-left:15px;}
+	.car-dt-design05 .residual-case .case-data-2 .yen .unit{font-size:23px;padding-left:4px;}
+
+	.car-dt-design05 .residual-case .case-data-3{font-size:16px;letter-spacing:1.2px;line-height:1.3;padding-bottom:10px;}
+	.car-dt-design05 .residual-case .case-data-3 dt,
+	.car-dt-design05 .residual-case .case-data-3 dd{padding-bottom:10px;}
+	.car-dt-design05 .residual-case .case-data-3 dt{padding-right:5px;clear:both;}
+	.car-dt-design05 .residual-case .case-data-3 dd{padding-right:12px;}
+	.car-dt-design05 .residual-case .case-data-3 .num{padding-right:5px;}
+	.car-dt-design05 .residual-case .case-data-3 .label{padding-left:9px;}
+
+	/*==================== *** carDetailsCont *** ====================*/
+	.car-dt-design05 #carDetailsCont{padding-top:80px;}
+	.car-dt-design05 #carDetailsData{padding-bottom:128px;}
+	.car-dt-design05 #carDetailsPickup{padding-bottom:156px;}
+}

@@ -1,0 +1,18 @@
+/*
+color variation1
+key color : #ff6e01;
+*/
+
+.header-contents h1 {
+  color: #ff6e01;
+}
+.carlist-label {
+  color: #ff6e01;
+}
+.tab-change-btn li.active span {
+  color: #ff6e01;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

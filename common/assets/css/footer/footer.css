@@ -1,0 +1,454 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+footer {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    border-top: 1px solid #ccc;
+}
+
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP
+SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP
+SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+
+    .br-sp{
+        display: block;
+    }
+
+
+    /**********************footer-sitemap**********************/
+
+    .footer-sitemap {
+        background-color: #f1f1f1;
+
+    }
+
+    .footer-sns {
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 15px 0;
+        width: 210px;
+
+    }
+    .footer-sns li {
+        float: left;
+        margin-right: 15px;
+    }
+    .footer-sns li:last-child {
+        margin-right: 0;
+    }
+
+    .footer-sns li img{
+        width: 30px;
+    }
+
+
+    .footer-sitemap-list {
+        display: none;
+    }
+
+/********************/
+/******#footer*******/
+/********************/
+
+#footer {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+.footer-logo {
+    height: 17px;
+    background-color: #ff8700;
+    margin-bottom: 1px;
+}
+.footer-logo img {
+    height: 17px;
+    width: auto;
+    vertical-align: baseline;
+}
+.footer-logo .left-image {
+    float: left;
+    padding-left: 7px;
+}
+.footer-logo .right-image {
+    float: right;
+    padding-right: 9px;
+}
+
+#footer ul{
+    float: none;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    width: 225px;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+#footer li{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 6px;
+}
+
+#footer li:first-child{
+    margin-right: 30px;
+    padding-left: 34px
+}
+
+
+#footer li:nth-child(even){
+    margin-right: 0;
+}
+
+
+#footer a{
+    color : #4d4d4d;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#footer .footer-copy {
+    display: block;
+    background-color: #fff;
+    font-size: 10px;
+    padding: 20px 0px 0px 0;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0 auto 5px auto;
+}
+
+#footer .footer-copy-2 {
+    display: block;
+    background-color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB
+TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB
+TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    .br-sp{
+        display: none;
+    }
+
+
+    /**********************footer-sitemap**********************/
+
+    .footer-sitemap {
+        position: relative;
+        display: block;
+        background-color: transparent;
+    }
+    .footer-sitemap-list {
+        display: block;
+    }
+    .footer-sns {
+        position: absolute;
+        top: 6px;
+        right: 21px;
+        width: auto;
+    }
+    .footer-sns li {
+        float: left;
+        margin-right: 6px;
+    }
+    .footer-sns li:last-child {
+        margin-right: 0;
+    }
+    .footer-sitemap-list {
+
+    }
+
+    .footer-sitemap-list a {
+        color: black;
+        line-height: 150%;
+        display: inline-block;
+    }
+    .footer-sitemap-wrap {
+        width: 640px;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+    .footer-sitemap-wrap li {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.8;
+        padding-bottom: 3px;
+    }
+    .footer-title {} li.footer-title {
+        font-size: 16px;
+        font-weight: 200;
+        padding-bottom: 5px;
+        color: #ff6e01;
+        border-bottom: 1px solid #ff6e01;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    /**********************footer-col**********************/
+
+    div.footer-col {
+        width: 190px;
+        float: left;
+        margin-right: 34px;
+    }
+    div.footer-col:nth-of-type(3) {
+        margin-right: 0;
+    }
+
+    div.footer-col:last-of-type {
+        display: none;
+    }
+
+    /********************/
+/******#footer*******/
+/********************/
+
+#footer {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+.footer-logo {
+    height: 36px;
+    background-color: #ff8700;
+    margin-bottom: 1px;
+}
+.footer-logo img {
+    height: 36px;
+    width: auto;
+}
+.footer-logo .left-image {
+    float: left;
+    padding-left: 20px;
+}
+.footer-logo .right-image {
+    float: right;
+    padding-right: 10px;
+}
+
+#footer ul{
+    float: none;
+    margin-bottom: 20px;
+    padding-top: 37px;
+    margin: 0 auto;
+    width: 587px;
+    letter-spacing: 1px;
+    padding-left: 37px;
+}
+
+#footer li:first-child{
+    margin-right: 29px;
+    padding-left: 0;
+}
+
+#footer li:nth-child(even){
+    margin-right: 29px;
+}
+
+
+#footer li{
+    float: left;
+    margin-right: 29px;
+}
+
+#footer li:last-child{
+    margin-right: 0;
+}
+
+#footer a{
+    color : #4d4d4d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#footer .footer-copy {
+    font-size: 10px;
+    text-align: center;
+    padding: 22px 20px 0px 0;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+    padding-left: 26px;
+    margin-bottom: 3px;
+}
+
+#footer .footer-copy-2 {
+    font-size: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 0px 20px 0px 22px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+}
+
+
+}
+/*PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC
+PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC
+PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC*/
+
+@media screen and (min-width: 1024px) {
+
+
+    .br-sp{
+        display: none;
+    }
+
+    .footer-sitemap {
+        display: block;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .footer-sitemap-list {
+        display: block;
+    }
+
+    .footer-sns {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .footer-sns li {
+        float: left;
+        margin-right: 6px;
+    }
+    .footer-sns li:last-child {
+        margin-right: 0;
+    }
+    .footer-sitemap-list {} .footer-sitemap-list a {
+        color: black;
+        line-height: 150%;
+        display: inline-block;
+    }
+    .footer-sitemap-wrap {
+        width: 864px;
+        margin: 0 auto;
+        padding-top: 79px;
+        /* width: 420px; */
+
+        padding-bottom: 60px;
+    }
+    .footer-sitemap-wrap li {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.8;
+        padding-bottom: 3px;
+    }
+    .footer-title {} li.footer-title {
+        font-size: 16px;
+        font-weight: 200;
+        padding-bottom: 5px;
+        color: #ff6e01;
+        border-bottom: 1px solid #ff6e01;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    div.footer-col {
+        width: 188px;
+        float: left;
+        margin-right: 36px;
+    }
+    div.footer-col:last-of-type {
+        margin-right: 0;
+    }
+
+/********************/
+/******#footer*******/
+/********************/
+
+#footer {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+.footer-logo {
+    height: 36px;
+    background-color: #ff8700;
+    margin-bottom: 1px;
+}
+.footer-logo img {
+    height: 36px;
+    width: auto;
+}
+.footer-logo .left-image {
+    float: left;
+    padding-left: 20px;
+}
+.footer-logo .right-image {
+    float: right;
+    padding-right: 10px;
+}
+
+#footer ul{
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width : auto;
+    clear: both;
+}
+
+#footer li{
+    float: left;
+    margin-right: 33px;
+}
+
+#footer li:first-child{
+    margin-right: 33px;
+    padding-left: 0;
+}
+
+
+#footer li:nth-child(even){
+    margin-right: 33px;
+}
+
+#footer li:last-child{
+    margin-right: 0;
+}
+
+#footer a{
+    color : #4d4d4d;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footer .footer-copy {
+    display: block;
+    font-size: 10px;
+    text-align: right;
+    background-color: #fff;
+    padding: 10px 20px 0px 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#footer .footer-copy-2 {
+    display: block;
+    font-size: 10px;
+    text-align: right;
+    background-color: #fff;
+    padding: 0px 20px 0px 22px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+}
+
+
+}

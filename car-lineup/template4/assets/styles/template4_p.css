@@ -1,0 +1,39 @@
+.carlist-label {
+    color: #118175;
+}
+.tab-change-btn li.active span {
+    color: #118175;
+}
+.car-name:before {
+    content: url(../images/car-name-arrow_p.png);
+    margin-right: 5px;
+}
+.carlist-name-anchor-item a:after {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    display: block;
+    width: 9px;
+    height: 7px;
+    margin-top: -3px;
+    content: '';
+    background: url(../images/carlist-anchor-arrow_p.png) left top no-repeat;
+}
+.carlist-name-anchor-item.inactive a:after {
+    background: url(../images/carlist-anchor-arrow-inactive_p.png) left top no-repeat;
+}
+.carlist-body-anchor-item a:after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url(../images/carlist-anchor-arrow_p.png) left top no-repeat;
+}
+@media screen and (min-width: 768px) {
+    .carlist-body-anchor-item a:after {
+        top: 50%;
+        right: 7%;
+        width: 9px;
+        height: 7px;
+        margin-top: -3px;
+    }
+}

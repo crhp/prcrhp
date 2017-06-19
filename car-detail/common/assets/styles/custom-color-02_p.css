@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*==================== *** color *** ====================*/
+/*==================== *** design01 *** ====================*/
+.car-dt-design01 .car-dt-color .bColor{color:#fff;background-color:#352bb2;}
+.car-dt-design01 .car-dt-color .gColor{
+  background-image: -moz-linear-gradient( 90deg, rgb(41,34,129) 0%, rgb(47,32,236) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(41,34,129) 0%, rgb(47,32,236) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(41,34,129) 0%, rgb(47,32,236) 100%);
+}
+.car-dt-design01 .car-dt-color .lColor{border-color:#352bb2;}
+.car-dt-design01 .car-dt-color .fColor{color:#352bb2;}
+
+/***===end***/
+
+/*==================== *** design02 *** ====================*/
+.car-dt-design02 .car-dt-color .bColor{color:#fff;background-color:#e4b00a;}
+.car-dt-design02 .car-dt-color .lColor{border-color:#e4b00a;}
+.car-dt-design02 .car-dt-color .fColor{color:#e4b00a;}
+
+/***===end***/
+
+/*==================== *** design03 *** ====================*/
+.car-dt-design03 .car-dt-color .bColor{color:#fff;background-color:#2a9fb0;}
+.car-dt-design03 .car-dt-color .lColor{border-color:#2a9fb0;}
+.car-dt-design03 .car-dt-color .fColor{color:#2a9fb0;}
+
+
+.car-dt-design03 .original-case .original-case-example,.car-dt-design03 .original-case .annotation-y .pre-ttl,.car-dt-design03 .original-case .annotation-y .pre-txt{color:#2a9fb0; }
+
+
+
+/***===end***/
+
+/*==================== *** design04 *** ====================*/
+.car-dt-design04 .car-dt-color .bColor{color:#fff;background-color:#000000;}
+.car-dt-design04 .car-dt-color .lColor{border-color:#000000;}
+.car-dt-design04 .car-dt-color .fColor{color:#000000;}
+
+/***===end***/
+
+/*==================== *** design05 *** ====================*/
+.car-dt-design05 .car-dt-color .bColor{color:#fff;background-color:#f9b81e;}
+.car-dt-design05 .car-dt-color .lColor{border-color:#f9b81e;}
+.car-dt-design05 .car-dt-color .fColor{color:#f9b81e;}
+
+/***===end***/
+
+/*==================== *** design06 *** ====================*/
+.car-dt-design06 .car-dt-color .bColor{color:#fff;background-color:#5e408e;}
+.car-dt-design06 .car-dt-color .lColor{border-color:#5e408e;}
+.car-dt-design06 .car-dt-color .fColor{color:#5e408e;}
+
+/***===end***/
+
+/*==================== *** design07 *** ====================*/
+.car-dt-design07 .car-dt-color .bColor{color:#fff;background-color:#1f0e78;}
+.car-dt-design07 .car-dt-color .lColor{border-color:#1f0e78;}
+.car-dt-design07 .car-dt-color .fColor{color:#1f0e78;}
+
+/***===end***/

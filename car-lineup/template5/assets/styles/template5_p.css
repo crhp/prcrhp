@@ -1,0 +1,45 @@
+.header-contents h1 {
+    color: #ff6e01;
+}
+.carlist-label {
+    border-bottom: 1px solid #ff6e01;
+    color: #ff6e01;
+}
+.carlist-body-anchor-item-2 a:hover {
+    background: url(../images/carlist-anchor-icon-2_p.png) no-repeat;
+}
+.carlist-body-anchor-item-3 a:hover {
+    background: url(../images/carlist-anchor-icon-3_p.png) no-repeat;
+}
+.carlist-body-anchor-item-4 a:hover {
+    background: url(../images/carlist-anchor-icon-4_p.png) no-repeat;
+}
+.carlist-body-anchor-item-5 a:hover {
+    background: url(../images/carlist-anchor-icon-5_p.png) no-repeat;
+}
+.carlist-body-anchor-item-6 a:hover {
+    background: url(../images/carlist-anchor-icon-6_p.png) no-repeat;
+}
+.carlist-body-anchor-item-7 a:hover {
+    background: url(../images/carlist-anchor-icon-7_p.png) no-repeat;
+}
+.carlist-body-anchor-item-8 a:hover {
+    background: url(../images/carlist-anchor-icon-8_p.png) no-repeat;
+}
+.carlist-body-anchor-item-9 a:hover {
+    background: url(../images/carlist-anchor-icon-9_p.png) no-repeat;
+}
+.carlist-body-anchor-item-10 a:hover {
+    background: url(../images/carlist-anchor-icon-10_p.png) no-repeat;
+}
+@media screen and (min-width: 768px) {
+    .carlist-body-anchor .carlist-body-anchor-item a:hover {
+        background-position: 7% center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .carlist-body-anchor .carlist-body-anchor-item a:hover {
+        background-size: 17% auto;
+        background-position: 5% center;
+    }
+}

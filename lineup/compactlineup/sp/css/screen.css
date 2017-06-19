@@ -1,0 +1,491 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Noto Sans Japanese',-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.06em;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 700;
+}
+
+a:link {
+  color: #0665b1;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0665b1;
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: top;
+}
+
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: "";
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.box-sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 60px;
+}
+
+.vanish {
+  clear: both;
+  display: none;
+}
+
+sup {
+  height: 0;
+  bottom: 1ex;
+  line-height: 1;
+  vertical-align: baseline;
+  position: relative;
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+#header .inner {
+  width: 100%;
+  margin: 0 auto;
+}
+#header .area-logo {
+  width: 100%;
+  height: 44px;
+  display: table;
+  table-layout: fixed;
+}
+#header .area-logo #logo {
+  display: table-cell;
+  width: 70%;
+  padding: 0 0 2px 11px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#header .area-logo #logo a {
+  color: #000;
+  text-decoration: none;
+}
+#header .area-logo #logo-toyota {
+  display: table-cell;
+  width: 30%;
+  padding: 0 12px 0 0;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#header .area-logo #logo-toyota img {
+  width: 71px;
+  height: auto;
+}
+
+#content {
+  width: 100%;
+}
+
+#footer {
+  background-color: #ff8700;
+  margin: 47px 4px 4px;
+  padding: 0;
+}
+#footer .container {
+  width: 100%;
+  height: 18px;
+  margin: 0 auto;
+}
+#footer img {
+  width: auto;
+  height: 18px;
+}
+#footer .footer-left {
+  height: 18px;
+  padding: 0;
+  float: left;
+  text-align: left;
+}
+#footer .footer-left img {
+  display: block;
+  margin-right: auto;
+}
+#footer .footer-right {
+  height: 18px;
+  padding: 0;
+  float: right;
+  text-align: right;
+}
+#footer .footer-right img {
+  display: block;
+  margin-left: auto;
+}
+
+.area-main .area-main-img {
+  margin: 0 auto;
+  padding: 0;
+}
+.area-main .area-main-img img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.area-btn-reserve {
+  margin: 0;
+  padding: 27px 16px 12px;
+  color: #ffffff;
+  background-color: #05a3e7;
+}
+.area-btn-reserve .btn-reserve {
+  margin: 0 auto;
+  text-align: center;
+}
+.area-btn-reserve .btn-reserve .text {
+  display: inline-block;
+  padding: 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  position: relative;
+}
+.area-btn-reserve .btn-reserve .text .baloon {
+  display: block;
+  position: absolute;
+  width: 84px;
+  height: 17px;
+  left: -25px;
+  top: -19px;
+}
+.area-btn-reserve .btn-reserve .text .baloon img {
+  width: 100%;
+  height: auto;
+}
+.area-btn-reserve .btn-reserve .btn {
+  margin: 10px 0 0;
+}
+.area-btn-reserve .btn-reserve .btn a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 16px 0;
+  background-color: #ecfa07;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.area-btn-reserve .btn-reserve .btn a .ico-arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #0665b1 url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_ico_arrow_u.png) no-repeat 50% 3px;
+  background-size: 13px 13px;
+}
+
+.present {
+  margin: 40px 16px 0;
+  padding: 6px;
+  background: #05a3e7 url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_bg_dot.gif) repeat 0 0;
+  background-size: 18px 18px;
+}
+.present .container {
+  background-color: #fff;
+  padding: 14px 14px 16px;
+  position: relative;
+}
+.present .container img {
+  width: 100%;
+  height: auto;
+}
+.present .container + .container {
+  margin-top: 6px;
+}
+.present .container:first-child:before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_img_badge.png) no-repeat 0 0;
+  background-size: 64px 64px;
+  position: absolute;
+  top: -40px;
+  left: -22px;
+}
+
+#reserve {
+  margin: 40px auto 0;
+  background: url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_bg_diagonal02.gif) repeat 0 0;
+  background-size: 8px 6px;
+}
+#reserve .container {
+  margin: 0 auto;
+  padding: 44px 0 36px;
+  text-align: center;
+}
+#reserve .sec-title {
+  display: inline-block;
+  padding: 0 0 0 24px;
+  background: url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_bg_lineleft.png) no-repeat 0 100%;
+  background-size: 23px auto;
+}
+#reserve .sec-title h2 {
+  display: inline-block;
+  padding: 0 24px 0 0;
+  background: url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_bg_lineright.png) no-repeat 100% 100%;
+  background-size: 23px auto;
+}
+#reserve .title-pittari {
+  color: #05a3e7;
+  display: inline-block;
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  position: relative;
+}
+#reserve .title-pittari .ballon {
+  display: block;
+  position: absolute;
+  width: 84px;
+  height: 17px;
+  left: -25px;
+  top: -18px;
+}
+#reserve .title-pittari .ballon img {
+  width: 100%;
+  height: auto;
+}
+#reserve .title-choice {
+  display: block;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+#reserve .box-reserve {
+  margin: 10px 16px 0;
+}
+#reserve .box-reserve:first-child {
+  margin: 20px 16px 0;
+}
+#reserve .box-reserve a {
+  display: block;
+  text-decoration: none;
+}
+#reserve .box-reserve a img {
+  width: 100%;
+  height: auto;
+}
+#reserve .box-reserve a .box-reserve-wrap {
+  border: 2px solid #05a3e7;
+  border-bottom: none;
+  padding: 14px 14px 16px;
+  background-color: #ffffff;
+  text-align: left;
+  color: #000000;
+}
+#reserve .box-reserve a .box-reserve-wrap .box-reserve-detail p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+}
+#reserve .box-reserve a .btn-reserve-cv {
+  width: 100%;
+  height: 44px;
+  display: block;
+  position: relative;
+  padding: 14px 0;
+  background-color: #05a3e7;
+  color: #ffffff;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  font-weight: 700;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#reserve .box-reserve a .btn-reserve-cv .ico-arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #ecfa07 url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_ico_arrow_r.png) no-repeat 3px 50%;
+  background-size: 13px 13px;
+}
+#reserve .area-notice {
+  padding: 0 16px;
+  margin-top: 17px;
+  letter-spacing: -0.06em;
+}
+
+#present .description {
+  background-color: #ddf1fc;
+  padding: 14px 14px 16px;
+}
+#present .description li {
+  position: relative;
+  background-color: #ffffff;
+  padding: 18px 0 20px;
+  margin-top: 20px;
+}
+#present .description li .img {
+  text-align: center;
+}
+#present .description li .img img {
+  width: 100%;
+  height: auto;
+}
+#present .description li .title {
+  text-align: center;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+#present .description li .title + .title {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  letter-spacing: 0;
+  margin-top: 14px;
+}
+#present .description li p {
+  padding: 0 16px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+#present .description li:before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 13px;
+  background: url(http://toyota-dealers.jp/99015/lp2/testdrive/sp/common/cmn_bg_arrow.png) no-repeat 0 0;
+  background-size: 42px 13px;
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  margin-left: -21px;
+}
+#present .description li:first-child {
+  margin-top: 0;
+}
+#present .description li:first-child:before {
+  display: none;
+}
+
+.area-notice {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.area-footer-notice {
+  margin: 16px 16px 0;
+}

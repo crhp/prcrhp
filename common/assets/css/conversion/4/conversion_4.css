@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+#conversion {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    border-top: 1px solid #ccc;
+}
+
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP
+SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP
+SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+
+    
+
+    /**********************conversion**********************/
+    
+    .conversion-btns {
+        display: block;
+        background-color: #e5e5e5;
+        padding: 16px 20px;
+    }
+    .conversion-btns ul {
+        width: auto;
+        margin: 0 auto;
+    }
+    .conversion-btns li {
+        margin-right: 0;
+        margin-bottom: 1px;
+        float: none;
+    }
+    .conversion-btns li:last-child {
+        margin-bottom: 0;
+    }
+    .conversion-btns li a {
+        line-height: 41px;
+        display: block;
+        text-align: center;
+        background-color:#ff6e01;
+        width: auto;
+        height: 41px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -1.2px;
+    }
+    .conversion-btns li a:hover {
+        
+        opacity: 0.7;
+    }
+
+    .footer-sitemap{
+        background-color: #fff;
+    }
+
+
+
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB
+TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB
+TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (min-width: 768px){
+
+
+    /**********************conversion**********************/
+    
+    .conversion-btns {
+        display: block;
+        padding: 18px 0;
+    }
+    .conversion-btns ul {
+        width: 728px;
+        margin: 0 auto;
+    }
+    .conversion-btns li {
+        margin-right: 1px;
+        margin-bottom: 1px;
+        float: left;
+        width: 33.2%;
+    }
+    .conversion-btns li:nth-child(3) {
+        margin-right: 0px;
+    }
+    .conversion-btns li:nth-child(4) {
+        margin-bottom: 0px;
+    }
+    .conversion-btns li:nth-child(5) {
+        margin-bottom: 0px;
+    }
+    .conversion-btns li a {
+        line-height: 58px;
+        display: block;
+        text-align: center;
+        height: 58px;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+    .conversion-btns a:hover {
+        
+    }
+
+    .footer-sitemap{
+        background-color: transparent;
+    }
+    
+
+
+}
+/*PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC
+PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC
+PCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPCPC*/
+
+@media screen and (min-width: 1024px) {
+
+
+    .br-sp{
+        display: none;
+    }
+
+    #conversion{
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+        width: 100%;
+    }
+
+    /**********************conversion**********************/
+
+    .conversion-btns {
+        
+padding: 6px 0;
+    }
+    .conversion-btns ul {
+        width: 958px;
+    }
+    .conversion-btns li {
+        width: 190px;
+        margin-right: 2px;
+        margin-bottom: 0;
+        
+    }
+    .conversion-btns li:nth-child(3) {
+        margin-right: 2px;
+    }
+    .conversion-btns li:nth-child(4) {
+        margin-bottom: 0px;
+        margin-right: 2px;
+    }
+    .conversion-btns li:nth-child(5) {
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+    .conversion-btns li a {
+        height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    }
+    .conversion-btns a:hover {
+        
+    }
+
+    .footer-sitemap{
+        background-color: transparent;
+    }
+    
+
+
+}

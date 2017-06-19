@@ -1,0 +1,14 @@
+.header-contents h1 {
+    color: #118175;
+}
+.carlist-label {
+    color: #118175;
+}
+.tab-change-btn li.active span {
+    color: #118175;
+}
+@media screen and (min-width: 1280px){
+    #content {
+    margin-left: 0px;
+  }
+}

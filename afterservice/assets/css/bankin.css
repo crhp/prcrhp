@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+.fix-wrap {
+  padding-top: 20px;
+  position: relative;
+}
+.fix-wrap-inner {
+  padding: 0 12px;
+}
+.fix-title {
+  color: #ff6e01;
+  margin-bottom: 23px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fix-title-explain {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 38px;
+}
+.kizu-fix {}
+.kizu-fix-title {
+  color: #ff6e01;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.kizu-fix-explain {
+  font-size: 14px;
+  margin-bottom: 17px;
+  line-height: 1.5;
+}
+.kizu-fix-point {
+  border: 2px solid #ff6e01;
+  color: #ff6e01;
+  padding: 30px 24px;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.kizu-fix-images {
+  padding-bottom: 30px;
+}
+.kizu-fix-images img {
+  width: 100%;
+}
+.kizu-fix-img{
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .fix-wrap {
+    padding-top: 50px;
+  }
+  .fix-wrap-inner {
+    padding: 0 20px;
+  }
+  .fix-title {
+    font-size: 30px;
+  }
+  .fix-title-explain {
+    font-size: 23px;
+  }
+  .kizu-fix {}
+  .kizu-fix-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .kizu-fix-explain {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .kizu-fix-point {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-width: 4px;
+  }
+  .kizu-fix-images {
+    padding-bottom: 55px;
+  }
+  .kizu-fix-images img {}
+  .kizu-fix-img {
+    float: left;
+    width: 48%;
+    padding-bottom: 15px;
+  }
+  .kizu-fix-img:nth-child(odd) {
+    margin-right: 4%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sp-br {
+    display: none;
+  }
+  .fix-wrap {
+    ;
+    padding-top: 100px;
+  }
+  .fix-wrap-inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .fix-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .fix-title-explain {
+    font-size: 22px;
+    margin-bottom: 70px;
+  }
+  .kizu-fix {}
+  .kizu-fix-title {}
+  .kizu-fix-explain {}
+  .kizu-fix-point {
+    font-size: 25px;
+  }
+  .kizu-fix-images {
+    padding-bottom: 135px;
+  }
+  .kizu-fix-images img {}
+  .kizu-fix-img-1 {}
+  .kizu-fix-img-2 {}
+}

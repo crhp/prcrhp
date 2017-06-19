@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+.content a:link,
+.content a:visited,
+.content a:hover,
+.content a:focus {
+  color: #1f4894;
+  text-decoration: underline;
+}
+
+/* clearfix */
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clear {
+  clear: both;
+  line-height: 0;
+}
+.content {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.875;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+.content,
+.content * {
+  box-sizing: content-box;
+}
+.nowp {
+  white-space: nowrap;
+}
+.company-vision .label .name.img img {
+  width: auto;
+  height: 100%;
+}
+.company-vision .label .pos-name {
+  line-height: normal;
+  display: block;
+}
+
+/*==================== *** default *** ====================*/
+
+#outerCont {
+  border-top: 3px solid #ff6e01;
+}
+.company-ttl {
+  font-weight: bold;
+  color: #ff6e01;
+}
+.company-vision .copy,
+.company-vision .copy * {
+  font-weight: bold;
+}
+.company-vision .panel {
+  margin-left: auto;
+  margin-right: auto;
+}
+.company-vision .pic {
+  text-align: center;
+}
+.company-vision .pic img {
+  width: 100%;
+}
+.company-vision .label .name {
+  line-height: 1;
+  font-weight: bold;
+  font-family: 游明朝体, YuMincho, "Yu Mincho", "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", HG明朝B, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+/***===end***/
+
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+
+@media screen and (max-width:767px) and (min-width:1px) {
+  .br-sup-sp {
+    display: none;
+  }
+  .content {
+    font-size: 14px;
+    /*font-size: 4.3vw;*/
+    line-height: 1.4em;
+  }
+  #vision {
+    padding: 1.6em 0.93em 1.9em;
+  }
+  .company-ttl {
+    font-size: 1.43em;
+    letter-spacing: 0.15em;
+    padding-bottom: 0.7em;
+  }
+  .company-vision .copy {
+    font-size: 1.714em;
+    line-height: 1.85em;
+  }
+  .company-vision .panel {
+    width: 49%;
+    font-size: 0.786em;
+    padding-top: 2em;
+  }
+  .company-vision .label {
+    padding-top: 0.5em;
+    line-height: 1.364em;
+  }
+  .company-vision .label .pos-store,
+  .company-vision .label .pos-name {
+    display: block;
+  }
+  .company-vision .label .name {
+    font-size: 1.2em;
+    padding-top: 0.5em;
+  }
+  .company-vision .label .name.img {
+    height: 13px;
+  }
+  .company-vision .detail {
+    padding-top: 1.9em;
+    line-height: 1.7em;
+  }
+  .company-vision .detail .sp-block {
+    display: block;
+    padding-bottom: 1em;
+  }
+}
+
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .content {
+    font-size: 18px;
+    line-height: 1.889;
+  }
+  #vision {
+    padding: 35px 20px 135px;
+  }
+  .company-ttl {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 48px;
+  }
+  .company-vision .copy {
+    font-size: 36px;
+    float: left;
+  }
+  .company-vision .panel {
+    font-size: 18px;
+    padding-top: 17px;
+    margin-left: 440px;
+  }
+  .company-vision .label {
+    padding-top: 17px;
+    line-height: 1.4;
+  }
+  .company-vision .label .pos-store,
+  .company-vision .label .pos-name {
+    display: block;
+  }
+  .company-vision .label .name {
+    font-size: 27px;
+    padding-top: 20px;
+    letter-spacing: 10px;
+  }
+  .company-vision .label .name.img {
+    height: 29px;
+  }
+  .company-vision .detail {
+    padding-top: 75px;
+  }
+}
+
+/*//////////////////////////
+PC
+//////////////////////////*/
+
+@media screen and (min-width:1025px) {
+  /*#outerCont{padding-left:212px;}*/
+  #vision {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 91px;
+    padding-bottom: 80px;
+  }
+  .company-ttl {
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding-bottom: 26px;
+  }
+  .company-vision .copy {
+    font-size: 32px;
+    float: left;
+    width: 690px;
+  }
+  .company-vision .panel {
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: 693px;
+  }
+  .company-vision .label {
+    padding-top: 4px;
+  }
+  .company-vision .label .pos-store {
+    padding-right: 11px;
+  }
+  .company-vision .label .name {
+    font-size: 19px;
+    margin-top: 7px;
+  }
+  .company-vision .label .name.img {
+    height: 22px;
+  }
+  .company-vision .detail {
+    padding-top: 55px;
+  }
+}

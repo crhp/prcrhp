@@ -1,0 +1,15 @@
+.fix-title {
+    color: #647d96;
+}
+.kizunax-title {
+    color: #647d96;
+  }
+  .kizunax-example {
+border-color: #647d96;
+}
+.kizunax-example-word p:nth-child(2) {
+    color: #647d96;
+}
+.kizunax-price-area {
+    color: #647d96;
+}

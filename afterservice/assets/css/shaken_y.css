@@ -1,0 +1,51 @@
+.shaken-title {
+    color: #647d96;
+}
+.hukidashi {
+    color: #647d96;
+    border-color: #647d96;
+}
+.hukidashi:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 11px 10px 0 10px;
+    border-color: #647d96 transparent transparent transparent;
+    z-index: -1;
+}
+.e-title-area {
+    color: #647d96;
+}
+.shaken-price-list .title {
+    color: #647d96;
+}
+.shaken-list-blocks .standard {
+    color: #647d96;
+}
+.table-panel tr > td:last-child {
+    color: #647d96;
+}
+.table-panel tr > td > a {
+    background-color: #647d96;
+}
+.modal-title {
+    color: #647d96;
+    border-color: #647d96;
+}
+.modal-word {
+    color: #647d96;
+}
+.modal-amout {
+    color: #647d96;
+}
+
+/* btn */
+
+.hukidashi-link {
+    background-color: #93a4b6;
+}

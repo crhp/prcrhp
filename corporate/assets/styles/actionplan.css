@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+.content a:link,.content a:visited,
+.content a:hover,.content a:focus{color:#1f4894;text-decoration:underline;}
+
+/* clearfix */
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;height:0;visibility:hidden;}
+.clear{clear:both;line-height:0;}
+
+.content {
+	color:#333;font-size:16px;line-height:1.875;
+	font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+.content,
+.content *{box-sizing:content-box;}
+
+.br-add{display:none;}
+.nowp{white-space:nowrap;}
+
+/*==================== *** default *** ====================*/
+#outerCont{border-top:3px solid #ff6e01;}
+
+.company-ttl{font-weight:bold;color:#ff6e01;}
+
+.company-plan .main{font-weight:bold;}
+.company-plan .manifesto .dt-a{font-weight:bold;}
+.company-plan .manifesto li{position:relative;}
+.company-plan .manifesto li:before{display:block;position:absolute;top:0;left:0;}
+.company-plan .plane-list li:before{content:"\30FB";}
+
+.company-plan .manifesto .dl-b dt{font-weight:bold;}
+
+.company-plan .num-list li:nth-child(1):before{content:"\2460";}.company-plan .num-list li:nth-child(2):before{content:"\2461";}
+.company-plan .num-list li:nth-child(3):before{content:"\2462";}.company-plan .num-list li:nth-child(4):before{content:"\2463";}
+.company-plan .num-list li:nth-child(5):before{content:"\2464";}.company-plan .num-list li:nth-child(6):before{content:"\2465";}
+.company-plan .num-list li:nth-child(7):before{content:"\2466";}.company-plan .num-list li:nth-child(8):before{content:"\2467";}
+.company-plan .num-list li:nth-child(9):before{content:"\2468";}.company-plan .num-list li:nth-child(10):before{content:"\2469";}
+.company-plan .num-list li:nth-child(11):before{content:"\2470";}.company-plan .num-list li:nth-child(12):before{content:"\2471";}
+.company-plan .num-list li:nth-child(13):before{content:"\2472";}.company-plan .num-list li:nth-child(14):before{content:"\2473";}
+.company-plan .num-list li:nth-child(15):before{content:"\2474";}.company-plan .num-list li:nth-child(16):before{content:"\2475";}
+.company-plan .num-list li:nth-child(17):before{content:"\2476";}.company-plan .num-list li:nth-child(18):before{content:"\2477";}
+.company-plan .num-list li:nth-child(19):before{content:"\2478";}.company-plan .num-list li:nth-child(20):before{content:"\2479";}
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.br-add-sp{display:block;}
+	.content{font-size:14px;font-size:4.3vw;line-height:1.7em;}
+	#actionplan{padding:1.6em 0.93em 0.9em;}
+	.company-ttl{font-size:1.43em;letter-spacing:0.15em;padding-bottom:0.8em;}
+
+	.company-plan .main{font-size:1.214em;padding-bottom:1.4em;line-height:1.706em;letter-spacing:-0.02em;margin-right:-0.9em;}
+	.company-plan .manifesto .dt-a{font-size:1.071em;padding-bottom:0.8em;}
+	.company-plan .manifesto .dd-a{font-size:1em;padding-bottom:1.5em;}
+	.company-plan .manifesto .dd-a li{letter-spacing:-0.007em;padding-bottom:0.8em;padding-left:0.929em;margin-left:-0.321em;margin-right:-0.143em;}
+
+	.company-plan .manifesto .dd-a .num-list li{padding-bottom:0.1em;}
+
+	.company-plan .manifesto .dl-b{padding-top:0.143em;}
+	.company-plan .manifesto .dl-b dt,
+	.company-plan .manifesto .dl-b dd{padding-bottom:0.6em;}
+	.company-plan .manifesto .dl-b dt{font-size:1em;margin-bottom:-2.25em;}
+	.company-plan .manifesto .dl-b dd{padding-left:3.9em;}
+	.company-plan .manifesto .dl-b ul{padding-top:0.536em;}
+	.company-plan .manifesto .dl-b .dd-b-txt{padding-top:0.7em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.br-add-tab{display:block;}
+	.content{font-size:18px;line-height:1.889;}
+	#actionplan{padding:35px 20px 45px;}
+	.company-ttl{font-size:30px;letter-spacing:5px;padding-bottom:26px;}
+
+	.company-plan .main{font-size:23px;padding-bottom:60px;}
+	.company-plan .manifesto .dt-a{font-size:20px;padding-bottom:26px;}
+	.company-plan .manifesto .dd-a{font-size:18px;padding-bottom:13px;}
+	.company-plan .manifesto .dd-a li{letter-spacing:-0.2px;padding-bottom:20px;padding-left:26px;margin-left:-9px;margin-right:-4px;}
+
+	.company-plan .manifesto .dd-a .num-list li{padding-bottom:0.1em;}
+
+	.company-plan .manifesto .dl-b{padding-top:4px;}
+	.company-plan .manifesto .dl-b dt,
+	.company-plan .manifesto .dl-b dd{padding-bottom:15px;}
+	.company-plan .manifesto .dl-b dt{font-size:20px;margin-bottom:-2.5em;}
+	.company-plan .manifesto .dl-b dd{padding-left:4.5em;}
+	.company-plan .manifesto .dl-b ul{padding-top:15px;}
+	.company-plan .manifesto .dl-b .dd-b-txt{padding-top:10px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.br-add-pc{display:block;}
+	/*#outerCont{padding-left:212px;}*/
+	#actionplan{width:980px;margin-left:auto;margin-right:auto;padding-top:91px;padding-bottom:48px;}
+	.company-ttl{font-size:28px;letter-spacing:5px;padding-bottom:10px;}
+
+	.company-plan .main{font-size:21px;padding-bottom:60px;}
+	.company-plan .manifesto .dt-a{font-size:18px;padding-bottom:30px;}
+	.company-plan .manifesto .dd-a{font-size:16px;padding-bottom:35px;}
+	.company-plan .manifesto .dd-a li{padding-bottom:10px;padding-left:16px;}
+
+	.company-plan .manifesto .dd-a .num-list li{padding-bottom:0.1em;}
+
+	.company-plan .manifesto .dl-b{padding-top:16px;padding-left:2px;}
+	.company-plan .manifesto .dl-b dt,
+	.company-plan .manifesto .dl-b dd{padding-bottom:2em;}
+	.company-plan .manifesto .dl-b dt{margin-bottom:-3.9em;}
+	.company-plan .manifesto .dl-b dd{padding-left:4.5em;}
+	.company-plan .manifesto .dl-b ul{padding-top:15px;}
+	.company-plan .manifesto .dl-b .dd-b-txt{padding-top:10px;}
+}
+

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+.content a:link,.content a:visited,
+.content a:hover,.content a:focus{color:#1f4894;text-decoration:underline;}
+
+/* clearfix */
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;height:0;visibility:hidden;}
+.clear{clear:both;line-height:0;}
+
+.content {
+	color:#333;font-size:16px;line-height:1.4;
+	font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+.content,
+.content *{box-sizing:content-box;}
+
+.nowp{white-space:nowrap;}
+
+a.clone-tel:link,a.clone-tel:visited,
+a.clone-tel:hover,a.clone-tel:focus{color:inherit;text-decoration:inherit;cursor:default;}
+
+/*==================== *** default *** ====================*/
+#outerCont{border-top:3px solid #ff6e01;}
+
+.company-ttl{font-weight:bold;color:#ff6e01;}
+.company-prof{border-bottom:1px solid #cfcdcc;}
+.company-prof dt{font-weight:bold;border-top:1px solid #cfcdcc;}
+.company-prof dt dfn{font-style:normal;}
+
+.company-prof dt.head{border-top:none;}
+
+.company-prof dt.reflex{clear:both;}
+.company-prof dd,
+.company-prof dd .data-in{min-height:1.4em;height:auto !important;height:1.4em;}
+.company-prof dd.pic{padding-left:0;}
+.company-prof dd.pic img{width:100%;}
+
+.company-prof dd.x3d{padding-left:0;}
+.company-prof dd.x3d .data-map img{width:100%;background-color:#ccc;}
+.company-prof dd.x3d .data-map iframe{width:100%;}
+.company-prof dd.x3d .link-map{text-align:center;}
+
+.company-prof .data-2-list li,
+.company-prof .data-3-list li{display:inline;}
+
+/*.company-prof .data-1-list li:before{content:"\30FB";}*/
+.company-prof .data-2-list li:before{content:"\3001";}
+.company-prof .data-3-list li:before{content:"/\00A0";}
+.company-prof .data-2-list li.head:before,
+.company-prof .data-3-list li.head:before{content:none;}
+.company-prof .data-2-list li.tail:before{content:"\00A0";}
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.content{font-size:14px;font-size:4.3vw;line-height:1.4em;}
+	#company{padding:1.6em 0.93em 3.2em;}
+	.company-ttl{font-size:1.43em;letter-spacing:0.15em;padding-bottom:0.45em;}
+
+	.company-prof{line-height:1.4em;}
+	.company-prof dt,
+	.company-prof dd{padding-top:0.86em;padding-bottom:0.86em;}
+	.company-prof dt{margin-bottom:-3.12em;}
+	.company-prof dd{padding-left:5.8em;}
+
+	.company-prof dd.x3d .data-in{padding-left:5.8em;}
+	.company-prof dd.x3d .data-map{padding-top:0.86em;padding-bottom:0.2em;}
+	.company-prof dd.x3d .data-map img,
+	.company-prof dd.x3d .data-map iframe{height:166px;height:51.875vw;}
+	.company-prof dd.x3d .link-map{font-size:0.786em;}
+
+	.company-prof dt.x3l{padding-bottom:0;margin-bottom:0;}
+	.company-prof dd.x3l{padding-left:0;padding-top:0.3em;padding-bottom:0.4em;}
+	.company-prof dd.x3l .dfn-sub,
+	.company-prof dd.x3l .dfn-2-sub,
+	.company-prof dd.x3l .data-in{padding-bottom:0.5em;}
+	.company-prof dd.x3l .dfn-sub{margin-bottom:-1.9em;}
+	.company-prof dd.x3l .dfn-2-sub{line-height:1.1em;margin-bottom:-2.7em;}
+	.company-prof dd.x3l .data-in{padding-left:6em;}
+
+	.company-prof dd.x3l2 .dfn-sub{margin-bottom:-1.4em;}
+	.company-prof dd.x3l2 .data-in{padding-left:8em;}
+
+	.company-prof dd.pic{border-top:1px solid #cfcdcc;padding-top:1.05em;padding-bottom:0.8em;}
+	.company-prof dd.pic .label{font-size:0.857em;padding-top:0.5em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.content{font-size:18px;}
+	#company{padding:43px 20px 80px;}
+	.company-ttl{font-size:30px;letter-spacing:5px;padding-bottom:20px;}
+
+	.company-prof{line-height:1.4em;}
+	.company-prof dt,
+	.company-prof dd{padding-top:0.9em;padding-bottom:0.9em;}
+	.company-prof dt{margin-bottom:-3.2em;}
+	.company-prof dd{padding-left:5.4em;}
+
+	.company-prof dd.x3d .data-in{padding-left:5.4em;}
+	.company-prof dd.x3d .data-map{padding-top:40px;}
+	.company-prof dd.x3d .data-map img,
+	.company-prof dd.x3d .data-map iframe{height:410px;}
+	.company-prof dd.x3d .link-map{font-size:16px;padding-top:10px;}
+
+	.company-prof dd.x3l{padding-bottom:0.3em;}
+	.company-prof dd.x3l .dfn-sub,
+	.company-prof dd.x3l .dfn-2-sub,
+	.company-prof dd.x3l .data-in{padding-bottom:0.5em;}
+	.company-prof dd.x3l .dfn-sub{margin-bottom:-1.9em;}
+	.company-prof dd.x3l .dfn-2-sub{margin-bottom:-3.3em;}
+	.company-prof dd.x3l .data-in{padding-left:6em;}
+
+	.company-prof dd.x3l2 .dfn-sub{margin-bottom:-1.4em;}
+	.company-prof dd.x3l2 .data-in{padding-left:8em;}
+
+	.company-prof dt.min,
+	.company-prof dd.min{box-sizing:border-box;width:59%;float:left;margin-right:3%;}
+	.company-prof dd.pic{width:38%;float:right;padding-top:0;}
+	.company-prof dd.pic .label{font-size:16px;padding-top:0.2em;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	/*#outerCont{padding-left:212px;}*/
+	#company{width:980px;margin-left:auto;margin-right:auto;padding-top:91px;padding-bottom:80px;}
+
+	.company-ttl{font-size:28px;letter-spacing:5px;padding-bottom:10px;}
+
+	.company-prof{line-height:1.4em;}
+	.company-prof dt,
+	.company-prof dd{padding-top:1em;padding-bottom:1em;}
+	.company-prof dt{margin-bottom:-3.4em;}
+	.company-prof dd{padding-left:6em;}
+
+	.company-prof dd.x3d .data-in{padding-left:6em;}
+	.company-prof dd.x3d .data-map{padding-top:35px;}
+	.company-prof dd.x3d .data-map img,
+	.company-prof dd.x3d .data-map iframe{height:550px;}
+	.company-prof dd.x3d .link-map{font-size:14px;padding-top:5px;}
+
+	.company-prof dd.x3l{padding-bottom:0.3em;}
+	.company-prof dd.x3l .dfn-sub,
+	.company-prof dd.x3l .dfn-2-sub,
+	.company-prof dd.x3l .data-in{padding-bottom:0.5em;}
+	.company-prof dd.x3l .dfn-sub{margin-bottom:-1.9em;}
+	.company-prof dd.x3l .dfn-2-sub{margin-bottom:-3.3em;}
+	.company-prof dd.x3l .data-in{padding-left:6em;}
+
+	.company-prof dd.x3l2 .dfn-sub{margin-bottom:-1.4em;}
+	/*.company-prof dd.x3l2 .data-in{padding-left:8em;}*/
+
+	.company-prof dt.min,
+	.company-prof dd.min{float:left;margin-right:50px;}
+	.company-prof dt.min{width:490px;}
+	.company-prof dd.min{width:394px;}
+	.company-prof dd.pic{float:right;padding-top:0;width: 389px;}
+	.company-prof dd.pic .label{font-size:14px;padding-top:0.2em;}
+}
+

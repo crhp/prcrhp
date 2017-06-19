@@ -1,0 +1,84 @@
+.carlist-name-anchor {
+  overflow: hidden;
+  padding: 0;
+}
+.carlist-name-anchor-item {
+  line-height: 50px;
+  float: left;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+}
+.carlist-name-anchor-item a {
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #545454;
+  border-right: 1px solid #cdcdcd;
+  background: #d5d5d5;
+  background-image: -moz-linear-gradient( 90deg, rgb(197, 197, 197) 0%, rgb(224, 224, 224) 6%, rgb(255, 255, 255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(197, 197, 197) 0%, rgb(224, 224, 224) 6%, rgb(255, 255, 255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(197, 197, 197) 0%, rgb(224, 224, 224) 6%, rgb(255, 255, 255) 100%);
+}
+.carlist-name-anchor-item-1 a {
+  border-radius:5px 0 0 5px;
+}
+.carlist-name-anchor-item-10 a {
+  border-right: none;
+  border-radius: 0 5px 5px 0;
+}
+
+/*.carlist-name-anchor-item a:last-child {
+  border-right: none;
+}*/
+
+.carlist-name-anchor-item a:after {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  display: block;
+  width: 9px;
+  height: 7px;
+  margin-top: -3px;
+  content: '';
+  background: url(../images/carlist-anchor-arrow.png) left top no-repeat;
+}
+.carlist-name-anchor-item a:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5c5c5+0,e0e0e0+6,ffffff+100 */
+  background-color: #c5c5c5;
+}
+@media screen and (min-width: 1024px) {
+  .carlist-name-anchor-item {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .carlist-name-anchor-item {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carlist-name-anchor {
+    margin: 0 0 48px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .carlist-name-anchor-item {
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+  }
+  .carlist-name-anchor {
+    margin: 0 0 29px 0;
+  }
+  .carlist-name-anchor-item a:after {
+    width: 4px;
+    height: 4px;
+    margin-top: -2px;
+    -webkit-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+}

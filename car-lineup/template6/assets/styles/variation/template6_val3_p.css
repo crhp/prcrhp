@@ -1,0 +1,68 @@
+/*
+color variation2
+key color : #eb852a;
+*/
+
+
+.header-contents h1 {
+  color: #eb852a;
+}
+.carlist-label {
+  color: #eb852a;
+}
+.tab-change-btn li.active span {
+  color: #eb852a;
+  border-color: #eb852a;
+}
+#tab-area .border {
+  border-color: #eb852a;
+}
+.carlist-body-anchor .carlist-body-anchor-item a {
+  color: #eb852a;
+}
+.carlist-body-anchor .carlist-body-anchor-item {
+  border-color: #eb852a;
+}
+.carlist-body-anchor .carlist-body-anchor-item:hover {
+  background-color: #eb852a;
+}
+.carlist-name-anchor-item a:hover {
+  background-color: #eb852a;
+}
+.carlist-name-anchor-item a {
+  color: #eb852a;
+  border-color: #eb852a;
+}
+.carlist-name-anchor-item a:hover {
+  background-color: #eb852a;
+}
+.carlist-body-anchor-item a:after {
+  background: url(../../images/carlist-anchor-arrow-val3_p.png) left top no-repeat;
+}
+.carlist-name-anchor-item a:after {
+  background: url(../../images/carlist-anchor-arrow-val3_p.png) left top no-repeat;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {
+  .carlist-body-anchor-item a:after, .carlist-body-anchor-item a:hover:after {
+    top: 50%;
+    right: 7%;
+    width: 9px;
+    height: 6px;
+    margin-top: -4px;
+    background-size: 9px auto;
+  }
+  .carlist-name-anchor-item a:after, .carlist-name-anchor-item a:hover:after {
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    display: block;
+    width: 9px;
+    height: 6px;
+    margin-top: -3px;
+    background-size: 9px auto;
+  }
+
+}

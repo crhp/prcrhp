@@ -1,0 +1,43 @@
+.coupon-title {
+    color: #647d96;
+}
+.coupon-area {
+    border-color: #647d96;
+}
+.coupon-area-inner {
+    border-color: #647d96;
+}
+.limit-inner {
+    background-color: #647d96;
+}
+.when-come-title {
+    background-color: #647d96;
+}
+.when-come-price {
+    color: #647d96;
+}
+.qr-code-title {
+    color: #647d96;
+}
+.qr-code-block {
+    background-color: #647d96;
+}
+.sale-price span {
+    font-size: 30px;
+    color: #647d96;
+    background: url(../images/coupon/arrow-price_y.png) no-repeat;
+    background-position: 0px center;
+    background-size: 12px 11px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .sale-price span {
+        color: #647d96;
+        background: url(../images/coupon/arrow-price_y.png) no-repeat;
+        font-size: 50px;
+        background-size: 41px 39px;
+        padding-left: 69px;
+        background-position: 0px 20px;
+    }
+}

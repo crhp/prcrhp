@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+
+header{
+    background-color: #fff;
+}
+
+.header-inner{
+  width: 100%;
+  background-color: #fff;
+  border-color: #f2e3cc;
+}
+
+
+/************************hum-menu***********************/
+
+
+.hum-menu span {
+  background-color: #ddb200;
+}
+
+/************************gnav***********************/
+
+#gnav{
+  background-color: #fff;
+}
+
+#gnav .first-nav{}
+
+#gnav .first-nav-list{
+
+}
+
+#gnav .first-nav-list:first-child{
+
+}
+
+#gnav .first-nav-list > a{
+  
+}
+
+#gnav .first-nav-list > a:hover{
+  /*background-color: #ddb200;*/
+  color: #ddb200;
+}
+
+#gnav .active-first-nav > a{
+  color: #ddb200;
+}
+
+/************************sub-nav***********************/
+
+
+.sub-nav{
+  background-color: #ddb200;
+}
+
+.sub-menu li{
+
+}
+
+.sub-menu li a{
+    color: #fff;
+}
+
+
+.sub-menu li a:hover{
+  background-color: #e9cc56;
+}
+
+
+/*tabtabtabtabtabtabtabtabtabtabtabtabtabtabtab*/
+
+
+@media screen and (min-width: 768px) and (max-width: 979px){
+
+
+/************************gnav***********************/
+
+/*#gnav .first-nav-list{
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+
+#gnav .first-nav-list:first-child{
+  border-top: 1px solid #ddd2d5;
+}*/
+
+          
+
+}
+
+/*pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2pc2*/
+
+
+@media screen and (min-width: 980px) and (max-width: 1279px) {
+
+
+
+/************************gnav***********************/
+
+
+#gnav .first-nav-list{
+
+}
+
+#gnav .first-nav-list:first-child{
+}
+
+
+#gnav .first-nav-list > a:hover{
+}
+
+#gnav .active-first-nav > a{
+/*  background-color: #373737;
+  color: #b5b5b6;*/
+  
+}
+
+
+/************************sub-nav***********************/
+
+.sub-menu li{
+
+}
+
+
+/************************gnav-links***********************/
+
+
+.gnav-linkarea a{
+  
+}
+
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px){
+
+
+header{
+  /*border-right: 2px solid #ddd2d5;*/
+}
+
+/************************gnav***********************/
+
+#gnav .first-nav-list{
+/*  border-top: 1px solid #f2e3cc;
+  border-bottom: none;*/
+}
+
+#gnav .first-nav-list > a{
+
+}
+
+#gnav .first-nav-list > a:hover{
+
+}
+
+#gnav .active-first-nav > a{
+
+}
+
+
+/************************sub-nav***********************/
+
+
+.sub-nav{
+
+}
+
+.sub-menu{
+  
+}
+.sub-menu li:first-child{
+
+}
+
+.sub-menu li{
+
+}
+
+.sub-menu li a{
+
+}
+
+
+    
+
+.sub-menu li a:hover{
+
+}
+
+
+/************************gnav-links***********************/
+
+.gnav-linkarea{
+
+}
+
+}

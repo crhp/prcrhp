@@ -1,0 +1,1148 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*デザイン共通*/
+.conversion-btns.btn_count_0{
+  display: none;
+}
+/***********/
+
+
+.conversion-1#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-1 .conversion-btns {
+  display: block;
+  background-color: #c6c6c6;
+  padding: 15px 12px;
+}
+.conversion-1 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-1 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 7px;
+  float: none;
+}
+.conversion-1 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-1 .conversion-btns li a {
+  line-height: 56px;
+  display: block;
+  text-align: center;
+  background-image: -moz-linear-gradient(90deg, #e6e6e6 0%, white 50%);
+  background-image: -webkit-linear-gradient(90deg, #e6e6e6 0%, white 50%);
+  background-image: -ms-linear-gradient(90deg, #e6e6e6 0%, white 50%);
+  width: auto;
+  height: 56px;
+  color: #4d4d4d;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.conversion-1 .conversion-btns li a:hover {
+  background-image: none;
+  background-color: #e2e2e2;
+}
+@media screen and (min-width: 768px) {
+  .conversion-1 .conversion-btns {
+    display: block;
+    background-color: #c6c6c6;
+    padding: 24px 0;
+  }
+  .conversion-1 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-1 .conversion-btns li {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    float: left;
+    width: 31.8%;
+  }
+  .conversion-1 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-1 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-1 .conversion-btns a {
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    width: 232px;
+    height: 58px;
+    color: #4d4d4d;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .conversion-1 .conversion-btns a:hover {
+    background-image: none;
+    background-color: #e2e2e2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-1#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-1 .conversion-btns {
+    padding: 6px 0;
+  }
+  .conversion-1 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-1 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-1 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-1 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-1 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-1 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-1 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-1 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+  .conversion-1 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-1 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-1 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+}
+
+/*////////////////////////////conversion-2/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-2/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-2/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-2/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-2/////////////////////////////////////////////////*/
+
+.conversion-2 {}
+.conversion-2#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-2 .conversion-btns {
+  display: block;
+  background-color: #333333;
+  padding: 15px 12px;
+}
+.conversion-2 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-2 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 7px;
+  float: none;
+}
+.conversion-2 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-2 .conversion-btns li a {
+  line-height: 56px;
+  display: block;
+  text-align: center;
+  background-color: #b5b5b6;
+  width: auto;
+  height: 56px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.conversion-2 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-2 .footer-sitemap {
+  background-color: #151515;
+}
+@media screen and (min-width: 768px) {
+  .conversion-2 {}
+  .conversion-2 .conversion-btns {
+    display: block;
+    padding: 24px 0;
+  }
+  .conversion-2 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-2 .conversion-btns li {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    float: left;
+    width: 31.8%;
+  }
+  .conversion-2 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-2 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-2 .conversion-btns a {
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    width: 232px;
+    height: 58px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .conversion-2 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-2 {}
+  .conversion-2#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-2 .conversion-btns {
+    padding: 6px 0;
+  }
+  .conversion-2 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-2 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-2 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-2 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-2 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-2 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-2 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-2 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+  .conversion-2 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-2 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-2 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .conversion-2 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+/*////////////////////////////conversion-3/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-3/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-3/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-3/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-3/////////////////////////////////////////////////*/
+
+.conversion-3 {}
+.conversion-3#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-3 .conversion-btns {
+  display: block;
+  background-color: #e5e5e5;
+  padding: 15px 12px;
+}
+.conversion-3 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-3 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 7px;
+  float: none;
+}
+.conversion-3 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-3 .conversion-btns li a {
+  line-height: 56px;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  width: auto;
+  height: 56px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.conversion-3 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-3 .footer-sitemap {
+  background-color: #feeee2;
+}
+@media screen and (min-width: 768px) {
+  .conversion-3 {}
+  .conversion-3 .conversion-btns {
+    display: block;
+    padding: 24px 0;
+  }
+  .conversion-3 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-3 .conversion-btns li {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    float: left;
+    width: 31.8%;
+  }
+  .conversion-3 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-3 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-3 .conversion-btns a {
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    width: 232px;
+    height: 58px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .conversion-3 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-3 {}
+  .conversion-3#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-3 .conversion-btns {
+    padding: 6px 0;
+  }
+  .conversion-3 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-3 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-3 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-3 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-3 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-3 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-3 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-3 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+  .conversion-3 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-3 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-3 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .conversion-3 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+/*////////////////////////////conversion-4/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-4/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-4/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-4/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-4/////////////////////////////////////////////////*/
+
+.conversion-4 {}
+.conversion-4#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-4 .conversion-btns {
+  display: block;
+  background-color: #e5e5e5;
+  padding: 16px 20px;
+}
+.conversion-4 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-4 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 1px;
+  float: none;
+}
+.conversion-4 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-4 .conversion-btns li a {
+  line-height: 41px;
+  display: block;
+  text-align: center;
+  background-color: #ff6e01;
+  width: auto;
+  height: 41px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -1.2px;
+}
+.conversion-4 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-4 .footer-sitemap {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .conversion-4 {}
+  .conversion-4 .conversion-btns {
+    display: block;
+    padding: 18px 0;
+  }
+  .conversion-4 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-4 .conversion-btns li {
+    margin-right: 1px;
+    margin-bottom: 1px;
+    float: left;
+    width: 33.2%;
+  }
+  .conversion-4 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-4 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-4 .conversion-btns li a {
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    height: 58px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+  }
+  .conversion-4 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-4 {}
+  .conversion-4#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-4 .conversion-btns {
+    padding: 6px 0;
+  }
+  .conversion-4 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-4 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-4 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-4 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-4 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-4 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-4 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-4 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+  .conversion-4 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-4 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-4 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .conversion-4 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+/*////////////////////////////conversion-5/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-5/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-5/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-5/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-5/////////////////////////////////////////////////*/
+
+.conversion-5 {}
+.conversion-5#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-5 .conversion-btns {
+  display: block;
+  background-color: #ffffff;
+  padding: 15px 13px;
+}
+.conversion-5 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-5 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 6px;
+  float: none;
+  border: 1px solid #ddd;
+}
+.conversion-5 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-5 .conversion-btns li a {
+  line-height: 37px;
+  display: block;
+  text-align: center;
+  /* background-color:#ff6e01; */
+  width: auto;
+  height: 37px;
+  color: #ff6e01;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -2px;
+}
+.conversion-5 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-5 .footer-sitemap {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .conversion-5 {}
+  .conversion-5 .conversion-btns {
+    display: block;
+    padding: 0px 0;
+  }
+  .conversion-5 .conversion-btns ul {
+    
+    width: 728px;
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+  .conversion-5 .conversion-btns li {
+    margin-bottom: 0;
+    float: left;
+    width: 33.2%;
+  }
+  .conversion-5 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-5 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-5 .conversion-btns li a {
+    line-height: 56px;
+    display: block;
+    text-align: center;
+    height: 56px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+  }
+  .conversion-5 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-5 {}
+  .conversion-5#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-5 .conversion-btns {
+    padding: 6px 0;
+    background-color: #c6c6c6;
+  }
+  .conversion-5 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-5 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-5 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-5 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-5 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-5 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-5 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-5 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+    border: 2px solid #ff6e01;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .conversion-5 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-5 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-5 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .conversion-5 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+/*////////////////////////////conversion-6/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-6/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-6/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-6/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-6/////////////////////////////////////////////////*/
+
+.conversion-6 {}
+.conversion-6#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-6 .conversion-btns {
+  display: block;
+  background-color: #ffffff;
+  padding: 15px 13px;
+}
+.conversion-6 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-6 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 6px;
+  float: none;
+  border: 1px solid #ddd;
+}
+.conversion-6 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-6 .conversion-btns li a {
+  line-height: 37px;
+  display: block;
+  text-align: center;
+  /* background-color:#ff6e01; */
+  width: auto;
+  height: 37px;
+  color: #ff6e01;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -2px;
+}
+.conversion-6 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-6 .footer-sitemap {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .conversion-6 {}
+  .conversion-6 .conversion-btns {
+    display: block;
+    padding: 21px 0;
+  }
+  .conversion-6 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-6 .conversion-btns li {
+    /* margin-right: 1px; */
+    margin-bottom: 0;
+    float: left;
+    width: 33.2%;
+  }
+  .conversion-6 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-6 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-6 .conversion-btns li a {
+    line-height: 56px;
+    display: block;
+    text-align: center;
+    height: 56px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+  }
+  .conversion-6 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-6 {}
+  .conversion-6#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-6 .conversion-btns {
+    padding: 6px 0;
+    background-color: #c6c6c6;
+  }
+  .conversion-6 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-6 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-6 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-6 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-6 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-6 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-6 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-6 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+    border: 2px solid #ff6e01;
+    background-color: #fff;
+  }
+  .conversion-6 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-6 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-6 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    /* background-color: #fff; */
+    ;
+  }
+  .conversion-6 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+/*////////////////////////////conversion-7/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-7/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-7/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-7/////////////////////////////////////////////////*/
+
+
+/*////////////////////////////conversion-7/////////////////////////////////////////////////*/
+
+.conversion-7 {}
+.conversion-7#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-7 .conversion-btns {
+  display: block;
+  background-color: #999999;
+  padding: 13px 13px 13px;
+}
+.conversion-7 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-7 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 8px;
+  float: none;
+  /* border: 1px solid #ddd; */
+  border-radius: 20px;
+  background-color: #e2e2e2;
+}
+.conversion-7 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-7 .conversion-btns li a {
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  /* background-color:#ff6e01; */
+  width: auto;
+  height: 40px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.conversion-7 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-7 .footer-sitemap {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .conversion-7 {}
+  .conversion-7 .conversion-btns {
+    display: block;
+    padding: 32px 0;
+  }
+  .conversion-7 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-7 .conversion-btns li {
+    margin-right: 14px;
+    margin-bottom: 20px;
+    float: left;
+    width: 32%;
+  }
+  .conversion-7 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-7 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-7 .conversion-btns li a {
+    line-height: 44px;
+    display: block;
+    text-align: center;
+    height: 44px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+  }
+  .conversion-7 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-7 {}
+  .conversion-7#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-7 .conversion-btns {
+    padding: 6px 0;
+    /* background-color: #c6c6c6; */
+    ;
+  }
+  .conversion-7 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-7 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-7 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-7 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-7 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-7 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-7 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-7 .conversion-btns li {
+    width: 130px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    /* border: 2px solid #ff6e01; */
+    border-radius: 20px;
+    /* background-color: #fff; */
+    ;
+  }
+  .conversion-7 .conversion-btns li:nth-child(3n) {
+    margin-right: 5px;
+  }
+  .conversion-7 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-7 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    /* background-color: #fff; */
+    ;
+  }
+  .conversion-7 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+
+
+
+
+/*////////////////////////////conversion-8/////////////////////////////////////////////////*/
+
+.conversion-8 {}
+.conversion-8#conversion {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  border-top: 1px solid #ccc;
+}
+.conversion-8 .conversion-btns {
+  display: block;
+  background-color: #e5e5e5;
+  padding: 15px 12px;
+}
+.conversion-8 .conversion-btns ul {
+  width: auto;
+  margin: 0 auto;
+}
+.conversion-8 .conversion-btns li {
+  margin-right: 0;
+  margin-bottom: 7px;
+  float: none;
+}
+.conversion-8 .conversion-btns li:last-child {
+  margin-bottom: 0;
+}
+.conversion-8 .conversion-btns li a {
+  line-height: 56px;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  width: auto;
+  height: 56px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.conversion-8 .conversion-btns li a:hover {
+  opacity: 0.7;
+}
+.conversion-8 .footer-sitemap {
+  background-color: #feeee2;
+}
+@media screen and (min-width: 768px) {
+  .conversion-8 {}
+  .conversion-8 .conversion-btns {
+    display: block;
+    padding: 24px 0;
+  }
+  .conversion-8 .conversion-btns ul {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .conversion-8 .conversion-btns li {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    float: left;
+    width: 31.8%;
+  }
+  .conversion-8 .conversion-btns li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .conversion-8 .conversion-btns li:nth-child(7) {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .conversion-8 .conversion-btns a {
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    width: 232px;
+    height: 58px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .conversion-8 .footer-sitemap {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conversion-8 {}
+  .conversion-8#conversion {
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    width: 100%;
+  }
+  .conversion-8 .conversion-btns {
+    padding: 6px 0;
+  }
+  .conversion-8 .conversion-btns ul {
+    width: 958px;
+  }
+  .conversion-8 .conversion-btns.btn_count_6 ul {
+    width: 821px;
+  }
+  .conversion-8 .conversion-btns.btn_count_5 ul {
+    width: 686px;
+  }
+  .conversion-8 .conversion-btns.btn_count_4 ul {
+    width: 550px;
+  }
+  .conversion-8 .conversion-btns.btn_count_3 ul {
+    width: 412px;
+  }
+  .conversion-8 .conversion-btns.btn_count_2 ul {
+    width: 274px;
+  }
+  .conversion-8 .conversion-btns.btn_count_1 ul {
+    width: 138px;
+  }
+  .conversion-8 .conversion-btns li {
+    width: 136px;
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+  .conversion-8 .conversion-btns li:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .conversion-8 .conversion-btns li:last-child {
+    margin-right: 0;
+  }
+  .conversion-8 .conversion-btns li a {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .conversion-8 .footer-sitemap {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+.content a:link,.content a:visited,
+.content a:hover,.content a:focus{color:#1f4894;text-decoration:underline;}
+
+/* clearfix */
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;height:0;visibility:hidden;}
+.clear{clear:both;line-height:0;}
+
+.content {
+	color:#333;font-size:16px;line-height:1.875;
+	font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+.content,
+.content *{box-sizing:content-box;}
+
+.br-add{display:none;}
+.nowp{white-space:nowrap;}
+
+/*==================== *** default *** ====================*/
+#outerCont{border-top:3px solid #ff6e01;}
+
+.company-ttl{font-weight:bold;color:#ff6e01;}
+
+.company-financial .main{font-weight:bold;}
+
+.company-financial .num-2-list li{position:relative;}
+.company-financial .num-2-list li:before{font-weight:bold;display:block;position:absolute;top:0;left:0;}
+
+.company-financial .num-2-list li:nth-child(1):before{content:"1.\00A0";}.company-financial .num-2-list li:nth-child(2):before{content:"2.\00A0";}
+.company-financial .num-2-list li:nth-child(3):before{content:"3.\00A0";}.company-financial .num-2-list li:nth-child(4):before{content:"4.\00A0";}
+.company-financial .num-2-list li:nth-child(5):before{content:"5.\00A0";}.company-financial .num-2-list li:nth-child(6):before{content:"6.\00A0";}
+.company-financial .num-2-list li:nth-child(7):before{content:"7.\00A0";}.company-financial .num-2-list li:nth-child(8):before{content:"8.\00A0";}
+.company-financial .num-2-list li:nth-child(9):before{content:"9.\00A0";}.company-financial .num-2-list li:nth-child(10):before{content:"10.\00A0";}
+.company-financial .num-2-list li:nth-child(11):before{content:"11.\00A0";}.company-financial .num-2-list li:nth-child(12):before{content:"12.\00A0";}
+.company-financial .num-2-list li:nth-child(13):before{content:"13.\00A0";}.company-financial .num-2-list li:nth-child(14):before{content:"14.\00A0";}
+.company-financial .num-2-list li:nth-child(15):before{content:"15.\00A0";}.company-financial .num-2-list li:nth-child(16):before{content:"16.\00A0";}
+.company-financial .num-2-list li:nth-child(17):before{content:"17.\00A0";}.company-financial .num-2-list li:nth-child(18):before{content:"18.\00A0";}
+.company-financial .num-2-list li:nth-child(19):before{content:"19.\00A0";}.company-financial .num-2-list li:nth-child(20):before{content:"20.\00A0";}
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.br-add-sp{display:block;}
+	.content{font-size:14px;font-size:4.3vw;line-height:1.7em;}
+	#financial{padding:1.6em 0.93em 0.9em;}
+	.company-ttl{font-size:1.43em;letter-spacing:0.15em;padding-bottom:0.7em;line-height:1.4em;}
+	.company-financial .main{font-size:1.214em;padding-bottom:1.5em;line-height:1.706em;letter-spacing:-0.02em;margin-right:-0.9em;}
+	.company-financial .num-2-list li{letter-spacing:-0.007em;padding-bottom:1.06em;padding-left:1.7em;margin-left:-0.321em;margin-right:-0.143em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.br-add-tab{display:block;}
+	.content{font-size:18px;line-height:1.889;}
+	#financial{padding:35px 20px 70px;}
+	.company-ttl{font-size:30px;letter-spacing:5px;padding-bottom:26px;}
+	.company-financial .main{font-size:23px;padding-bottom:20px;}
+
+	.company-financial .num-2-list li{letter-spacing:-0.2px;padding-bottom:20px;padding-left:26px;margin-left:-9px;margin-right:-4px;}
+	.company-financial .num-2-list{padding-left:10px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.br-add-pc{display:block;}
+	/*#outerCont{padding-left:212px;}*/
+	#financial{width:980px;margin-left:auto;margin-right:auto;padding-top:91px;padding-bottom:48px;}
+	.company-ttl{font-size:28px;letter-spacing:5px;padding-bottom:10px;}
+	.company-financial .main{font-size:21px;padding-bottom:60px;}
+
+	.company-financial .num-2-list li{padding-bottom:10px;padding-left:27px;}
+}
+

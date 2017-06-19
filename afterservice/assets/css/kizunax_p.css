@@ -1,0 +1,39 @@
+.fix-title {
+    color: #118175;
+}
+.fix-anchor-huki {
+    color: #118175;
+    border: 1px solid #118175;
+}
+.fix-anchor-huki:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 11px 10px 0 10px;
+    border-color: #118175 transparent transparent transparent;
+    z-index: -1;
+}
+.kizunax-title {
+    color: #118175;
+}
+.kizunax-example {
+    border: 2px solid #118175;
+}
+.kizunax-example-word p:nth-child(2) {
+    color: #118175;
+}
+.kizunax-price-area {
+    color: #118175;
+}
+.kizu-fix-title {
+    color: #118175;
+}
+.kizu-fix-point {
+    border: 2px solid #118175;
+    color: #118175;
+}

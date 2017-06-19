@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*==================== *** default *** ====================*/
+/*==================== *** hidden-case *** ====================*/
+.residual-case,
+.original-case,
+.installment-case{display:none;}
+
+/*==================== *** upload-case *** ====================*/
+.upload-case{display:block;background-color:#f5f5f5;color:#333;}
+.upload-case .upload-ttl{font-weight:bold;padding:15px;text-align:center;}
+.upload-case .upload-in img{width:100%;}
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.upload-case{font-size:10px;font-size:3.04vw;line-height:1.6em;}
+	.upload-case .upload-ttl{font-size:1.5em;padding:0.45em 1em;}
+	.upload-case .upload-in{margin-bottom:1.8em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.upload-case .upload-ttl{font-size:22px;letter-spacing:1.8px;padding:8px 10px;}
+	.upload-case .upload-in{margin-bottom:56px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.upload-case .upload-ttl{font-size:26px;padding:10px 21px;letter-spacing:2.7px;}
+	.upload-case .upload-in{margin-bottom:38px;}
+}

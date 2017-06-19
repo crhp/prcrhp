@@ -1,0 +1,21 @@
+/*
+color variation4
+key color : #ff9601;
+*/
+
+.header-contents h1 {
+  color: #ff9601;
+}
+.carlist-label .square {
+  background-color: #ff9601;
+}
+.tab-change-btn li.active span {
+  color: #ff9601;
+}
+.link-welcab a {
+  color: #ff9601;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

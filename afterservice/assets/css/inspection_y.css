@@ -1,0 +1,33 @@
+.inspection-title {
+    color: #647d96;
+}
+.ins-blocks .title {
+    color: #647d96;
+}
+.ins-blocks .cycle {
+    border-color: #647d96;
+    color: #647d96;
+    background-image: url(../images/inspection/cycle_y.png);
+}
+.procare-title {
+    color: #647d96;
+}
+.inspection-list-title {
+    color: #647d96;
+}
+.standard {
+    color: #647d96;
+}
+.table-panel tr > td:last-child {
+    color: #647d96;
+}
+
+
+/* btn */
+.inspection-btn a {
+    background-color: #93a4b6;
+}
+
+.item li {
+    background-image: url(../images/inspection/check_y.jpg);
+}

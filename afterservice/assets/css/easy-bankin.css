@@ -1,0 +1,328 @@
+@charset "UTF-8";
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+.easy-bankin-wrap {
+  padding-top: 20px;
+  position: relative;
+}
+.easy-bankin-wrap-inner {
+  padding: 0 12px;
+}
+.easy-bankin-title {
+  color: #ff6e01;
+  margin-bottom: 23px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.easy-bankin-title-explain {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 38px;
+}
+
+/*============================
+#easy-bankin.easy-bankin
+============================*/
+
+.easy-bankin-explain {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.easy-bankin-explain {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.easy-bankin-explain-2 {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+.easy-bankin-example {
+  border: 2px solid #ff6e01;
+  padding: 12px;
+  position: relative;
+  margin-bottom: 30px
+}
+.easy-bankin-img {
+  width: 40%;
+  float: left;
+  margin-right: 4%;
+}
+.easy-bankin-img img {
+  width: 100%;
+}
+.easy-bankin-example-word {
+  width: 56%;
+  font-weight: bold;
+  line-height: 1.7;
+  margin-top: -2px;
+  float: left;
+}
+.easy-bankin-example-word p:nth-child(1) {
+  font-size: 11px;
+}
+.easy-bankin-example-word p:nth-child(2) {
+  font-size: 11px;
+  color: #ff6e01;
+}
+.easy-bankin-example-word p:nth-child(3) {
+  font-size: 10px;
+}
+.easy-bankin-price-area {
+  clear: both;
+  color: #ff6e01;
+  position: relative;
+  text-align: center;
+  display: block;
+  padding-top: 17px;
+  height: 66px;
+  right: 0px;
+  margin: 0 auto 0;
+}
+.easy-bankin-price-area-inner {
+  display: inline-block;
+  position: relative;
+}
+.word {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.easy-bankin-price {
+  font-weight: bold;
+  font-size: 35px;
+  display: inline;
+}
+.easy-bankin-small {
+  position: absolute;
+  right: -37px;
+  bottom: 3px
+}
+.easy-bankin-yen {
+  font-weight: bold;
+  /*position: absolute;*/
+  right: -11px;
+  bottom: 4px;
+  font-size: 14px;
+  /*text-align: left;*/
+}
+.easy-bankin-tax {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.ita-panel {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.price {}
+.attention {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 55px;
+}
+@media screen and (min-width: 768px) {
+  .easy-bankin-wrap {
+    padding-top: 50px;
+  }
+  .easy-bankin-wrap-inner {
+    padding: 0 20px;
+  }
+  .easy-bankin-title {
+    font-size: 30px;
+  }
+  .easy-bankin-title-explain {
+    font-size: 23px;
+  }
+  /*============================
+#easy-bankin.easy-bankin
+============================*/
+  #easy-bankin.easy-bankin {
+    clear: both;
+  }
+  .easy-bankin-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .easy-bankin-logo {
+    margin-bottom: 30px;
+  }
+  .easy-bankin-logo img {}
+  .easy-bankin-explain {
+    font-size: 23px;
+    line-height: 1.7;
+    margin-bottom: 70px;
+  }
+  .easy-bankin-explain-2 {
+    font-size: 16px;
+    margin-bottom: 67px;
+    line-height: 1.8;
+  }
+  .easy-bankin-course {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .easy-bankin-example {
+    display: table;
+    width: 100%;
+  }
+  .easy-bankin-img {
+    width: 26%;
+    display: table-cell;
+    float: none;
+  }
+  .easy-bankin-img img {}
+  .easy-bankin-example-word {
+    width: 39%;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-left: 4%;
+  }
+  .easy-bankin-example-word p:nth-child(1) {
+    font-size: 16px;
+  }
+  .easy-bankin-example-word p:nth-child(2) {
+    font-size: 19px;
+  }
+  .easy-bankin-example-word p:nth-child(3) {
+    font-size: 13px;
+  }
+  .easy-bankin-price-area {
+    width: 37%;
+    display: table-cell;
+    padding-top: 0;
+    vertical-align: middle;
+    padding-right: 4%;
+  }
+  .easy-bankin-price-area-inner {}
+  .word {
+    font-size: 21px;
+  }
+  .easy-bankin-price {
+    font-size: 52px;
+  }
+  .easy-bankin-small {
+    right: -36px;
+    bottom: 5px;
+  }
+  .easy-bankin-yen {
+    font-size: 16px;
+  }
+  .easy-bankin-tax {
+    font-size: 12px;
+    margin-left: 0;
+  }
+  .ita-panel {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .table-panel-block {
+    float: left;
+    width: 48%;
+  }
+  .table-panel-block:first-of-type {
+    margin-right: 4%;
+  }
+  .table-panel {
+    margin-bottom: 35px;
+  }
+  .table-panel tr > th {
+    font-size: 16px;
+    height: 38px;
+  }
+  .table-panel tr > th:first-child {}
+  .table-panel tr > th:last-child {}
+  .table-panel tr > td {
+    height: 55px;
+    font-size: 17px;
+  }
+  .price {}
+  .attention {
+    font-size: 12px;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sp-br {
+    display: none;
+  }
+  .easy-bankin-wrap {
+    ;
+    padding-top: 100px;
+  }
+  .easy-bankin-wrap-inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .easy-bankin-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .easy-bankin-title-explain {
+    font-size: 22px;
+    margin-bottom: 70px;
+  }
+  /*============================
+#easy-bankin.easy-bankin
+============================*/
+  #easy-bankin.easy-bankin {}
+  .easy-bankin-title {
+    padding-bottom: 20px;
+  }
+  .easy-bankin-logo {}
+  .easy-bankin-logo img {}
+  .easy-bankin-explain {
+    margin-bottom: 80px;
+    font-size: 22px;
+  }
+  .easy-bankin-explain-2 {
+    font-size: 16px;
+    margin-bottom: 67px;
+    line-height: 1.8;
+  }
+  .easy-bankin-course {}
+  .easy-bankin-example {}
+  .easy-bankin-img {}
+  .easy-bankin-img img {}
+  .easy-bankin-example-word {}
+  .easy-bankin-example-word p:nth-child(1) {
+    font-size: 22px;
+  }
+  .easy-bankin-example-word p:nth-child(2) {
+    font-size: 26px;
+  }
+  .easy-bankin-example-word p:nth-child(3) {
+    font-size: 18px;
+  }
+  .easy-bankin-price-area {}
+  .easy-bankin-price-area-inner {}
+  .word {
+    font-size: 30px;
+  }
+  .easy-bankin-price {
+    font-size: 70px;
+  }
+    .easy-bankin-small {
+    right: -53px;
+  }
+  .easy-bankin-yen {
+    font-size: 26px;
+    margin-left: -10px;
+  }
+  .easy-bankin-tax {
+    margin-top: -10px;
+    position: relative;
+    top: -14px;
+    margin-left: -20px;
+  }
+  .attention {
+    margin-bottom: 130px;
+  }
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+/**********************header-sizedetect**********************/
+
+.header-sizedetect{
+  font-family: "SP";
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 979px){
+	.header-sizedetect{
+	  font-family: "TAB";
+	}
+}
+
+@media screen and (min-width: 980px) and (max-width: 1279px){
+	.header-sizedetect{
+	  font-family: "P2";
+	}
+}
+
+
+@media screen and (min-width: 1280px){
+	.header-sizedetect{
+	  font-family: "PC";
+	}
+}
+
+/**********************header-sizedetect**********************/
+
+/**********************footer-sizedetect**********************/
+
+.footer-sizedetect{
+  font-family: "SP";
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.footer-sizedetect{
+	  font-family: "TAB";
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+	.footer-sizedetect{
+	  font-family: "PC";
+	}
+}
+
+/**********************footer-sizedetect**********************/

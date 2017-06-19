@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+.gothic{font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;}
+.content a:link,.content a:visited,
+.content a:hover,.content a:focus{
+	color:#1f4894;
+	text-decoration:underline;}
+
+/* clearfix */
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;height:0;visibility:hidden;}
+.clear{clear:both;line-height:0;}
+
+.content {
+	color:#4d4d4d;font-size:22px;line-height:1.6;
+	font-family:'Noto Sans Japanese',ÉÅÉCÉäÉI,Meiryo,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+.content,
+.content *{box-sizing:content-box;}
+
+.br-add{display:none;}
+.br-add-tmp4-pc,.br-add-tmp4-tab,
+.br-add-tmp4-sp{display:none;}
+.nowp{white-space:nowrap;}
+.nowpbx{white-space:nowrap;display:inline-block;}
+
+.data-table .cntr-panel,
+.data-table .data-panel{display:table;}
+.data-table .cntr-tr,
+.data-table .data-tr{display:table-row;}
+.data-table .cntr-th,
+.data-table .data-th,
+.data-table .cntr-td,
+.data-table .data-td{display:table-cell;}
+
+/*==================== *** default *** ====================*/
+/*==================== *** hidden-case *** ====================*/
+.residual-case,
+.original-case,
+.installment-case,
+.upload-case{display:none;}
+
+/*==================== *** main-visual *** ====================*/
+.main-visual{width:100%;}
+.main-visual img{width:100%;}
+
+/*==================== *** main-navi *** ====================*/
+.main-navi .in{padding:15px 0;margin-left:auto;margin-right:auto;}
+.main-navi li{width:33.3%;float:left;}
+.main-navi li .btn-in{display:block;padding-left:5px;padding-right:5px;}
+
+/*==================== *** clone-parts *** ====================*/
+.clone-head-ttl{padding-top:25px;padding-bottom:25px;text-align:center;}
+.clone-ttl{margin-bottom:25px;text-align:center;}
+.clone-txt{margin-bottom:40px;text-align:center;}
+.clone-sup{font-size:10px;vertical-align:super;padding-left:3px;}
+.clone-ic{background-color:#4d4d4d;width:18px;height:18px;line-height:18px;margin-right:7px;}
+.clone-ic2{
+	border:1px solid;width:0.2em;height:0.2em;line-height:0.2em;margin-right:0.8em;
+	-webkit-border-radius:0.1em;-moz-border-radius:0.1em;
+	-moz-border-radius:0.1em;-0-border-radius:0.1em;border-radius:0.1em;
+}
+.clone-ic,
+.clone-ic2{display:inline-block;text-indent:100%;white-space:nowrap;overflow:hidden;}
+.clone-btn-one{text-align:center;}
+.clone-btn-one .clone-btn{display:inline-block;width:100%;}
+
+.clone-btn a{display:table;text-align:center;width:100%;border:2px solid;}
+.car-dt-design .clone-btn a:link,.car-dt-design .clone-btn a:visited,
+.car-dt-design .clone-btn a:hover,.car-dt-design .clone-btn a:focus{color:inherit;text-decoration:none;}
+.clone-btn .cntxt-in{display:table-cell;vertical-align:middle;}
+.clone-btn .cntxt-in:before,
+.clone-btn .txt-in{display:inline-block;vertical-align:middle;}
+
+/*==================== *** data-table *** ====================*/
+.data-table .data-panel{width:100%;font-weight:bold;table-layout:fixed;border-collapse:collapse;text-align:center;}
+.data-table .cntr-panel{table-layout:fixed;width:100%;height:101%;}
+
+.data-table .data-th,.data-table .data-td,
+.data-table .data-label,
+.data-table .data-val{vertical-align:middle;}
+
+.data-table .data-th .label{display:block;font-size:12px;}
+
+.data-table .data *{display:inline-block;position:relative;}
+.data-table .data .clone-sup{padding-left:1px;}
+.data-table .data .min .clone-sup{position:absolute;top:0;right:-15px;}
+
+.data-table .data .num,
+.data-table .data .unit{line-height:1;}
+.data-table .data .unit{font-size:50%;}
+.data-table .data .concat{font-size:70%;}
+
+.data-table .data-in-table{display:table;width:100%;height:100%;}
+.data-table .data-label,
+.data-table .data-val{display:table-cell;}
+.data-table .data-label{font-size:87%;width:114px;text-align:center;}
+.data-table .data{font-size:25px;}
+
+/*==================== *** pdf-btn *** ====================*/
+.pdf-btn{color:#1f4894;text-align:center;}
+.pdf-btn a{display:inline-block;color:inherit;vertical-align:top;}
+.pdf-btn a:after{content:"\00A0\003000";background-image:url("../images/icon-newwin.png");background-position:right 5px;background-repeat:no-repeat;}
+
+/*==================== *** annotation *** ====================*/
+.annotation-b{font-size:10px;line-height:1.3;}
+
+/*==================== *** residual-case *** ====================*/
+.pickup-visual img{width:100%;}
+
+.residual-case{background-color:#fff;position:relative;}
+.residual-case .case-4-phase{position:relative;}
+.residual-case .case-data-ttl,
+.residual-case .case-data-2,.residual-case .case-data-3,
+.residual-case .case-data-4,.residual-case .case-data-5{width:100%;}
+.residual-case .case-data-ttl{position:relative;}
+.residual-case .case-data-ttl .clone-ic,
+.residual-case .case-data-ttl .ttl-in{display:inline-block;vertical-align:middle;}
+.residual-case .case-data-pic img{max-width:100%;}
+
+.residual-case .case-data-3 *{display:inline;}
+
+.residual-case .case-data-3 dt,
+.residual-case .case-data-3 dd{white-space:nowrap;float:left;}
+.residual-case .case-data-4 dt,
+.residual-case .case-data-4 dd{white-space:nowrap;}
+.residual-case .case-data-3 .label{font-size:70%;}
+.residual-case .case-data-3 dt{position:relative;text-indent:0em;}
+.residual-case .case-data-3 dt .clone-ic2{display:none;position:absolute;top:50%;left:0;margin-top:-0.1em;}
+
+.residual-case .case-data-4{font-size:10px;padding-left:2px;padding-right:2px;padding-bottom:2px;}
+.residual-case .case-data-4 *{display:inline;}
+
+/*==================== *** pankuzu *** ====================*/
+.pankuzu *{display:inline;}
+
+.pankuzu a:link,.pankuzu a:visited,
+.pankuzu a:hover,.pankuzu a:focus{text-decoration:none;}
+
+/*==================== *** carDetailsCont *** ====================*/
+#carDetailsCont{padding-top:30px;}
+#carDetailsData,
+#carDetailsRecommend,
+#carDetailsPickup{margin-left:auto;margin-right:auto;}
+#carDetailsData,
+#carDetailsPickup{padding-bottom:30px;}
+
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.content{font-size:12px;font-size:3.6vw;line-height:1.6em;}
+	#carDetailsCont{padding-left:1em;padding-right:1em;}
+	.main-navi .in{padding:0.85em;}
+	.br-add-sp{display:block;}
+	.clone-txt{text-align:left;}
+	.clone-btn a{height:3.4em;}
+	.annotation-a{line-height:1.5em;}
+	.pankuzu{font-size:0.7em;}
+	.pankuzu a,
+	.pankuzu .name{padding-left:0.2em;padding-right:0.2em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.content{font-size:24px;}
+	#carDetailsCont{padding-left:18px;padding-right:18px;}
+	.main-navi .in{padding:20px 13px;}
+	.br-add-tab{display:block;}
+	.clone-btn-one .clone-btn{width:320px;}
+	.clone-btn a{height:56px;line-height:56px;}
+	.data-table .data-td{height:98px;}
+	.annotation-a{line-height:1.5;}
+	.residual-case .case-2-phase{width:66.6%;float:left;}
+	.residual-case .case-data-pic{margin-left:66.6%;text-align:right;}
+	.pankuzu{font-size:13px;}
+	.pankuzu a,
+	.pankuzu .name{padding-left:2px;padding-right:2px;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.content{font-size:22px;letter-spacing:-0.4px;}
+	#carDetailsData,
+	#carDetailsRecommend,
+	#carDetailsPickup{width:980px;}
+	.main-navi .in{width:990px;padding:15px 0;}
+	.br-add-pc{display:block;}
+	.clone-btn-one .clone-btn{width:320px;}
+	.clone-btn a{height:46px;line-height:46px;}
+	.data-table .data-th .label{line-height:1.5;}
+	.fuel-1-table .data-td{height:50%;}
+	.fuel-2-table .data-td{height:33.3%;}
+	.fuel-3-table .data-td{height:25%;}
+	.data-table .join-panel .data-td{height:33.3%;}
+	.annotation-a{line-height:1.5;}
+	.residual-case .case-2-phase{width:66.6%;float:left;}
+	.residual-case .case-data-pic{margin-left:66.6%;text-align:right;}
+	.pankuzu{font-size:13px;padding-left:45px;padding-right:45px;}
+	.pankuzu a,
+	.pankuzu .name{padding-left:2px;padding-right:2px;}
+}
+

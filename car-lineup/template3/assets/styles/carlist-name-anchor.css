@@ -1,0 +1,82 @@
+.carlist-name-anchor {
+  overflow: hidden;
+  padding: 0;
+}
+.carlist-name-anchor-item {
+  line-height: 50px;
+  float: left;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+}
+.carlist-name-anchor-item a {
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #231815;
+  border-right: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+.carlist-name-anchor-item-10 a {
+  border-right: none;
+}
+.carlist-name-anchor-item.inactive a:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.8;
+  cursor: default;
+}
+.carlist-name-anchor-item a:after {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  display: block;
+  width: 9px;
+  height: 7px;
+  margin-top: -3px;
+  content: '';
+  background: url(../images/carlist-anchor-arrow.png) left top no-repeat;
+}
+.carlist-name-anchor-item a:hover {}
+.carlist-name-anchor-item.inactive a:hover {}
+@media screen and (min-width: 1024px) {
+  .carlist-name-anchor-item {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .carlist-name-anchor-item {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carlist-name-anchor {
+    margin: 0 0 48px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .carlist-name-anchor-item {
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+  }
+  .carlist-name-anchor {
+    margin: 0 0 29px 0;
+  }
+  .carlist-name-anchor-item a:after {
+    width: 4px;
+    height: 4px;
+    margin-top: -2px;
+    -webkit-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+}

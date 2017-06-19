@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*==================== *** color *** ====================*/
+/*==================== *** default-color *** ====================*/
+.car-dt-color .bColor{color:#fff;background-color:#118175;}
+.car-dt-color .gColor{
+  background-image: -moz-linear-gradient( 90deg, rgb(17,128,117) 0%, rgb(34,166,153) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(17,128,117) 0%, rgb(34,166,153) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(17,128,117) 0%, rgb(34,166,153) 100%);
+}
+.car-dt-color .lColor{border-color:#118175;}
+.car-dt-color .fColor{color:#118175;}
+
+/***===end***/

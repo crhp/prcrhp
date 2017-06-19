@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*header{}*/
+
+header{}
+
+.clearfix:after {}
+
+.container{}
+
+header{
+  background-color: #1c3633;
+}
+
+#header{}
+
+
+.header-inner{
+  background-color: #1c3633;
+}
+.logo-area{}
+
+.header-logo{}
+
+.logo-area img{}
+
+/************************hum-menu***********************/
+
+.hum-menu{}
+
+.hum-menu,
+.hum-menu span {
+  /*background-color: #e9e9eb;*/
+}
+
+.hum-menu span {}
+
+
+.hum-menu-word{
+  color:#e9e9eb;
+}
+
+.hum-menu span:nth-of-type(1) {}
+.hum-menu span:nth-of-type(2) {}
+.hum-menu span:nth-of-type(3) {}
+
+
+.hum-menu.active-gnav-outer span:nth-of-type(1) {}
+.hum-menu.active-gnav-outer span:nth-of-type(2) {}
+.hum-menu.active-gnav-outer span:nth-of-type(3) {}
+
+/************************gnav***********************/
+
+#gnav{
+  background-color: #1c3633;
+}
+
+#gnav .first-nav{}
+
+#gnav .first-nav-list{}
+
+#gnav .first-nav-list:after{}
+
+#gnav .first-nav-list:last-child{}
+
+#gnav .first-nav-list > a{
+  color:#e9e9eb;
+}
+
+#gnav .first-nav-list:before{}
+
+#gnav .first-nav-list > a:hover{}
+
+#gnav .active-first-nav > a{}
+
+#gnav .active-first-nav > a:hover{}
+
+#gnav .active-first-nav:after{}
+
+/************************sub-nav***********************/
+
+
+.sub-nav{}
+
+.sub-menu{}
+.sub-menu li:first-child{}
+
+.sub-menu li{}
+
+.sub-menu li a{}
+
+.sub-menu li a:before{}
+
+.sub-menu li a:hover{}
+
+
+/************************gnav-links***********************/
+
+.gnav-linkarea{}
+
+.gnav-linkarea ul{}
+
+.gnav-linkarea li{}
+
+.gnav-linkarea li:first-child{}
+
+.gnav-linkarea li:last-child{}
+
+.gnav-linkarea li:after{}
+
+.gnav-linkarea a{
+  color:#e9e9eb;
+}
+
+.gnav-linkarea a:hover{}
+
+.gnav-linkarea li span{}
+
+.gnav-linkarea li span:after{}
+
+.gnav-linkarea li:first-child span:after{}
+
+@media screen and (min-width: 768px) and (max-width: 979px){
+.container{}
+
+/*header{}*/
+
+
+#header{}
+
+.header-inner{}
+
+.logo-area{}
+
+.header-logo{}
+
+.logo-area img{}
+
+
+.gnav-outer{}
+
+/************************hum-menu***********************/
+
+.hum-menu {}
+.hum-menu span {}
+.hum-menu span:nth-of-type(1) {}
+.hum-menu span:nth-of-type(2) {}
+.hum-menu span:nth-of-type(3) {}
+
+.hum-menu.active-gnav-outer span:nth-of-type(1) {}
+.hum-menu.active-gnav-outer span:nth-of-type(2) {}
+.hum-menu.active-gnav-outer span:nth-of-type(3) {}
+
+.hum-menu-word{}
+
+/************************gnav***********************/
+
+#gnav{}
+
+#gnav .first-nav{}
+
+#gnav .first-nav-list{}
+
+#gnav .first-nav-list:last-child{}
+
+#gnav .first-nav-list > a{}
+
+#gnav .first-nav-list:after{}
+
+#gnav .first-nav-list > a:hover{}
+
+#gnav .active-first-nav > a{}
+
+#gnav .active-first-nav:after{}
+
+/************************sub-nav***********************/
+
+
+.sub-nav{}
+
+.sub-menu{}
+.sub-menu li:first-child{}
+
+.sub-menu li{}
+
+.sub-menu li a{}
+
+.sub-menu li a:before{}
+
+.sub-menu li a:hover{}
+
+
+/************************gnav-links***********************/
+
+.gnav-linkarea{}
+
+.gnav-linkarea ul{}
+
+.gnav-linkarea li{}
+
+.gnav-linkarea li:last-child{}
+
+.gnav-linkarea li:after{}
+
+.gnav-linkarea a{}
+
+.gnav-linkarea li span{}
+
+.gnav-linkarea li span:after{}
+
+      
+
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 1279px) {
+
+.container{}
+
+
+header{}
+
+#header{}
+
+.header-inner{}
+
+.logo-area{}
+
+.header-logo{}
+
+.logo-area img{}
+
+.hum-menu{}
+
+.hum-menu-word{}
+
+
+
+/************************gnav***********************/
+
+#gnav{}
+
+#gnav .first-nav{}
+
+#gnav .first-nav-list{}
+
+#gnav .first-nav-list:first-child{}
+
+#gnav .first-nav-list:last-child{}
+
+#gnav .first-nav-list > a{}
+
+#gnav .first-nav-list:before{}
+
+#gnav .first-nav-list:after{}
+
+#gnav .first-nav-list > a:hover{}
+
+#gnav .active-first-nav > a{}
+
+#gnav .active-first-nav > a:hover{}
+/************************sub-nav***********************/
+
+
+.sub-nav{}
+
+.sub-menu{}
+.sub-menu li:first-child{}
+
+.sub-menu li{}
+
+.sub-menu li a{}
+
+.sub-menu li a:before{}
+
+.sub-menu li a:hover{}
+
+
+/************************gnav-links***********************/
+
+.gnav-linkarea{}
+
+.gnav-linkarea ul{}
+
+.gnav-linkarea li{}
+
+  .gnav-linkarea li:first-child{}
+
+  .gnav-linkarea li:last-child{}
+
+.gnav-linkarea li span:after{}
+
+.gnav-linkarea a{}
+
+.gnav-linkarea li:first-child a{}
+
+.gnav-linkarea li:nth-child(2) a{}
+
+.gnav-linkarea li:nth-child(3) a{}
+
+
+.gnav-linkarea li span{}
+        
+
+}
+
+@media screen and (min-width: 1280px){
+
+.container{}
+
+
+header{
+      border-bottom: none;
+}
+
+#header{}
+
+.header-inner{}
+
+.logo-area{}
+
+.header-logo{}
+
+.logo-area img{}
+
+.hum-menu{}
+.hum-menu-word{}
+/************************gnav***********************/
+
+#gnav{}
+
+#gnav .first-nav{}
+
+#gnav .first-nav-list{}
+
+#gnav .first-nav-list:first-child{}
+
+#gnav .first-nav-list:last-child{}
+
+#gnav .first-nav-list > a{}
+
+#gnav .first-nav-list:before{}
+
+#gnav .first-nav-list:after{}
+
+#gnav .first-nav-list > a:hover{}
+
+#gnav .active-first-nav > a{}
+
+
+#gnav .active-first-nav > a:hover{}
+
+/************************sub-nav***********************/
+
+
+.sub-nav{}
+
+.sub-menu{}
+.sub-menu li:first-child{}
+
+.sub-menu li{}
+
+.sub-menu li a{}
+
+.sub-menu li a:before{}
+
+.sub-menu li a:hover{}
+
+
+/************************gnav-links***********************/
+
+.gnav-linkarea{}
+
+.gnav-linkarea ul{}
+
+.gnav-linkarea li{}
+
+  .gnav-linkarea li:first-child{}
+
+  .gnav-linkarea li:last-child{}
+
+
+.gnav-linkarea li span:after{}
+
+
+.gnav-linkarea a{}
+
+.gnav-linkarea li:first-child a{}
+
+.gnav-linkarea li:nth-child(2) a{}
+
+.gnav-linkarea li:nth-child(3) a{}
+
+.gnav-linkarea li span{}
+
+}

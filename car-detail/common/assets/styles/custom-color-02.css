@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*==================== *** color *** ====================*/
+/*==================== *** design01 *** ====================*/
+.car-dt-design01 .car-dt-color .bColor{color:#fff;background-color:#003476;}
+.car-dt-design01 .car-dt-color .gColor{
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2ODVhZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDM0NzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #6685ad 0%, #003476 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6685ad), color-stop(100%,#003476));
+	background: -webkit-linear-gradient(top,  #6685ad 0%,#003476 100%);
+	background: -o-linear-gradient(top,  #6685ad 0%,#003476 100%);
+	background: -ms-linear-gradient(top,  #6685ad 0%,#003476 100%);
+	background: linear-gradient(to bottom,  #6685ad 0%,#003476 100%);
+}
+.car-dt-design01 .car-dt-color .lColor{border-color:#003476;}
+.car-dt-design01 .car-dt-color .fColor{color:#003476;}
+
+/***===end***/
+
+/*==================== *** design02 *** ====================*/
+.car-dt-design02 .car-dt-color .bColor{color:#fff;background-color:#17b4f2;}
+.car-dt-design02 .car-dt-color .lColor{border-color:#17b4f2;}
+.car-dt-design02 .car-dt-color .fColor{color:#17b4f2;}
+
+/***===end***/
+
+/*==================== *** design03 *** ====================*/
+.car-dt-design03 .car-dt-color .bColor{color:#fff;background-color:#b5255b;}
+.car-dt-design03 .car-dt-color .lColor{border-color:#b5255b;}
+.car-dt-design03 .car-dt-color .fColor{color:#b5255b;}
+.car-dt-design03 .original-case .original-case-example,.car-dt-design03 .original-case .annotation-y .pre-ttl,.car-dt-design03 .original-case .annotation-y .pre-txt{color:#b5255b; }
+/***===end***/
+
+/*==================== *** design04 *** ====================*/
+.car-dt-design04 .car-dt-color .bColor{color:#fff;background-color:#ff6e01;}
+.car-dt-design04 .car-dt-color .lColor{border-color:#ff6e01;}
+.car-dt-design04 .car-dt-color .fColor{color:#ff6e01;}
+
+/***===end***/
+
+/*==================== *** design05 *** ====================*/
+.car-dt-design05 .car-dt-color .bColor{color:#fff;background-color:#49b32c;}
+.car-dt-design05 .car-dt-color .lColor{border-color:#49b32c;}
+.car-dt-design05 .car-dt-color .fColor{color:#49b32c;}
+
+/***===end***/
+
+/*==================== *** design06 *** ====================*/
+.car-dt-design06 .car-dt-color .bColor{color:#fff;background-color:#49b32c;}
+.car-dt-design06 .car-dt-color .lColor{border-color:#49b32c;}
+.car-dt-design06 .car-dt-color .fColor{color:#49b32c;}
+
+/***===end***/
+
+/*==================== *** design07 *** ====================*/
+.car-dt-design07 .car-dt-color .bColor{color:#fff;background-color:#4662ac;}
+.car-dt-design07 .car-dt-color .lColor{border-color:#4662ac;}
+.car-dt-design07 .car-dt-color .fColor{color:#4662ac;}
+
+/***===end***/

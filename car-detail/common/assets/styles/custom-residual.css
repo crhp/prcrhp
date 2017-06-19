@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*==================== *** default *** ====================*/
+/*==================== *** hidden-case *** ====================*/
+.original-case,
+.installment-case,
+.upload-case{display:none;}
+
+/*==================== *** upload-case *** ====================*/
+.residual-case{display:block;}
+
+/***===end***/

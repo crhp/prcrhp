@@ -1,0 +1,158 @@
+.mente-title {
+    color: #118175;
+}
+.p-car-title {
+    color: #118175;
+}
+#inspection {
+    border: 1px solid #118175;
+}
+#inspection .inspection-title {
+    color: #118175;
+    border-bottom: 1px solid #118175;
+}
+.first-month span {
+    color: #118175;
+}
+.flow-orange {
+    background-color: #118175;
+}
+.flow-orange-2 {
+    background-color: #118175;
+}
+.year-month .third-month {
+    color: #118175;
+}
+.common-btn a {
+    background-color: #118175;
+}
+#inspection .inspection-color p:last-child:before {
+    position: absolute;
+    bottom: 0px;
+    content: "";
+    background-image: url(../images/maintenance/color-2_p.jpg);
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    left: 11px;
+}
+.pc-month-block span:before {
+    content: "";
+    background-image: url(../images/maintenance/icon_little_p.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    width: 16px;
+    height: 28px;
+    left: 20px;
+    top: 5px;
+}
+.year-month .third-month:before {
+    content: "";
+    background-image: url(../images/maintenance/icon_little_p.jpg);
+    background-repeat: no-repeat;
+    background-size: 8px;
+    width: 8px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    left: -15px;
+}
+.first-month:before {
+    content: "";
+    background-image: url(../images/maintenance/icon_little_p.jpg);
+    background-repeat: no-repeat;
+    background-size: 8px;
+    width: 8px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    left: 31px;
+}
+.flow-orange:after {
+    content: "";
+    background-image: url(../images/maintenance/green-left_p.jpg);
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 12px;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    left: -48px;
+    top: 29px;
+}
+.flow-orange-2:after {
+    content: "";
+    background-image: url(../images/maintenance/green-2-left_p.jpg);
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 12px;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    left: -13px;
+    top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .pc-month-block span {
+        color: #118175;
+    }
+    .flow-orange-2 {
+        background-color: #118175;
+    }
+    .common-btn a {
+        background-color: #118175;
+    }
+    .year-month .third-month:before {
+        background-size: cover;
+        width: 16px;
+        height: 28px;
+        left: -35px;
+    }
+    .flow-orange:after {
+        background-image: url(../images/maintenance/green-tab.jpg);
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 25px;
+        top: 46px;
+        left: -24px;
+    }
+    .flow-orange-2:after {
+        content: "";
+        background-image: url(../images/maintenance/green-2-tab.jpg);
+        background-repeat: no-repeat;
+        width: 83px;
+        height: 52px;
+        background-size: contain;
+        display: block;
+        position: absolute;
+        left: 267px;
+        top: 47px;
+    }
+    #inspection .inspection-color p:last-child:before {
+        width: 16px;
+        height: 16px;
+        top: 2px;
+        left: 6px;
+    }
+    @media screen and (min-width: 1024px) {
+    .flow-orange:after {
+        background-image: url(../images/maintenance/green-pc_p.jpg);
+        background-repeat: no-repeat;
+        width: 76px;
+        height: 25px;
+        top: 46px;
+        left: -76px;
+    }
+    .flow-orange-2:after {
+        background-image: url(../images/maintenance/green-2-pc_p.jpg);
+        background-repeat: no-repeat;
+        width: 134px;
+        height: 95px;
+        top: 47px;
+        left: 342px;
+    }
+}
+}

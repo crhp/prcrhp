@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*==================== *** default *** ====================*/
+/*==================== *** hidden-case *** ====================*/
+.residual-case,
+.original-case,
+.upload-case{display:none;}
+
+/*==================== *** installment-case *** ====================*/
+.installment-case{display:block;background-color:#fff;color:#4d4d4d;}
+.installment-case .installment-ttl{font-weight:bold;padding:15px;}
+
+.installment-case .case-data-2 .yen{font-weight:bold;letter-spacing:1.8px;}
+.installment-case .case-data-4 .yen{font-weight:bold;}
+
+.installment-case .data-list-ttl{font-weight:bold;border-bottom:2px solid #d3d3d3;}
+.installment-case .data-list{line-height:1.6em;letter-spacing:0;}
+.installment-case .data-list,
+.installment-case .data-list *{font-style:normal;}
+.installment-case .data-list .in-join{border-top:1px solid #d3d3d3;}
+
+.installment-case .data-list .cap-ttl{float:left;clear:both;}
+.installment-case .data-list .cap-ttl:after{content:"\002002";}
+.installment-case .data-list dt dfn,
+.installment-case .data-list dt .sub-dfn{white-space:nowrap;}
+.installment-case .data-list dd{float:right;font-weight:bold;text-align:right;white-space:nowrap;}
+
+
+/***===end***/
+
+/*//////////////////////////
+Smart-Phone
+//////////////////////////*/
+@media screen and (max-width:767px) and (min-width:1px){
+	.installment-case .installment-ttl{font-size:1.25em;padding:0.75em 1em;}
+	.installment-in{padding-top:2.4em;padding-left:0.833em;padding-right:0.833em;padding-bottom:1.5em;margin-bottom:1.8em;}
+
+	.installment-case .case-data-2-4{padding-bottom: 1.3em;}
+	.installment-case .case-data-2{font-size:1.708em;line-height:1.3em;padding-bottom:0.6em;}
+	.installment-case .case-data-2 .times{font-size:0.55em;/*padding-left:0.2em;*/}
+	.installment-case .case-data-2 .yen{font-size:2.45em;/*padding-left:0.15em;*/}
+	.installment-case .case-data-2 .yen .unit{font-size:0.418em;/*padding-left:0.15em;*/}
+
+	.installment-case .case-data-3,
+	.installment-case .case-data-4{font-size:1em;line-height:1.4em;}
+	.installment-case .case-data-4 .label{padding-left:0.417em;}
+	.installment-case .case-data-4 .yen{font-size:1em;padding-left:0.417em;}
+
+	.installment-case .case-data-pic{text-align:center;}
+	.installment-case .case-data-pic img{width:55%;}
+
+	.installment-case .case-data-5{padding-top:1.8em;}
+	.installment-case .case-data-6{padding-top:1.1em;}
+	.installment-case .data-list-ttl{font-size:1.25em;padding:0.3em;text-align:center;margin-bottom:0.4em;}
+	
+	.installment-case .data-list{font-size:1em;}
+	.installment-case .data-list .in{padding:0.5em 0.2em;}
+}
+/*//////////////////////////
+Tablet
+//////////////////////////*/
+@media screen and (max-width:1024px) and (min-width:768px){
+	.installment-case .installment-ttl{font-size:22px;letter-spacing:1.8px;padding:13px 21px;}
+	.installment-in{padding-top:30px;padding-left:30px;padding-right:30px;padding-bottom:30px;margin-bottom:30px;}
+
+	.installment-case .case-data-2-4{width:320px;float:left;}
+	.installment-case .case-data-2{line-height:1.3;}
+	.installment-case .case-data-2 .times{font-size:13px;padding-left:4px;}
+	.installment-case .case-data-2 .yen{font-size:58px;padding-left:8px;}
+	.installment-case .case-data-2 .yen .unit{font-size:23px;padding-left:4px;}
+
+	.installment-case .case-data-3,
+	.installment-case .case-data-4{font-size:16px;line-height:1.4;letter-spacing:0.2px;}
+	.installment-case .case-data-4 .label{padding-left:10px;}
+	.installment-case .case-data-4 .yen{font-size:22px;padding-left:10px;}
+
+	.installment-case .case-data-pic{margin-left:407px;text-align:right;padding-right:16px;}
+	.installment-case .case-data-pic img{width:auto;max-width:100%;max-height:200px;}
+
+	.installment-case .case-data-5{padding-top:25px;}
+	.installment-case .case-data-6{padding-top:35px;}
+	.installment-case .data-list-ttl{font-size:20px;padding:5px 20px 5px 10px;}
+	
+	.installment-case .data-list{font-size:18px;}
+	.installment-case .data-list .in{padding:15px 20px 15px 10px;}
+	.installment-case .data-list .in-bro{padding-top:0;}
+	.installment-case .data-list .set-ttl{margin-bottom:-1.6em;}
+	.installment-case .data-list .set-2-ttl{margin-bottom:-3.2em;}
+	.installment-case .data-list .sub-ttl{padding-left:9.5em;}
+}
+/*//////////////////////////
+PC
+//////////////////////////*/
+@media screen and (min-width:1025px){
+	.installment-case .installment-ttl{font-size:22px;padding:13px 21px;}
+	.installment-in{padding-top:14px;padding-left:30px;padding-right:30px;padding-bottom:35px;margin-bottom:38px;}
+
+	.installment-case .case-data-2-4{width:320px;float:left;padding-top:30px;padding-left:10px;}
+	.installment-case .case-data-2{line-height:1.3;padding-bottom:15px;}
+	.installment-case .case-data-2 .times{font-size:13px;padding-left:4px;}
+	.installment-case .case-data-2 .yen{font-size:58px;padding-left:8px;}
+	.installment-case .case-data-2 .yen .unit{font-size:23px;padding-left:4px;}
+
+	.installment-case .case-data-3,
+	.installment-case .case-data-4{font-size:16px;line-height:1.4;letter-spacing:0.2px;}
+	.installment-case .case-data-4 .label{padding-left:10px;}
+	.installment-case .case-data-4 .yen{font-size:22px;padding-left:10px;}
+
+	.installment-case .case-data-pic{margin-left:535px;padding-right:11px;text-align:right;}
+	
+	.installment-case .case-data-5,
+	.installment-case .case-data-6{width:50%;float:left;padding-top:10px;}
+	.installment-case .case-data-5 .data-list{padding-right:20px;}
+	.installment-case .case-data-6 .data-list{padding-left:20px;}
+	.installment-case .data-list-ttl{font-size:18px;padding:5px 10px;}
+	
+	.installment-case .data-list{font-size:16px;}
+	.installment-case .data-list .in{padding:15px 10px;}
+	.installment-case .data-list .in-bro{padding-top:0;}
+	.installment-case .data-list .set-ttl{margin-bottom:-1.6em;}
+	.installment-case .data-list .set-2-ttl{margin-bottom:-3.2em;}
+	.installment-case .data-list .sub-ttl{padding-left:9.5em;}
+	
+	/*==================== *** design04-Rebuild *** ====================*/
+	.car-dt-design04 .installment-case .case-data-pic{margin-left:355px;}
+	.car-dt-design04 .installment-case .data-list .set-ttl{margin-bottom:0;}
+	.car-dt-design04 .installment-case .data-list .set-2-ttl{margin-bottom:0;}
+	.car-dt-design04 .installment-case .data-list .sub-ttl{padding-left:0;}
+}

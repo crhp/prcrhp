@@ -1,0 +1,95 @@
+#tab-area {
+  margin-bottom: 20px;
+}
+.tab-change-btn li {
+  text-align: center;
+  display: table;
+  float: left;
+  height: 48px;
+  width: 51%;
+  background-color: #fff;
+}
+.tab-change-btn li.active {
+  width: 48%;
+  height: 59px;
+  background-image: none;
+  background-color: #feeee2;
+}
+.tab-change-btn .tab-item-1.active {
+  margin-right: 1%;
+}
+.tab-change-btn .tab-item-2.active {
+  margin-left: 1%;
+}
+.tab-change-btn li span {
+  color: #231815;
+  font-size: 18px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.tab-change-btn li.active span {
+  color: #ff6e01;
+  /*border-radius: 10px 10px 0 0;*/
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-bottom: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+#tab-area .border {
+  border-bottom: 2px solid #fff;
+  margin-top: -2px;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  #tab-area {
+    margin-bottom: 4%;
+  }
+  .tab-change-btn li.active {
+    width: 50%;
+  }
+  .tab-change-btn li {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #tab-area {
+    margin-bottom: 20px;
+  }
+  .tab-change-btn li {
+    height: 30px;
+    width: 49%;
+  }
+  .tab-change-btn li.active {
+    width: 50%;
+    height: 35px;
+    background-image: none;
+  }
+  .tab-change-btn .tab-item-1.active {
+    margin-right: 1%;
+  }
+  .tab-change-btn .tab-item-2.active {
+    margin-left: 2%;
+  }
+  .tab-change-btn li span {
+    color: #9c9c9c;
+    font-size: 12px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .tab-change-btn li.active span {
+    color: #ff6e01;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-bottom: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  #tab-area .border {
+    border-bottom: 1px solid #fff;
+    margin-top: -2px;
+  }
+}

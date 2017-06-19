@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(carlist.css);
+@import url(tab.css);
+@import url(carlist-body-anchor.css);
+@import url(carlist-name-anchor.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+img {
+  vertical-align: top;
+}
+.header-contents {
+  border-bottom: 1px solid #dddddd;
+}
+.header-contents h1 {
+  text-align: center;
+  color: #ff6e01;
+  background-color: #fff;
+}
+.content {
+  color: #4d4d4d;
+  background-color: #fff;
+}
+
+.carlist-label {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #ff6e01;
+  padding-bottom: 23px;
+  letter-spacing: 3.0px;
+  color: #ff6e01;
+}
+.carlist-body {
+  display: block;
+}
+.carlist-name {
+  display: none;
+}
+
+/*tab-area*/
+
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .header-contents {
+    height: 100px;
+  }
+  .header-contents h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-top: 36px;
+  }
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .recommend-block {
+    padding-top: 97px;
+  }
+  .lineup-contents {
+    margin-top: 72px;
+  }
+
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .header-contents {
+    border-bottom: 2px solid #e9e7e7;
+  }
+  .header-contents h1 {
+    font-size: 26px;
+    height: 64px;
+    line-height: 64px;
+    padding-left: 20px;
+  }
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .recommend-block {
+    padding-top: 97px;
+  }
+  .lineup-contents {
+    margin-top: 72px;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .header-contents {
+    border-bottom: 2px solid #e9e7e7;
+  }
+  .header-contents h1 {
+    font-size: 40px;
+    height: 90px;
+    line-height: 90px;
+    letter-spacing: 3px;
+  }
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  .carlist-label {
+    font-size: 26px;
+    padding-bottom: 21px;
+    letter-spacing: 5px;
+  }
+  .lineup-contents {
+    margin-top: 10.2%;
+  }
+  .recommend-block {
+    padding-top: 12%;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .header-contents {
+    border-bottom: 1px solid #e9e7e7;
+  }
+  .header-contents h1 {
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10px;
+  }
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  .recommend-block {
+    padding-top: 11.5%;
+  }
+  .carlist-label {
+    font-size: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .carlist-label .square {
+    width: 5px;
+    height: 14px;
+    margin-right: 5px;
+  }
+  .lineup-contents {
+    margin-top: 10.3%;
+  }
+}

@@ -1,0 +1,852 @@
+@charset "UTF-8";
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+.pc-month {
+  display: none;
+}
+.mente-wrap {}
+.mente-wrap-inner {
+  padding: 0 13px;
+}
+.mente-title {
+  font-size: 20px;
+  color: #ff6e01;
+  padding-top: 24px;
+  margin-bottom: 23px;
+  font-weight: bold;
+}
+.mente-title-explain {
+  margin-bottom: 50px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.mente-anchor-block {
+  margin-bottom: 50px;
+}
+.mente-anchor {
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+  color: #000;
+  background-color: #d5d5d5;
+  position: relative;
+}
+.mente-anchor:after {
+  background-image: url(../images/maintenance/anchor-arrow.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-size: contain;
+  right: 20px;
+  top: 18px;
+}
+.mente-anchor:hover {
+  opacity: 0.7;
+}
+.mente-anchor:last-child {
+  margin-right: 0;
+}
+#passenger-car {
+  position: relative;
+  height: 1033px;
+  width: 100%;
+  margin: 0 auto;
+}
+.p-car-title {
+  font-size: 18px;
+  color: #ff6e01;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+#inspection {
+  position: absolute;
+  right: 0;
+  border: 1px solid #ff6e01;
+  top: 54px;
+  width: 143px;
+}
+#inspection .inspection-title {
+  text-align: center;
+  height: 20px;
+  color: #ff6e01;
+  line-height: 20px;
+  border-bottom: 1px solid #ff6e01;
+  font-size: 10px;
+  font-weight: bold;
+}
+#inspection .inspection-color {
+  color: #000;
+  font-size: 10px;
+  height: 50px;
+  padding-top: 11px;
+  font-weight: bold;
+}
+#inspection .inspection-color p {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+#inspection .inspection-color p:first-child:before {
+  position: absolute;
+  bottom: 0px;
+  content: "";
+  background-image: url("../images/maintenance/color-1.jpg");
+  width: 8px;
+  height: 8px;
+  background-size: contain;
+  left: 11px;
+}
+#inspection .inspection-color p:last-child:before {
+  position: absolute;
+  bottom: 0px;
+  content: "";
+  background-image: url("../images/maintenance/color-2.jpg");
+  width: 8px;
+  height: 8px;
+  background-size: contain;
+  left: 11px;
+}
+.p-car-flow {
+  position: relative;
+  ;
+  top: 20px;
+  left: 0;
+  width: 280px;
+  margin: 0 auto;
+}
+.buy-img {
+  width: 66px;
+  margin-left: 2px;
+  margin-bottom: 25px;
+}
+.buy-img img {
+  width: 100%;
+}
+.flow-arrow {
+  position: absolute;
+  background-color: #ccc;
+  width: 4px;
+  height: 820px;
+  left: 33px;
+  top: 66px;
+}
+/*.flow-arrow:after {
+  position: absolute;
+  bottom: -6px;
+  content: "";
+  background-image: url("../images/maintenance/arrow-sentan.jpg");
+  width: 21px;
+  height: 14px;
+  background-size: contain;
+  left: -8px;
+}*/
+.first-month {
+  font-weight: bold;
+  padding-left: 49px;
+  margin-bottom: 28px;
+  color: #999;
+}
+.first-month:before {
+  content: "";
+  background-image: url("../images/maintenance/icon_little.jpg");
+  background-repeat: no-repeat;
+  background-size: 8px;
+  width: 8px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  left: 31px;
+}
+.first-month span {
+  color: #ff6e01;
+}
+.second-month {
+  margin-bottom: 38px;
+}
+.only-year {
+  position: absolute;
+}
+.only-year-1 {
+  top: 188px;
+}
+.only-year-2 {
+  top: 300px;
+  left: 146px;
+}
+.only-year-3 {
+  top: 353px;
+}
+.only-year-4 {
+  top: 465px;
+  left: 146px;
+}
+.only-year-5 {
+  top: 518px;
+}
+.only-year-6 {
+  top: 630px;
+  left: 146px;
+}
+.only-year-7 {
+  top: 684px;
+}
+.only-year-8 {
+  top: 796px;
+  left: 146px;
+}
+.only-year-9 {
+  top: 848px;
+}
+.c-car-flow-2 {}
+.c-car-flow-2 .only-year-0 {
+  top: 160px;
+  left: 146px;
+}
+.c-car-flow-2 .only-year-1 {
+  top: 214px;
+}
+.c-car-flow-2 .only-year-2 {
+  top: 325px;
+}
+.c-car-flow-2 .only-year-3 {
+  top: 380px;
+}
+.c-car-flow-2 .only-year-4 {
+  top: 490px;
+}
+.c-car-flow-2 .only-year-5 {
+  top: 544px;
+}
+.year-month {
+  ;
+  position: absolute;
+}
+.year-img {
+  width: 71px;
+  ;
+}
+.year-img img {
+  width: 100%;
+}
+
+/*huki*/
+
+.flow-huki {
+  position: absolute;
+  height: 70px;
+  width: 158px;
+  top: 1px;
+  border-radius: 3px;
+}
+.flow-orange {
+  background-color: #ff6e01;
+  right: -206px;
+}
+.flow-orange:after {
+  content: "";
+  background-image: url("../images/maintenance/orange-left.jpg");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 12px;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  left: -48px;
+  top: 29px;
+}
+.flow-orange-2 {
+  background-color: #ff6e01;
+  right: -131px;
+  top: -22px;
+  height: 60px;
+}
+.flow-orange-2:after {
+  content: "";
+  background-image: url("../images/maintenance/orange-2-left.jpg");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 12px;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  left: -13px;
+  top: 24px;
+}
+.flow-gray {
+  right: -130px;
+  top: -23px;
+  height: 60px;
+  background-color: #969696;
+}
+.flow-gray:after {
+  content: "";
+  background-image: url("../images/maintenance/gray-left.jpg");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 12px;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  left: -13px;
+  top: 24px;
+}
+.huki-word {
+  padding-top: 4px;
+  padding-left: 7px;
+  color: #fff;
+  font-size: 13px;
+}
+.to-detail {
+  position: absolute;
+  right: 10px;
+  font-size: 10px;
+  bottom: 4px;
+  color: #fff;
+}
+.to-detail:after {
+  content: "";
+  background-image: url("../images/maintenance/word-arrow.png");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 5px;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: -13px;
+}
+.to-detail a {
+  color: #fff;
+}
+.year-month {}
+.year-month .third-month {
+  position: absolute;
+  width: 100px;
+  display: block;
+  left: -100px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ff6e01;
+}
+.year-month .third-month:before {
+  content: "";
+  background-image: url("../images/maintenance/icon_little.jpg");
+  background-repeat: no-repeat;
+  background-size: 8px;
+  width: 8px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  left: -15px;
+}
+
+/*************************************************/
+
+.after-flow-outer {
+  position: relative;
+  top: 874px;
+}
+.after-first-flow {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.detail-u-car {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 26px;
+}
+.common-btn {}
+.common-btn a {
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  display: block;
+  line-height: 40px;
+  font-weight: bold;
+  background-color: #ff6e01;
+  color: #fff;
+  font-size: 14px;
+}
+#cargo-vehicles {
+  position: relative;
+  height: 670px;
+  width: 100%;
+  margin: 0 auto;
+}
+.c-car-flow {
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 280px;
+  margin: 0 auto;
+}
+.c-car-flow .flow-arrow {
+  height: 515px;
+}
+.after-second-flow {
+  position: relative;
+  top: 591px;
+}
+@media screen and (min-width: 768px) {
+  .mente-wrap-inner {
+    padding: 0 0px;
+    width: 728px;
+    margin: 0 auto;
+  }
+  /****inspection***/
+  #inspection {
+    top: 79px;
+    width: 210px;
+  }
+  #inspection .inspection-title {
+    height: 37px;
+    line-height: 37px;
+    font-size: 15px;
+  }
+  #inspection .inspection-color {
+    height: 77px;
+  }
+  #inspection .inspection-color p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    padding-left: 28px;
+  }
+  #inspection .inspection-color p:first-child:before {
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 6px;
+  }
+  #inspection .inspection-color p:last-child:before {
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 6px;
+  }
+  .sp-month {
+    display: none;
+  }
+  .pc-month {
+    display: block;
+  }
+  .pc-month {}
+  .pc-month-block {
+    width: 450px;
+    position: relative;
+    z-index: 3;
+    left: -195px;
+  }
+  .pc-month-block p {
+    color: #999;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2.4px;
+  }
+  .pc-month-block span {
+    color: #ff6e01;
+    padding-left: 55px;
+    position: relative;
+  }
+  .pc-month-block span:before {
+    content: "";
+    background-image: url("../images/maintenance/icon_little.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    width: 16px;
+    height: 28px;
+    left: 20px;
+    top: 5px;
+  }
+  .pc-month-block1 {
+    margin-bottom: 61px;
+  }
+  .pc-month-block2 {
+    margin-bottom: 61px;
+  }
+  .mente-title {
+    font-size: 30px;
+    padding-top: 48px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+  }
+  .mente-title-explain {
+    margin-bottom: 50px;
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 23px;
+    letter-spacing: 0.7px;
+  }
+  .mente-anchor {
+    font-size: 16px;
+  }
+  .mente-anchor:after {
+    width: 9px;
+    height: 9px;
+    right: 20px;
+    top: 18px;
+  }
+  #passenger-car {
+    height: 1844px;
+  }
+  .p-car-title {
+    font-size: 23px;
+  }
+  .p-car-flow {
+    width: 134px;
+    top: 40px;
+  }
+  .buy-img {
+    width: 134px;
+    margin-bottom: 52px;
+  }
+  .year-img {
+    width: 144px;
+  }
+  .flow-arrow {
+    left: 64px;
+    top: 134px;
+    width: 10px;
+    height: 1456px;
+  }
+  .flow-arrow:after {
+    bottom: -20px;
+    width: 41px;
+    height: 28px;
+    left: -16px;
+  }
+  .only-year-1 {
+    left: -3px;
+    top: 360px;
+  }
+  .only-year-2 {
+    top: 539px;
+    left: -158px;
+  }
+  .only-year-3 {
+    top: 649px;
+    left: -3px;
+  }
+  .only-year-4 {
+    top: 829px;
+    left: -158px;
+  }
+  .only-year-5 {
+    top: 939px;
+    left: -3px;
+  }
+  .only-year-6 {
+    top: 1120px;
+    left: -158px;
+  }
+  .only-year-7 {
+    top: 1229px;
+    left: -3px;
+  }
+  .only-year-8 {
+    top: 1410px;
+    left: -158px;
+  }
+  .only-year-9 {
+    top: 1519px;
+    left: -3px;
+  }
+  .c-car-flow-2 .only-year-0 {
+    top: 296px;
+    left: -158px;
+  }
+  .c-car-flow-2 .only-year-1 {
+    top: 407px;
+  }
+  .c-car-flow-2 .only-year-2 {
+    top: 587px;
+  }
+  .c-car-flow-2 .only-year-3 {
+    top: 697px;
+  }
+  .c-car-flow-2 .only-year-4 {
+    top: 877px;
+  }
+  .c-car-flow-2 .only-year-5 {
+    top: 987px;
+  }
+  /****huki-word****/
+  .huki-word {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    letter-spacing: 0.9px;
+  }
+  .to-detail {
+    font-size: 18px;
+    right: 27px;
+    bottom: 15px;
+  }
+  .to-detail:after {
+    background-image: url("../images/maintenance/word-arrow.png");
+    width: 7px;
+    height: 9px;
+    top: 6px;
+    right: -13px;
+  }
+  /***************************************/
+  .flow-orange {
+    right: -291px;
+    top: 12px;
+    border-radius: 5px;
+  }
+  .flow-orange:after {
+    background-image: url("../images/maintenance/orange-tab.jpg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 25px;
+    top: 46px;
+    left: -24px;
+  }
+  .flow-orange-2 {
+    background-color: #ff6e01;
+    right: -131px;
+    top: -22px;
+    height: 60px;
+  }
+  .flow-orange-2:after {
+    content: "";
+    background-image: url("../images/maintenance/orange-2-tab.jpg");
+    background-repeat: no-repeat;
+    width: 83px;
+    height: 52px;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    left: 267px;
+    top: 47px;
+  }
+  .flow-gray:after {
+    background-image: url("../images/maintenance/gray-tab.jpg");
+    width: 85px;
+    height: 24px;
+    top: 48px;
+    left: 267px;
+  }
+  .flow-huki {
+    width: 267px;
+    height: 120px;
+  }
+  .year-month .third-month {
+    left: 254px;
+    top: 23px;
+    font-size: 27px;
+    width: 200px;
+  }
+  .year-month .third-month:before {
+    background-size: cover;
+    width: 16px;
+    height: 28px;
+    left: -35px;
+  }
+  #cargo-vehicles {
+    height: 1220px
+  }
+  .c-car-flow {
+    width: 134px;
+    top: 40px;
+  }
+  .c-car-flow .flow-arrow {
+    height: 930px;
+  }
+  /**************afterflow************/
+  .after-flow-outer {
+    top: 2000px;
+    top: 1544px;
+    width: 690px;
+    margin: 0 auto;
+  }
+  .after-first-flow {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .after-second-flow {
+    top: 1082px;
+  }
+  .common-btn a {
+    text-align: center;
+    height: 60px;
+    width: 340px;
+    display: block;
+    line-height: 60px;
+    font-weight: bold;
+    background-color: #ff6e01;
+    color: #fff;
+    font-size: 21px;
+    margin: 0 auto;
+  }
+  .detail-u-car {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 62px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mente-wrap-inner {
+    width: 980px;
+  }
+  /****inspection***/
+  #inspection {}
+  #inspection .inspection-title {}
+  #inspection .inspection-color {}
+  #inspection .inspection-color p {}
+  #inspection .inspection-color p:first-child:before {}
+  #inspection .inspection-color p:last-child:before {}
+  .sp-month {}
+  .pc-month {}
+  .pc-month {}
+  .pc-month-block {}
+  .pc-month-block p {}
+  .pc-month-block span {}
+  .pc-month-block span:before {}
+  .pc-month-block1 {}
+  .pc-month-block2 {}
+  .mente-title {
+    padding-top: 100px;
+    font-size: 31px;
+    letter-spacing: 6.6px;
+    margin-bottom: 21px;
+  }
+  .mente-title-explain {
+    margin-bottom: 49px;
+  }
+  .mente-anchor-block {
+    margin-bottom: 99px;
+  }
+  .mente-anchor {
+    height: 70px;
+    line-height: 70px;
+    font-size: 19px;
+    width: 488px;
+    margin-right: 4px;
+  }
+  .mente-anchor:after {
+    width: 7px;
+    height: 7px;
+    right: 20px;
+    top: 34px;
+  }
+  #passenger-car {
+    height: 1900px;
+  }
+  .p-car-title {}
+  .p-car-flow {
+    top: 44px;
+  }
+  .buy-img {}
+  .year-img {}
+  .flow-arrow {
+    height: 1450px;
+  }
+  .flow-arrow:after {}
+  .only-year-1 {}
+  .only-year-2 {
+    left: -208px;
+  }
+  .only-year-3 {}
+  .only-year-4 {
+    left: -208px;
+  }
+  .only-year-5 {}
+  .only-year-6 {
+    left: -208px;
+  }
+  .only-year-7 {}
+  .only-year-8 {
+    left: -208px;
+  }
+  .only-year-9 {}
+  .c-car-flow-2 .only-year-0 {
+    left: -208px;
+  }
+  .c-car-flow-2 .only-year-1 {}
+  .c-car-flow-2 .only-year-2 {}
+  .c-car-flow-2 .only-year-3 {}
+  .c-car-flow-2 .only-year-4 {}
+  .c-car-flow-2 .only-year-5 {}
+  /****huki-word****/
+  .huki-word {}
+  .to-detail {}
+  .to-detail:after {}
+  /***************************************/
+  .flow-orange {
+    right: -418px;
+  }
+  .flow-orange:after {
+    background-image: url("../images/maintenance/orange-pc.jpg");
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 25px;
+    top: 46px;
+    left: -76px;
+  }
+  .flow-orange-2:after {
+    background-image: url("../images/maintenance/orange-2-pc.jpg");
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 95px;
+    top: 47px;
+    left: 342px;
+  }
+  .flow-gray:after {
+    background-image: url("../images/maintenance/gray-pc.jpg");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 25px;
+    top: 46px;
+    left: 342px;
+  }
+  .flow-huki {
+    width: 342px;
+  }
+  .year-month .third-month {
+    left: 304px;
+  }
+  .year-month .third-month:before {}
+  #cargo-vehicles {}
+  .c-car-flow {
+    top: 44px;
+  }
+  .c-car-flow .flow-arrow {
+    height: 930px;
+  }
+  /**************afterflow************/
+  .after-flow-outer {
+    top: 1529px;
+  }
+  .after-first-flow {
+    font-size: 20px;
+  }
+  .after-second-flow {
+    top: 1087px;
+  }
+  .common-btn a {}
+  .detail-u-car {}
+}

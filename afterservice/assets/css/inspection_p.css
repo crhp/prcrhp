@@ -1,0 +1,46 @@
+.inspection-title {
+    color: #118175;
+}
+.inspection-btn a {
+    background-color: #118175;
+}
+.ins-blocks .title {
+    color: #118175;
+}
+.ins-blocks .cycle {
+    border: 1px solid #118175;
+    color: #118175;
+    background-image: url(../images/inspection/cycle_p.png);
+}
+.procare-title {
+    color: #118175;
+}
+.price-area {
+    color: #118175;
+}
+.inspection-list-title {
+    color: #118175;
+}
+.standard {
+    color: #118175;
+}
+.table-panel tr > td:last-child {
+    color: #118175;
+}
+.table-panel tr > td > a {
+    background-color: #118175;
+}
+.modal-title {
+    border-bottom: 1px solid #118175;
+    color: #118175;
+}
+.modal-word {
+    color: #118175;
+}
+.modal-amout {
+    height: 40px;
+    color: #118175;
+}
+.item li {
+    background-image: url(../images/inspection/check_p.jpg);
+}
