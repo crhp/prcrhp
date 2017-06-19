@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url(phv_font.css);
+@import url(phv_modal.css);
+@import url(phv_top_main.css);
+@import url(phv_nav.css);
+@import url(phv_main_contents.css);
+@import url(phv_plan.css);
+@import url(phv_lineup.css);
+img.pc {
+    display: block;
+}
+img.tab {
+    display: none;
+}
+img.sp {
+    display: none;
+}
+img.pc {
+    display: block;
+}
+.br_tab {
+    display: none;
+}
+.br_sp {
+    display: none;
+}
+.br_pc {
+    display: block;
+}
+.header {
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    background-color: #0067b9;
+}
+.header h1 {
+    font-size: 23px;
+    font-weight: normal;
+}
+.header h1 a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+}
+.header img.logo_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 70px;
+}
+
+/* logoが画像の場合 */
+
+.header.white {
+    background-color: #fff;
+    border-top: 10px solid #0067b9;
+    border-bottom: 1px solid #f2f2f2;
+}
+.header.white img.logo_store {
+    position: absolute;
+    left: 24px;
+    top: 27px;
+    width: auto;
+    height: 18px;
+}
+.header.normal_logo_image img.logo_store {
+    position: absolute;
+    left: 24px;
+    top: 27px;
+    width: auto;
+    height: 18px;
+}
+
+/* @media screen and (min-width: 1200px) {} */
+
+@media screen and (max-width: 1199px) and (min-width: 740px) {
+    img.pc {
+        display: none;
+    }
+    img.sp {
+        display: none;
+    }
+    img.tab {
+        display: block;
+    }
+    .br_pc {
+        display: none;
+    }
+    .br_tab {
+        display: block;
+    }
+    .br_sp {
+        display: none;
+    }
+}
+@media screen and (max-width: 739px) {
+    img.pc {
+        display: none;
+    }
+    img.tab {
+        display: none;
+    }
+    img.sp {
+        display: block;
+    }
+    .br_pc {
+        display: none;
+    }
+    .br_tab {
+        display: none;
+    }
+    .br_sp {
+        display: block;
+    }
+    .header {
+        position: relative;
+        height: 70px;
+        line-height: 70px;
+    }
+    .header h1 {
+        font-size: 12px;
+    }
+    .header h1 a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 0 0 10px;
+    }
+    .header img.logo_right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+        height: 70px;
+    }
+
+
+    /* logoが画像の場合 */
+    .header.white {
+        border-top: 8px solid #0067b9;
+        height: 70px;
+        line-height: 70px;
+    }
+    .header.white img.logo_store {
+        left: 16px;
+        top: 28px;
+        width: auto;
+        height: 12px;
+    }
+    .header.normal_logo_image {
+        height: 70px;
+        line-height: 70px;
+    }
+    .header.normal_logo_image img.logo_store {
+        left: 16px;
+        top: 28px;
+        width: auto;
+        height: 12px;
+    }
+}

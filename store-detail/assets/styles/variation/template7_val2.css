@@ -1,0 +1,27 @@
+/*
+color variation2
+key color : #4662ac;
+*/
+
+#blog-fixed-btn {
+  background-color: #4662ac;
+}
+.section h1 {
+  color: #4662ac;
+}
+.section h2 {
+  font-weight: bold;
+  color: #4662ac;
+}
+.section h3:before {
+  background: url(../../images/7/dot-val2.png) no-repeat left center;
+  background-size: contain;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/7/slide/thumb-item-nav-cover-val2.png);
+  background-size: cover;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

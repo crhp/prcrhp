@@ -1,0 +1,74 @@
+
+  <header>
+
+  <div class="header-sizedetect"></div>
+
+
+
+  	<div id="header" class="clearfix">
+
+    <div class="header-inner clearfix">
+
+      <div class="logo-area">
+    		<h1 class="header-logo">
+          <a href="./">
+      			<img src="/common/assets/images/header/1/logo.png" alt="">
+          </a>  
+    		</h1>
+      </div>
+
+      <a class="hum-menu" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      
+      </a>
+
+
+
+    </div>
+
+    <div class="gnav-outer">
+
+      <nav id="gnav">
+
+<ul class="first-nav clearfix">
+<?php foreach (getNavi() as $val) : ?>
+    <li class="first-nav-list">
+        <a href="#"><?= $val['category_label'] ?></a>
+<?php if (! empty($val['list'])) : ?>
+        <div class="sub-nav">
+            <ul class="sub-menu">
+<?php foreach ($val['list'] as $page) : ?>
+                <li><a href="<?= "http://{$site['domain']}{$page['url']}" ?>"><?= $page['label'] ?></a></li>
+<?php endforeach; ?>
+            </ul>
+        </div>
+<?php endif; ?>
+    </li>
+<?php endforeach; ?>
+</ul>
+
+
+      </nav>
+
+<div class="gnav-linkarea">
+    <ul class="clearfix">
+        <li><a href="<?= "http://{$site['domain']}/recruit" ?>"><span>採用情報</span></a></li>
+<?php if ($site['ownersite_flg'] == 1) : ?>
+        <li><a href=""><span>TOYOTA OWNER'S Site</span></a></li>
+<?php endif; ?>
+        <li><a href=""><span>リコール情報</span></a></li>
+    </ul>
+</div>
+
+    </div>
+
+
+  	</div>
+  	<!-- #header -->
+  	
+  </header>
+
+
+

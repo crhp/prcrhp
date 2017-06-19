@@ -1,0 +1,139 @@
+#size-detect {
+  font-family: "sp"; }
+  @media screen and (min-width: 767px) {
+    #size-detect {
+      font-family: "sp-large"; } }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    #size-detect {
+      font-family: "tablet"; } }
+  @media screen and (min-width: 980px) and (max-width: 1365px) {
+    #size-detect {
+      font-family: "pc-min"; } }
+  @media screen and (min-width: 1366px) {
+    #size-detect {
+      font-family: "pc-large"; } }
+
+
+.br-pc {
+   display: none;
+}
+
+.br-tab {
+   display: none;
+}
+
+.br-sp {
+   display: inline-block;
+}
+
+.top-block-title {
+   margin-bottom: 10px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   text-align: left;
+   letter-spacing: .03em;
+}
+
+.top-wave svg {
+   width: 100%;
+}
+
+.wave-bottom {
+   fill: #f9f9f9;
+   fill-rule: evenodd;
+}
+
+.wave-head {
+   fill: #f9f9f9;
+   fill-rule: evenodd;
+}
+
+.top-contents > .top-wave-head
+{position: relative;top: -57px;}
+
+@media screen and (min-width: 768px) {
+   .top-contents > .top-wave-head{
+    /*top: -79px;*/
+    margin-bottom: -81px;
+  }
+
+   .top-contents > .top-wave-head path
+   {
+      fill: #fff;
+   }
+
+   .br-sp {
+      display: none;
+   }
+   .br-tab {
+      display: inline-block;
+   }
+   .br-pc {
+      display: none;
+   }
+   .top-block-title {
+      margin-bottom: 28px;
+      padding-bottom: 10px;
+      border-bottom-width: 2px;
+      font-size: 22px;
+   }
+
+   .top-contents > .top-wave-head
+    {
+      /*position: relative;top: -80px;*/
+    }
+
+  .top-column-left {
+    background-color: #f9f9f9;
+  }
+
+  .top-column-left > .top-wave-head
+  {
+        position: relative;
+        top: -78px;
+        margin-bottom: -33px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-contents > .top-wave-head
+    {position: relative;top: -21px;}
+   .top-column-left > .top-wave-head {
+  top: -63px;
+  margin-bottom: -63px;
+  }
+  .top-block-title {
+
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .top-column-left > .top-wave-head{
+  top: -50px;
+  margin-bottom: -57px;
+  }
+
+  .top-block-title {
+    
+  }
+  .top-contents > .top-wave-head {
+    top: -68px;
+  }
+
+  .top-column-left > .top-wave-head {
+    
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-column-left > .top-wave-head{
+    top: -100px;
+  }
+  .top-block-title {
+    
+  }
+}

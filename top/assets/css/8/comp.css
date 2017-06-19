@@ -1,0 +1,200 @@
+/* CSS Document */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SiteURL: http://www.c-yokohama.com/
+Created: 2007.06/25
+LastUpdate: 2007.07/05by久保田
+Author: 久保田
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+index index2切り替え
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#change{width:950px; height:auto; padding:0px; margin:0px;}/*真の値*/
+
+/*IE7*/*:first-child+html #change{width:950px; height:auto; padding:0px; margin:0px;}
+/*firefox*/html>body #change{width:950px; height:26px; padding:0px; margin:0px;}
+
+ul#navi{padding:0px; margin:0px;}
+
+ul#navi li{
+    list-style-image: none;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	float:left;}
+
+/*index.htmlのおすすめコンテンツボタン設定*/
+ul#navi a.btnA{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:208px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+
+/*index.htmlのおすすめカーケアメニューボタン設定*/
+ul#navi a.btnB{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:216px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+
+/*index2.htmlのおすすめコンテンツボタン設定*/
+ul#navi a.btnC{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:208px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+
+/*index2.htmlのカーケアメニューボタン設定*/
+ul#navi a.btnD{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:216px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}			
+
+/*おすすめコンテンツロールオーバー*/
+a.btnA{background-image:url(../img/grand/btn_no1.jpg);}
+
+a.btnC{
+background-image:url(../img/grand/btn_no1.jpg);background-position:0px -26px;
+}
+a:hover.btnC{background-position:0px -52px;}
+
+/*おすすめカーケアロールオーバー*/
+a.btnB{
+background-image:url(../img/grand/btn_no2.jpg);background-position:0px -26px;
+}
+a:hover.btnB{background-position:0px -52px;}
+
+a.btnD{background-image:url(../img/grand/btn_no2.jpg);}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+中央メニュー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*index.html*/
+#contents1 {
+	width:948px;
+	height:auto;
+	background-color: #FFFFCC;
+	border: 1px solid #FF9900;
+	padding:10px 0px;
+	margin:0px auto 0px auto;}/*真の値*/
+	
+/*index2.html*/
+#contents2{
+	width:948px;
+	height:auto;
+	background-color: #f4f5f5;
+	border: 1px solid #999999;
+	padding:10px 0px;
+	margin:0px auto 0px auto;}/*真の値*/
+	
+
+ul#menu {padding:0px 0px 0px 4px; margin:0px;}
+
+ul#menu li {
+	list-style-image:none;
+	list-style-type:none;
+	height:105px;
+	width:178px;
+	margin:0px 4px 0px 4px;
+	padding:0px;
+	float:left;}
+
+ul#menu a {
+	display:block;
+	margin:0px;
+	padding:0px;
+	height:105px;
+	width:178px;
+	background-repeat:no-repeat;}
+
+ul#menu span {
+    display:block;
+	margin:0px;
+	padding:0px;
+	height:105px;
+	width:178px;
+	background-repeat:no-repeat;}/*イベント等終了時ボタン設定*/
+
+ul#menu h3 {
+	font-size:9px;
+	color:#FFFFFF;
+	text-decoration:none;
+	visibility:hidden;
+	padding:0px; margin:0px;}/*文字の非表示(念の為、サイズと色を目立たないように)*/
+	
+	
+
+/*++++++++++各ボタンロールオーバー++++++++++*/
+
+/*今月のお得な情報*/
+.btn01 {
+	background-image:url(../img/grand/btn_contents01.jpg);
+	/*cursor:default;*/
+}
+a:hover.btn01 {background-position:-178px 0px;}
+
+/*あなたの街のプチショールーム*/
+a.btn02 {
+	background-image:url(../img/grand/btn_contents02.jpg);
+}
+a:hover.btn02 {background-position:-178px 0px;}
+
+/*メールで商談*/
+a.btn03 {background-image:url(../img/grand/btn_contents03.jpg);}
+a:hover.btn03 {background-position:-178px 0px;}
+
+/*U-car*/
+.btn04 {
+	background-image:url(../img/grand/btn_ucar.jpg);
+}
+a:hover.btn04 {background-position:-178px 0px;}
+
+
+/*セルフガソリンスタンド*/
+a.btn05 {
+	background-image:url(../img/grand/btn_bplan.jpg);
+}
+a:hover.btn05 {background-position:-178px 0px;}	
+	
+/*シーズン点検*/	
+a.btn06 {
+	background-image:url(../img/grand/btn_car01.jpg);
+}
+a:hover.btn06 {background-position:-178px 0px;}	
+
+/*メンテナンスパック*/
+a.btn07 {
+	background-image:url(../img/grand/btn_car02.jpg);
+}
+a:hover.btn07 {background-position:-178px 0px;}
+
+/*軽ワンプライドパック*/
+a.btn08{
+	background-image:url(../img/grand/btn_car03.jpg);
+}
+a:hover.btn08 {background-position:-178px 0px;}
+
+/*エンジンオイルボトルキープ*/
+a.btn09 {
+	background-image:url(../img/grand/btn_car04.jpg);
+}
+a:hover.btn09 {background-position:-178px 0px;}
+
+/*ガードコスメ*/	
+a.btn10{
+	background-image:url(../img/grand/btn_car05.jpg);
+}
+a:hover.btn10 {background-position:-178px 0px;}	
+	
+

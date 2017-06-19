@@ -1,0 +1,193 @@
+/* CSS Document */
+
+div#flyer_contents {
+	width:850px;
+	margin:10px auto 5px;
+	padding:0px;
+	text-align:left;
+   }
+ 
+div#flyer_contents h1 {
+   margin:0px;
+   padding:0px;
+   }  
+
+div#flyer_contents h2 {
+   margin:0px;
+   padding:0px;
+   } 
+
+div#flyer_contents2 {
+	width:848px;
+	margin:10px auto 5px;
+	padding:0px;
+	text-align:left;
+	border: 1px solid #FF9900;
+   }
+
+div#flyer_contents2 h1 {
+   margin:0px;
+   padding:0px;
+   }  
+
+div#flyer_contents2 h2 {
+   margin:0px;
+   padding:0px;
+   }    
+    
+   
+.block_imgArea img {
+   display:block;
+   margin:0px;
+   padding:0px;
+   }
+   
+#flyer_wrapper{
+	padding: 0px;
+	height: auto;
+	width: 850px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+} 
+
+#info_wrapper {
+   width:685px;
+   margin:10px auto 5px; 
+   padding:0px;
+   text-align:center;} 
+
+
+#info_wrapper h1{margin:0px; padding:0px;}
+#info_wrapper h2{margin:0px; padding:0px;}
+   
+
+/*++++++++++++++++++++新型ノアキャンペーンページ++++++++++++++++++++*/
+p{
+	margin: 5px 0px 0px 5px;
+	padding: 0px;
+	line-height: 1.5em;}
+
+.txt_red{
+	color:#CC0000;
+	border-bottom:2px dotted #CC0000;
+	width:400px;}
+
+html:first-child .txt_red{color: #CC0000;
+	border-bottom:2px dotted #CC0000;
+	width:450px;}	
+	
+/*++++++++++ヘッダー++++++++++*/
+h1#logotype1_f{height:47px;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	float:left;}
+
+
+/*++++++++++メインイメージ++++++++++*/
+
+h2.dummy{
+	font-size: 9px; color: #FFFFFF;
+	margin:0px; padding:0px; height:103px; visibility:hidden;}
+	
+h3.dummy2{
+	margin: 0px;
+	padding:0px; width:605px;
+	height:40px; text-align:left; float:left;}
+
+h4.dummy3{margin:0px; padding:0px; float:left;}		
+	
+
+
+/*クリア　文字非表示*/	
+#sea_img h3{clear:both; visibility:hidden;}	
+#sea_img p{clear:both; visibility:hidden;}
+	
+		
+
+/*++++++++++フッター++++++++++*/	
+
+
+#footer850 h3{
+	font-size:9px; color:#FFFFFF;
+	margin:0px; padding:0px;
+	visibility:hidden;}	
+
+/*++++++++++コンテンツ++++++++++*/	
+#get{
+	background-color: #e1a727;
+	margin:0px;
+	padding:5px 0px 0px 0px;
+	text-align:left; clear:both;}
+	
+
+#chance{
+	background-color:#efcd30;
+	margin: 0px;
+	padding:5px 0px 0px 0px;
+	text-align: left; clear:both;}
+	
+#check{
+	background-color: #e1a727;
+	margin:0px;
+	padding:5px 0px 0px 0px;
+	text-align:left; clear:both;}
+	
+#try{
+	background-color:#efcd30;
+	margin: 0px;
+	padding:5px 0px 0px 0px;
+	text-align: left; clear:both;}	
+	
+		
+
+
+
+
+	
+/*++++++++++++++++++++10/15チラシ++++++++++++++++++++*/
+
+a img {border-style: none;} 
+
+#pdf_bt { padding-top: 10px;}
+#pdf_bt ul { position: relative; height: 100px; margin: 0px; padding: 0px;}
+#pdf_bt li { position: absolute; top: 0px;}
+#pdf_bt .btn1 {
+	left: 70px;
+	background-image: url(../flyer/img/0910/btn1_o.gif);
+	background-repeat: no-repeat;
+	width: 340px; height: 100px;
+}
+#pdf_bt .btn2 { 
+    left: 438px;
+	background-image: url(../flyer/img/0910/btn2_o.gif);
+	background-repeat: no-repeat;
+	width: 340px; height: 100px;
+}
+
+#pdf_bt a { display: block; }
+#pdf_bt a:hover { background-color:transparent; }
+#pdf_bt a:hover img { visibility:hidden; }
+
+
+#mitumori_bt {
+background-image: url(../flyer/img/0910/lead02_o.jpg);
+background-repeat: no-repeat;
+width:514px;
+height:62px;
+float:right;
+}
+
+#pdf_bt a { display: block; cursor: hand; }
+#pdf_bt a:hover { background-color:transparent; }
+#pdf_bt a:hover  img { visibility:hidden; }
+
+
+#mitumori_bt a { display: block; cursor: hand; }
+#mitumori_bt a:hover  { background-color:transparent; }
+#mitumori_bt a:hover  img { visibility:hidden; }
+
+
+
+

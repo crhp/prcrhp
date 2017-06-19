@@ -1,0 +1,30 @@
+.nav-list li.current {
+    border-color: #647d96;
+}
+.tval-heading-1 {
+    color: #647d96;
+}
+.nav-list li.current a {
+    color: #647d96;
+}
+.tval-3safe-title-main {
+    color: #647d96;
+}
+.tval-bottom-content-plus-title {
+    color: #647d96;
+}
+.anxiety-list-item {
+    background-image: url(/u-car/assets/images/about/about-ico-check_y.png);
+}
+.tval-content-about {
+    background-image: url(/u-car/assets/images/about/ico-arrow-down_y.png);
+}
+
+.tval-list-item {
+    background-image: url(/u-car/assets/images/guarantee-ico-desc_y.png);
+}
+
+
+.tval-btn {
+    background-color: #93a4b6;
+}

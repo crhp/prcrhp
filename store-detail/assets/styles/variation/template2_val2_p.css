@@ -1,0 +1,28 @@
+/*
+color variation1
+key color : #e4b00a;
+*/
+
+#blog-fixed-btn {
+  background-color: #e4b00a;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/2/slide/thumb-item-nav-cover-val2_p.png);
+  background-size: cover;
+}
+#staff-blog h3 {
+  background-color: #e4b00a;
+}
+#staff-blog {
+  border-color: #e4b00a;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #e4b00a;
+}
+#staff-blog .blog-more-btn {
+  background-color: #e4b00a;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

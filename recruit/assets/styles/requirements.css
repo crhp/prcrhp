@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  color: #333333;
+}
+img {
+  vertical-align: top;
+}
+.content {
+  line-height: normal;
+}
+
+
+/*requirements*/
+
+.requirements h1 {
+  font-weight: bold;
+  color: #ff6e01;
+}
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-top: 91px;
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*requirements*/
+  .requirements h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+  }
+
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    padding-top: 91px;
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*requirements*/
+  .requirements h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+  }
+
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    padding-top: 30px;
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  /*requirements*/
+  .requirements h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 26px;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  /*requirements*/
+  .requirements h1 {
+    font-size: 20px;
+    padding: 5% 0 6% 0;
+  }
+  .requirements .inner-text {
+    font-size: 14px;
+    line-height: 2.0;
+  }
+
+}

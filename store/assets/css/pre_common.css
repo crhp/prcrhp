@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+}

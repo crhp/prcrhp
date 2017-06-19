@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*------------------------------------
+	#menu スタイル
+-------------------------------------- */
+dl#menu{
+	background: url(../img/menu/menuBg.gif) left center repeat-x;
+	float: left;
+	font-size: 12px;
+	width: 950px;
+}
+
+	dl#menu ul{
+		list-style: none;
+	}
+
+	dl#menu dd{
+		border-right: solid 1px #fff;
+		float: left;
+		text-align: center;
+		position: relative;
+		width: 155px;
+		height: 35px;
+	}
+		
+		dl#menu dd a{
+			display: block;
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+			line-height: 35px;
+			width: 155px;
+			height: 35px;
+		}
+	
+		dl#menu dd ul{
+		/*
+			グローバルメニュー下、プルダウンメニューのスタイル。
+		*/
+			background-color: #666666;
+			border-left: solid 1px #fff;
+			border-right: solid 1px #fff;
+			border-bottom: solid 1px #fff;
+			display: none;
+			position: absolute;
+			top: 35px;
+			left: 0;
+			z-index: 0;
+		}
+		
+			dl#menu dd ul a{
+				font-size: 90%;
+				color: #cccccc;
+				height: auto;
+				line-height: 130%;
+				text-align: left;
+				padding: 5px 10px;
+				width: 130px;
+			}
+		
+			dl#menu dd ul a.hierarchy{
+				background: url(../img/menu/gmArrow.gif) 122px center no-repeat;
+			}
+		
+			dl#menu dd ul li.rollOver{
+			/*
+				プルダウンメニュー、マウスオーバー時のスタイル。
+			*/
+				background-color: #FF9900;
+			}
+			
+			dl#menu dd ul li.rollOver a.rollOverA{
+				color: #ffffff;
+			}
+		
+			dl#menu dd ul li{
+				position: relative;
+			}
+			
+				dl#menu dd ul li ul{
+					display: none;
+					position: absolute;
+					top: 0px;
+					left: 135px;
+					z-index: 0;
+				}

@@ -1,0 +1,34 @@
+/*
+color variation3
+key color : #cc1c37;
+*/
+
+#blog-fixed-btn {
+  background-color: #cc1c37;
+}
+.section .square {
+  background-color: #cc1c37;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/slide/thumb-item-nav-cover-val3.png);
+  background-size: cover;
+}
+#staff-blog h3 {
+  background-color: #cc1c37;
+}
+#staff-blog {
+  border-color: #cc1c37;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #cc1c37;
+}
+#staff-blog .blog-more-btn {
+  background-image: -moz-linear-gradient( 90deg, rgb(204, 28, 55) 0%, rgb(217, 87, 107) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(204, 28, 55) 0%, rgb(217, 87, 107) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(204, 28, 55) 0%, rgb(217, 87, 107) 100%);
+}
+
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

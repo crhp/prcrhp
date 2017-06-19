@@ -1,0 +1,888 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+img {
+  vertical-align: top;
+}
+.content{
+  line-height: normal;
+}
+#sp-introduce {
+  display: none;
+}
+#conversion {
+  display: none;
+}
+
+.section h1 {
+  font-size: 34px;
+  color: #ff6e01;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.section h2 {
+  color: #ff6e01;
+  font-weight: bold;
+  text-align: center;
+}
+.section h3 {
+  color: #fff;
+  font-weight: bold;
+  background-color: #b5b5b6;
+}
+.anc li {
+  text-align: center;
+  background-color: #d5d5d5;
+  float: left;
+}
+.anc li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+.anc ul.sp {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*introduce*/
+  .hour-left-block {
+    float: left;
+  }
+  .hour-center-block {
+    float: left;
+    margin: -7px 0 0 32px;
+    background: url(../images/recruit-introduce/hour-center-block-bk.png) repeat-y center top;
+  }
+  .hour-right-block {
+    float: left;
+    margin: 0 0 0 32px;
+  }
+  .hour {
+    width: 410px;
+  }
+  .hour-left-block .hour.left {
+    position: relative;
+    height: 410px;
+  }
+  .hour-left-block .hour.left:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right {
+    position: relative;
+    height: 410px;
+    margin-top: 220px;
+  }
+  .hour .text-block {
+    padding: 20px 25px;
+    width: 410px;
+    box-sizing: border-box;
+    border: 2px solid #d5d5d5;
+    position: relative;
+  }
+  .hour .text-block span {
+    display: block;
+  }
+  .hour .text-block .sub-title {
+    color: #ff6e01;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .hour .text-block .copy {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  .hour .text-block .pic {
+    margin-top: 17px;
+  }
+  .hour .text-block .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .hour-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #adadad;
+    display: table;
+    margin-bottom: 119px;
+  }
+  .hour-icon:last-child {
+    margin-bottom: 0;
+  }
+  .hour-icon span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #fff;
+  }
+  .hour.left .text-block:after {
+    content: url(../images/recruit-introduce/ballon-right.gif);
+    position: absolute;
+    z-index: 1;
+    right: -22px;
+    top: 30px;
+  }
+  .hour.right .text-block:after {
+    content: url(../images/recruit-introduce/ballon-left.gif);
+    position: absolute;
+    z-index: 1;
+    left: -22px;
+    top: 30px;
+  }
+  .hour.left li {
+    float: left;
+  }
+  .hour.left li.hour-icon {
+    margin-left: 32px;
+    margin-top: -8px;
+  }
+  .hour.right li {
+    float: right;
+  }
+  .hour.right li.hour-icon {
+    margin-right: 32px;
+  }
+  /*introduce-salse*/
+  .introduce-salse {
+    margin-top: 46px;
+  }
+  /*introduce-engineer*/
+  .introduce-engineer {
+    /*margin-top: 122px;*/
+    margin-top:　40px;
+  }
+  /*notes*/
+  .notes {
+    font-size: 12px;
+    margin-top: 90px;
+  }
+
+  .anc {
+    margin-top: 46px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-introduce/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 45px 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 8px;
+    letter-spacing: 3.3px;
+  }
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*introduce*/
+  .hour-left-block {
+    float: left;
+  }
+  .hour-center-block {
+    float: left;
+    margin: -7px 0 0 32px;
+    background: url(../images/recruit-introduce/hour-center-block-bk.png) repeat-y center top;
+  }
+  .hour-right-block {
+    float: left;
+    margin: 0 0 0 32px;
+  }
+  .hour {
+    width: 410px;
+  }
+  .hour-left-block .hour.left {
+    position: relative;
+    height: 410px;
+  }
+  .hour-left-block .hour.left:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right {
+    position: relative;
+    height: 410px;
+    margin-top: 220px;
+  }
+  .hour .text-block {
+    padding: 20px 25px;
+    width: 410px;
+    box-sizing: border-box;
+    border: 2px solid #d5d5d5;
+    position: relative;
+  }
+  .hour .text-block span {
+    display: block;
+  }
+  .hour .text-block .sub-title {
+    color: #ff6e01;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .hour .text-block .copy {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  .hour .text-block .pic {
+    margin-top: 17px;
+  }
+  .hour .text-block .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .hour-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #adadad;
+    display: table;
+    margin-bottom: 119px;
+  }
+  .hour-icon:last-child {
+    margin-bottom: 0;
+  }
+  .hour-icon span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #fff;
+  }
+  .hour.left .text-block:after {
+    content: url(../images/recruit-introduce/ballon-right.gif);
+    position: absolute;
+    z-index: 1;
+    right: -22px;
+    top: 30px;
+  }
+  .hour.right .text-block:after {
+    content: url(../images/recruit-introduce/ballon-left.gif);
+    position: absolute;
+    z-index: 1;
+    left: -22px;
+    top: 30px;
+  }
+  .hour.left li {
+    float: left;
+  }
+  .hour.left li.hour-icon {
+    margin-left: 32px;
+    margin-top: -8px;
+  }
+  .hour.right li {
+    float: right;
+  }
+  .hour.right li.hour-icon {
+    margin-right: 32px;
+  }
+  /*introduce-salse*/
+  .introduce-salse {
+    margin-top: 46px;
+  }
+  /*introduce-engineer*/
+  .introduce-engineer {
+    /*margin-top: 122px;*/
+    margin-top: 40px;
+  }
+  /*notes*/
+  .notes {
+    font-size: 12px;
+    margin-top: 90px;
+  }
+  .anc {
+    margin-top: 46px;
+    letter-spacing: 4px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 45px 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 8px;
+    letter-spacing: 3.3px;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  /*introduce*/
+  .hour-wrap {
+    width: 728px;
+    margin: 0 auto;
+  }
+  .hour-left-block {
+    float: left;
+  }
+  .hour-center-block {
+    float: left;
+    margin: -7px 0 0 32px;
+    background: url(../images/recruit-introduce/hour-center-block-bk.png) repeat-y center top;
+  }
+  .hour-right-block {
+    float: left;
+    margin: 0 0 0 32px;
+  }
+  .hour {
+    width: 284px;
+  }
+  .hour-left-block .hour.left {
+    position: relative;
+    height: 420px;
+  }
+  .hour-left-block .hour.left:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-right-block .hour.right {
+    position: relative;
+    height: 420px;
+    margin-top: 220px;
+  }
+  .hour .text-block {
+    padding: 12px 12px;
+    width: 284px;
+    box-sizing: border-box;
+    border: 2px solid #d5d5d5;
+    position: relative;
+  }
+  .hour .text-block span {
+    display: block;
+  }
+  .hour .text-block .sub-title {
+    color: #ff6e01;
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .hour .text-block .copy {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .hour .text-block .pic {
+    margin-top: 17px;
+  }
+  .hour .text-block .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .hour-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #adadad;
+    display: table;
+    margin-bottom: 124px;
+  }
+  .hour-icon:last-child {
+    margin-bottom: 0;
+  }
+  .hour-icon span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #fff;
+  }
+  .hour.left .text-block:after {
+    content: url(../images/recruit-introduce/ballon-right.gif);
+    position: absolute;
+    z-index: 1;
+    right: -22px;
+    top: 30px;
+  }
+  .hour.right .text-block:after {
+    content: url(../images/recruit-introduce/ballon-left.gif);
+    position: absolute;
+    z-index: 1;
+    left: -22px;
+    top: 30px;
+  }
+  .hour.left li {
+    float: left;
+  }
+  .hour.left li.hour-icon {
+    margin-left: 32px;
+    margin-top: -8px;
+  }
+  .hour.right li {
+    float: right;
+  }
+  .hour.right li.hour-icon {
+    margin-right: 32px;
+  }
+  /*introduce-salse*/
+  .introduce-salse {
+    margin-top: 39px;
+  }
+  /*introduce-engineer*/
+  .introduce-engineer {
+    /*margin-top: 122px;*/
+    margin-top: 0;
+  }
+  /*notes*/
+  .notes {
+    font-size: 12px;
+    margin-top: 90px;
+  }
+  .anc {
+    margin-top: 9%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1.2%;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 6.9% 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 8px;
+    letter-spacing: 3.3px;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+
+  .anc ul.sp {
+    display: block;
+  }
+  #pc-introduce {
+    display: none;
+  }
+  #sp-introduce {
+    display: block;
+  }
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  /*introduce*/
+  .hour-wrap {
+    width: auto;
+    margin: 0 auto;
+  }
+  .hour-left-block {
+    float: left;
+    margin: 0 0 0 6px;
+    background: url(../images/recruit-introduce/hour-center-block-bk.png) repeat-y center top;
+  }
+  .hour-block {
+    float: none;
+    margin: 0;
+  }
+  .hour {
+    width: 446px;
+    margin: 0 auto;
+  }
+  .hour-block .hour:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-block .hour {
+    position: relative;
+    height: auto;
+  }
+  .hour .text-block {
+    padding: 12px 12px;
+    width: 370px;
+    box-sizing: border-box;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    float: left;
+  }
+  .hour .text-block span {
+    display: block;
+  }
+  .hour .text-block .sub-title {
+    color: #ff6e01;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .hour .text-block .copy {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .hour .text-block .pic {
+    margin-top: 17px;
+  }
+  .hour .text-block .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .hour-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #adadad;
+    display: table;
+    margin-bottom: 0;
+    float: left;
+    margin-right: 20px;
+  }
+  .hour-icon:last-child {
+    margin-bottom: 0;
+  }
+  .hour-icon span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #fff;
+  }
+  .hour .text-block:after {
+    content: url(../images/recruit-introduce/ballon-left-sp.gif);
+    position: absolute;
+    z-index: 1;
+    left: -11px;
+    top: 7px;
+  }
+  .hour li {
+    float: right;
+  }
+  .hour li.hour-icon {
+    margin-right: 32px;
+  }
+  /*introduce-salse*/
+  .introduce-salse {
+    margin-top: 24px;
+  }
+  /*introduce-engineer*/
+  .introduce-engineer {
+    margin-top: 56px;
+  }
+  /*notes*/
+  .notes {
+    font-size: 12px;
+    margin-top: 90px;
+  }
+  .section h1 {
+    font-size: 18px;
+  }
+  .anc {
+    margin-top: 6.4%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 1.2%;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+    -moz-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+  .section h2 {
+    font-size: 15px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 2px 0;
+    margin: 0 0 5.9% 0;
+  }
+  .section h3 {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 6px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 499px) {
+  #pc-introduce {
+    display: none;
+  }
+  #sp-introduce {
+    display: block;
+  }
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  /*recruit-nav*/
+  .recruit-nav {
+    padding-top: 3.2%;
+  }
+  .recruit-nav .nav-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+  }
+  .recruit-nav .nav-list {
+    margin-top: 2%;
+  }
+  .recruit-nav .nav-list ul {
+    font-size: 11px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .recruit-nav .nav-list li {
+    width: 33.5164835%;
+    height: 41px;
+    margin-left: -2px;
+    margin-top: -2px;
+    border: 2px solid #d5d5d5;
+    line-height: 1.2;
+  }
+  .recruit-nav .nav-list li:nth-child(3n+1) {
+    /*width: 165px;*/
+    margin-left: 0;
+  }
+  .recruit-nav .nav-list li.current {
+    border: 2px solid #ff6e01;
+  }
+  .recruit-nav .nav-list li a {}
+  .recruit-nav .nav-list li.current a {
+    color: #ff6e01;
+  }
+  .recruit-nav .nav-list li br {
+    display: block;
+  }
+  /*introduce*/
+  .hour-wrap {
+    width: auto;
+    margin: 0 auto;
+  }
+  .hour-left-block {
+    float: left;
+    margin: 0 0 0 6px;
+    background: url(../images/recruit-introduce/hour-center-block-bk.png) repeat-y center top;
+  }
+  .hour-block {
+    float: none;
+    margin: 0;
+  }
+  .hour {
+    width: 285px;
+    margin: 0 auto;
+  }
+  .hour-block .hour:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .hour-block .hour {
+    position: relative;
+    height: auto;
+  }
+  .hour .text-block {
+    padding: 12px 12px;
+    width: 217px;
+    box-sizing: border-box;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    float: left;
+  }
+  .hour .text-block span {
+    display: block;
+  }
+  .hour .text-block .sub-title {
+    color: #ff6e01;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .hour .text-block .copy {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .hour .text-block .pic {
+    margin-top: 17px;
+  }
+  .hour .text-block .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .hour-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #adadad;
+    display: table;
+    margin-bottom: 0;
+    float: left;
+    margin-right: 20px;
+  }
+  .hour-icon:last-child {
+    margin-bottom: 0;
+  }
+  .hour-icon span {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #fff;
+  }
+  .hour .text-block:after {
+    content: url(../images/recruit-introduce/ballon-left-sp.gif);
+    position: absolute;
+    z-index: 1;
+    left: -11px;
+    top: 7px;
+  }
+  .hour li {
+    float: right;
+  }
+  .hour li.hour-icon {
+    margin-right: 32px;
+  }
+  /*introduce-salse*/
+  .introduce-salse {
+    margin-top: 24px;
+  }
+  /*introduce-engineer*/
+  .introduce-engineer {
+    margin-top: 56px;
+  }
+  /*notes*/
+  .notes {
+    font-size: 12px;
+    margin-top: 90px;
+  }
+  .section h1 {
+    font-size: 18px;
+  }
+  .anc {
+    margin-top: 6.4%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 1.2%;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+    -moz-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+  .section h2 {
+    font-size: 15px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 2px 0;
+    margin: 0 0 5.9% 0;
+  }
+  .section h3 {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 6px;
+    letter-spacing: 2px;
+  }
+}

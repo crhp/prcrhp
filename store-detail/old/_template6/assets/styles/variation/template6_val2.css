@@ -1,0 +1,85 @@
+/*
+color variation2
+key color : #49b32c;
+*/
+
+#snav-fixed-sp {
+  background-color: #49b32c;
+}
+#blog-fixed-btn {
+  background-color: #49b32c;
+}
+.section h1 {
+  border-color: #49b32c;
+  color: #49b32c;
+}
+.section h2 {
+  color: #49b32c;
+}
+#google-map .google-map-pc-link a {
+  border-color: #49b32c;
+  color: #49b32c;
+}
+#google-map .google-map-pc-link a:hover {
+  background-color: #49b32c;
+}
+.sub-service li:before {
+  color: #49b32c;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/slide/thumb-item-nav-cover-val2.png);
+  background-size: cover;
+}
+#staff-blog h3 {
+  background-color: #49b32c;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #49b32c;
+}
+#staff-blog .blog-more-btn a {
+  color: #49b32c;
+  border-color: #49b32c;
+}
+#staff-blog .blog-more-btn a:hover {
+  background-color: #49b32c;
+}
+@media screen and (min-width: 1280px) {
+  .slick-prev:before {
+    background: url(../../images/slide/store-image-prev-pc-val2.png);
+    background-size: contain;
+  }
+  .slick-next:before {
+    background: url(../../images/slide/store-image-next-pc-val2.png);
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .slick-prev:before {
+    background: url(../../images/slide/store-image-prev-pc-val2.png);
+    background-size: contain;
+  }
+  .slick-next:before {
+    background: url(../../images/slide/store-image-next-pc-val2.png);
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .slick-prev:before {
+    background: url(../../images/slide/store-image-prev-tab-val2.png);
+    background-size: contain;
+  }
+  .slick-next:before {
+    background: url(../../images/slide/store-image-next-tab-val2.png);
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 767px) {
+  .slick-prev:before {
+    background: url(../../images/slide/store-image-prev-sp-val2.png);
+    background-size: contain;
+  }
+  .slick-next:before {
+    background: url(../../images/slide/store-image-next-sp-val2.png);
+    background-size: contain;
+  }
+}

@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+.tval-3safe-tit img {
+  width: 100%;
+  height: auto;
+}
+.tval-3safe-tit {
+  margin: 0 auto;
+}
+.tval-3safe-block-title {
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  font-weight: bold;
+}
+.tval-3safe-title-main {
+  color: #ff6e01;
+}
+.tval-3safe-block-title span {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .tval-3safe-tit {
+    margin-bottom: 22px;
+    width: 275px;
+  }
+  .tval-3safe-lead {
+    margin-bottom: 30px;
+  }
+  .ico-safe-bal {
+    margin-bottom: 14px;
+  }
+  .ico-safe-bal img {
+    width: 67px;
+    height: auto;
+  }
+  .tval-3safe-sub {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .tval-3safe-title-main {
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+  .ico-safe-title img {
+    width: 120px;
+  }
+  .tval-3safe-block-title {
+    padding-bottom: 6px;
+    margin-bottom: 17px;
+  }
+  .tval-3safe-txt {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  .tval-3safe-txt br {
+    display: none;
+  }
+  .youtube-box {
+    margin-bottom: 5px;
+  }
+  .tval-3safe-block {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tval-3safe-block-1 {
+    margin-top: 74px;
+  }
+  .tval-3safe-block-2 .ico-safe-title {
+    bottom: 0;
+  }
+  .tval-3safe-block-2 .ico-safe-title img {
+    width: 97px;
+  }
+  .tval-3safe-block-3 .ico-safe-title img {
+    width: 83px;
+  }
+  .tval-3safe-tit {
+    width: 406px;
+    margin-bottom: 32px;
+  }
+  .ico-safe-bal {
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+  }
+  .ico-safe-bal img {
+    width: 90px;
+    height: auto;
+  }
+  .ico-safe-title {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+  }
+  .ico-safe-title img {
+    width: 137px;
+    height: auto;
+  }
+  .tval-3safe-sub {
+    margin-bottom: 17px;
+    font-size: 18px;
+  }
+  .tval-3safe-title-main {
+    margin-bottom: 14px;
+    font-size: 28px;
+  }
+  .tval-3safe-txt {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tval-3safe-block-title {
+    margin-bottom: 20px;
+  }
+  .youtube-box-container {
+    float: none;
+    width: 70%;
+    margin: 12px auto 0;
+  }
+  .tval-youtube {
+    overflow: hidden;
+  }
+  .youtube-box-container:last-child {
+    /* padding-left: 2px; */
+  }
+  .youtube-box-container:first-child {
+    /* padding-right: 2px; */
+  }
+  .tval-3safe-block {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) {}

@@ -1,0 +1,19 @@
+#blog-fixed-btn {
+    background-color: #118175;
+}
+.section h1 {
+    color: #118175;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .section .square {
+        background-color: #118175;
+    }
+}
+@media screen and (max-width: 767px) {
+    .section .square {
+        background-color: #118175;
+    }
+    .slick-slide img {
+        border-radius: 7px;
+    }
+}

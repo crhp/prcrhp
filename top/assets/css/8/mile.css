@@ -1,0 +1,229 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body{
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+#wrapper_bg{
+  margin: 0px auto;
+  padding: 0;
+  width: auto;
+  background: none;
+}
+#wrapper{
+  width: auto;
+}
+#contents{
+  margin-left: 210px;
+}
+
+#cons{
+  width: 792px;
+  margin: 0 auto;
+  float: none;
+  padding-top: 50px;
+}
+
+
+
+
+#bgf{
+	background-color:#FFF;
+}
+
+#wrapperM{
+	background-color:#FFF;
+}
+
+#contsM {
+  text-align: left;
+  padding-bottom:30px;
+  padding-top: 30px;
+}
+
+#mile_l {
+  width: 430px;
+  min-height: 220px;
+  height: auto !important;
+  height: 220px;
+}
+#mile_l p{
+  padding: 0 10px;
+}
+
+#mile_l p.txt2 { color: #446dbd;
+  padding-top: 10px;
+}
+#mile_l p.txt3{
+  padding-top: 20px;
+}
+
+
+
+
+h2 { padding: 0px 0px 15px 0px; margin: 0px; }
+
+#mile_l h4 { padding-top: 10px; }
+#mile_l p { margin: 0px;  line-height: 1.5em; }
+.txt1,.txt3 { padding: 0px; }
+
+.txt2 { color: #446dbd; padding-top: 10px; }
+
+#mile_r { position: relative; }
+#mile_r img { position: absolute; top: 0px; left: 445px; }
+
+
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+  #contents{
+    margin-left: 0;
+  }
+}
+
+@media screen and  (max-width: 1023px) and (min-width: 768px){
+  #contents{
+    margin-left: 0;
+    padding-top: 102px;
+    background-color: #fff;
+  }
+
+  #cons{
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    padding: 0 20px;
+  }
+
+
+  #contsM {
+    width: 100%;
+    text-align: left;
+    padding-bottom:30px;
+    padding-top: 30px;
+  }
+  #contsM h2 img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  #mile_l {
+    width: 50%;
+    float: left;
+  }
+
+  h2 { padding: 0px 0px 15px 0px;
+    margin: 0px;
+  }
+
+  #mile_l h4 {
+    padding-top: 10px;
+  }
+  #mile_l h4 img{
+    width: 100%;
+    height: auto;
+  }
+  #mile_l p {
+    margin: 0px;
+    line-height: 1.5em;
+    padding: 0 10px;
+  }
+  #mile_l p.txt1 {
+
+  }
+
+  #mile_l p.txt2 { color: #446dbd;
+    padding-top: 10px;
+  }
+  #mile_l p.txt3{
+    padding-top: 20px;
+  }
+
+  #mile_r {
+    position: static;
+    float: right;
+    width: 45%;
+  }
+  #mile_r img {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 767px){
+  #contents{
+    margin-left: 0;
+    padding-top: 102px;
+    background-color: #fff;
+  }
+
+  #cons{
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    padding: 0 20px;
+  }
+
+
+  #contsM {
+    width: 100%;
+    text-align: left;
+    padding-bottom:0px;
+    padding-top: 0px;
+  }
+  #contsM h2 img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  #mile_l {
+    width: auto;
+    float: none;
+  }
+
+  h2 { padding: 0px 0px 15px 0px;
+    margin: 0px;
+  }
+
+  #mile_l h4 {
+    padding-top: 20px;
+  }
+  #mile_l h4 img{
+    width: 100%;
+    height: auto;
+  }
+  #mile_l p {
+    margin: 0px;
+    line-height: 1.5em;
+    padding: 0 10px;
+  }
+  #mile_l p.txt1 {
+
+  }
+
+  #mile_l p.txt2 { color: #446dbd;
+    padding-top: 10px;
+  }
+  #mile_l p.txt3{
+    padding-top: 20px;
+  }
+
+  #mile_r {
+    position: static;
+    width: auto;
+    float: none;
+  }
+  #mile_r img {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #footer{
+    background-image: none;
+  }
+}

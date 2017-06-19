@@ -1,0 +1,196 @@
+/* CSS Document */
+
+
+
+/*++++++++++index index2切り替え++++++++++*/
+
+#change{width:950px; height:auto; padding:0px; margin:0px;}/*真の値*/
+
+/*IE7*/*:first-child+html #change{width:950px; height:auto; padding:0px; margin:0px;}
+/*firefox*/html>body #change{width:950px; height:26px; padding:0px; margin:0px;}
+
+ul#navi{padding:0px; margin:0px;}
+
+ul#navi li{list-style-image: none;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	float:left;}
+/*index*/
+ul#navi a.btnA{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:208px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+ul#navi a.btnB{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:216px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+/*index2*/
+ul#navi a.btnC{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:208px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+ul#navi a.btnD{display: block;
+	margin:0px;
+	padding:0px;
+	height:26px;
+	width:216px;
+	background-repeat: no-repeat;
+	text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}			
+
+/*++++++++++おすすめコンテンツ++++++++++*/
+
+a.btnA{background-image:url(../img/grand/btn_no1.jpg);}
+
+a.btnC{
+background-image:url(../img/grand/btn_no1.jpg);background-position:0px -26px;
+}
+a:hover.btnC{background-position:0px -52px;}
+
+/*++++++++++おすすめカーケア++++++++++*/
+
+a.btnB{
+background-image:url(../img/grand/btn_no2.jpg);background-position:0px -26px;
+}
+a:hover.btnB{background-position:0px -52px;}
+
+a.btnD{background-image:url(../img/grand/btn_no2.jpg);}
+
+/*++++++++++中央メニュー++++++++++*/
+/*index*/
+#contents1 {
+	width:950px;
+	height:auto;
+	background-color: #FFFFCC;
+	border: 1px solid #FF9900;
+	padding:10px 0px;
+	margin:0px;}/*真の値*/
+
+/*firefox*/html>body #contents1 {
+	width:950px;
+	height:auto;
+	background-color: #FFFFCC;
+	border: 1px solid #FF9900;
+	padding:0px 0px 15px 0px;
+	margin:0px;}
+	
+/*IE7*/*:first-child+html #contents1 {
+	width:950px;
+	height:auto;
+	background-color: #FFFFCC;
+	border: 1px solid #FF9900;
+	padding:10px 0px;
+	margin:0px;}/*真の値*/
+
+
+/*index2*/
+#contents2{
+	width:950px;
+	height:auto;
+	background-color: #f4f5f5;
+	border: 1px solid #999999;
+	padding:10px 0px;
+	margin:0px;}/*真の値*/
+	
+/*firefox*/html>body #contents2{
+	width:950px;
+	height:auto;
+	background-color: #f4f5f5;
+	border: 1px solid #999999;
+	padding:0px 0px 15px 0px;
+	margin:0px;}
+	
+/*IE7*/*:first-child+html #contents2{
+	width:950px;
+	height:auto;
+	background-color: #f4f5f5;
+	border: 1px solid #999999;
+	padding:10px 0px;
+	margin:0px;}/*真の値*/			
+
+
+
+ul#menu {padding:0px; margin:0px 0px 0px 4px;}
+
+ul#menu li {
+	list-style-image: none;
+	list-style-type: none;
+	height: 105px;
+	width: 178px;
+	margin:0px 5px 0px 5px;
+	padding:0px;
+	float:left;}
+
+ul#menu a {
+	display: block;
+	margin:0px;
+	padding: 0px;
+	height:105px;
+	width:178px;
+	background-repeat: no-repeat;}
+
+ul#menu h3 {
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	visibility: hidden;}
+/*今月のお得な情報*/
+a.btn01 {
+	background-image:url(../img/grand/btn_contents01.jpg);
+}
+a:hover.btn01 {background-position:-178px 0px;}
+/*あなたの街のプチショールーム*/
+a.btn02 {
+	background-image:url(../img/grand/btn_contents02.jpg);
+}
+a:hover.btn02 {background-position:-178px 0px;}
+/*メールで商談*/
+a.btn03{background-image:url(../img/grand/btn_contents03.jpg);}
+a:hover.btn03 {background-position:-178px 0px;}
+/*サマータイヤフェスタ*/
+a.btn04{
+	background-image:url(../img/grand/btn_kanazawa.jpg);
+}
+a:hover.btn04 {background-position:-178px 0px;}
+/*セルフガソリンスタンド*/
+a.btn05 {
+	background-image:url(../img/grand/btn_contents05.jpg);
+}
+a:hover.btn05 {background-position:-178px 0px;}	
+	
+/*シーズン点検*/	
+a.btn06 {
+	background-image:url(../img/grand/btn_car01.jpg);
+}
+a:hover.btn06 {background-position:-178px 0px;}	
+/*メンテナンスパック*/
+a.btn07 {
+	background-image:url(../img/grand/btn_car02.jpg);
+}
+a:hover.btn07 {background-position:-178px 0px;}
+/*軽ワンプライドパック*/
+a.btn08{
+	background-image:url(../img/grand/btn_car03.jpg);
+}
+a:hover.btn08 {background-position:-178px 0px;}
+/*エンジンオイルボトルキープ*/
+a.btn09 {
+	background-image:url(../img/grand/btn_car04.jpg);
+}
+a:hover.btn09 {background-position:-178px 0px;}
+/*ガードコスメ*/	
+a.btn10{
+	background-image:url(../img/grand/btn_car05.jpg);
+}
+a:hover.btn10 {background-position:-178px 0px;}	
+	
+

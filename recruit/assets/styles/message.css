@@ -1,0 +1,357 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+img {
+  vertical-align: top;
+}
+.section {}
+.content {
+  line-height: normal;
+}
+
+/*massage*/
+
+.massage {}
+.massage h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff6e01;
+}
+.massage ul {}
+.massage li.text {
+  font-weight: bold;
+}
+.massage li.pic {}
+.massage li.pic > img {
+  width: 100%;
+  height: auto;
+}
+.massage li.pic .name-area span {
+  display: block;
+}
+.massage li.pic .name-area .name-text {
+  font-family: 游明朝体, YuMincho, "Yu Mincho", "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", HG明朝B, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-weight: bold;
+}
+.massage li.pic .name-area .name-image img {}
+.massage .text-block-wrap {}
+.massage .text-block {}
+.massage .text-block span {
+  display: block;
+}
+.massage .text-block .inner-copy {
+  font-weight: bold;
+}
+
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*massage*/
+  #massage {
+    margin-top: 66px;
+  }
+  .massage h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  .massage ul {
+    margin-top: 63px;
+  }
+  .massage li.text {
+    width: 690px;
+    font-size: 30px;
+    float: left;
+    line-height: 2;
+    margin-top: 6px;
+    letter-spacing: 1px;
+  }
+  .massage li.pic {
+    float: right;
+    width: 287px;
+    height: auto;
+  }
+  .massage li.pic .name-area {
+    margin-top: 6px;
+  }
+  .massage li.pic > img {}
+  .massage li.pic .name-area span {}
+  .massage li.pic .name-area .position {
+    line-height: 1;
+  }
+  .massage li.pic .name-area .name-text {
+    font-size: 19px;
+    margin-top: 3px;
+    /*display: none;*/
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage li.pic .name-area .name-image {
+    margin-top: 7px;
+  }
+  .massage li.pic .name-area .name-image img {
+    height: 20px;
+    width: auto;
+  }
+  .massage .text-block-wrap {
+    margin-top: 80px;
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage .text-block .inner-copy {
+    font-size: 22px;
+  }
+  .massage .text-block .inner-text {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+  }
+
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  /*massage*/
+  #massage {
+    margin-top: 66px;
+  }
+  .massage h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  .massage ul {
+    margin-top: 63px;
+  }
+  .massage li.text {
+    width: 690px;
+    font-size: 30px;
+    float: left;
+    line-height: 2;
+    margin-top: 6px;
+    letter-spacing: 1px;
+  }
+  .massage li.pic {
+    float: right;
+    width: 287px;
+    height: auto;
+  }
+  .massage li.pic .name-area {
+    margin-top: 6px;
+  }
+  .massage li.pic > img {}
+  .massage li.pic .name-area span {}
+  .massage li.pic .name-area .position {
+    line-height: 1;
+  }
+  .massage li.pic .name-area .name-text {
+    font-size: 19px;
+    margin-top: 3px;
+    /*display: none;*/
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage li.pic .name-area .name-image {
+    margin-top: 7px;
+  }
+  .massage li.pic .name-area .name-image img {
+    height: 20px;
+    width: auto;
+  }
+  .massage .text-block-wrap {
+    margin-top: 80px;
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage .text-block .inner-copy {
+    font-size: 22px;
+  }
+  .massage .text-block .inner-text {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+  }
+
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  /*massage*/
+  #massage {
+    margin-top: 8.8%;
+  }
+  .massage h1 {
+    font-size: 34px;
+  }
+  .massage ul {
+    margin-top: 6.8%;
+  }
+  .massage li.text {
+    width: 60%;
+    font-size: 36px;
+    float: left;
+    line-height: 1.9;
+    margin-top: -2.4%;
+    letter-spacing: 1px;
+  }
+  .massage li.pic {
+    float: right;
+    width: 39.6%;
+    height: auto;
+  }
+  .massage li.pic > img {}
+  .massage li.pic .name-area {
+    margin-top: 4.8%;
+    font-size: 18px;
+  }
+  .massage li.pic .name-area span {}
+  .massage li.pic .name-area .position {
+    line-height: 1;
+  }
+  .massage li.pic .name-area .name-text {
+    font-size: 19px;
+    margin-top: 3px;
+    /*display: none;*/
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage li.pic .name-area .name-image {
+    margin-top: 7%;
+  }
+  .massage li.pic .name-area .name-image img {
+    height: 30px;
+    width: auto;
+  }
+  .massage .text-block-wrap {
+    margin-top: 80px;
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage .text-block .inner-copy {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  .massage .text-block .inner-text {
+    font-size: 16px;
+    margin-top: 1.8%;
+    line-height: 2;
+    margin-bottom: 6.3%;
+  }
+
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  /*massage*/
+  #massage {
+    margin-top: 5.4%;
+  }
+  .massage h1 {
+    font-size: 18px;
+  }
+  .massage ul {
+    margin-top: 10.8%;
+  }
+  .massage li.text {
+    width: auto;
+    font-size: 24px;
+    float: none;
+    line-height: 1.9;
+    margin-top: -2.4%;
+    letter-spacing: 1px;
+    margin-left: 9%;
+  }
+  .massage li.pic {
+    float: none;
+    width: 48%;
+    height: auto;
+    margin: 5.6% auto 0;
+  }
+  .massage li.pic > img {}
+  .massage li.pic .name-area {
+    margin-top: 3.8%;
+    font-size: 11px;
+    text-align: center;
+  }
+  .massage li.pic .name-area span {}
+  .massage li.pic .name-area .position {
+    line-height: 1;
+  }
+  .massage li.pic .name-area .name-text {
+    font-size: 19px;
+    margin-top: 3px;
+    /*display: none;*/
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage li.pic .name-area .name-image {
+    margin-top: 7%;
+  }
+  .massage li.pic .name-area .name-image img {
+    height: 15px;
+    width: auto;
+  }
+  .massage .text-block-wrap {
+    margin-top: 8%;
+  }
+  .massage .text-block span {
+    display: block;
+  }
+  .massage .text-block .inner-copy {
+    font-size: 16px;
+  }
+  .massage .text-block .inner-text {
+    font-size: 14px;
+    margin-top: 3.8%;
+    line-height: 1.75;
+    margin-bottom: 9.7%;
+  }
+
+  #breadList {
+    font-size: 10px;
+    margin-left: 10px;
+    padding-bottom: 2.8%;
+    margin-top: 10%;
+  }
+}

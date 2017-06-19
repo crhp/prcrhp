@@ -1,0 +1,102 @@
+/* common */
+
+.modal-open {
+    cursor: pointer;
+}
+.lock {
+    overflow: hidden;
+    width: 100%;
+}
+.modal-overlay {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-color: #fff;
+    opacity: .8;
+}
+.modal-wrap {
+    z-index: 10000;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal-close {
+    position: absolute;
+    cursor: pointer;
+}
+.modal-close.top {
+    right: 0;
+    top: -50px;
+}
+.modal-close.bottom {
+    display: none;
+}
+.modal-close:hover {
+    opacity: .8;
+}
+
+/****
+pc
+****/
+
+.modal-content {
+    position: relative;
+    display: none;
+    width: 900px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.modal-wrap .plan-area{
+    margin: 0;
+}
+/****
+tab
+****/
+
+@media screen and (max-width: 1199px) and (min-width: 740px) {
+    .modal-content {
+        position: relative;
+        display: none;
+        width: 680px;
+    }
+}
+
+/****
+sp
+****/
+
+@media screen and (max-width: 739px) {
+    .modal-content {
+        position: static;
+        display: none;
+        width: auto;
+        margin: 0 10px;
+        padding: 50px 0 15px;
+    }
+    .modal-close.top {
+        top: -40px;
+    }
+    .modal-close.bottom {
+        display: block;
+        right: 48%;
+        left: 48%;
+        margin: 15px auto 0;
+    }
+    .modal-close img {
+        width: 30px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .modal-wrap .plan-area{
+        position: relative;
+    }
+}

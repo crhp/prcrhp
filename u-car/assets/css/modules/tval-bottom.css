@@ -1,0 +1,112 @@
+@charset 'UTF-8';
+
+.tval-bottom-content-plus-title{
+    display: table;
+    table-layout: fixed;
+    color: #ff6e01;
+    width: 100%;
+
+}
+.tval-bottom-content-plus-title .thumb,
+.tval-bottom-content-plus-title .text{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tval-bottom-content-plus-title .thumb img{
+    width: 100%;
+    height: auto;
+}
+.tval-bottom-content-plus-title .text{
+    padding-left: 24px;
+}
+.tval-bottom-content{
+    overflow: hidden;
+}
+.tval-list-item{
+    background-image: url(/u-car/assets/images/guarantee-ico-desc.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: 6px auto;
+        background-size: 6px auto;
+        padding-left: 10px;
+}
+@media screen and (max-width: 767px) {
+    .tval-bottom-content-plus-title .thumb{
+        width: 60px;
+    }
+    .tval-bottom-content-plus-title{
+        margin-bottom: 10px;
+    }
+    .tval-txt-small{
+        font-size: 10px;
+    }
+    .tval-bottom-content{
+        margin-top: 50px;
+    }
+    .tval-bottom-content-plus-item:first-child{
+        margin-top: 0;
+    }
+    .tval-bottom-content-plus-item{
+        margin-top: 20px;
+    }
+    .tval-list-item{
+        
+        
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .tval-guarantee-text{
+        margin-bottom: 20px;
+    }
+    
+    .tval-bottom-content-inspect .tval-bottom-content-description .text-block{
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tval-bottom-content-plus-title .thumb{
+        width: 80px;
+    }
+    .tval-txt-small{
+        font-size: 11px;
+    }
+    .tval-bottom-content-plus-item{
+        width: 50%;
+        float: left;
+        padding-right: 40px;
+    }
+    .tval-bottom-content{
+        margin-top: 95px;
+    }
+    .tval-bottom-content-plus-title .text{
+        font-size: 20px;
+    }
+    .tval-guarantee-text,
+    .tval-guarantee-thumb{
+        width: 50%;
+        float: left;
+    }
+    .tval-guarantee-thumb img{
+        width:100%;
+        height: auto;
+    }
+    .tval-bottom-content{
+        overflow: hidden;
+    }
+    .tval-list-item{
+        margin-bottom: 14px;
+    }
+    .tval-bottom-content-plus-title{
+        margin-bottom: 7px;
+    }
+    .tval-bottom-content-inspect .tval-bottom-content-description{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (max-width: 1023px) {}

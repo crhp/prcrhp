@@ -1,0 +1,125 @@
+.tc-title-type-03-reg
+{color: #ff8700;}
+
+.tc-title-type-04 
+{
+  color: #ff8700;
+}
+
+.top-block-title
+{
+  color: #ff8700;
+}
+
+.top-news-subtitle {
+color: #ff8700;
+border-color: #ff8700;
+
+}
+
+.tc-btn-a
+{
+  background-color: #887f7a;
+}
+
+.top-date-item:after
+{
+  color: #ff8700;
+}
+
+.top-date-item-time
+{
+}
+
+.top-column-left-title
+{
+  border-color: #ff8700;
+  color: #ff8700;
+}
+
+.slick-dots .slick-active
+{
+  background-color: #ff8700;
+}
+
+.top-service-item-title
+{
+  color: #ff8700;
+}
+
+.top-news-date
+{
+}
+
+.top-dial-normal
+{
+  color: #ff8700;
+}
+
+.news-btn:after
+{
+}
+
+.top-dial-normal .top-dial-number:after
+{
+  background-color: #ff8700;
+}
+
+.top-dial-release .top-dial-number:after
+{
+  background-color: #000;
+}
+
+.top-servicemenu-item-pic {
+  background-color: #ff8700;
+}
+
+#top-servicemenu-item-1 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-buy-btn-01.png);
+}
+#top-servicemenu-item-2 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-buy-btn-02.png);
+}
+#top-servicemenu-item-3 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-buy-btn-03.png);
+}
+#top-servicemenu-item-4 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-buy-btn-04.png);
+}
+#top-servicemenu-item-5 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-buy-btn-05.png);
+}
+
+#top-servicemenu-item-6 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-maintenance-btn-01.png);
+}
+#top-servicemenu-item-7 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-maintenance-btn-02.png);
+}
+#top-servicemenu-item-8 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-maintenance-btn-03.png);
+}
+#top-servicemenu-item-9 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-maintenance-btn-04.png);
+}
+#top-servicemenu-item-10 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-maintenance-btn-05.png);
+}
+
+#top-servicemenu-item-11 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-other-btn-01.png);
+}
+#top-servicemenu-item-12 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-other-btn-02.png);
+}
+#top-servicemenu-item-13 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-other-btn-03.png);
+}
+#top-servicemenu-item-14 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-other-btn-04.png);
+}
+#top-servicemenu-item-15 .top-servicemenu-item-pic {
+   background-image: url(../../../images/7/top-other-btn-05.png);
+}
+
+

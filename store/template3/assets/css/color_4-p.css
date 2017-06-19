@@ -1,0 +1,42 @@
+#wrapper #container h1 {
+    color: #000000;
+    border-bottom: solid 2px #e9e7e7;
+    border-top: solid 3px #000000;
+}
+
+#sortmenu .search-info .search-target {
+    color: #000000;
+}
+#sortmenu h2 {
+    border-bottom: solid 4px #000000;
+}
+
+#sortmenu .search-info .button-clear {
+    background-color: #000000;
+}
+#store {
+    background-color: #f1f1f1;
+}
+#store-list {
+    background-color: #f1f1f1
+}
+#section-calendar {
+    background-color: #f1f1f1;
+}
+
+#store-list .inner .store_section_info .name span {
+    color: #000000;
+}
+#section-calendar .calendar-inner .right-wrap .business_hours dl dt {
+    background-color: #000000;
+}
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
+    color: #000000;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number dl dt {
+    background-color: #000000;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number div {
+    color: white;
+    background-color: #000000;
+}

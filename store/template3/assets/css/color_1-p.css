@@ -1,0 +1,41 @@
+#wrapper #container h1 {
+    color: #118075;
+    border-bottom: solid 2px #e9e7e7;
+    border-top: solid 3px #118075;
+}
+
+#sortmenu .search-info .search-target {
+    color: #118075;
+}
+#sortmenu h2 {
+    border-bottom: solid 4px #118075;
+}
+
+#sortmenu .search-info .button-clear {
+    background-color: #118075;
+}
+#store {
+    background-color: #f1f1f1;
+}
+#store-list {
+    background-color: #f1f1f1;
+}
+#section-calendar {
+    background-color: #f1f1f1;
+}
+#store-list .inner .store_section_info .name span {
+    color: #118075;
+}
+#section-calendar .calendar-inner .right-wrap .business_hours dl dt {
+    background-color: #118075;
+}
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
+    color: #118075;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number dl dt {
+    background-color: #118075;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number div {
+    color: white;
+    background-color: #118075;
+}

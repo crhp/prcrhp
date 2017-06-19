@@ -1,0 +1,624 @@
+@charset "utf-8";
+
+/*estima*/
+
+/* =========================================================
+
+ reset
+ 
+========================================================= */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-style:normal;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{overflow-y:scroll}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none},input,textarea{margin:0;padding:0}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}a:focus{outline:0}.clearfix:after{content:".";display:block;clear:both;height:0;visibility:hidden}.clearfix{min-height:1px}* html .clearfix{height:1px}.both{clear:both}.inline_block{display:inline-block}
+
+
+/***********/
+
+.cf:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 14px;
+    background: #ecf0f2;
+    color: #000000;
+}
+body p{
+    line-height: 1.65;
+}
+.notice_item{
+    line-height: 1.5;
+}
+#section_05 .notes {
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 0;
+}
+
+.netz #header {
+    background-color: #00358b;
+}
+
+.pet #header {
+    background-color: #005a49;
+}
+
+#header {
+    background-color: #f18900;
+}
+
+#header .logo_corolla a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.logo_corolla img {
+    max-width: 180px;
+    vertical-align: middle !important;
+}
+
+#header ul {
+    min-width: 320px;
+    /* background: #ff6e01; */
+    /* height: 46px; */
+    position: relative;
+    overflow: hidden;
+}
+
+#header li.logo_corolla {
+    float: left;
+    width: 67.1875%;
+    /* padding-top: 10px; */
+    height: 100%;
+}
+
+#header li.logo_toyota {
+    width: 32.8125%;
+    float: right
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* =========================================================
+
+ main slide
+ 
+========================================================= */
+#slider {
+    position: relative;
+    background-color: #000000;
+}
+#slider .content {
+    position: relative;
+}
+#slider .content li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+}
+#slider .content li.current {
+    opacity: 1;
+}
+#slider img {
+    vertical-align: top;
+    width: 100%;
+}
+#slider .status {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+#slider .status img {
+    width: 12px;
+    height: auto;
+    vertical-align: middle;
+}
+.btn_status{
+  display: inline-block;
+   padding: 10px 4px;
+   height: 12px;
+}
+
+/* =========================================================
+
+ sub nav
+
+ ========================================================= */
+/*#sub_nav {
+    padding: 10px 0;
+    height: 72px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+#sub_nav.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#sub_nav ul {
+    width: 310px;
+    margin: 0 auto;
+}
+#sub_nav li {
+    float: left;
+    margin-left: 3.5px;
+}
+#sub_nav li:first-child {
+    margin-left: 0;
+}
+#sub_nav li img {
+    width: 101px;
+    height: auto;
+    vertical-align: top;
+}
+.section sup {
+    font-size: 10px;
+}
+.section .btn_store {
+    text-align: center;
+    margin-top: 10%;
+}
+.section .btn_store img {
+    width: 100%;
+    height: auto;
+}*/
+
+
+/* ========================================
+sub_nav
+==========================================*/
+
+#sub_nav {
+  padding: 4px 0 0 1px;
+  height: 58px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+  border: none;
+}
+#sub_nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#sub_nav li {
+  margin-left: 1px;
+  margin-right: 1px;
+  display: inline-block;
+}
+#sub_nav li img {
+  width: 54px;
+  height: auto;
+}
+
+/* =========================================================
+
+ contents module
+ 
+========================================================= */
+.section {
+    padding-top: 25px;
+     margin-top: 15%; 
+}
+.section_wrap {
+}
+.section_inner {
+    margin: 10px 3.125% 0;
+}
+.head-area {
+    background-color: #FFF;
+    text-align: center;
+    padding: 44px 14px 20px;
+}
+.head-title {
+    line-height: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head-title img {
+    width: auto;
+    height: 23px;
+}
+.head-copy {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.section .copy {
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.7;
+}
+.card-title {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+.card-title span {
+	font-weight: normal;
+}
+.card-word {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.card-area.card-type1 {
+    background-color: #fff;
+    padding: 20px;
+}
+.card-note {
+    font-size: 9px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.card-note.card-note-frame {
+    border: 1px solid #000;
+    padding: 5px;
+}
+.card-title-sub {
+    display: block;
+    margin-top: 3px;
+}
+
+.btn-store,
+.btn-biz {
+    text-align: center;
+    margin-top: 16%;
+}
+
+.mt-10 {margin-top: 10px !important;}
+.mt-20 {margin-top: 20px !important;}
+.mt-35 {margin-top: 35px !important;}
+.mt-45 {margin-top: 45px !important;}
+.mt-50 {margin-top: 50px !important;}
+.fs-9  {font-size: 9px !important;}
+.fs-12 {font-size: 12px !important;}
+
+
+/* =========================================================
+
+ section_present
+ 
+========================================================= */
+#section_present {
+    margin-left: 7.0875%;
+    margin-right: 7.0875%;
+}
+#section_present.section {
+    margin-top: 0;
+}
+
+
+/* =========================================================
+
+ section
+ 
+========================================================= */
+.section {
+    padding-top: 25px;
+}
+#index02 {
+    padding-top: 0px !important;
+}
+
+/* =========================================================
+
+ section_01
+ 
+========================================================= */
+#section_01.section {
+    margin-top: 0;
+}
+#section_01 .section_inner {
+    margin-top: 35px;
+}
+#section_01 .carousel-area {
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+#modal {
+    margin-top: 15%;
+}
+.modal-list {
+    padding: 0 6.666%;
+}
+.modal-item {
+    margin-top: 20px;
+}
+.modal-item:first-child {
+    margin-top: 0;
+}
+
+/* =========================================================
+
+ section_02
+ 
+========================================================= */
+#section_02 .card-area {
+    padding: 45px 20px 0;
+}
+
+/* =========================================================
+
+ section_03
+ 
+========================================================= */
+
+/* =========================================================
+
+ section_04
+ 
+========================================================= */
+#section_04 .img {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 40px auto 30px;
+}
+#section_04 .copy {
+    margin-bottom: 20px;
+}
+/* =========================================================
+
+ section_05
+ 
+========================================================= */
+
+/* =========================================================
+
+ section_06
+ 
+========================================================= */
+#section_06 .copy {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+/* =========================================================
+
+ section_07
+ 
+========================================================= */
+#section_07 {
+	margin-bottom: 23%;
+}
+
+
+/* carousel
+......................................................... */
+.carousel-area {
+    position: relative;
+}
+.car-main-img img {
+    position: absolute;
+    vertical-align: bottom;
+}
+.car-thumb-img {
+    padding-top: 67.629%;
+    position: relative;
+}
+.carousel-area li {
+    float: left;
+    width: 19%;
+    margin-left: 1.25%;
+}
+.carousel-area li:first-child {
+    margin-left: 0;
+}
+.carousel-area .frame {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 19%;
+    padding-top: 67.629%;
+}
+
+
+/* hybrid
+......................................................... */
+#hybrid {
+    margin-top: 34px;
+    margin-bottom: 4.7%;
+}
+#hybrid .tit_area {
+    text-align: center;
+}
+#hybrid .tit_blue {
+    display: inline-block;
+}
+#hybrid_mark {
+    display: inline-block;
+}
+#hybrid_mark img {
+    width: 70px;
+    height: auto;
+}
+#shift_1 {
+    margin-top: 20px;
+}
+
+.wrap_change_panel {
+    max-width: 640px;
+    margin: 11.7% auto 0;
+}
+
+.img_box {
+    margin: 10.9% auto 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    vertical-align: top;
+}
+.img_box img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.wrap_change_panel .lineup li.current {
+    opacity: 1;
+}
+.lineup img {
+    width: 100%;
+    height: auto;
+}
+
+.color {
+    width: 300px;
+    margin: 15px auto 20px;
+}
+.color ul {
+    font-size: 0;
+    /*margin-left: -3px;*/
+    margin-left: -2px;
+}
+.color li {
+    /* display: inline-block; */
+    font-size: 0;
+    position: relative;
+    float: left;
+    margin: 0px 0px 2px 2px;
+}
+.color li img {
+    width: 58px;
+    height: auto;
+    /* margin: 0px 0px 6px 6px; */
+    /* margin-bottom: 4px; */
+}
+.color li.active:after {
+    content: "";
+    width: 58px;
+    height: 25px;
+    background: url(http://toyota-dealers.jp/99015/recruit/resources/sp/img/common/color-tip-frame.png) left top no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: 100% auto;
+}
+#interior_slide li.active:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+#dressup {
+    background-color: #00163d;
+    padding: 19px 15px 10px 15px;
+    margin-top: 5%;
+}
+#dressup .lead {
+    margin-top: 0px;
+}
+
+
+/* modal
+......................................................... */
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 290px;
+    height: auto;
+}
+#cboxOverlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    opacity:0.9;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+button{
+    border: none;
+}
+#colorbox{
+    border: none;
+    outline: none;
+    z-index: 11;
+}
+#cboxClose{
+    position: absolute;
+    top: -33px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    background: transparent url(http://toyota-dealers.jp/99015/recruit/resources/sp/img/modal/btn_close.png) left top no-repeat;
+    background-size: 100% auto;
+    outline: none;
+    border: none;
+}
+
+
+/* =========================================================
+
+ footer
+ 
+========================================================= */
+#footer_logo {
+    text-align: center;
+    margin: 28px 0 10px 0;
+}
+#footer_logo img {
+    width: 62px;
+    height: auto;
+}
+#footer_logo_p{
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+#footer_logo_p img{
+    width: 244px;
+    height: auto;
+}
+.netz #footer_container {
+    background-color: #00358b;
+    height: 50px;
+}
+.pet #footer_container {
+    background-color: #005a49;
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+}
+#footer_container {
+    background-color: #ff6e01;
+    height: 50px;
+}

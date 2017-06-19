@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1024px) {
+  .unit_section_text{
+    font-size:16px;
+    line-height: 180%;
+    margin-bottom: 94px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .unit_section_text{
+    font-size:18px;
+    line-height: 180%;
+    margin-bottom: 94px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .unit_section_text{
+    font-size:14px;
+    line-height: 180%;
+    margin-bottom: 67px;
+  }
+
+}

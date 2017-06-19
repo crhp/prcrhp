@@ -1,0 +1,45 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(//fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+html {
+    font-size: 62.5%/*初期値16pxの62.5%でルートが10px*/
+}
+body {
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", 'Noto Sans Japanese', "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    ;
+    color: #1a1a1a;
+    /* font-weight: 500; */
+}
+h2 {
+    font-weight: normal;
+    color: #00a0d2;
+    font-size: 39px;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", "HG明朝B", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+}
+h3 {
+    color: #00a0d2;
+    font-size: 36px;
+    font-weight: bold;
+}
+@media screen and (min-width: 1200px) {
+    .sizedetect {
+        font-family: pc;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 740px) {
+    h2 {
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 739px) {
+    h2 {
+        font-family: "游明朝体", "Sawarabi Mincho", "YuMincho", "Yu Mincho", "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", "HG明朝B", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+        font-size: 23px;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,79 @@
+.top-slide-container {
+  margin-bottom: 51px; }
+
+.top-slide-item {
+  width: 100%; }
+
+.top-slide-item img {
+  width: 100%;
+  height: auto; }
+
+.top-pager-list {
+  text-align: center; }
+
+.top-pager-item {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #909090; }
+
+.slick-active .top-pager-item {
+  background-color: #ff6e01; }
+
+.slick-dots {
+  list-style: none;
+  height: 6px;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  text-align: center; }
+
+.slick-dots > li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+  cursor: pointer; }
+
+.slick-dots > li:last-child {
+  margin-right: 0; }
+
+@media screen and (min-width: 768px) {
+  .slick-dots {
+    height: 12px;
+    margin-top: 18px;
+    }
+  .slick-dots > li {
+    margin-right: 12px; }
+  .top-pager-item {
+    width: 12px;
+    height: 12px; } 
+  .top-slide-container {
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-slide-container {
+    margin-bottom: 43px;
+    }
+  .top-slide-list {
+    position: relative; 
+    border-bottom: 1px #dddddd solid;}
+  .slick-dots {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    }
+  .slick-dots li {
+    margin-right: 16px; } }
+
+@media screen and (min-width: 1366px) {
+  .top-slide-container {
+    margin-bottom: 53px; }
+  .slick-dots {
+    right: 17px;
+    bottom: 15px; } }
+
+@media screen and (min-width: 1680px) {
+  .top-slide-container {
+    margin-bottom: 46px; } }

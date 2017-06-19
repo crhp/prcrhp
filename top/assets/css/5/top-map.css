@@ -1,0 +1,125 @@
+.top-shop-title {
+  margin-bottom: 18px;
+  }
+
+.top-map-container {
+  margin-bottom: 11px;
+  border-bottom: 1px solid #eee; }
+
+.top-map-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.top-map-title {
+  margin-bottom: 8px; }
+
+.top-map {
+  margin-bottom: 8px;
+  padding-top: 91.4%;
+  position: relative;
+  margin: 0 14px 15px;
+  }
+
+.top-map > div
+{
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
+
+.top-map img {
+  width: 100%; }
+
+.top-shoplist-btn {
+  margin-bottom: 23px;
+  }
+
+.top-hear-btn {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .top-shoplist-btn {
+    float: left;
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    }
+  .top-hear-btn {
+    float: right;
+    width: 49%;
+    padding-right: 14px;
+    display: block; }
+  .top-shoplist-btn a, .top-hear-btn a {
+    padding: 0;
+    margin: 0; }
+  .top-hear-btn a {
+    background: url(../../images/5/top-icon-hear.png) no-repeat 10px center;
+    background-size: 12px 16px;
+    letter-spacing: 0em;
+    padding-left: 19px; } }
+
+@media screen and (min-width: 768px) {
+  .top-shop-title {
+    margin-bottom: 26px; }
+  .top-map-container {
+    margin-bottom: 29px;
+    }
+  .top-map-title {
+    margin-bottom: 13px; }
+  .top-map {
+    overflow: hidden;
+    height: 408px;
+    margin-bottom: 31px;
+    padding: 0 21px; }
+  .top-shoplist-btn {
+    margin-bottom: 51px; } }
+
+@media screen and (min-width: 980px) {
+  .top-shop-title {
+    margin-bottom: 49px;
+    }
+  .top-map {
+    height: 527px;
+    margin-bottom: 40px;
+    margin: 0 21px 40px;
+    }
+  .top-map-container {
+    margin-bottom: 0; } }
+
+@media screen and (min-width: 1366px) {
+  .top-map {
+    margin: 22px 62px 41px;
+    height: 584px;
+    } 
+
+  .top-map-title {
+    
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-map {
+    width: 100%;
+    height: 324px;
+    padding: 0;
+    margin: 0 0 25px;
+    }
+  .top-shoplist-btn {
+    margin-bottom: 26px; }
+  .top-shoplist-btn a {
+    width: 280px; }
+  .top-shop-title {
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 23px;
+    margin-bottom: 20px;
+    }
+
+  .top-map-title {
+    margin-bottom: 21px;
+  }
+
+     }

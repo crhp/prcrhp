@@ -1,0 +1,44 @@
+@charset "UTF-8"; .slick-active .top-pager-item {
+    background-color: #118075;
+}
+
+.top-dial-normal {
+    color: #118075;
+}
+
+.top-dial-release {
+    color: #118075;
+}
+
+.top-calendar-nav-prev a {
+    /* background-image: url(../../images/5/parts_p/top-arrow-left-icon.png); */
+    /* color: #d93c48; */
+}
+.top-calendar-nav-next a {
+    background-image: url(../../images/5/parts_p/top-arrow-right-icon.png)  left top no-repeat;
+    /* color: #d93c48; */
+}
+
+
+@media screen and (max-width: 767px) {
+    .top-calendar-nav-prev .tc-btn-b {
+        /* color: #c56e3d; */
+        /* border: solid 2px #c56e3d; */
+    }
+
+    .top-calendar-nav-next .tc-btn-b {
+        /* color: #c56e3d; */
+        /* border: solid 2px #c56e3d; */
+    }    
+
+}
+@media screen and (min-width: 768px) {
+    .top-calendar-nav {
+        /* border: solid 2px #118075; */
+    }
+    .top-calendar-nav-next a {
+        /* background: url(../../images/5/parts_p/top-arrow-right-icon.png) 90% center no-repeat; */
+        background-size: 5px 8px;
+        /* color: #118075; */
+    }
+}

@@ -1,0 +1,173 @@
+@charset 'UTF-8'; /**********/
+@media screen and (min-width: 1470px) {
+    #sortmenu h2 {
+        color: #118075;
+    }
+
+    #sortmenu .service-block h3 {
+        color: #118075;
+    }
+    #sortmenu .area-block h3 {
+        color: #118075;
+    }
+    #sortmenu .search-info .search-target {
+        color: #118075;
+    }
+
+    #sortmenu .search-info .button-clear {
+        background-image: url(../images/icn-cross_p.png);
+    }
+
+    #store-list .inner .store_section_info .name span {
+        color: #118075;
+    }
+
+    #store-list .inner .store_btn_detail a {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label a {
+        color: #118075;
+    }
+
+
+    #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+}
+
+@media screen and (max-width: 1469px) and (min-width: 980px) {
+    #sortmenu h2 {
+        color: #118075;
+    }
+
+    #sortmenu .service-block h3 {
+        color: #118075;
+    }
+
+    #sortmenu .area-block h3 {
+        color: #118075;
+    }
+
+
+    #sortmenu .search-info .search-target {
+        color: #118075;
+    }
+
+    #sortmenu .search-info .button-clear {
+        background-image: url(../images/icn-cross_p.png);
+    }
+
+    #store-list .inner .store_section_info .name span {
+        color: #118075;
+    }
+
+    #store-list .inner .store_btn_detail a {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label a {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+}
+
+@media screen and (max-width: 979px) and (min-width: 768px) {
+    #sortmenu h2 {
+        color: #118075;
+    }
+
+    #sortmenu .service-block h3 {
+        color: #118075;
+    }
+
+
+    #sortmenu .area-block h3 {
+        color: #118075;
+    }
+
+    #sortmenu .search-info .search-target {
+        color: #118075;
+    }
+
+    #sortmenu .search-info .button-clear {
+        background-image: url(../images/icn-cross_p.png);
+    }
+
+    #store-list .inner .store_section_info .name span {
+        color: #118075;
+    }
+
+    #store-list .inner .store_btn_detail a {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label a {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #sortmenu h2 {
+        color: #118075;
+    }
+
+    #sortmenu .service-block h3 {
+        color: #118075;
+    }
+
+
+    #sortmenu .area-block h3 {
+        color: #118075;
+    }
+
+
+    #sortmenu .search-info .search-target {
+        color: #118075;
+    }
+
+    #sortmenu .search-info .button-clear {
+        background-image: url(../images/icn-cross_p.png);
+    }
+
+    #store-list .inner .store_section_info .name span {
+        color: #118075;
+    }
+
+    #store-list .inner .store_btn_detail a {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+
+
+    #section-calendar .calendar-inner .right-wrap .phone-number dl dd.first-block .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
+        background-image: url(../images/icn-arrow_p.png);
+    }
+}

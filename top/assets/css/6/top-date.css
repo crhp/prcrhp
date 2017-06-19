@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.top-date-container {
+  padding-top: 22px;
+  padding-bottom: 2px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  }
+
+.top-date-title {
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 0.05em;
+  }
+
+.top-date-list {
+  list-style: none;
+  margin: 13px 21px 17px; }
+
+.top-date-item {
+  position: relative;
+  margin-bottom: 19px;
+  letter-spacing: .05em; }
+
+.top-date-item:after {
+  position: absolute;
+  top: -4px;
+  left: -13px;
+  color: #283c96;
+  content: "・"; }
+
+.top-date-item-label {
+  color: #ff6e01;
+  font-size: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  }
+
+.top-date-item-time {
+  letter-spacing: .1em;
+  font-weight: bold;
+  }
+
+@media screen and (min-width: 768px) {
+  .top-date-container {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 26px;
+    border-bottom: none;
+    }
+  .top-date-title {
+    margin-bottom: 33px;
+    text-align: left;
+    }
+  .top-date-list {
+    margin-top: 0; }
+  .top-date-item {
+    margin-bottom: 21px;
+    }
+  .top-date-item:after {
+    content: ""; }
+  .top-date-item-label {
+    font-size: 14px; }
+  .top-date-item-time {
+    font-size: 20px; } }
+
+@media screen and (min-width: 980px) {
+  .top-date-container {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-bottom: 1px;
+    padding-top: 28px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    border-bottom: 1px solid #fff;
+    }
+  .top-date-list {
+    margin-bottom: 0; } 
+  .top-date-title {
+    margin-bottom: 31px;
+  }
+  .top-date-item
+  {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .top-date-container {
+    padding-bottom: 11px;
+    padding-left: 10px;
+    width: 50%;
+    float: left;
+    padding-top: 31px;
+    border-bottom: none;
+    } 
+  
+  .top-date-title {
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-date-container {
+    padding-bottom: 21px;
+    padding-left: 10px;
+    } 
+
+  
+  .top-date-title {
+    
+  }
+}

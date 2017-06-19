@@ -1,0 +1,241 @@
+.top-column-left-title {
+  margin-bottom: 22px;
+  font-weight: normal;
+  text-align: center;
+  border-top: 1px solid;
+  border-radius: 2px;
+  background: #fff;
+  line-height: 43px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  }
+
+.top-column-left-title br
+ {
+   display: none;
+ }
+
+.top-column-left-title strong {
+  }
+
+.top-service-container {
+  margin-bottom: 18px;
+  padding-top: 0;
+  }
+
+.top-service-list {
+  list-style: none;
+  margin-right: -10px;
+  }
+
+.top-service-list:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.top-service-item {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  }
+
+.top-service-item-dummy {
+  display: none; }
+
+.top-service-item a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  background: #fff;
+  }
+
+.top-service-item-pic {
+  }
+
+.top-service-item-pic img {
+  width: 100%;
+  height: auto; }
+
+.top-service-item-title {
+  margin-bottom: 0px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 15px;
+  letter-spacing: .1em;
+  font-weight: bold;
+  padding: 5px 10px 0;
+  }
+
+.top-service-item-text {
+  margin-bottom: 7px;
+  font-size: 10px;
+  text-align: left;
+  line-height: 14px;
+  letter-spacing: -0.09em;
+  padding: 5px 10px 0;
+  }
+
+.top-service-item-btn-a {
+  display: block;
+  width: 103px;
+  height: 28px;
+  margin-bottom: 4px;
+  border: 1px solid #ff6e01;
+  border-radius: 28px;
+  color: #ff6e01;
+  color: #ff6e01;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px; }
+
+.top-service-item-dummy {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  .top-service-container {
+    margin-top: 0;
+    padding-top: 12px; }
+  .top-column-left-title {
+    margin-bottom: 12px;
+    font-size: 26px;
+    letter-spacing: .08em;
+    border-width: 3px;
+    line-height: 60px;
+    height: 67px;
+    }
+  .top-service-list {
+    padding: 0 0;
+    margin-right: -10px;
+    }
+  .top-service-item {
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding-right: 11px;
+    }
+ 
+  .top-service-item-dummy {
+    display: block;
+    text-align: center; }
+  .top-service-item-dummy-inner {
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 285px; }
+  .top-service-item:nth-child(2n) {
+    }
+  .top-service-item-pic {
+    margin-bottom: 0;
+    }
+  .top-service-item-title {
+    height: 62px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2em;
+    padding-top: 15px;
+    }
+  .top-service-item-text {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 22.8px;
+    height: 72px;
+    letter-spacing: .05em;
+    }
+  .top-service-item-btn-a {
+    border-width: 2px;
+    font-size: 14px; }
+  .top-service-container {
+    margin-bottom: 3px;
+    padding-top: 0;
+    margin-top: 34px;
+    } 
+  .top-service-item a {
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-column-left-title {
+    margin-bottom: 21px;
+    letter-spacing: 0;
+    height: 63px;
+    }
+  .top-service-item-title {
+    height: 63px;
+    font-size: 17px;
+    }
+  .top-service-container {
+    margin-bottom: 0;
+    margin-top: 40px;
+    } 
+  .top-service-item {
+    width: 25%;
+    padding-right: 12px;
+    padding-left: 0;
+    margin-bottom: 14px;
+  }
+  
+  .top-service-list {
+    margin-right: -12px;
+  }
+  
+  .top-service-item-dummy {
+    display: none;
+  }
+
+  .top-service-item-text {
+    font-size: 14px;
+    height: 59px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .top-column-left-title {
+    margin-bottom: 22px;
+    }
+  .top-service-list {
+    padding: 0;
+    margin-right: -14px;
+    }
+  .top-service-item,
+  .top-service-item:nth-child(2n) {
+    padding: 0;
+    padding-right: 16px;
+    }
+   
+  .top-service-item-dummy-inner {
+    line-height: 340px; }
+  .top-service-container {
+    margin-bottom: 52px;
+    margin-top: 0;
+    } }
+
+@media screen and (min-width: 1680px) {
+  .top-column-left-title {
+    margin-bottom: 21px;
+    padding-top: 0;
+    }
+  .top-service-list {
+    margin-left: 0px;
+    }
+  .top-service-item,
+  .top-service-item:nth-child(2n),
+  .top-service-item:nth-child(3n-2),
+  .top-service-item:nth-child(4n-2), .top-service-item:nth-child(4n-1) {
+    margin-bottom: 18px;
+    padding: 0;
+    padding-right: 17px;
+    }
+  .top-service-item-text {
+    height: 55px;
+    } }
+
+@media screen and (min-width: 768px) {
+  .top-service-item-btn-a {
+    font-size: 13px; } }

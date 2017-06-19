@@ -1,0 +1,74 @@
+.top-youtube-container
+{
+  position: relative;
+    width: 100%;
+    padding-bottom: 43%;
+    overflow: hidden;
+}
+.top-youtube-container-hd
+{
+    padding-bottom: 56.25%;
+}
+
+.top-youtube-inner
+{
+  width: 100%;
+  /* padding-bottom: 16.25%; */
+  /* margin-bottom: 2px; */
+  position: relative;
+}
+
+.top-youtube-container iframe
+{
+  width: 100%;
+  height: 131%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.top-youtube-container-hd iframe
+{
+  height: 100%;
+}
+
+.top-youtube-inner{
+  height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .top-youtube-inner
+{
+
+  margin-bottom: 5px;
+
+}
+}
+
+@media screen and (min-width: 980px) {
+  .top-youtube-inner
+{
+
+  margin-bottom: 5px;
+
+}
+}
+
+@media screen and (min-width: 1366px) {
+  .top-youtube-inner
+{
+
+  margin-bottom: 5px;
+
+}
+}
+
+@media screen and (min-width: 1680px) {
+  .top-youtube-inner
+{
+
+  margin-bottom: 3px;
+
+}
+}

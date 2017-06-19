@@ -1,0 +1,25 @@
+.section h1 {
+    font-size: 34px;
+    color: #118175;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.section h2 {
+    color: #118175;
+    font-weight: bold;
+    text-align: center;
+}
+.hour .text-block .sub-title {
+    color: #118175;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 499px) {
+    .recruit-nav .nav-list li.current {
+        border: 2px solid #118175;
+    }
+    .recruit-nav .nav-list li.current a {
+        color: #118175;
+    }
+}

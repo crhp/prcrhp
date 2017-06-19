@@ -1,0 +1,267 @@
+/* CSS Document */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SiteURL: http://www.c-yokohama.com/
+Created: 2007.06/25
+LastUpdate: 2007.07/05by久保田
+Author: 久保田
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*タグ再定義*/
+body {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;}
+
+/*テキストの色など*/
+.txt_orange {color:#FF9900;}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+テンプレートbody
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#wrapper {
+	padding:0px;
+	height:auto;
+	width:950px;
+	margin:0px auto 0px auto;}
+
+/*clearfix後の状態　高さをカバー*/
+.clearfix:after {
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;}
+
+.clearfix{min-height:1px;}
+* html .clearfix{height:1px; /*\*//*/ height:auto; overflow:hidden; /**/}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ヘッダー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#header{height:47px; padding:0px; margin:0px 0px 10px 0px;}
+	
+h1#logotype1{
+    height:47px;
+	margin:0px;
+	padding:0px;
+	float:left;}
+
+h3#logotype2{
+	margin:0px; padding:0px;
+	float:right;
+	background-image: url(../img/grand/logo02.jpg);
+	background-repeat: no-repeat;
+	height:47px; width:140px;
+	font-size:9px; color:#FFFFFF;}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+フッター
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#footer{
+    height:25px; margin:10px 0px 5px 0px; padding:0px;
+    background-image: url(../img/grand/foot.gif);
+	background-repeat: no-repeat; clear:both;}
+
+#footer h3{
+	font-size:9px; color:#FFFFFF;
+	margin:0px; padding:0px;
+	visibility:hidden;}
+	
+address{font-size:13px; text-align:right; margin-bottom:10px;}	
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+フラッシュ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#global{
+	width:950px;
+	height:250px;
+	clear:both;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 10px 0px;}
+
+#global h2{
+    padding:0px;
+    margin:0px;
+	text-indent:-9999px;
+	overflow:hidden;
+	font-size:9px;
+	color:#FFFFFF;}	
+	
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+カレンダー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#calender {
+    width:670px;
+	height:auto;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	float:left; text-align:left;
+	clear:both;}
+
+#month02 {
+    padding:0px 14px 0px 7px;
+	margin:0px;
+	}
+
+#month03 {
+    padding:0px 7px 0px 0px;
+	margin:0px;
+	}
+
+	
+#calendar_ttl {
+	/*background-image:url(../img/grand/ttl_calendar.gif);
+	background-repeat:no-repeat;
+	text-indent: 145px;*/
+	font-size: 11px;
+	padding-top: 3px;
+	}
+
+#calendar_ttl span {
+	color: #FF9900;
+    }	
+
+#month h5 {
+	width:313px;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	/*background-color: #FFFFCC;*/
+	border-left: 5px solid #ff9900;
+	text-indent: 5px;
+	display: block;
+	font-size: 13px;
+    }
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+カローラ横浜モバイル
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#mobile {
+	width:300px;
+	height:auto;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	float:right;
+	background-image: url(../img/grand/parts03.gif);
+	background-repeat: repeat-y;
+	text-align:left;}
+
+#mobile h4 {
+	font-size:9px; color:#FFFFFF; text-indent:-9999px; overflow:hidden;
+	margin:0px; padding:0px;}
+
+#parts01 {
+    background-image:url(../img/grand/parts01.gif);
+	background-repeat:no-repeat; height:76px;
+	padding:0px;
+	margin:0px;
+}
+
+h4.parts02 {background-image: url(../img/grand/parts02.gif);
+	background-repeat:no-repeat; height:40px;}
+	
+/*p.arrow{
+	margin:0px 0px 0px 15px;
+	padding:35px 0px 0px 0px;
+	text-indent:15px;
+	background-image: url(../img/grand/parts04.gif);
+	background-repeat: no-repeat;
+}*/
+
+.url {
+	color:#FF9900;
+	text-decoration:underline;
+	font-size:14px;
+	background-image: url(../img/grand/parts04.gif);
+	background-repeat: no-repeat;
+	display: block;
+	text-indent:15px;
+	background-position: left center;
+	margin:35px 0px 0px 20px;
+}
+
+a.mail {
+	background-image: url(../img/grand/parts05.gif);
+	display:block;
+	margin:12px 0px 0px 75px; padding:0px;
+	height:15px; width:142px;}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+サブメニュー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#sub {height:50px; padding:0px; margin:0px; clear:both;}
+
+ul#menu2 {padding:15px 0px 0px 0px; margin:0px;}
+
+ul#menu2 li {
+	list-style-image: none;
+	list-style-type: none;
+	width: 190px;
+	margin:0px;
+	padding:0px;
+	float:left;}
+
+ul#menu2 a {
+	display:block;
+	margin:0px auto 0px auto;
+	padding:0px;
+	height:21px;
+	width:182px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	font-size:9px;
+	color:#FFFFFF;}/*firefox用に、マージン左右はauto*/
+
+/*会社案内*/
+a.sub01 {
+	background-image: url(../img/grand/sub01.gif);
+	background-repeat: no-repeat;}
+
+/*リクルート*/
+a.sub02 {
+	background-image: url(../img/grand/sub02.gif);
+	background-repeat: no-repeat;}
+
+/*CSR基本方針*/
+a.sub03 {
+	background-image: url(../img/grand/sub03.gif);
+	background-repeat: no-repeat;}
+	
+/*プライバシーポリシー*/
+a.sub04 {
+	background-image: url(../img/grand/sub04.gif);
+	background-repeat: no-repeat;}	
+	
+/*こども110番*/
+a.sub05 {
+	background-image: url(../img/grand/sub05.gif);
+	background-repeat: no-repeat;}	
+	
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+バナー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+
+
+
+		

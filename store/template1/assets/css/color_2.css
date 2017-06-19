@@ -1,0 +1,36 @@
+#wrapper #container h1 {
+    color: #003476;
+}
+
+#sortmenu h2 {
+    border-bottom: solid 2px #003476;
+}
+
+#sortmenu .search-info .search-target {
+    color: #003476;
+}
+#store-list .inner .store_section_info .name span {
+    color: #003476;
+}
+
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
+    color: #003476;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number div {
+    color: white;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #003476), color-stop(0.00, #6685ad));
+	background: -webkit-linear-gradient(#6685ad, #003476);
+	background: -moz-linear-gradient(#6685ad, #003476);
+	background: -o-linear-gradient(#6685ad, #003476);
+	background: -ms-linear-gradient(#6685ad, #003476);
+	background: linear-gradient(#6685ad, #003476);
+} 
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dt {
+    background-color: #003476;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number dl dt {
+    background-color: #003476;
+}

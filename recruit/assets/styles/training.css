@@ -1,0 +1,363 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+img {
+  vertical-align: top;
+}
+.section {}
+.content {
+  line-height: normal;
+}
+.section h1 {
+  font-size: 34px;
+  color: #ff6e01;
+  font-weight: bold;
+  text-align: center;
+}
+.anc li {
+  text-align: center;
+  background-color: #d5d5d5;
+  float: left;
+}
+.anc li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+.anc li a:hover {
+  background-color: #e2e2e2;
+}
+.section h2 {
+  color: #ff6e01;
+  font-weight: bold;
+  text-align: center;
+}
+.section h3 {
+  color: #fff;
+  font-weight: bold;
+  background-color: #b5b5b6;
+}
+.training li.text-block dt {}
+.training li.pic-block img {
+  width: 100%;
+  height: auto;
+}
+.sales .training:last-child .section-arrow {
+  display: none;
+}
+.engineer .training:last-child .section-arrow {
+  display: none;
+}
+.section-arrow {
+  text-align: center;
+}
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .anc {
+    margin-top: 66px;
+    letter-spacing: 4px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 40px 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: auto;
+    /* line-height: 42px; */
+    /* padding-left: 20px; */
+    letter-spacing: 3.3px;
+    padding: 10px 20px;
+  }
+  .training ul {
+    font-size: 16px;
+    border: 1px solid #b5b5b6;
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+  .training li.text-block {
+    float: left;
+    width: 490px;
+  }
+  .training li.text-block.no-image {
+    width: auto;
+  }
+  .training li.pic-block {
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-top: 7px;
+  }
+  .section-arrow {
+    margin: 20px 0 16px;
+  }
+  .sales {
+    margin-top: 70px;
+  }
+  .engineer {
+    margin-top: 70px;
+  }
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .anc {
+    margin-top: 66px;
+    letter-spacing: 4px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 40px 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: auto;
+    /* line-height: 42px; */
+    /* padding-left: 20px; */
+    letter-spacing: 3.3px;
+    padding: 10px 20px;
+  }
+  .training ul {
+    font-size: 16px;
+    border: 1px solid #b5b5b6;
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+  .training li.text-block {
+    float: left;
+    width: 490px;
+  }
+  .training li.text-block.no-image {
+    width: auto;
+  }
+  .training li.pic-block {
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-top: 7px;
+  }
+  .section-arrow {
+    margin: 20px 0 16px;
+  }
+  .sales {
+    margin-top: 70px;
+  }
+  .engineer {
+    margin-top: 70px;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  .anc {
+    margin-top: 9%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1.2%;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+  }
+  .section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 6.9% 0;
+  }
+  .section h3 {
+    font-size: 22px;
+    height: auto;
+    /* line-height: 42px; */
+    /* padding-left: 20px; */
+    letter-spacing: 3.3px;
+    padding: 10px 20px;
+
+
+  }
+  .training ul {
+    font-size: 16px;
+    border: 1px solid #b5b5b6;
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+  .training li.text-block {
+    float: left;
+    width: 50%;
+  }
+  .training li.text-block.no-image {
+    width: auto;
+  }
+  .training li.pic-block {
+    float: right;
+    width: 47.4%;
+    height: auto;
+    margin-top: 7px;
+  }
+  .section-arrow {
+    margin: 20px 0 16px;
+  }
+  .sales {
+    margin-top: 5.2%;
+  }
+  .engineer {
+    margin-top: 5.2%;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  .section h1 {
+    font-size: 18px;
+  }
+  .anc {
+    margin-top: 6.4%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 1.2%;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 95% center;
+    -moz-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+  .section h2 {
+    font-size: 15px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 2px 0;
+    margin: 0 0 5.9% 0;
+  }
+  .section h3 {
+    font-size: 15px;
+    height: auto;
+    /* line-height: 30px; */
+    /* padding-left: 10px; */
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  .training ul {
+    font-size: 14px;
+    border: 1px solid #b5b5b6;
+    padding: 10px;
+    box-sizing: border-box;
+
+  }
+  .training li.text-block > p {
+    margin-bottom: 4%;
+    line-height: 1.8;
+  }
+  .training li.text-block dl {
+    margin-bottom: 10%;
+  }
+  .training li.pic-block {
+    margin-top: 0;
+  }
+  .section-arrow {
+    margin: 5% 0 3.5%;
+  }
+  .sales {
+    margin-top: 7%;
+  }
+  .engineer {
+    margin-top: 7%;
+  }
+}

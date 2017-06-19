@@ -1,0 +1,152 @@
+@charset 'UTF-8';
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url('modules/tval-nav.css');
+@import url('modules/tval-main-pic.css');
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+.text-block {
+  display: inline-block;
+}
+.tval-heading-1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff6e01;
+  line-height: 1.3;
+  border-bottom: 1px solid #dddddd;
+}
+.youtube-box {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.youtube-box iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.tval-btn {
+  background-color: #ff6e01;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.tval-lead {
+  text-align: center;
+  font-weight: bold;
+}
+.tval-btn.outer:after {
+  content: "";
+  background-image: url(/u-car/assets/images/ico-outer.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 9px;
+  height: 7px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.tval-btn-area {
+  text-align: center;
+}
+.tval-btn a {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .content {
+    padding: 0 10px
+  }
+  .tval-heading-1 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .tval-txt {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .tval-btn-area {
+    margin-top: 47px;
+    margin-bottom: 30px;
+  }
+  #size-detect {
+    font-family: "sp";
+  }
+  .tval-heading-top {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .tval-btn {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    /* padding: 14px 30px; */
+    font-size: 13px;
+  }
+  .tval-btn a {
+    padding: 14px 30px;
+  }
+  .tval-lead {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 0 20px
+  }
+  .tval-heading-1 {
+    font-size: 24px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  .tval-txt {
+    font-size: 16px;
+    line-height: 2.0;
+  }
+  .tval-txt-small {
+    margin-top: 10px;
+  }
+  .tval-btn-area {
+    margin-bottom: 30px;
+  }
+  .tval-btn-area {
+    margin-top: 97px;
+  }
+  #size-detect {
+    font-family: "tab";
+  }
+  .tval-heading-top {
+    padding-top: 29px;
+    margin-bottom: 9px;
+    font-size: 16px;
+  }
+  .tval-btn {
+    /* padding: 19px 30px; */
+    font-size: 20px;
+  }
+  .tval-btn a {
+    padding: 19px 30px;
+    ;
+  }
+  .tval-lead {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) {}
+@media screen and (min-width:1280px) {
+  .content {
+    padding: 0 0;
+    width: 980px;
+    margin: 0 auto;
+  }
+}

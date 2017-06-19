@@ -1,0 +1,466 @@
+@charset 'UTF-8';
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic,'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.13em;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    vertical-align: top;
+}
+
+#wrapper {
+    width: inherit;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#wrapper {
+    font-size: 18px;
+    line-height: 1.7em;
+}
+#design{
+    padding-bottom:80px;
+    padding-top:300px;
+}
+#design .notice {
+    font-size: 11px;
+}
+
+.notice {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-top: 9px;
+}
+#contact .notice{
+    text-align:left;
+    margin-top:50px;
+}
+#safe .notice{
+    margin-top: 36px;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+#header {
+    position: relative;
+    min-width: 940px;
+    height: 50px;
+    margin: 0;
+}
+
+#header p.yokohama-corolla_logo {
+    line-height: 88px;
+}
+
+#header p.yokohama-corolla_logo img {
+    vertical-align: middle;
+}
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: ' ';
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.logo_left {
+    position: absolute;
+    left: 0;
+}
+
+.logo_right {
+    position: absolute;
+    right: 0;
+}
+
+.btn_try a {
+    display: block;
+    margin: 0 auto 40px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.btn_safety{
+    margin-bottom: 99px;
+}
+.btn_safety.btn_try a{
+    width: 480px;
+    height:160px;
+}
+
+
+
+.eoh .btn_try a img {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+
+
+/* point_header
+......................................................... */
+
+.item_header .num {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    margin: 0;
+    margin: -17px 0 0 -11px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* contents
+========================================================= */
+
+#contents {
+    position: relative;
+    width: 100% !important;
+    margin: 0 !important;
+    background: #fff;
+}
+
+#contents img {
+    overflow: hidden;
+    vertical-align: top;
+}
+
+
+#footer {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+#footer span {
+    display: block;
+}
+
+#footer .copy {
+    font-size: 10px;
+    display: block;
+    padding: 5px 30px 5px 0;
+    text-align: right;
+    background-color: #fff;
+}
+
+.copy {
+    font-size: 11px;
+    display: block;
+    padding: 0px 0px 5px 0;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 0;
+}
+
+.footer_menu {
+	font-size:15px;
+	text-align:center;
+	color:#000;
+	padding-bottom:10px;
+}
+.footer_menu a{
+	color:#000;
+	text-decoration:none;
+}
+.footer-logo {
+	text-align:center;
+    background-color: #fff;
+}
+
+.footer-logo .left-image {
+    float: left;
+}
+
+.footer-logo .right-image {
+    float: right;
+}
+
+
+/* =========================================================
+
+ common
+ 
+========================================================= */
+
+#contents {
+    text-align: center;
+}
+
+.item_header {
+    margin-bottom: 10px;
+}
+
+.item_title {
+    margin-bottom: 10px;
+}
+
+.item {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #eee;
+}
+
+item_img{
+	max-width:100%;
+	margin:0 auto;
+}
+.item_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn_try {
+    margin-top: 72px;
+
+}
+
+
+/* =========================================================
+
+ plan
+ 
+========================================================= */
+
+#contact {
+    text-align: center;
+    border-bottom: none;
+}
+#contact h1{
+	background: #EA5B2A;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+}
+#contact p{
+    text-align: left;
+    padding:10px 5px;
+    font-size:22px;
+}
+a:hover img{
+    cursor:pointer;
+    filter: alpha(opacity=60);        
+    -ms-filter: "alpha(opacity=60)"; 
+    -moz-opacity:0.6;      
+    opacity:0.6;
+    zoom:1;
+}
+.info{
+	margin:20px 0;
+}
+.info table{
+	width:95%;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-size:22px;
+	margin-top:5px;
+}
+.info table th{
+	text-align:center;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+.info table td{
+	text-align:left;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+.info table div {
+    border-right: 1px solid #ccc;
+    height: 30px;
+    margin-right: 10px;
+}
+.info_left, .info_right{
+	width:50%;
+	float:left;
+}
+.info_right iframe{
+	width:100%;
+}
+
+#contact .shop_info {
+    margin-top: 0px;
+    background: #FABE00;
+    padding-bottom: 40px;
+}
+
+#contact .shop_info_title {
+    padding:30px 0;
+    text-align:center;
+}
+
+.shop_cont{
+	width:1200px;
+	margin:20px auto 30px;
+}
+.shop_map{
+	width:218px;
+	height:160px;
+	float:left;
+	margin:10px;
+	background:#fff;
+	border-radius:8px;
+}
+.shop_map .name{
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+	line-height:1.5
+}
+.shop_map .adr{
+	font-size:9px;
+	color:#000;
+	font-weight:bold;
+	letter-spacing: 0;
+    line-height: 1.0;
+}
+.s_map{
+	font-size:12px;
+	width:90%;
+	color:#000;
+	font-weight:bold;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:8px;
+	line-height: 1.2;
+	margin:0 auto;
+}
+.s_map a{
+	display:block;
+	color:#000;
+	font-weight:bold;
+	width:100%;
+	color:#000;
+	text-decoration:none;
+}
+.s_map a:hover{
+	color:#000;
+	background:#eee;
+}
+#grade_lineup {
+    margin-top: 60px;
+}
+
+#contact .img_box_1 {
+    margin-top: 51px;
+}
+
+#campus_map{
+     width: 100%;
+     height:430px;
+}
+/*--------------------------------------------
+レスポンシブスタイル
+---------------------------------------------*/
+/* SP */
+@media only screen
+    and (max-width: 667px) {
+    
+.item_inner {
+    width:100%;
+}
+.item_img{
+	width:100%;
+}
+#contents img {
+    width: 100%;
+}
+#contact .btn_area {
+    width: 100%;
+    margin: 30px auto;
+}
+.shop_cont {
+    width: 100%;
+    margin: 0;
+}
+.shop_map {
+    width: 218px;
+    height: 160px;
+    float: none;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 8px;
+}
+#contact .shop_info_title {
+    padding: 20px 0;
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+}
+.btn_left, .btn_right {
+    float: none;
+    padding: 0;
+    width: 280px;
+    margin: 20px auto;
+}
+.footer-logo img{width:100%;}
+.btn_try {
+    margin-top: 20px;
+}
+.copy {
+    font-size: 11px;
+    display: block;
+    padding: 15px 0px 5px 0;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.item {
+    padding-bottom: 20px;
+}
+
+.info table{
+	width:100%;
+}
+.info table th{
+	display:block;
+}
+.info table td{
+	display:block;
+	text-align:center;
+}
+.info table div {
+    border-right: none;
+    height: auto;
+    margin-right: 0px;
+}
+.info_left, .info_right{
+	width:100%;
+	float:none;
+}
+.info_right iframe{
+	width:100%;
+}
+
+}

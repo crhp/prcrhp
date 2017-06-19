@@ -1,0 +1,127 @@
+#menu{width:950px; height:auto; padding:0px; margin:0px;}
+/*========================================================================
+メインメニューの基本設定。
+=========================================================================*/
+ul.main{width:100%; height:100%; background-color:#FFFFFF; font-family:"ＭＳ Ｐゴシック","Osaka",sans-serif; font-size:13px; text-align:center; margin:0px; padding:0px;}
+
+/*メインメニューのオンマウス、マウスアウト時の背景*/
+.main a.display{display:block; height:100%; width:100%; background-color:#FFFFFF; background-image: url(../img/grand/cover/btn_matt.gif);
+	background-repeat: no-repeat; padding-top:5px; font-weight:bold;}
+.main a.display:hover{background-color:#FFFFFF; background-image: url(../img/grand/cover/btn_matt.gif);
+	background-repeat: no-repeat;}
+
+/*メインメニューのリストサイズ*/
+.main li.off{height:27px; width:156px;}
+.main li.on{height:27px; width:156px;}	
+
+
+
+/*========================================================================
+リンクの装飾を指定。
+=========================================================================*/
+.main a{text-decoration:none;}
+
+/*========================================================================
+プルダウンの基本設定。
+=========================================================================*/
+.sub{background-color:#666666; font-size:12px; text-indent:5px; text-align:left; left:0px; top:0px; width:156px; margin:0px; padding:0px;}
+
+/*サブメニューのオンマウス、マウスアウト時の背景*/
+.sub a{display:block; margin:0px; padding:5px 0px 0px 0px; height:100%; width:100%;}
+.sub a:hover{background-color:#FF9900;}
+
+/*サブメニューのリストサイズ*/
+.sub li.off2{width:156px; height:27px; margin:0px; padding:0px;}
+.sub li.on2{width:156px; height:27px; margin:0px; padding:0px;}
+
+/*========================================================================
+メニューやオンマウス時の文字色設定。
+=========================================================================*/
+/*：メインメニューの文字色*/
+.main a:link{color:#999999}
+.main a:visited{color:#999999;}
+.main a:hover{color:#FF9900;}
+
+/*：サブメニューの文字色*/
+.sub a:link{color:#FFFFFF}
+.sub a:visited{color:#FFFFFF;}
+.sub a:hover{color:#FFFFFF;}
+
+/*：サブメニュー２の文字色*/
+.sub-2 a:link{color:#0000ff}
+.sub-2 a:visited{color:#000000;}
+.sub-2 a:hover{color:#ff0000;}
+
+/*========================================================================
+ボーダーの設定。
+=========================================================================*/
+/*通常時・メインメニューの枠線*/
+.main li.off{border:1px solid #999999;}
+/*展開時・メインメニューの枠線*/
+.main li.on{border:1px solid #999999;}
+
+/*サブニューの枠線*/
+.sub li.off2,.sub li.on2{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #99CCFF;}
+
+
+#menu{padding:0px; margin:0px; width:950px;}
+
+
+
+/*変更しちゃいかん*/
+
+.main *{margin:0px; padding:0px; list-style:none;}
+ul.main{position:relative;}
+ul.main li.off{position:relative; float:left; overflow:hidden;}
+ul.main li.on{float:left; overflow:hidden;}
+ul.main>li.on{overflow:visible;/*×*/}
+ol.sub{position:relative;}
+ol.sub li.off2{position:relative; overflow:hidden;}
+ol.sub li.on2{overflow:hidden;}
+ol.sub>li.on2{overflow:visible;}
+ul.sub-2{position:relative;}
+
+
+/*========================================================================
+ノアイメージ。
+=========================================================================*/
+#noah{
+	width:950px;
+	height:207px;
+	background-color: #e4ebed;}
+	
+#noah a{color:#666666; text-decoration:none;}
+#noah a:hover{color:#0000FF; text-decoration:underline;}
+#topics1 li p{margin:0px; padding:0px; font-weight:bold; color:#FF9900;}
+	
+#cover_img{
+	background-image: url(../img/grand/cover/cover_noah.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 207px;
+	width: 632px; float:left;}
+
+#cover_img span{visibility: hidden;}	
+	
+#topics1{width:290px; height:197px; margin: 0px; padding: 10px 10px 0px 10px; overflow:auto; float:right; text-align:left;}
+
+#topics1 ul{width:270px; height:auto; margin:0px; padding:0px;}	
+
+#topics1 li{ width:100%; margin:5px 0px 10px 0px; padding:0px; list-style-image: none; list-style-type: none;}
+
+p.p1{width: 250px;padding:0px; margin:0px 0px 5px 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	font-size: 14px; font-weight:bold;
+	color: #666666;}
+
+
+
+
+
+

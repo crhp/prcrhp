@@ -1,0 +1,163 @@
+.top-shop-title {
+  margin-bottom: 1px;
+  line-height: 40px;
+  border-radius: 2px 2px 0 0;
+  }
+
+.top-map-container {
+  margin-bottom: 4px;
+  border-top: 1px solid #cccccc;
+  padding-top: 14px;
+  }
+
+.top-map-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.top-map-title {
+  margin-bottom: 8px; }
+
+.top-map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  }
+
+.top-map img {
+  width: 100%; }
+
+.top-shoplist-btn {
+  margin-bottom: 24px; }
+
+.top-shoplist-btn a {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-image: url(../../images/1/top-shop-list-icon.png);
+    background-size: 13px auto;
+  }
+
+.top-hear-btn {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .top-shoplist-btn {
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  
+  .top-hear-btn {
+    float: right;
+    width: 49%;
+    padding-right: 10px;
+    display: block;
+    }
+  .top-shoplist-btn a, .top-hear-btn a {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border-radius: 0;
+    }
+  .top-hear-btn a {
+    background-image: url(../../images/1/top-icon-hear.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 12px 16px;
+    letter-spacing: 0em;
+    padding-left: 19px;
+    } }
+
+@media screen and (min-width: 768px) {
+  #top-shop-information-container {
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #dbdbdb;
+    overflow: hidden;
+  }
+  .top-shop-title {
+    margin-bottom: 1px;
+    line-height: 59px;
+    }
+  .top-map-container {
+    margin-bottom: 0px;
+    padding-top: 31px;
+    }
+  .top-map-title {
+    margin-bottom: 13px; }
+  .top-map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute !important;
+    }
+  .top-shoplist-btn {
+    margin-bottom: 47px;
+    } 
+  .top-shoplist-btn a {
+ 
+    width: 341px;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-shop-title {
+    margin-bottom: 1px;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 70px;
+    }
+  .top-map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  .top-map-container {
+    margin-bottom: 0;
+    padding-top: 38px;
+    } 
+  .top-shoplist-btn a {
+    height: 40px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .top-map {
+    padding: 0 17px 0 17px;
+    margin-bottom: 17px;
+    padding-left: 2%;
+    width: 98%;
+    } 
+  .top-shop-title {
+  line-height: 64px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-map-container {padding-top: 29px;}
+  .top-map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  .top-shoplist-btn {
+    margin-bottom: 26px; }
+  .top-shoplist-btn a {
+    width: 340px;
+    }
+  .top-shop-title {
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 22px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    line-height: 20px;
+    } }

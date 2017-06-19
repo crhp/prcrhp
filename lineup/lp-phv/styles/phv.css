@@ -1,0 +1,387 @@
+@charset "UTF-8";
+@import url(phv_font.css);
+@import url(phv_modal.css);
+@import url(phv_top_main.css);
+@import url(phv_nav.css);
+@import url(phv_main_contents.css);
+@import url(phv_plan.css);
+@import url(phv_lineup.css);
+img.pc {
+    display: block;
+}
+img.tab {
+    display: none;
+}
+img.sp {
+    display: none;
+}
+img.pc {
+    display: block;
+}
+.br_tab {
+    display: none;
+}
+.br_sp {
+    display: none;
+}
+.br_pc {
+    display: block;
+}
+.header {
+    position: relative;
+    height: 52px;
+    line-height: 52px;
+    background-color: #f18900;
+}
+.header h1 {
+    font-size: 18px;
+}
+.header h1 a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+}
+.header img.logo_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 52px;
+}
+
+/* logoが画像の場合 */
+
+.header.white {
+    background-color: #fff;
+    border-top: 10px solid #f18900;
+    border-bottom: 1px solid #f2f2f2;
+}
+.header.white img.logo_store {
+    position: absolute;
+    left: 24px;
+    top: 17px;
+    width: auto;
+    height: 18px;
+}
+.header.normal_logo_image img.logo_store {
+    position: absolute;
+    left: 24px;
+    top: 17px;
+    width: auto;
+    height: 18px;
+}
+
+/* @media screen and (min-width: 1200px) {} */
+
+@media screen and (max-width: 1199px) and (min-width: 740px) {
+    img.pc {
+        display: none;
+    }
+    img.sp {
+        display: none;
+    }
+    img.tab {
+        display: block;
+    }
+    .br_pc {
+        display: none;
+    }
+    .br_tab {
+        display: block;
+    }
+    .br_sp {
+        display: none;
+    }
+}
+@media screen and (max-width: 739px) {
+    img.pc {
+        display: none;
+    }
+    img.tab {
+        display: none;
+    }
+    img.sp {
+        display: block;
+    }
+    .br_pc {
+        display: none;
+    }
+    .br_tab {
+        display: none;
+    }
+    .br_sp {
+        display: block;
+    }
+    .header {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        background-color: #f18900;
+    }
+    .header h1 {
+        font-size: 12px;
+    }
+    .header h1 a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 0 0 10px;
+    }
+    .header img.logo_right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+        height: 40px;
+    }
+    /* logoが画像の場合 */
+    .header.white {
+        border-top: 8px solid #f18900;
+        height: 38px;
+        line-height: 38px;
+    }
+    .header.white img.logo_store {
+        left: 18px;
+        top: 12px;
+        width: auto;
+        height: 12px;
+    }
+    .header.normal_logo_image img.logo_store {
+        left: 18px;
+        top: 12px;
+        width: auto;
+        height: 12px;
+    }
+}
+
+/*201702更新*/
+
+#header {
+    background-color: #fff;
+}
+
+h1.logo_left img{
+	width: 180px;
+    padding: 7px;
+}
+
+.movie_area{
+	width:1150px;
+	margin:0 auto;
+	padding:20px 0;
+}
+.movie_area h2{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    /* font-weight: 100; */
+    margin-bottom: 15px;
+}
+.movie_area iframe{
+	float:left;
+	padding:5px;
+}
+
+
+.img_box {
+    margin-top: 120px;
+
+}
+
+.img_box2 {
+    margin-top: 120px;
+    background: #F9E1BF;
+    padding-bottom: 60px;
+}
+
+.btn_area {
+	width:900px;
+	margin:50px auto;
+}
+.btn_left{
+	float:left;
+	padding:30px;
+	padding-left:50px;
+}
+.btn_right{
+	float:right;
+	padding:30px;
+	padding-right:50px;
+}
+.btn_area a:hover img{
+    cursor:pointer;
+    filter: alpha(opacity=60);        
+    -ms-filter: "alpha(opacity=60)"; 
+    -moz-opacity:0.6;      
+    opacity:0.6;
+    zoom:1;
+}
+.shop_info {
+    margin-top: 0px;
+    background: #FABE00;
+    padding-bottom: 40px;
+}
+
+.shop_info_title {
+    padding:30px 0;
+    text-align:center;
+}
+
+.shop_cont{
+	width:1200px;
+	margin:20px auto 30px;
+}
+.shop_map{
+	width:218px;
+	height:160px;
+	float:left;
+	margin:10px;
+	background:#fff;
+	border-radius:8px;
+	overflow: hidden;
+	text-align: center;
+}
+.shop_map .name{
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+	line-height:1.5
+}
+.shop_map .adr{
+	font-size:9px;
+	color:#000;
+	font-weight:bold;
+	letter-spacing: 0;
+    line-height: 1.0;
+}
+.s_map{
+	font-size:12px;
+	width:90%;
+	color:#000;
+	font-weight:bold;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:8px;
+	line-height: 1.2;
+	margin:0 auto;
+}
+.s_map a{
+	display:block;
+	color:#000;
+	font-weight:bold;
+	width:100%;
+	color:#000;
+	text-decoration:none;
+}
+.s_map a:hover{
+	color:#000;
+	background:#eee;
+}
+#grade_lineup {
+    margin-top: 60px;
+}
+
+.img_box_1 {
+    margin-top: 51px;
+}
+.footer-logo {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.footer_menu {
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.copy {
+    font-size: 11px;
+    display: block;
+    padding: 0px 0px 5px 0;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 0;
+    color: #111;
+}
+.plan-area{
+	text-align:center;
+}
+@media (max-width: 768px) {
+
+/*追加CSS2017022*/
+.header {
+    height: 50px;
+}
+.plan-area img{
+	width:100%;
+}
+.shop_info {
+    margin-top: 0px;
+    background: #FABE00;
+    padding-bottom: 40px;
+    text-align:center;
+}
+.shop_cont{
+	width:100%;
+	margin:20px auto 30px;
+}
+
+.shop_map{
+	width:218px;
+	height:160px;
+    margin: 10px auto;
+	background:#fff;
+	border-radius:8px;
+	overflow: hidden;
+	float:none;
+}
+.shop_map .name{
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+	line-height:1.5
+}
+.shop_map .adr{
+	font-size:9px;
+	color:#000;
+	font-weight:bold;
+	letter-spacing: 0;
+    line-height: 1.0;
+}
+.s_map{
+	font-size:12px;
+	width:90%;
+	color:#000;
+	font-weight:bold;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:8px;
+	line-height: 1.2;
+	margin:0 auto;
+}
+.s_map a{
+	display:block;
+	color:#000;
+	font-weight:bold;
+	width:100%;
+	color:#000;
+	text-decoration:none;
+}
+.s_map a:hover{
+	color:#000;
+	background:#eee;
+}
+
+.shop_cont {
+    width: 100%;
+    margin: 0;
+}
+
+.shop_info_title {
+    padding: 20px 0;
+    text-align: center;
+    margin: 0px auto;
+}
+
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.top-date-container {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  }
+
+.top-date-title {
+  margin-bottom: 19px;
+  color: #000;
+  }
+
+.top-date-list {
+  list-style: none;
+  margin: 13px 19px 17px;
+  }
+
+.top-date-item {
+  position: relative;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 11px;
+  letter-spacing: .05em;
+  padding-bottom: 4px;
+  }
+
+.top-date-item:after {
+  }
+
+.top-date-item-label {
+  color: #333333;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: inline-block;
+  letter-spacing: 0;
+  }
+
+.top-date-item-time {
+  letter-spacing: .1em;
+  display: inline-block;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+  top: 4px;
+  }
+
+@media screen and (min-width: 768px) {
+  .top-date-container {
+    padding-top: 45px;
+    width: auto;
+    padding: 45px 13px 0;
+    border-bottom: none;
+    margin-bottom: 17px;
+    overflow: hidden;
+    }
+  .top-date-title {
+    margin-bottom: 29px;
+    }
+  .top-date-list {
+    margin-top: 0; }
+  .top-date-item {
+    margin-bottom: 29px;
+    }
+  .top-date-item:after {
+    content: ""; }
+  .top-date-item-label {
+    font-size: 16px;
+    }
+  .top-date-item-time {
+    font-size: 16px;
+    top: 0;
+    } }
+
+/*@media screen and (min-width: 980px) {
+  .top-date-container {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-bottom: 31px;
+    padding-top: 28px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    border-bottom: 1px solid #fff;
+    }
+  .top-date-list {
+    margin-bottom: 0; }
+  .top-date-title {
+    margin-bottom: 31px;
+  }
+  .top-date-item
+  {
+    margin-bottom: 15px;
+  }
+}*/
+
+@media screen and (min-width: 1366px) {
+  .top-date-container {
+    padding-bottom: 11px;
+    padding-left: 10px;
+    width: 50%;
+    padding-top: 31px;
+    top: -216px;
+    border-bottom: none;
+    position: absolute;
+    right: 0;
+    }
+
+  .top-date-title {
+    margin-bottom: 29px;
+  }
+
+  .top-date-list {
+    margin: 13px 41px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-date-container {
+    padding-bottom: 21px;
+    padding-left: 10px;
+    }
+
+
+  .top-date-title {
+
+  }
+}

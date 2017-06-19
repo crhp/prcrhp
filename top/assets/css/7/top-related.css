@@ -1,0 +1,137 @@
+.top-related-container
+{
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.top-related-list {
+  list-style: none;
+  margin: 0;
+  padding: 5px 21px 4px;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 30px;
+  }
+
+.top-related-item {
+  float: left;
+  width: 49.1%;
+  margin-bottom: 7px;
+  }
+
+.top-related-item:nth-child(2n) {
+  float: right; }
+
+.top-related-item img {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid #e8d577; */
+}
+
+.top-related-container .top-wave-head
+{
+  position: relative;
+  top: -24px;
+  z-index: 1;
+}
+
+.top-related-container .top-wave-head path
+{
+  fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .top-related-container {
+    background-color: #f9f9f9;
+  }
+
+  .top-related-container .tc-title-type-03-reg
+  {
+    margin-bottom: 6px;
+  }
+
+  .top-related-container .top-wave-head{top: -42px;}
+
+  .top-related-container .top-wave-head path{
+    fill: #f9f9f9;
+  }
+  .top-related-list {
+    padding-top: 0;
+    padding: 0 42px;
+    text-align: center;
+    margin-bottom: 50px;
+    background: none;
+    margin-right: -2%;
+  }
+  .top-related-item {
+    width: 31.5%;
+    margin-right: 2%;
+    margin-bottom: 18px;
+    float: left;
+    }
+  .top-related-item:nth-child(3n) {
+    margin-right: 0; }
+  .top-related-item:nth-child(2n) {
+    float: left;
+    } }
+
+@media screen and (min-width: 980px) {
+  .top-related-container .top-wave-head {
+    top: -53px;
+    margin-bottom: -36px;
+  }
+  .top-related-item {
+    width: 20%;
+    padding-right: 15px;
+    margin-right: 0;
+  }
+  .top-related-list {
+    padding-bottom: 17px;
+    padding-top: 31px;
+  }
+
+  .top-related-container {
+  }
+  .top-related-container .tc-title-type-03-reg {
+    margin-bottom: -1px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .top-related-list {
+    margin: 0 auto 80px;
+    width: 983px;
+    } }
+
+@media screen and (min-width: 1680px) {
+  .top-related-container .top-wave-head {
+    top: -60px;
+    margin-bottom: -30px;
+  }
+  .top-related-list {
+    margin: 0 auto 107px;
+    }
+
+  .top-related-container {
+  }
+
+  .top-related-container .tc-title-type-03-reg {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+/* 20170425 */
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .top-related-item {
+    float: left;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-related-item {
+    float: left;
+  }
+}

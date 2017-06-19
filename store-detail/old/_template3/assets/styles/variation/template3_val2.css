@@ -1,0 +1,42 @@
+/*
+color variation1
+key color : #ff9601;
+*/
+
+#blog-fixed-btn {
+  background-color: #ff9601;
+}
+.section h1 {
+  border-color: #ff9601;
+}
+.section h2 {
+  background-color: #ff9601;
+}
+.slick-prev:before {
+  background: url(../../images/slide/store-image-prev-val2.png);
+  background-size: contain;
+}
+.slick-next:before {
+  background: url(../../images/slide/store-image-next-val2.png);
+  background-size: contain;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/slide/thumb-item-nav-cover-val2.png);
+  background-size: cover;
+}
+#staff-blog {
+  border-color: #ff9601;
+}
+#staff-blog h3 {
+  background-color: #ff9601;
+}
+#staff-blog .blog-more-btn {
+  background-color: #ff9601;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #ff9601;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

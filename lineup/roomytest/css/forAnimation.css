@@ -1,0 +1,347 @@
+@charset 'UTF-8';
+
+.request-title-anim{
+    height: 90px;
+    position: relative;
+    top:100px;
+    width: 924px;
+    margin: 0 auto;
+    background: #e8e9e9;
+}
+
+.request-title-anim img{
+    position: absolute;
+    left : 194px;
+    top : 28px;
+}
+
+.text-anim{
+	position: relative;
+	overflow: hidden;
+	margin-bottom:14px;
+}
+
+.text-anim img{
+	position: absolute;
+}
+
+.icon-anim{
+	position: relative;
+	margin : 0 auto;
+	padding-top: 70px;
+}
+
+.icon-anim img{
+	position: absolute;
+	left:0;
+}
+
+.huki{
+	position: absolute;
+	left : 0;
+}
+
+.family{
+	position: absolute;
+	right : 0;
+	top : 5px;
+}
+
+.request-fade-contents{
+	padding-top: 30px;
+}
+
+/*request01*/
+
+#request01{
+padding-top: 110px;
+}
+
+#request01 .request-title-anim{
+top : 0;
+}
+
+#request01 .request-icon-anim{
+
+}
+
+#request01 .request-icon-anim .text-anim{
+	height: 12px;
+
+}
+
+#request01 .request-icon-anim .text-anim img{
+	top: 0px;
+    margin-left: -54px;
+}
+
+#request01 .request-icon-anim .icon-anim{
+width: 115px;
+height : 61px;
+}
+
+#request01 .request-icon-anim .icon-anim img{
+
+}
+
+
+
+/*request02*/
+
+
+#request02{
+    
+}
+
+#request02 .request-title-anim{
+background: #fff;
+padding: 0;
+}
+
+#request02 .request-icon-anim{
+    
+padding-top: 100px;
+}
+
+#request02 .request-icon-anim .text-anim{
+	height: 12px;
+
+}
+
+#request02 .request-icon-anim .text-anim img{
+	top: 0px;
+    margin-left: -47px;
+}
+
+#request02 .request-icon-anim .icon-anim{
+width: 106px;
+height : 58px;
+}
+
+#request02 .request-icon-anim .icon-anim img{
+width:106px;
+}
+
+/*request03*/
+
+#request03{
+    
+}
+
+#request03 .request-title-anim{
+padding-top : 0;
+}
+
+#request03 .request-icon-anim{
+    
+padding-top: 100px;
+}
+
+#request03 .request-icon-anim .text-anim{
+	height: 28px;
+}
+
+#request03 .request-icon-anim .text-anim img{
+	top: 0px;
+	margin-left: -39px;
+}
+
+#request03 .request-icon-anim .icon-anim{width: 117px;height: 96px;}
+
+#request03 .request-icon-anim .icon-anim img{
+width : 117px;
+}
+
+/*request04*/
+
+#request04{
+    
+}
+
+#request04 .request-title-anim{
+background: #fff; 
+padding-top : 0;
+}
+
+#request04 .request-icon-anim{
+    
+padding-top: 100px;
+}
+
+#request04 .request-icon-anim .text-anim{
+	height: 12px;
+
+}
+
+#request04 .request-icon-anim .text-anim img{
+	top: 0px;
+    margin-left: -47px;
+}
+
+#request04 .request-icon-anim .icon-anim{width: 106px;height: 58px;}
+
+#request04 .request-icon-anim .icon-anim img{
+
+}
+
+/*request05*/
+
+
+#request05{
+    
+}
+
+#request05 .request-title-anim{
+padding-top : 0;
+}
+
+#request05 .request-icon-anim{
+    
+padding-top: 100px;
+}
+
+#request05 .request-icon-anim .text-anim{
+	height: 28px;
+}
+
+#request05 .request-icon-anim .text-anim img{
+	top: 0px;
+    margin-left: -47px;
+}
+
+#request05 .request-icon-anim .icon-anim{width: 113px;height: 62px;}
+
+#request05 .request-icon-anim .icon-anim img{
+
+}
+
+/*request06*/
+
+#request06{
+    
+}
+
+
+#request06 .request-title-anim{
+background: #fff; 
+padding-top : 0;
+}
+
+
+#request06 .request-icon-anim{
+    
+padding-top: 100px;
+}
+
+#request06 .request-icon-anim .text-anim{
+	height: 12px;
+}
+
+#request06 .request-icon-anim .text-anim img{
+	top: 0px;
+	margin-left: -42px;
+}
+
+#request06 .request-icon-anim .icon-anim{width: 125px;height: 58px;}
+
+#request06 .request-icon-anim .icon-anim img{
+
+}
+
+/*request07*/
+
+#request07{
+    
+}
+
+#request07 .request-title-anim{
+
+padding-top : 0;
+}
+
+/*#request07 .request-icon-anim{
+    
+}*/
+
+
+
+.request-title-anim span{
+	    display: inline-block;
+	    position: relative;
+	    left: -41px;
+	    margin-right: -4px;
+	    top : 7px;
+}
+
+.request-title-anim img{
+	position: static;
+    left: auto;
+    top: auto;
+}
+
+#request07 .request07_caption{
+	padding-top: 130px;
+}
+
+
+
+/*///////////////////////*/
+
+#request02 .request-title-anim span{left: -2px;}
+
+#request03 .request-title-anim span{
+	
+left: -62px;
+}
+
+#request04 .request-title-anim span{
+	
+left: -28px;
+}
+
+#request05 .request-title-anim span{
+	
+left: -13px;
+}
+
+#request06 .request-title-anim span{
+	
+left: -27px;
+}
+
+#request07 .request-title-anim span{
+	
+left: -122px;
+}
+
+/*IE対応*/
+
+.ie-wrap{
+	background-color: #fff;
+}
+
+.ie-head{
+	background-color: #ff6e01;
+	height: 50px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.ie-logo{
+
+	position: absolute;
+	right: 0;
+
+}
+
+.ie-main{
+	width: 923px;
+	margin: 0 auto 45px;
+}
+
+.ie-footer{
+	background-color: #ff6e01;
+	height: 50px;
+	width: 100%;
+}

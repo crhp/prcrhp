@@ -1,0 +1,282 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  color: #333333;
+}
+img {
+  vertical-align: top;
+}
+.content {
+  line-height: normal;
+}
+
+
+/*benefit*/
+
+.benefit h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff6e01;
+}
+.benefit .block li {
+  float: left;
+}
+.benefit .block li.right img {
+  width: 100%;
+  height: auto;
+}
+.benefit .block span {
+  display: block;
+}
+.benefit .block .title {
+  font-weight: bold;
+}
+
+/*table*/
+
+.table {
+  font-size: 14px;
+}
+.table tbody {
+  border: 1px solid #ffb680;
+}
+.table tr th {
+  color: #fff;
+  background-color: #ffb680;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #fff;
+}
+.table tr:last-child th {
+  border-bottom: none;
+}
+
+
+
+
+.table tr td {
+  border: 1px solid #ffb680;
+  border-left: none;
+}
+.table tr td span {
+  display: block;
+}
+.table tr.item-05 td span {
+  display: inline-block;
+  /*padding: 0 1em;*/
+}
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+
+  /*benefit*/
+  #benefit {
+    margin-top: 65px;
+  }
+  .benefit h1 {
+    font-size: 32px;
+    letter-spacing: 4.2px;
+    margin-bottom: 41px;
+  }
+  .benefit .block {
+    margin-bottom: 95px;
+  }
+  .benefit .block li.left {
+    width: 370px;
+  }
+  .benefit .block li.right {
+    width: 428px;
+    margin-left: 182px;
+    margin-top: 5px;
+  }
+  .benefit .block .title {
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    margin-bottom: 22px;
+  }
+  .benefit .block .text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  /*table*/
+  #table {
+    margin-top: 104px;
+  }
+  .table tr th {
+    width: 220px;
+  }
+  .table tr td {
+    width: 760px;
+    padding: 17px;
+  }
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+
+  /*benefit*/
+  #benefit {
+    margin-top: 65px;
+  }
+  .benefit h1 {
+    font-size: 32px;
+    letter-spacing: 4.2px;
+    margin-bottom: 41px;
+  }
+  .benefit .block {
+    margin-bottom: 95px;
+  }
+  .benefit .block .title {
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    margin-bottom: 22px;
+  }
+  .benefit .block li.left {
+    width: 370px;
+  }
+  .benefit .block li.right {
+    width: 428px;
+    margin-left: 182px;
+    margin-top: 5px;
+  }
+  .benefit .block .text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  /*table*/
+  #table {
+    margin-top: 102px;
+  }
+  .table tr th {
+    width: 220px;
+  }
+  .table tr td {
+    width: 760px;
+    padding: 13px;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+
+  /*benefit*/
+  #benefit {
+    margin-top: 9%;
+  }
+  .benefit h1 {
+    font-size: 34px;
+    margin-bottom: 3.4%;
+  }
+  .benefit .block {
+    margin-bottom: 7.5%;
+  }
+  .benefit .block .title {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    margin-bottom: 8%;
+  }
+  .benefit .block li.left {
+    width: 50%;
+  }
+  .benefit .block li.right {
+    width: 39%;
+    margin-left: 11%;
+    margin-top: 1%;
+  }
+  .benefit .block .text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  /*table*/
+  #table {
+    margin-top: 8.3%;
+  }
+  .table tr th {
+    width: 140px;
+  }
+  .table tr td {
+    width: 760px;
+    padding: 13px;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+
+  /*benefit*/
+  #benefit {
+    margin-top: 6%;
+  }
+  .benefit h1 {
+    font-size: 18px;
+    margin-bottom: 3%;
+  }
+  .benefit .block {
+    margin-bottom: 12%;
+  }
+  .benefit .block .title {
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    margin-bottom: 3%;
+  }
+  .benefit .block li {
+    float: none;
+  }
+  .benefit .block li.left {}
+  .benefit .block li.right {
+    width: auto;
+    margin-top: 5.4%;
+  }
+  .benefit .block .text {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+  /*table*/
+  #table {
+    margin-top: 8.3%;
+    font-size: 10px;
+  }
+  .table tr th {
+    width: 30%;
+  }
+  .table tr td {
+    width: 70%;
+    padding: 8px;
+  }
+  .table tr.item-05 td span {
+    padding: 0;
+  }
+}

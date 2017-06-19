@@ -1,0 +1,660 @@
+﻿<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" lang="ja">
+
+<head>
+  <title>GA計測テスト</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!-- // OGP ////////////////////////////////////////////////// -->
+  <!-- ////////////////////////////////////////////////////// -->
+  <!-- css -->
+  <link rel="stylesheet" href="styles/reset.css" type="text/css">
+  <link rel="stylesheet" href="styles/slick.css" type="text/css">
+  <link rel="stylesheet" href="styles/slick-theme.css" type="text/css">
+  <link rel="stylesheet" href="styles/phv.css" type="text/css">
+  <!-- ///// end css -->
+  <!-- js -->
+  <script type="text/javascript" src="scripts/lib/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="scripts/lib/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="scripts/lib/slick.js"></script>
+  <script type="text/javascript" src="scripts/price_list.js"></script>
+  <script type="text/javascript" src="scripts/phv.js"></script>
+  <!-- ///// end js -->
+
+
+
+  <!--▼▼▼メーカー計測用につき改変・削除禁止▼▼▼-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85703408-1', 'auto');
+  ga('send', 'pageview');
+
+// sitecatalyst用判定
+var ua = navigator.userAgent;
+if((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 ||
+(ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)){ var SCdevflag = "sp"; } // sitecatalyst用判定
+
+</script>
+<!--▲▲▲メーカー計測用につき改変・削除禁止▲▲▲-->
+
+
+</head>
+
+
+<body>
+
+    <!--
+    detail_flagがゼロの場合　wrapper へ class="hide_plan"を付与
+  -->
+
+  <div id="wrapper" class="wrapper hide_plan">
+    <div class="sizedetect"></div>
+    <div id="header_container" class="header_container">
+      <div id="header_container_inner" class="header_container_inner">
+
+        <!--
+        ★logoが画像で背景が白の場合 #headerへ class"white" を付与し
+          aタグを画像へ
+        ★logoが画像で背景変更内場合 #header へ class"normal_logo_image" を付与し
+          画像の記述へ
+        -->
+        <div id="header" class="header">
+          <h1 class="logo_left">
+            <a href="https://toyota.jp/" target="_blank">GA計測テスト</a>
+          </h1>
+          <img class="logo_right" src="resources/images/common/logo_toyota.jpg" alt="TOYOTA">
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- /#header_container -->
+
+
+    <div class="top-main clearfix section">
+      <div id="top-main__slide" class="top-main__slide">
+        <div>
+          <img src="resources/images/slide/slide_01.jpg" alt="" class="pc">
+          <img src="resources/images/slide/slide_01_tab.jpg" alt="" class="tab">
+          <img src="resources/images/slide/slide_01_sp.jpg" alt="" class="sp">
+        </div>
+        <div>
+          <img src="resources/images/slide/slide_02.jpg" alt="" class="pc">
+          <img src="resources/images/slide/slide_02_tab.jpg" alt="" class="tab">
+          <img src="resources/images/slide/slide_02_sp.jpg" alt="" class="sp">
+        </div>
+        <div>
+          <img src="resources/images/slide/slide_03.jpg" alt="" class="pc">
+          <img src="resources/images/slide/slide_03_tab.jpg" alt="" class="tab">
+          <img src="resources/images/slide/slide_03_sp.jpg" alt="" class="sp">
+        </div>
+      </div>
+      <div class="top-main__textwrap">
+        <div id="top-mileage" class="top-mileage">
+          <div class="top-mileage-inner">
+            <div class="top-mileage__text">
+              <img src="resources/images/slide/top_value_text.png" alt="" class="pc">
+              <img src="resources/images/slide/top_value_text_tab.png" alt="" class="tab">
+              <img src="resources/images/slide/top_value_text_sp.png" alt="" class="sp">
+            </div>
+            <p class="notes">※メーカーオプションの215/45R17 タイヤ&17x7J アルミホイールを装着した場合、55.2km。</p>
+            <div class="box_notes_wrap clearfix">
+              <p class="box_notes">■充電電力使用時走行距離は定められた試験条件のもとでの値です。お客様の使用環境（気象、渋滞等）や運転方法（急発進、エアコン使用等）に応じてEV走行距離は大きく異なります。</p>
+              <p class="box_notes box2">■エンジン、駆動用バッテリーの状態、エアコンの使用状況や運転方法（急加速・所定の車速を超える）、道路状況（登坂）などによっては、バッテリー残量に関わらずEV走行が解除され、エンジンが作動します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.top-main__textwrap -->
+    </div>
+
+
+
+
+    <div id="contents" class="contents">
+      <div id="nav_container" class="nav_container clearfix">
+        <div class="main-inner">
+          <div id="main_nav" class="main_nav">
+            <ul class="clearfix">
+              <li class="main_nav_item main_nav_item_1 nav1">
+                <a href="#section-1">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_1_off.gif" alt="向上したEV走行距離" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_1_on.gif" alt="向上したEV走行距離" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_2 nav2">
+                <a href="#section-2">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_2_off.gif" alt="群を抜く加速感" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_2_on.gif" alt="群を抜く加速感" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_3 nav3">
+                <a href="#section-3">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_3_off.gif" alt="細部までこだわったエクステリア" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_3_on.gif" alt="細部までこだわったエクステリア" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_4 nav4">
+                <a href="#section-4">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_4_off.gif" alt="快適さを追求したインテリア" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_4_on.gif" alt="快適さを追求したインテリア" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_5 nav5">
+                <a href="#section-5">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_5_off.gif" alt="気軽に充電" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_5_on.gif" alt="気軽に充電" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_6 nav6">
+                <a href="#section-6">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_6_off.gif" alt="移動する電源とも言えます" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_6_on.gif" alt="移動する電源とも言えます" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="main_nav_item main_nav_item_7 nav7">
+                <a href="#section-plan">
+                  <span class="main_nav_item_inner">
+                    <img src="resources/images/gnav/gnav_7_off.gif" alt="価格のご案内" class="main-nav-item-off">
+                  </span>
+                  <span class="main_nav_item_inner_on">
+                    <span class="main-nav-arrow"></span>
+                    <span class="main_nav_item_inner_on_inner">
+                      <img src="resources/images/gnav/gnav_7_on.gif" alt="価格のご案内" class="main-nav-item-on">
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /#main_nav -->
+        </div>
+        <!-- /.main-inner --><div id="sub_nav" class="sub_nav">
+          <div class="inner">
+            <ul class="clearfix">
+              <li class="nav_01">
+                <a href="https://toyota.jp/" onclick="ga('send', 'event','phv','header_store', 'pc_ヘッダーリンク 店舗検索');" alt="" target="_blank">
+                  <div class="sub_nav_list_wrap">
+                    <img src="resources/images/gnav/cv_icon_store.png" alt="">
+                    <span>取り扱い<br class="br_sp">店舗
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav_02">
+                <a href="https://toyota.jp/" onclick="ga('send', 'event','phv','header_catalog', 'pc_ヘッダーリンク カタログ請求');" alt="" target="_blank">
+                  <div class="sub_nav_list_wrap">
+                    <img src="resources/images/gnav/cv_icon_catalog.png" alt="">
+                    <span>カタログ<br class="br_sp">請求
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav_03">
+                <a href="https://toyota.jp/" onclick="ga('send', 'event','phv','header_online', 'pc_ヘッダーリンク オンライン見積り');" alt="" target="_blank">
+                  <div class="sub_nav_list_wrap">
+                    <img src="resources/images/gnav/cv_icon_estimate.png" alt="">
+                    <span>オンライン<br class="br_sp">見積り
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav_04">
+                <a href="https://toyota.jp/" onclick="ga('send', 'event','phv','header_try', 'pc_ヘッダーリンク 試乗予約');" alt="" target="_blank">
+                  <div class="sub_nav_list_wrap">
+                    <img src="resources/images/gnav/cv_icon_ride.png" alt="">
+                    <span>試乗予約は<br class="br_sp">こちら
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav_05">
+                <a href="https://toyota.jp/" onclick="ga('send', 'event','phv','header_shodan', 'pc_ヘッダーリンク 商談予約');" alt="" target="_blank">
+                  <div class="sub_nav_list_wrap">
+                    <img src="resources/images/gnav/cv_icon_reserv.png" alt="">
+                    <span>商談予約は<br class="br_sp">こちら
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /#sub_nav -->
+      </div>
+      <!-- /#nav_container -->
+      <!-- main_contents ####################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### main_contents -->
+      <div class="main_contents">
+        <div id="section-1" class="section-1 sectionPos section">
+          <div class="block01">
+            <h2 class="sp">EVモードで
+              <br class="br_sp">日々の移動を
+              <br />ほぼまかなえます。
+            </h2>
+            <ul class="clearfix">
+              <li class="image">
+                <img src="resources/images/section-1/sec-1-1.jpg" alt="">
+              </li>
+              <li class="text">
+                <h2 class="pc">EVモードで日々の移動を
+                  <br />ほぼまかなえます。
+                </h2>
+                <span class="value-image">
+                  <img src="resources/images/section-1/sec-1-2.png" alt="" class="pc">
+                  <img src="resources/images/section-1/sec-1-2_tab.png" alt="" class="tab">
+                  <img src="resources/images/section-1/sec-1-2_sp.png" alt="" class="sp">
+                </span>
+                <p class="notes">※メーカーオプションの215/45R17 タイヤ&17x7J アルミホイールを装着した場合、55.2km。</p>
+                <p class="box_notes">■充電電力使用時走行距離は定められた試験条件のもとでの値です。お客様の使用環境（気象、渋滞等）や運転方法（急発進、エアコン使用等）に応じてEV走行距離は大きく異なります。</p>
+                <p class="box_notes box2">■エンジン、駆動用バッテリーの状態、エアコンの使用状況や運転方法（急加速・所定の車速を超える）、道路状況（登坂）などによっては、バッテリー残量に関わらずEV走行が解除され、エンジンが作動します。</p>
+              </li>
+              <li class="text2">
+                <p class="copy">満充電からのEV走行距離が従来モデルから2倍以上も延長したプリウスPHV。普段の運転のほとんどをEVモード<sup>*1</sup>で楽しめます。しかも、アクセルを強めに踏み込んだり、暖房を使ったりしても、エンジンがかかりにくくなりました。</p>
+              </li>
+            </ul>
+          </div>
+          <!-- /.block01 -->
+          <div class="block02">
+            <p class="block02__sub-title">ガソリンで走っても、
+              <br class="br_sp">トップレベル<sup>＊2</sup>の低燃費。
+            </p>
+            <ul class="clearfix">
+              <li class="image">
+                <img src="resources/images/section-1/sec-1-4.jpg" alt="" class="pc">
+                <img src="resources/images/section-1/sec-1-4_tab.jpg" alt="" class="tab">
+                <img src="resources/images/section-1/sec-1-4_sp.jpg" alt="" class="sp">
+              </li>
+              <li class="textarea">
+                <p class="text">秘密は新プラグインハイブリッドシステム。圧倒的低燃費のハイブリッド走行を誇るプリウスのハイブリッドシステムをベースとしているため、ハイブリッド燃費はトップレベル<sup>*2</sup>です。</p>
+                <p class="value">
+                  <img src="resources/images/section-1/sec-1-5.png" alt="" class="pc">
+                  <img src="resources/images/section-1/sec-1-5_tab.png" alt="" class="tab">
+                  <img src="resources/images/section-1/sec-1-5_sp.png" alt="" class="sp">
+                </p>
+                <p class="notes">※メーカーオプションの215/45R17タイヤ＆17×7Jアルミホイールを装着した場合、30.8km/L。</p>
+                <p class="box_notes">■燃料消費率は定められた試験条件のもとでの値です。お客様の使用環境（気象、渋滞等）や運転方法（急発進、エアコン使用等）に応じて燃料消費率は異なります。</p>
+              </li>
+            </ul>
+          </div>
+          <!-- /.block02 -->
+          <div class="block03">
+            <p class="block03__sub-title">高次元のハイブリッドカー。
+              <br class="br_sp">PHVのもうひとつの顔。
+            </p>
+            <p class="mode-image">
+              <img src="resources/images/section-1/sec-1-6.gif" alt="" class="pc">
+              <img src="resources/images/section-1/sec-1-6_tab.gif" alt="" class="tab">
+              <img src="resources/images/section-1/sec-1-6_sp.gif" alt="" class="sp">
+            </p>
+            <div class="notes">
+              <span>＊1.エンジン、駆動用バッテリーの状態、エアコンの使用状況や運転方法（急加速・所定の車速を超える）、道路状況（登坂）などによっては、バッテリー残量に関わらずEV走行が解除され、エンジンが作動します。</span>
+              <span>＊2.2017年2月現在。ガソリン乗用車。トヨタ自動車（株）調べ。</span>
+              <span>＊3.駆動用バッテリーの充電量が少なくなると、停車時でもエンジンがかかり発電用モーターを駆動させて駆動用バッテリーを充電します。また、暖房などの使用状況によってはエンジンが作動します。詳しくは取扱書をご覧ください。</span>
+            </div>
+          </div>
+        </div>
+        <!-- /#section-1 -->
+        <div id="section-2" class="section-2 sectionPos section">
+          <div class="block01">
+            <h2 class="sp">加速の秘密は
+              <br />モーター２個分のパワー。
+            </h2>
+            <ul class="clearfix">
+              <li class="image">
+                <img src="resources/images/section-2/sec-2-1.jpg" alt="">
+              </li>
+              <li class="text">
+                <h2 class="pc">加速の秘密は
+                  <br />モーター２個分のパワー。
+                </h2>
+                <p class="copy">モーターだけで一気にぐっと加速できるのは「デュアルモータードライブ」システムを新採用したから。<br />EV走行中、モーターだけでなくジェネレーターもモーターとして動かすことができるため、「モーター２個分」のパワフルな加速性能を発揮できます。<br />走りの違いをぜひご体感ください。
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- /.block01 -->
+          <div class="block02 tnga">
+            <div class="tnga-wrap">
+              <div class="tnga-main-block">
+                <ul class="clearfix">
+                  <li class="tnga-main-image-block">
+                    <span class="tnga__balloon">
+                      <img src="resources/images/section-2/sec-2-2.png" alt="">
+                    </span>
+                    <span class="tnga__car">
+                      <img src="resources/images/section-2/sec-2-3.png" alt="" class="pc tab">
+                      <img src="resources/images/section-2/sec-2-3-sp.png" alt="" class="sp">
+                    </span>
+                  </li>
+                  <li class="tnga-main-text-block">
+                    <p class="tnga-main-block__title">
+                      <img src="resources/images/section-2/sec-2-4.png" alt="" class="pc tab">
+                      <img src="resources/images/section-2/sec-2-4_sp.png" alt="" class="sp">
+                    </p>
+                    <p class="tnga-main-block__text">TNGAとは、<br class="br_sp">「もっといいクルマをつくる」ために<br class="br_tab br_sp">考えられた、クルマづくりの構造改革。<br />プラットフォームを根本から見直すことで、<br />もっとかっこいい、運転しやすい、<br class="br_sp">低重心パッケージへ。<br />プリウスPHVは、<br class="br_sp">基本構造から生まれ変わりました。<br />
+                    </p>
+                  </li>
+                </ul>
+                <span class="notes">■写真はイメージです</span>
+              </div>
+              <div class="tnga-sub-block">
+                <ul class="clearfix">
+                  <li>
+                    <span>低重心パッケージ</span>操縦安定性と気持ちのいいハンドリング、そして振動やふらつきの少ない乗り心地を実現しています。
+                  </li>
+                  <li>
+                    <span>高剛性・高強度ボディ</span>ひとつ上の乗り心地と操縦安定性を実現するだけでなく、静粛性や安全性にも貢献しています。
+                  </li>
+                  <li>
+                    <span>ショックの少ないサスペンション</span>荒れた路面や段差を乗り越えるときも衝撃をしっかりと吸収、安定した走りをもたらし、コーナリングも軽やかに曲がることができます。
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /.block02 -->
+        </div>
+        <!-- /#section-2 -->
+        <div id="section-3" class="section-3 sectionPos section">
+          <h2>全身で、
+            <br />未来と向き合いました。
+          </h2>
+          <div id="carousel-exterior" class="carousel-exterior">
+            <div class="carousel-exterior__item">
+              <ul class="clearfix">
+                <li class="current">
+                  <img src="resources/images/section-3/sec-3-item-1.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-item-1_sp.jpg" alt="" class="sp">
+                </li>
+                <li>
+                  <img src="resources/images/section-3/sec-3-item-2.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-item-2_sp.jpg" alt="" class="sp">
+                </li>
+                <li>
+                  <img src="resources/images/section-3/sec-3-item-3.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-item-3_sp.jpg" alt="" class="sp">
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-exterior__notes">
+              <ul class="clearfix">
+                <li class="current">Photo：A。ボディカラーはスピリテッドアクアメタリック〈791〉。</li>
+                <li>Photo：A。ボディカラーはスピリテッドアクアメタリック〈791〉。</li>
+                <li>＊メーカーオプションとなります。メーカー希望小売価格は、ホワイトパールクリスタルシャイン〈070〉は32,400円（消費税抜き30,000円）、エモーショナルレッド〈3T7〉は54,000円（消費税抜き50,000円）、サーモテクトライムグリーン〈6W7〉は43,200円（消費税抜き40,000円）となります。<br />■「メーカーオプション」はご注文時に申し受けます。メーカーの工場で装着するため、ご注文後はお受けできませんのでご了承ください。 ■価格はメーカー希望小売価格＜（消費税8％込み）’17年2月現在のもの＞で参考価格です。価格は販売店が独自に定めていますので、詳しくは各販売店におたずねください。 ■スタイリング写真はA。 ■ボディカラーおよび内装色は実際の色とは異なって見えることがあります。</li>
+              </ul>
+            </div>
+            <div class="carousel-exterior__thumb">
+              <!-- <div class="selector"></div> -->
+              <ul class="clearfix">
+                <li class="current">
+                  <img src="resources/images/section-3/sec-3-thumb-1.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-thumb-1_sp.jpg" alt="" class="sp">
+                </li>
+                <li>
+                  <img src="resources/images/section-3/sec-3-thumb-2.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-thumb-2_sp.jpg" alt="" class="sp">
+                </li>
+                <li>
+                  <img src="resources/images/section-3/sec-3-thumb-3.jpg" alt="" class="pc tab">
+                  <img src="resources/images/section-3/sec-3-thumb-3_sp.jpg" alt="" class="sp">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="text">なによりも「先進」をイメージさせるデザイン。その姿からは、走りの愉しさも予感させたい。そんな二面性を目指したプリウスPHVのエクステリア。
+            <br />フロントフェイスは、透明に艶めくアクリルグリルや、先進技術を凝縮した4眼がエモーショナルに光るLEDヘッドランプによって、より未来を見据える顔つきへと進化。サイドデザインは、延長したリヤオーバーハングを活かし、伸びやかで疾走感のあるシルエットを実現しています。
+          </div>
+        </div>
+        <!-- /#section-3 -->
+
+
+        <div id="section-4" class="section-4 sectionPos section">
+          <div class="section-4-wrap">
+            <h2>感覚と
+              <br />結びつくインテリア。
+            </h2>
+            <div id="carousel-interior" class="carousel-interior">
+              <div class="carousel-interior__item">
+                <ul class="clearfix">
+                  <li class="current">
+                    <img src="resources/images/section-4/sec-4-item-1.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-item-1_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-item-2.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-item-2_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-item-3.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-item-3_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-item-4.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-item-4_sp.jpg" alt="" class="sp">
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-interior__notes">
+                <ul class="clearfix">
+                  <li class="current">Photo：A。内装色はブラック。<br />■写真は機能説明のために各ランプを点灯したものです。実際の走行状態を示すものではありません。 ■画面はハメ込み合成です。 ■写真は機能説明のためにボディの一部を切断したカットモデルです。</li>
+                  <li>Photo：A “レザーパッケージ”。内装色のクールグレーは設定色（ご注文時に指定が必要です。指定がない場合はブラックになります）。<br />■写真は機能説明のために各ランプを点灯したものです。実際の走行状態を示すものではありません。 ■画面はハメ込み合成です。 ■写真は機能説明のためにボディの一部を切断したカットモデルです。</li>
+                  <li>Photo：A。内装色はブラック。<br />■写真は機能説明のためにボディの一部を切断したカットモデルです。</li>
+                  <li>Photo：A “レザーパッケージ”。内装色のクールグレーは設定色（ご注文時に指定が必要です。指定がない場合はブラックになります）。<br />■写真は機能説明のためにボディの一部を切断したカットモデルです。</li>
+                </ul>
+              </div>
+              <div class="carousel-interior__thumb">
+                <ul class="clearfix">
+                  <li class="current">
+                    <img src="resources/images/section-4/sec-4-thumb-1.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-thumb-1_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-thumb-2.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-thumb-2_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-thumb-3.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-thumb-3_sp.jpg" alt="" class="sp">
+                  </li>
+                  <li>
+                    <img src="resources/images/section-4/sec-4-thumb-4.jpg" alt="" class="pc tab">
+                    <img src="resources/images/section-4/sec-4-thumb-4_sp.jpg" alt="" class="sp">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-wrap">
+              <div class="text">最初に目を引くのは、11.6インチの大画面を縦に配置したT-Connect SDナビゲーションシステム。表示の鮮やかさも扱いやすさも、これまでのナビのひとつ上をいく、トヨタ初<sup>*</sup>となる装備です。
+                <br />後席が２人がけとなり、まるで高級車のような佇まい。中央に大型コンソールを設けることで、ゆったりとくつろげる程よいパーソナル感を生み出しました。大人４人が車内で快適に過ごせる雰囲気をつくりだしています。
+              </div>
+              <div class="notes">*2017年2月現在。トヨタ自動車（株）調べ。</div>
+            </div>
+          </div>
+        </div>
+        <!-- /#section-4 -->
+
+
+
+        <div id="section-5" class="section-5 sectionPos section">
+          <h2 class="sp">100Vなら<br />自宅の工事は簡単。
+            <br />外出先でも<br class="br_tab ">気軽に充電OK。
+          </h2>
+          <ul class="clearfix">
+            <li class="image">
+              <img src="resources/images/section-5/sec-5-1.jpg" alt="">
+            </li>
+            <li class="text">
+              <h2 class="pc">100Vなら<br />自宅の工事は簡単。
+                <br />外出先でも<br class="br_tab">気軽に充電OK。
+              </h2>
+              <p class="copy">100V電源の「普通充電」なら、今あるご家庭の配線をそのまま利用できるため、専用の配線工事はいりません。屋外にあらかじめアース付のコンセントが付いていれば交換も不要<sup>*1</sup>です。道の駅やサービスエリアに設置されている「急速充電」にも対応しているので、外出先での充電も気軽に行えます。</p>
+            </li>
+            <li class="text2">
+              <div class="notes">
+                <span>＊1.抜止形コンセントの場合は、高耐久コンセントへ交換が必要となります。</span>
+              </div>
+              <div class="notes">
+                <span>■急速充電はS を除く全車に標準装備、S にメーカーオプション。</span>
+                <span>■ご自宅の「充電設備の準備」や、外出先での「充電サービス」について、詳しくは販売店スタッフにおたずねください。</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- /#section-5 -->
+        <div id="section-6" class="section-6 sectionPos section">
+          <ul class="clearfix">
+            <li class="text_block">
+              <h2>自宅と同じように、
+                <br />家電が外でそのまま<br class="br_pc br_sp">使えます。
+              </h2>
+
+              <div class="sub-tit">アクセサリーコンセント(ヴィークルパワーコネクター付)
+                <br /><span>［Aプレミアムに標準装備、Aプレミアムを除く全車にメーカーオプション］</span>
+              </div>
+
+              <p class="copy">付属されるヴィークルパワーコネクターを普通充電インレットに挿し込めば、家庭用とまったく同じ100Vの外部給電用コンセントに早変わり。合計1500Wまで対応するので、消費電力の大きな家電製品も安心です。また、車内２カ所にもコンセントを設置しています。</p>
+
+            </li>
+            <li class="image_block">
+              <p class="image_block_tit">選べる｢外部給電モード｣は2つ。</p>
+              <div class="image_block_wrap clearfix">
+                <div class="inner clearfix">
+                  <div class="inner_text">
+                    <p class="tit">日常使いやアウトドアなどに
+                      <span>EV 給電モード</span>
+                    </p>
+                    <p class="copy">エンジンをかけずにバッテリーだけを使って給電。バッテリー残量が所定値を下回ると給電を終了します。</p>
+                  </div>
+                  <div class="inner_image">
+                    <img src="resources/images/section-6/sec-6-1.gif" alt="">
+                  </div>
+                </div>
+                <div class="inner clearfix">
+                  <div class="inner_text">
+                    <p class="tit">停電・災害時などに
+                      <span>HV 給電モード</span>
+                    </p>
+                    <p class="copy">はじめはバッテリーのみで給電し、バッテリー残量が所定値を下回るとエンジンがかかり給電を継続します。</p>
+                  </div>
+                  <div class="inner_image">
+                    <img src="resources/images/section-6/sec-6-2.gif" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="notes">■HV給電モード時に1500Wの最大出力で使い続けた場合、ガソリン満タン状態から2日程度の電力を供給可能。</div>
+              <div class="notes notes2">■外部給電による住宅への電源供給（V2H＊）には対応していません。<br />＊V2H：Vehicle to Home</div>
+              <p class="box_notes">■消費電力の合計が1500W以下の電気製品をご使用ください。ただし、電気製品によっては消費電力の合計が1500W以下の場合でも正常に作動しない場合があります。</p>
+              <p class="box_notes box2">■一部の自治体では、駐車または停車中にエンジンを始動させた場合、アイドリングストップに関する条例にふれるおそれがあります。関係する自治体に確認した上で、適切にご使用ください。</p>
+            </li>
+          </ul>
+        </div>
+        <!-- /#section-6 -->
+        <div id="section-plan" class="section-plan sectionPos section">
+          
+
+          <div id="section-lineup" class="section-lineup section">
+            <h3>LINE UP
+              <span>メーカー希望小売価格（税込み）</span>
+            </h3>
+
+            <!--
+            .lineup-wrap へ　class付与により寒冷,温暖対応価格へ変更します
+            寒冷地 "price-coldregion"
+            温暖地 "price-warmregions"
+             -->
+            <div class="lineup-wrap">
+              <!-- 動的に挿入されます -->
+            </div>
+            <!-- /.lineup-wrap -->
+
+            <div class="notes">
+              <span>■価格はメーカー希望小売価格＜（消費税8%込み）’17年2月現在のもの＞で参考価格です。<br />価格、取付費は販売店が独自に定めていますので、詳しくは営業スタッフまでおたずねください。</span>
+              <span>■価格はタイヤパンク応急修理キット、タイヤ交換用工具付の価格です。</span>
+              <span>■価格にはオプション価格、取付費は含まれていません。</span>
+              <span>■保険料、税金（除く消費税）、登録料などの諸費用は別途申し受けます。</span>
+              <span>■自動車リサイクル法の施行により、リサイクル料金が別途必要となります。</span>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- /#section-plan -->
+      </div>
+      <!-- /.main_contents -->
+    </div>
+    <!-- /#contents -->
+    <div class="footer"></div>
+  </div>
+  <!-- /#wrapper -->
+
+<!-- 調整不可：メーカー管理の解析タグです。ここから-->
+
+<script type="text/javascript">
+    (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=SEwn6Ik";
+    s.parentNode.insertBefore(tagjs, s);
+    }());
+</script>
+<noscript>
+    <iframe src="//b.yjtag.jp/iframe?c=SEwn6Ik" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- 調整不可：メーカー管理の解析タグです。ここまで-->
+
+
+</body>
+
+</html>

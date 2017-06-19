@@ -1,0 +1,518 @@
+@charset "UTF-8"; /*****/
+#top-blog-container {
+    padding-bottom: 39px;
+}
+
+#top-blog-container .tc-title {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 0.12em;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 2px 2px 0 0;
+    border-top: 1px solid;
+    background-image: -moz-linear-gradient( -90deg, rgb(255,255,255) 69%, rgb(255,255,255) 80%, rgb(242,242,242) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(255,255,255) 69%, rgb(255,255,255) 80%, rgb(242,242,242) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(255,255,255) 69%, rgb(255,255,255) 80%, rgb(242,242,242) 100%);
+    /* border-top-color: #ff6e01; */
+    /* color: #ff6e01; */
+    position: relative;
+}
+
+#top-blog-container .top-blog-list {
+    width: 102%;
+    margin-top: 2%;
+    margin-left: -1%;
+    overflow: hidden;
+}
+
+#top-blog-item {
+    width: 98%;
+    float: left;
+    background-color: white;
+    color: #808080;
+    line-height: 130%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    border-bottom: solid 2px #dbdbdb;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+#top-blog-item a {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    font-size: 16px;
+    min-height: 8em;
+}
+
+#top-blog-item .top-blog-item-shopname {
+    background-color: #adadad;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 100%;
+}
+
+#top-blog-item .top-blog-item-date {
+    padding-top: 6px;
+    padding-left: 2%;
+    font-size: 11px;
+    color: #4c4c4c;
+}
+
+#top-blog-item .top-blog-item-title {
+    padding-top: 4px;
+    padding-left: 2%;
+    width: 55%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4c4c4c;
+    /* min-height: 3em; */
+    line-height: 130%;
+}
+
+#top-blog-item .top-blog-item-text {
+    padding-top: 9px;
+    padding-left: 2%;
+    width: 98%;
+    font-size: 12px;
+    color: #4c4c4c;
+    line-height: 130%;
+}
+
+#top-blog-item .top-blog-item-image {
+    width: 100px;
+    position: absolute;
+    top: 26px;
+    right: 3%;
+    width: 27%;
+    height: 43%;
+    text-align: center;
+}
+
+#top-blog-item .top-blog-item-image img {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    #top-blog-container .tc-title {
+        font-weight: normal;
+        text-align: center;
+        border-top: 1px solid;
+        padding-bottom: 22px;
+        border-top-width: 4px;
+        height: 68px;
+        border-radius: 2px 2px 0 0;
+        margin-bottom: 1px;
+        font-size: 22px;
+        letter-spacing: 0;
+        line-height: 64px;
+        background-color: white;
+        background-image: none;
+        position: relative;
+    }
+
+    #top-blog-container .top-blog-list {
+        width: 102%;
+        margin-top: 2%;
+        margin-left: -1%;
+        overflow: hidden;
+    }
+
+    #top-blog-item {
+        width: 98%;
+        float: left;
+        background-color: white;
+        color: #808080;
+        line-height: 130%;
+        margin-left: 1%;
+        margin-right: 1%;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        border-bottom: solid 2px #dbdbdb;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #top-blog-item a {
+        overflow: hidden;
+        display: block;
+        height: 100%;
+        min-height: 11.5em;
+    }
+
+    #top-blog-item .top-blog-item-shopname {
+        background-color: #adadad;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #top-blog-item .top-blog-item-date {
+        padding-top: 23px;
+        padding-left: 17px;
+        font-size: 14px;
+        color: #808080;
+    }
+
+    #top-blog-item .top-blog-item-title {
+        padding-top: 8px;
+        padding-left: 16px;
+        width: 100%;
+        padding-right: 200px;
+        font-weight: bold;
+        color: #4c4c4c;
+        /* min-height: 3em; */
+        line-height: 150%;
+    }
+
+    #top-blog-item .top-blog-item-text {
+        padding-top: 20px;
+        padding-left: 17px;
+        width: 100%;
+        padding-right: 200px;
+        font-size: 14px;
+        color: #4c4c4c;
+        line-height: 150%;
+    }
+
+    #top-blog-item .top-blog-item-image {
+        width: 100px;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        width: 160px;
+        height: 60%;
+        text-align: center;
+    }
+
+    #top-blog-item .top-blog-item-image img {
+    height: auto;
+    width: auto;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    #top-blog-container .tc-title {
+        font-weight: normal;
+        text-align: center;
+        border-top: 1px solid;
+        padding-bottom: 22px;
+        border-top-width: 4px;
+        height: 68px;
+        border-radius: 2px 2px 0 0;
+        margin-bottom: 1px;
+        font-size: 22px;
+        letter-spacing: 0;
+        line-height: 64px;
+        background-color: white;
+        background-image: none;
+    }
+
+    #top-blog-container .top-blog-list {
+        width: 102%;
+        margin-top: 2%;
+        margin-left: -1%;
+        overflow: hidden;
+    }
+
+    #top-blog-item {
+        width: 48%;
+        float: left;
+        background-color: white;
+        color: #808080;
+        line-height: 130%;
+        margin-left: 1%;
+        margin-right: 1%;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        border-bottom: solid 2px #dbdbdb;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #top-blog-item a {
+        overflow: hidden;
+        display: block;
+        height: 100%;
+        min-height: 180px;
+    }
+
+    #top-blog-item .top-blog-item-shopname {
+        background-color: #adadad;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #top-blog-item .top-blog-item-date {
+        padding-top: 14px;
+        padding-left: 17px;
+        font-size: 14px;
+        color: #808080;
+    }
+
+    #top-blog-item .top-blog-item-title {
+        padding-top: 5px;
+        padding-left: 16px;
+        width: 60%;
+        font-size: 15px;
+        font-weight: bold;
+        color: #4c4c4c;
+        /* min-height: 3em; */
+        line-height: 150%;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-text {
+        padding-top: 4px;
+        padding-left: 17px;
+        width: 60%;
+        font-size: 14px;
+        color: #4c4c4c;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-image {
+        width: 100px;
+        position: absolute;
+        top: 44px;
+        right: 20px;
+        width: 35%;
+        height: 60%;
+        text-align: center;
+    }
+
+    #top-blog-item .top-blog-item-image img {
+    height: auto;
+    width: auto;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #top-blog-container .tc-title {
+        font-weight: normal;
+        text-align: center;
+        border-top: 1px solid;
+        padding-bottom: 22px;
+        border-top-width: 4px;
+        height: 68px;
+        border-radius: 2px 2px 0 0;
+        margin-bottom: 1px;
+        font-size: 22px;
+        letter-spacing: 0;
+        line-height: 64px;
+        background-color: white;
+        background-image: none;
+    }
+
+    #top-blog-container .top-blog-list {
+        width: 102%;
+        margin-top: 2%;
+        margin-left: -1%;
+        overflow: hidden;
+    }
+
+    #top-blog-item {
+        width: 48%;
+        float: left;
+        background-color: white;
+        color: #808080;
+        line-height: 130%;
+        margin-left: 1%;
+        margin-right: 1%;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        border-bottom: solid 2px #dbdbdb;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #top-blog-item a {
+        overflow: hidden;
+        display: block;
+        height: 100%;
+        min-height: 180px;
+    }
+
+    #top-blog-item .top-blog-item-shopname {
+        background-color: #adadad;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #top-blog-item .top-blog-item-date {
+        padding-top: 14px;
+        padding-left: 17px;
+        font-size: 14px;
+        color: #808080;
+    }
+
+    #top-blog-item .top-blog-item-title {
+        padding-top: 2px;
+        padding-left: 16px;
+        width: 55%;
+        font-weight: bold;
+        color: #4c4c4c;
+        /* min-height: 3em; */
+        line-height: 150%;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-text {
+        padding-top: 4px;
+        padding-left: 17px;
+        width: 55%;
+        font-size: 14px;
+        color: #4c4c4c;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-image {
+        width: 100px;
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        width: 35%;
+        height: 60%;
+        text-align: center;
+    }
+
+    #top-blog-item .top-blog-item-image img {
+    height: auto;
+    width: auto;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    #top-blog-container .tc-title {
+        font-weight: normal;
+        text-align: center;
+        border-top: 1px solid;
+        padding-bottom: 22px;
+        border-top-width: 4px;
+        height: 68px;
+        border-radius: 2px 2px 0 0;
+        margin-bottom: 1px;
+        font-size: 22px;
+        letter-spacing: 0;
+        line-height: 64px;
+        background-color: white;
+        background-image: none;
+    }
+
+    #top-blog-container .top-blog-list {
+        width: 102%;
+        margin-top: 2%;
+        margin-left: -1%;
+        overflow: hidden;
+    }
+
+    #top-blog-item {
+        width: 48%;
+        float: left;
+        background-color: white;
+        color: #808080;
+        line-height: 130%;
+        margin-left: 1%;
+        margin-right: 1%;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        border-bottom: solid 2px #dbdbdb;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #top-blog-item a {
+        overflow: hidden;
+        display: block;
+        height: 100%;
+        min-height: 180px;
+    }
+
+    #top-blog-item .top-blog-item-shopname {
+        background-color: #adadad;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #top-blog-item .top-blog-item-date {
+        padding-top: 12px;
+        padding-left: 19px;
+        font-size: 14px;
+        color: #808080;
+    }
+
+    #top-blog-item .top-blog-item-title {
+        padding-top: 5px;
+        padding-left: 19px;
+        width: 55%;
+        font-weight: bold;
+        font-size: 14px;
+        color: #4c4c4c;
+        /* min-height: 3em; */
+        line-height: 150%;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-text {
+        padding-top: 5px;
+        padding-left: 19px;
+        width: 55%;
+        font-size: 14px;
+        color: #4c4c4c;
+        padding-right: 0px;
+    }
+
+    #top-blog-item .top-blog-item-image {
+        width: 100px;
+        position: absolute;
+        top: 44px;
+        right: 20px;
+        width: 35%;
+        height: 60%;
+        text-align: center;
+    }
+
+    #top-blog-item .top-blog-item-image img {
+    height: auto;
+    width: auto;
+    }
+}

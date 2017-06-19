@@ -1,0 +1,18 @@
+#sortmenu .search-info .button-clear {
+    border: 2px solid #ff6e01;
+    color: #ff6e01;
+}
+#store-list .inner .store_btn_detail a {
+    color: #ff6f00;
+}
+#store-list .inner .store_btn_detail {
+    border: 2px solid #ff6f00;
+    color: #ff6f00;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number div a {
+    color: #ff6e01;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number div {
+    color: #ff6e01;
+    border: solid 2px #ff6e01;
+}

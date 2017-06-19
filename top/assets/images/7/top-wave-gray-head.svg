@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="29" viewBox="0 0 640 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="top-wave-gray-head.svg" class="cls-1" d="M640,323.382c1.307,0.041-167.575,15.954-387.24,2.681C115.4,317.763,55.03,319.1,0,323.382V349H640V323.382Z" transform="translate(0 -320)"/>
+</svg>

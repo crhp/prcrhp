@@ -1,0 +1,96 @@
+.tc-btn-a
+{
+  color: #f9b81e;
+  border-color: #f9b81e;
+}
+
+.tc-btn-b {
+  color: #f9b81e;
+  border-color: #f9b81e;
+}
+
+.tc-title-type-04
+{
+  color: #f9b81e;
+}
+
+.top-column-left-title strong
+{
+  color: #f9b81e;
+}
+
+.top-servicemenu-title
+{
+  color: #f9b81e;
+}
+
+.top-dial-number:after
+{
+  background-color: #f9b81e;
+}
+
+.top-service-item-pic
+{
+  border-top-color: #f9b81e;
+}
+
+.top-servicemenu-item-text
+{
+  color: #f9b81e;
+}
+
+.top-dial-normal
+{
+  color: #f9b81e;
+}
+
+.top-service-item-btn-a
+{
+  border-color: #f9b81e;
+  color: #f9b81e;
+}
+.slick-active .top-pager-item {
+  background-color: #f9b81e;
+}
+.top-dial-release {
+    color: #f9b81e;
+}
+.top-date-item-label {
+    color: #f9b81e;
+}
+@media screen and (max-width: 768px) {
+  .top-calendar-nav-prev .tc-btn-b {
+      color: #f9b81e;
+      border: solid 2px #f9b81e;
+      background: url(../../../images/5/parts_p/top-arrow-left-icon-2.png) 5% center no-repeat;
+      background-size: 5px 8px;
+  }
+  .top-calendar-nav-next .tc-btn-b {
+      color: #f9b81e;
+      border: solid 2px #f9b81e;
+  }  
+  .top-calendar-nav-next .tc-btn-b:after {
+      background: url(../../../images/5/parts_p/top-arrow-right-icon-2.png) 95% center no-repeat;
+      background-size: 5px 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-calendar-nav-prev a {
+      color: #f9b81e;
+      background: url(../../../images/5/parts_p/top-arrow-left-icon-2.png) 10% center no-repeat;
+      background-size: 5px 8px;
+  }
+  .top-calendar-nav-next a {
+      color: #f9b81e;
+      background: url(../../../images/5/parts_p/top-arrow-right-icon-2.png) 90% center no-repeat;
+      background-size: 5px 8px;
+  }
+  .top-calendar-nav {
+      border: solid 2px #f9b81e;
+  }
+  
+}
+#alert-box{
+	border-color:#c30d23;
+}

@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+@media screen and (min-width:1680px){
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 20px;
+    background: #FF9E00;
+    max-width: 1917px;
+    margin-left: 213px;
+  }
+
+  .pace-inactive {
+    display: none;
+  }
+
+  .pace .pace-activity {
+    position: fixed;
+    top: 0;
+    left: -800px;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+
+
+    -webkit-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -moz-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -o-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+
+    -webkit-background-size: 800px 100%;
+    -moz-background-size: 800px 100%;
+    -o-background-size: 800px 100%;
+    background-size: 800px 100%;
+
+    -webkit-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -moz-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -ms-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -o-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+  }
+
+  @-webkit-keyframes pace-theme-mac-osx-motion {
+    0% { -webkit-transform: none; transform: none; }
+    100% { -webkit-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-moz-keyframes pace-theme-mac-osx-motion {
+    0% { -moz-transform: none; transform: none; }
+    100% { -moz-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-o-keyframes pace-theme-mac-osx-motion {
+    0% { -o-transform: none; transform: none; }
+    100% { -o-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-ms-keyframes pace-theme-mac-osx-motion {
+    0% { -ms-transform: none; transform: none; }
+    100% { -ms-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @keyframes pace-theme-mac-osx-motion {
+    0% { transform: none; transform: none; }
+    100% { transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+}
+
+@media screen and (max-width: 1679px) and (min-width: 1280px){
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 20px;
+    background: #FF9E00;
+    max-width: 1917px;
+    margin-left: 213px;
+  }
+
+  .pace-inactive {
+    display: none;
+  }
+
+  .pace .pace-activity {
+    position: fixed;
+    top: 0;
+    left: -800px;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+
+
+    -webkit-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -moz-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -o-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+
+    -webkit-background-size: 800px 100%;
+    -moz-background-size: 800px 100%;
+    -o-background-size: 800px 100%;
+    background-size: 800px 100%;
+
+    -webkit-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -moz-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -ms-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -o-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+  }
+
+  @-webkit-keyframes pace-theme-mac-osx-motion {
+    0% { -webkit-transform: none; transform: none; }
+    100% { -webkit-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-moz-keyframes pace-theme-mac-osx-motion {
+    0% { -moz-transform: none; transform: none; }
+    100% { -moz-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-o-keyframes pace-theme-mac-osx-motion {
+    0% { -o-transform: none; transform: none; }
+    100% { -o-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-ms-keyframes pace-theme-mac-osx-motion {
+    0% { -ms-transform: none; transform: none; }
+    100% { -ms-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @keyframes pace-theme-mac-osx-motion {
+    0% { transform: none; transform: none; }
+    100% { transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+
+}
+
+
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+    height: 12px;
+    background: #FF9E00;
+  }
+
+  .pace-inactive {
+    display: none;
+  }
+
+  .pace .pace-activity {
+    position: fixed;
+    top: 0;
+    left: -800px;
+    right: 0;
+    bottom: 0;
+    height: 12px;
+
+
+    -webkit-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -moz-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -o-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+
+    -webkit-background-size: 800px 100%;
+    -moz-background-size: 800px 100%;
+    -o-background-size: 800px 100%;
+    background-size: 800px 100%;
+
+    -webkit-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -moz-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -ms-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -o-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+  }
+
+  @-webkit-keyframes pace-theme-mac-osx-motion {
+    0% { -webkit-transform: none; transform: none; }
+    100% { -webkit-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-moz-keyframes pace-theme-mac-osx-motion {
+    0% { -moz-transform: none; transform: none; }
+    100% { -moz-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-o-keyframes pace-theme-mac-osx-motion {
+    0% { -o-transform: none; transform: none; }
+    100% { -o-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-ms-keyframes pace-theme-mac-osx-motion {
+    0% { -ms-transform: none; transform: none; }
+    100% { -ms-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @keyframes pace-theme-mac-osx-motion {
+    0% { transform: none; transform: none; }
+    100% { transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+
+}
+
+
+@media screen and  (max-width: 1023px) and (min-width: 768px){
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+    height: 12px;
+    background: #FF9E00;
+  }
+
+  .pace-inactive {
+    display: none;
+  }
+
+  .pace .pace-activity {
+    position: fixed;
+    top: 0;
+    left: -800px;
+    right: 0;
+    bottom: 0;
+    height: 12px;
+
+
+    -webkit-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -moz-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -o-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+
+    -webkit-background-size: 800px 100%;
+    -moz-background-size: 800px 100%;
+    -o-background-size: 800px 100%;
+    background-size: 800px 100%;
+
+    -webkit-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -moz-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -ms-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -o-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+  }
+
+  @-webkit-keyframes pace-theme-mac-osx-motion {
+    0% { -webkit-transform: none; transform: none; }
+    100% { -webkit-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-moz-keyframes pace-theme-mac-osx-motion {
+    0% { -moz-transform: none; transform: none; }
+    100% { -moz-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-o-keyframes pace-theme-mac-osx-motion {
+    0% { -o-transform: none; transform: none; }
+    100% { -o-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @-ms-keyframes pace-theme-mac-osx-motion {
+    0% { -ms-transform: none; transform: none; }
+    100% { -ms-transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+  @keyframes pace-theme-mac-osx-motion {
+    0% { transform: none; transform: none; }
+    100% { transform: translate(800px, 0); transform: translate(800px, 0); }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+    height: 12px;
+    background: #FF9E00;
+  }
+
+  .pace-inactive {
+    display: none;
+  }
+
+  .pace .pace-activity {
+    position: fixed;
+    top: 0;
+    left: -500px;
+    right: 0;
+    bottom: 0;
+    height: 12px;
+
+
+    -webkit-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -moz-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    -o-background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, .15) 40%, rgba(255, 255, 255, .75) 100%);
+
+    -webkit-background-size: 500px 100%;
+    -moz-background-size: 500px 100%;
+    -o-background-size: 500px 100%;
+    background-size: 500px 100%;
+
+    -webkit-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -moz-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -ms-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    -o-animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+    animation: pace-theme-mac-osx-motion 2000ms linear infinite;
+  }
+
+  @-webkit-keyframes pace-theme-mac-osx-motion {
+    0% { -webkit-transform: none; transform: none; }
+    100% { -webkit-transform: translate(500px, 0); transform: translate(500px, 0); }
+  }
+  @-moz-keyframes pace-theme-mac-osx-motion {
+    0% { -moz-transform: none; transform: none; }
+    100% { -moz-transform: translate(500px, 0); transform: translate(500px, 0); }
+  }
+  @-o-keyframes pace-theme-mac-osx-motion {
+    0% { -o-transform: none; transform: none; }
+    100% { -o-transform: translate(500px, 0); transform: translate(500px, 0); }
+  }
+  @-ms-keyframes pace-theme-mac-osx-motion {
+    0% { -ms-transform: none; transform: none; }
+    100% { -ms-transform: translate(500px, 0); transform: translate(500px, 0); }
+  }
+  @keyframes pace-theme-mac-osx-motion {
+    0% { transform: none; transform: none; }
+    100% { transform: translate(500px, 0); transform: translate(500px, 0); }
+  }
+}

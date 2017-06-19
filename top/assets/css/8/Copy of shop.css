@@ -1,0 +1,109 @@
+/* CSS Document */
+
+/*++++++++++地図フラッシュ++++++++++*/
+#flashmap {
+	width:950px; height:445px;
+	margin:0px; padding:0px 0px 10px 0px; clear:both;}
+
+#flashmap h2 {padding:0px; margin:0px; text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+
+/*++++++++++店舗一覧++++++++++*/
+/*ピクト*/
+p.pict {text-align:left; margin:0px 0px 15px 0px; padding:0px; height:15px;
+	background-image:url(../img/shop/pict.gif); background-repeat:no-repeat; text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+
+/*ブロック左*/
+#block_left {width:286px; height:auto; margin:0px 22px 0px 0px; padding:0px; float:left; text-align:left;}
+#block_left p {font-size:13px; font-weight:lighter; line-height:1.3em;  margin:5px 0px 15px 0px; padding:0px;}
+#block_left h4 {margin:0px; padding:0px; height:40px; text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+#block_left p b { font-size: 14px; }
+
+/*ブロック中*/
+#block_center {width:286px; height:auto;
+	margin:0px; padding:0px 22px 0px 22px;
+	float:left; text-align:left;
+	border-width:0px 1px 0px 1px; border-right-style:dashed; border-left-style:dashed; border-right-color:#999999; border-left-color:#999999;}
+#block_center p {font-size:13px; font-weight:lighter; line-height:1.3em;  margin:5px 0px 15px 0px; padding:0px;}	
+#block_center h4 {margin:0px; padding:0px; height:40px; text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+#block_center p b { font-size: 14px; }
+
+/*ブロック右*/
+#block_right {width:286px; height:auto; margin:0px 0px 0px 22px; padding:0px 0px 0px 0px; float:left; text-align:left;}
+#block_right p {font-size:13px; font-weight:lighter; line-height:1.3em; margin:5px 0px 15px 0px; padding:0px;}
+#block_right h4 {margin:0px; padding:0px; height:40px; text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+#block_right h3 {margin:0px; padding:0px;text-indent:-9999px; overflow:hidden; font-size:9px; color:#FFFFFF;}
+#block_right p b { font-size: 14px; }
+
+/*リンク*/
+a.showroom {display:block; margin:0px; padding:0px;float:left; height:22px; width:200px;}
+a.map {display:block; margin:0px; padding:0px; height:22px; width:82px; float:left;}
+
+/*伊勢佐木*/
+h4#isesaki {background-image:url(../img/shop/shop01.gif); background-repeat:no-repeat;}
+/*港南*/
+h4#kounan {background-image:url(../img/shop/shop02.gif); background-repeat:no-repeat;}
+/*下永谷*/
+h4#simonagaya {background-image:url(../img/shop/shop03.gif); background-repeat:no-repeat;}
+/*磯子*/
+h4#isogo {background-image:url(../img/shop/shop04.gif); background-repeat:no-repeat;}
+/*南*/
+h4#minami {background-image:url(../img/shop/shop05.gif); background-repeat:no-repeat;}
+/*保土ヶ谷*/
+h4#hodogaya {background-image:url(../img/shop/shop06.gif); background-repeat:no-repeat;}
+/*戸塚*/
+h4#totuka {background-image:url(../img/shop/shop07.gif); background-repeat:no-repeat;}
+/*立場*/
+h4#tateba {background-image:url(../img/shop/shop08.gif); background-repeat:no-repeat;}
+/*鎌倉*/
+h4#kamakura {background-image:url(../img/shop/shop09.gif); background-repeat:no-repeat;}
+/*藤沢*/
+h4#fujisawa {background-image:url(../img/shop/shop10.gif); background-repeat:no-repeat;}
+/*茅ヶ崎*/
+h4#chigasaki {background-image:url(../img/shop/shop11.gif); background-repeat:no-repeat;}
+/*ライフタウン*/
+h4#lifetown {background-image:url(../img/shop/shop12.gif); background-repeat:no-repeat;}
+/*大船*/
+h4#ohfuna {background-image:url(../img/shop/shop13.gif); background-repeat:no-repeat;}
+/*横須賀中央*/
+h4#yokosuka_c {background-image:url(../img/shop/shop14.gif); background-repeat:no-repeat;}
+/*横須賀*/
+h4#yokosuka {background-image:url(../img/shop/shop15.gif); background-repeat:no-repeat;}
+/*金沢*/
+h4#kanazawa {background-image:url(../img/shop/shop16.gif); background-repeat:no-repeat;}
+/*武山*/
+h4#takeyama {background-image:url(../img/shop/shop17.gif); background-repeat:no-repeat;}
+/*逗子*/
+h4#zusi {background-image:url(../img/shop/shop18.gif); background-repeat:no-repeat;}
+/*横須賀U*/
+h4#yokosuka_u {background-image:url(../img/shop/shop19.gif); background-repeat:no-repeat;}
+/*茅ヶ崎U*/
+h4#joypark_mm21 {background-image:url(../img/shop/shop20.gif); background-repeat:no-repeat;}
+/*藤沢U*/
+h4#fujisawa_u {background-image:url(../img/shop/shop21.gif); background-repeat:no-repeat;}
+/*戸塚U*/
+h4#totuka_u {background-image:url(../img/shop/shop22.gif); background-repeat:no-repeat;}
+/*特販*/
+h4#tokuhan {background-image:url(../img/shop/shop23.gif); background-repeat:no-repeat;}
+
+/*あなたの街のプチショールーム*/
+a.banner {background-image:url(../img/shop/banner01.jpg);
+	display:block; margin:0px; padding:0px; width:286px; height:95px; }
+a:hover.banner {background-position:0px -95px;}
+
+/*セルフガソリンスタンド*/
+a.banner02 {background-image:url(../img/shop/banner02.jpg);
+	display:block; margin:10px 0px 0px 0px; padding:0px; width:286px; height:95px; }
+a:hover.banner02 {background-position:0px -95px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

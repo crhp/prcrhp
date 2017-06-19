@@ -1,0 +1,14 @@
+@charset "shift_jis";
+
+body {
+	font-size: 28px;	/*「大」に切り替えた時の文字サイズ*/
+}
+
+/*「中」サイズのボタン設定*/
+ul#fsize li#me a {
+	background: url(../images/fsize.png) left center;	/*中の選択を解除する画像の選択*/
+}
+/*「大」サイズのボタン設定*/
+ul#fsize li#la a {
+	background: url(../images/fsize_on.png) right center;	/*大の選択の画像*/
+}

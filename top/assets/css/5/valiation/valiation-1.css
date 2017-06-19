@@ -1,0 +1,60 @@
+.tc-btn-a
+{
+  color: #ff6e01;
+  border-color: #ff6e01;
+}
+
+.tc-title-type-04
+{
+  color: #ff6e01;
+}
+
+.tc-btn-b
+{
+  border-color: #ff6e01;
+  color: #ff6e01;
+}
+
+.top-column-left-title strong
+{
+  color: #ff6e01;
+}
+
+.top-servicemenu-title
+{
+  color: #ff6e01;
+}
+
+.top-dial-number:after
+{
+  background-color: #ff6e01;
+}
+
+.top-service-item-pic
+{
+  border-top: 3px solid #ff6e01;
+}
+
+.top-servicemenu-item-text
+{
+  color: #ff6e01;
+}
+
+.top-dial-normal
+{
+  color: #ff6e01;
+}
+
+.top-service-item-btn-a
+{
+  border-color: #ff6e01;
+  color: #ff6e01;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+
+}

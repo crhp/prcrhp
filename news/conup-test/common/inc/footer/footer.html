@@ -1,0 +1,119 @@
+<?php
+$sitemap_data_list = getSitemap();
+?>
+<div id="conversion" class="conversion-<?= $site["designgroup_id"] ?>">
+
+  <div class="conversion-sizedetect"></div>
+
+    <div class="conversion-btns">
+      <ul class="clearfix">
+        <li><a href="http://toyota.jp/service/dealer/spt/trial-list-car?CN=C&OFFICE_CD=<?=$client["client_id"]?>">試乗車・展示車</a></li>
+        <li><a href="/afterservice/coupon.html">クーポン</a></li>
+        <li><a href="<?=$form["catalog_url"]?>">カタログ請求</a></li>
+        <li><a href="/lineup/flyer.html">チラシ</a></li>
+        <li><a href="/u-car/t-up.html">買取り</a></li>
+        <?php
+        if($form["stock_url"] != null){
+          echo '<li><a href="'.$form["stock_url"].'">入庫予約</a></li>';
+        }
+        ?>
+        <li><a href="<?=$form["contact_url"]?>">お問い合わせ</a></li>
+      </ul>
+   </div>
+
+</div>
+
+<footer>
+
+  <div class="footer-sizedetect"></div>
+
+    <div class="footer-sitemap">
+      <ul class="footer-sns">
+        <?php if (isset($site["facebook_url"]) == 1): ?>
+            <li><a href="<?= $site["facebook_url"] ?>"><img src="/common/assets/images/footer/facebook.png" alt="facebook"></a></li>
+        <?php endif ?>
+        <?php if (isset($site["twitter_url"])): ?>
+            <li><a href="<?= $site["twitter_url"] ?>"><img src="/common/assets/images/footer/twitter.png" alt="twitter"></a></li>
+        <?php endif ?>
+        <?php if (isset($site["youtube_url"])): ?>
+            <li><a href="<?= $site["youtube_url"] ?>"><img src="/common/assets/images/footer/youtube.png" alt="youtube"></a></li>
+        <?php endif ?>
+        <?php if (isset($site["line_url"])): ?>
+            <li><a href="<?= $site["line_url"] ?>"><img src="/common/assets/images/footer/line.png" alt="line"></a></li>
+        <?php endif ?>
+        <?php if (isset($site["instagram_url"])): ?>
+            <li><a href="<?= $site["instagram_url"] ?>"><img src="/common/assets/images/footer/instagram.png" alt="instagram"></a></li>
+        <?php endif ?>
+      </ul>
+
+      <div class="footer-sitemap-list">
+        <div class="footer-sitemap-wrap clearfix">
+            <?php foreach ($sitemap_data_list as $sitemap_item): ?>
+                <ul class="footer-block">
+                    <li class="footer-title">
+                      <?php
+                      if($sitemap_item["category_label"] == "福祉車両（ウェルキャブ）"){
+                        echo '福祉車両<br>（ウェルキャブ）';
+                      }elseif($sitemap_item["category_label"] == "中古車（U-CAR）"){
+                        echo '中古車<br>（U-CAR）';
+                      }else{
+                        echo $sitemap_item["category_label"];
+                      }
+                      ?>
+                    </li>
+                    <?php if(isset($sitemap_item["list"])): ?>
+
+
+                        <?php foreach ($sitemap_item["list"] as $sub_sitemap_item): ?>
+
+                            <li><a href="<?= $sub_sitemap_item["url"] ?>"></a><?= $sub_sitemap_item["label"] ?></li>
+                        <?php endforeach ?>
+                      <?php endif; ?>
+                </ul>
+            <?php endforeach ?>
+
+
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+
+        </div><!-- footer-store -->
+      </div><!-- footer-sitemap-list -->
+    </div><!-- footer-sitemap -->
+
+<div id="footer">
+        <div class="wide-bg"></div>
+        <div class="footer-logo">
+          <span class="left-image"><img src="/common/assets/images/footer/footer_logo_01.png" alt=""></span>
+          <span class="right-image"><img src="/common/assets/images/footer/footer_logo_02.png" alt=""></span>
+        </div>
+
+        <ul class="clearfix">
+            <li><a href="">所有権解除</a></li>
+            <li><a href="">CSR 基本方針</a></li>
+            <li><a href="">プライバシーポリシー</a></li>
+            <li><a href="">ご利用にあたって</a></li>
+        </ul>
+        <?php
+        $default_name = strtoupper($client["client_name_en"]);
+          $copy_right_name = $default_name =str_replace("-"," ",$default_name );
+        ?>
+        <span class="footer-copy">Copyright ©TOYOTA <?= strtoupper($copy_right_name) ?> CO., LTD.  <br class="br-sp">2016 ALL Right Reserved.</span>
+        <span class="footer-copy-2"><?= $client['permission_name'] ?> 第<?= $client['permission_num'] ?>号 <br><?= $client["client_name"] ?>株式会社</span>
+ </div>
+
+
+  </footer>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '<?=$site["analytics_tag"]?>', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

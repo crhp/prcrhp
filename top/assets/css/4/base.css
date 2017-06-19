@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+
+html, body {
+  height: 100%; }
+
+
+.serif {
+  font-family: "æ¸¸æ˜Žæœä½“",  "YuMincho", "Yu Mincho",  "ãƒ’ãƒ©ã‚®ãƒŽæ˜ŽæœProN W3", "Hiragino Mincho ProN", "HGæ˜ŽæœB", "ï¼­ï¼³ ï¼°æ˜Žæœ", "ï¼­ï¼³ æ˜Žæœ", serif;
+}
+
+.serif-en
+{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.trace {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 848px;
+  /* opacity: 0; */
+  display: none;
+  /* display: block; */
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.trace img
+{
+    width: 100%;
+}

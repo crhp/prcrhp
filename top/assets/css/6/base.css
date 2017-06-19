@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+html, body {
+  height: 100%; }
+
+
+.trace {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 92px;
+  z-index: 2;
+  opacity: 0;
+  display: none;
+  display: block;
+  opacity: 0.4;
+}
+
+.trace img
+{
+}

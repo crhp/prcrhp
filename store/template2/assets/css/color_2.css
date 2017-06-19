@@ -1,0 +1,23 @@
+#sortmenu .search-info .search-target {
+    color: #17b4f2;
+}
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
+    color: #17b4f2;
+}
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
+    color: #17b4f2;
+    font-size: 16px;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number div {
+    color: white;
+    background: linear-gradient(#17b4f2, #17b4f2);
+}
+#section-calendar .calendar-inner .right-wrap .business_hours dl dt {
+    background-color: #17b4f2;
+}
+#section-calendar .calendar-inner .right-wrap .phone-number dl dt {
+    background-color: #17b4f2;
+}

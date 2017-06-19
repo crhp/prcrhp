@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+/* some custom fonts via google font api */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight);
+/* content block 1 */
+#topic {
+	float:left;
+	width:300px;
+	margin:0;
+	padding:0 0 0 15px;
+}
+
+#topic_bg {
+    background:url(../img/grand/topic_bg.jpg) no-repeat top left;
+	width:300px;
+	height:161px;
+	margin:0;
+	padding:0;
+}
+
+#topic_top {
+    background:url(../img/grand/topic_top.jpg) no-repeat top left;
+	width:300px;
+	height:43px;
+	margin:0;
+	padding:0;
+}
+
+#topic .yymmdd {
+	color:#4D4848;
+	margin:0;
+	padding:0 0 0 0;
+	letter-spacing:0.1em;
+}
+
+#topic .topic_txt {
+	color:#E25A00;
+	line-height:150%;
+	letter-spacing:0.05em;
+	margin:0 0 3px 0;
+	padding:1px 0 0 0;
+}
+
+#topic .topic_txt a {
+	color:#E25A00;
+	text-decoration:none;
+}
+
+#topic .topic_txt a:hover {
+	color:#E25A00;
+	text-decoration: underline;
+}
+
+
+#mcs_container{position:relative; top:10px; margin:0 0 0 0px; width:300px; height:135px; padding:0 0 0 0;}
+#mcs_container .customScrollBox{position:relative; height:135px; overflow:hidden;}
+#mcs_container .customScrollBox .container{position:relative; width:255px; top:0; float:left; left:17px;}
+#mcs_container .customScrollBox .content{clear:both; padding-bottom:0px; padding-top:0px;}
+/*
+#mcs_container .dragger_container{position:relative; width:2px; height:120px; float:left; margin:20px 0 0 40px; background:#000; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+#mcs_container .dragger{position:absolute; width:2px; height:10px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs_container .dragger_pressed{position:absolute; width:4px; margin-left:-1px; height:60px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+*/
+
+
+
+
+
+
+#mcs_container .dragger_container{position:relative; width:0px; height:132px; float:left; margin:2px 0 0 22px; cursor:pointer;}
+#mcs_container .dragger{position:absolute; width:11px; height:33px; background:url(dragger.jpg) no-repeat 0 0; margin:0px 0 0 0;}
+#mcs_container .dragger_pressed{position:absolute; width:11px; height:33px; background:url(dragger.jpg) no-repeat 0 0; margin:0px 0 0 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

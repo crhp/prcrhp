@@ -1,0 +1,48 @@
+#size-detect {
+  font-family: "sp"; }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    #size-detect {
+      font-family: "sp-large"; } }
+  @media screen and (min-width: 980px) and (max-width: 1365px) {
+    #size-detect {
+      font-family: "tablet"; } }
+  @media screen and (min-width: 1366px) and (max-width: 1679px) {
+    #size-detect {
+      font-family: "pc-min"; } }
+  @media screen and (min-width: 1680px) {
+    #size-detect {
+      font-family: "pc-large"; } }
+
+
+.br-pc {
+  display: none; }
+
+.br-tab {
+  display: none; }
+
+.br-sp {
+  display: inline-block; }
+
+.top-block-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .16em;
+  font-family: "游明朝体",  "YuMincho", "Yu Mincho",  "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", "HG明朝B", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+
+@media screen and (min-width: 768px) {
+  .br-sp {
+    display: none; }
+  .br-tab {
+    display: inline-block; }
+  .br-pc {
+    display: none; }
+  .top-block-title {
+    margin-bottom: 28px;
+    padding-left: 20px;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    } }

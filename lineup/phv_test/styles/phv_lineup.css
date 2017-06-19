@@ -1,0 +1,176 @@
+/* section-lineup */
+
+.section-lineup {
+    width: 1100px;
+    margin: 85px auto 204px;
+}
+.section-lineup h3 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+.section-lineup h3 span {
+    color: #333;
+    font-size: 14px;
+    margin-left: 11px;
+}
+.lineup-wrap {
+    margin: 25px 0 0 0;
+}
+.lineup-wrap ul {
+    width: 1100px;
+    margin: 0 auto;
+}
+.lineup-wrap ul:nth-child(2) {
+    margin: 20px auto 0;
+}
+.lineup-wrap li {
+    text-align: center;
+    width: 360px;
+    float: left;
+    margin-left: 10px;
+}
+.lineup-wrap li:first-child {
+    margin-left: 0;
+}
+.lineup--title {
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 0;
+}
+.lineup--value {
+    background-color: #ddd;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 0 4px;
+}
+.lineup--value span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+.section-lineup .notes {
+    margin: 40px 0 0 0;
+}
+.section-lineup .notes span {
+    display: block;
+    margin: 0 0 1.5px 0;
+}
+@media screen and (max-width: 1199px) and (min-width: 740px) {
+    .section-lineup {
+        width: 680px;
+        margin: 10.3% auto 62px;
+    }
+    .section-lineup h3 span {
+        color: #333;
+        font-size: 14px;
+        margin-left: 11px;
+    }
+    .lineup-wrap {
+        margin: 25px 0 0 0;
+    }
+    .lineup-wrap ul {
+        width: 680px;
+        margin: 0 auto;
+    }
+    .lineup-wrap ul:nth-child(2) {
+        margin: 30px auto 0;
+    }
+    .lineup-wrap li {
+        text-align: center;
+        width: 335px;
+        float: left;
+        margin-left: 10px;
+    }
+    .lineup-wrap li:nth-child(odd) {
+        margin-left: 0;
+    }
+    .lineup-wrap li:nth-child(n+3) {
+        margin: 30px 0 0 0;
+    }
+    .lineup--title {
+        font-size: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 4px 0;
+    }
+    .lineup--value {
+        background-color: #ddd;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 8px 0 4px;
+    }
+    .lineup--value span {
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .section-lineup .notes {}
+    .section-lineup .notes span {
+        display: block;
+        margin: 0 0 3px 0;
+    }
+}
+@media screen and (max-width: 739px) {
+    .section-lineup {
+        width: auto;
+        margin: 13.3% 15px 62px;
+    }
+    .section-lineup h3 {
+        text-align: left;
+        font-size: 21px;
+        letter-spacing: 0.5px;
+    }
+    .section-lineup h3 span {
+        color: #333;
+        font-size: 11px;
+        margin-left: 0;
+        font-weight: normal;
+        letter-spacing: 0px;
+    }
+    .lineup-wrap {
+        margin: 11px 0 0 0;
+    }
+    .lineup-wrap ul {
+        width: auto;
+        margin: 0 auto;
+    }
+    .lineup-wrap ul:nth-child(2) {
+        margin: 3.6% auto 0;
+    }
+    .lineup-wrap li {
+        text-align: center;
+        width: 48%;
+        float: left;
+        margin-left: 4%;
+    }
+    .lineup-wrap li:nth-child(odd) {
+        margin-left: 0;
+    }
+    .lineup-wrap li:nth-child(n+3) {
+        margin: 3.6% 0 0 0;
+    }
+    .lineup--title {
+        font-size: 12px;
+        padding: 0;
+        letter-spacing: -0.5px;
+    }
+    .lineup--value {
+        background-color: #ddd;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0;
+    }
+    .lineup--value span {
+        display: block;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .section-lineup .notes {
+        margin: 20px 0 0 0;
+    }
+    .section-lineup .notes span {
+        display: block;
+        margin: 0;
+    }
+}

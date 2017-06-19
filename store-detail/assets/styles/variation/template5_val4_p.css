@@ -1,0 +1,61 @@
+/*
+color variation4
+key color : #c56e3d;
+*/
+
+#snav-fixed-sp {
+  background-color: #c56e3d;
+}
+#blog-fixed-btn {
+  background-color: #c56e3d;
+}
+.section h1 {
+  border-color: #c56e3d;
+  color: #c56e3d;
+}
+.section h2 {
+  border-color: #c56e3d;
+}
+#google-map .google-map-pc-link a {
+  border-color: #c56e3d;
+  color: #c56e3d;
+}
+#google-map .google-map-pc-link a:hover {
+  background-color: #c56e3d;
+}
+.sub-service li:before {
+  color: #c56e3d;
+}
+.slick-prev:before {
+  background: url(../../images/5/slide/store-image-prev-val4_p.png);
+  background-size: contain;
+
+}
+.slick-next:before {
+  background: url(../../images/5/slide/store-image-next-val4_p.png);
+  background-size: contain;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/5/slide/thumb-item-nav-cover-val4_p.png);
+  background-size: cover;
+}
+#staff-blog {
+  border-color: #c56e3d;
+}
+#staff-blog h3 {
+  background-color: #c56e3d;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #c56e3d;
+}
+#staff-blog .blog-more-btn a {
+  color: #c56e3d;
+  border-color: #c56e3d;
+}
+#staff-blog .blog-more-btn a:hover {
+  background-color: #c56e3d;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

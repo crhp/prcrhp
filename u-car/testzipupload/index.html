@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Zipupload　DUMMYPAGE｜C-RHP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/slide.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="alternate stylesheet" href="css/large.css" title="la">
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+<div id="inner">
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" width="300" height="50" alt="ヘッダー"></a></h1>
+
+<p id="tel"><strong>TEL:0120-XXX-XXX</strong>（AM8:00〜PM8:00）</p>
+<ul id="fsize">
+<li id="me"><a href="#" onclick="setActiveStyleSheet('me'); return false;" title="文字サイズを元に戻す">文字サイズを元に戻す</a></li>
+<li id="la"><a href="#" onclick="setActiveStyleSheet('la'); return false;" title="文字サイズを大きくする">文字サイズを大きくする</a></li>
+</ul>
+</div>
+<!--/inner-->
+</header>
+
+<div id="menu-box">
+<!--PC用（481px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li class="current"><a href="index.html">ホーム</a></li>
+<li><a href="info.html">コンテンツ１</a></li>
+<li><a href="service.html">コンテンツ２</a></li>
+<li><a href="price.html">コンテンツ３</a></li>
+<li><a href="access.html">コンテンツ４</a></li>
+<li><a href="faq.html">コンテンツ５</a></li>
+</ul>
+</nav>
+<!--スマホ用（480px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li class="current"><a href="index.html">ホーム</a></li>
+<li><a href="info.html">コンテンツ１</a></li>
+<li><a href="service.html">コンテンツ２</a></li>
+<li><a href="price.html">コンテンツ３</a></li>
+<li><a href="access.html">コンテンツ４</a></li>
+<li><a href="faq.html">コンテンツ５</a></li>
+</ul>
+</nav>
+</div>
+<!--/menubox-->
+
+<div id="contents">
+
+<div id="main">
+
+<aside id="mainimg">
+<img src="images/1.jpg" alt="" id="slide1"/>
+<img src="images/2.jpg" alt="" id="slide2"/>
+<img src="images/3.jpg" alt="" id="slide3"/>
+</aside>
+
+
+<!--/main-->
+
+
+
+<section>
+<h2>この見出しはh2タグです</h2>
+<p>ここのスペースも使えます。</p>
+</section>
+
+</div>
+<!--/sub-->
+
+<p id="pagetop"><a href="#">↑ </a></p>
+
+</div>
+<!--/contents-->
+
+<footer>
+
+
+<!--/footermenu-->
+
+<div id="copyright">
+<small>Copyright&copy; <a href="index.html">Zipupload　DUMMYPAGE｜C-RHP</a> All Rights Reserved　BFP.</small>
+</div>
+
+</footer>
+
+<!--スマホ用更新情報　480px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 480) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　480px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 480) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>

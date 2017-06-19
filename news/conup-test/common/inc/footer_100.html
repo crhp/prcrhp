@@ -1,0 +1,95 @@
+
+<div id="conversion" class="conversion">
+
+  <div class="conversion-sizedetect"></div>
+
+    <div class="conversion-btns">
+      <ul class="clearfix">
+        <li><a href="">展示車・試乗案内</a></li>
+        <li><a href="">イベント・クーポン</a></li>
+        <li><a href="<?= $form['catalog_url'] ?>">カタログ請求</a></li>
+        <li><a href="">チラシ</a></li>
+        <li><a href="">お問い合わせ</a></li>
+      </ul>
+   </div>
+
+</div>
+
+<footer>
+
+  <div class="footer-sizedetect"></div>
+
+    <div class="footer-sitemap">
+      <ul class="footer-sns">
+        <li><a href=""><img src="/common/assets/images/footer/facebook.png" alt="facebook"></a></li>
+        <li><a href=""><img src="/common/assets/images/footer/twitter.png" alt="twitter"></a></li>
+        <li><a href=""><img src="/common/assets/images/footer/youtube.png" alt="youtube"></a></li>
+        <li><a href=""><img src="/common/assets/images/footer/line.png" alt="line"></a></li>
+        <li><a href=""><img src="/common/assets/images/footer/instagram.png" alt="instagram"></a></li>
+      </ul>
+
+      <div class="footer-sitemap-list">
+        <div class="footer-sitemap-wrap clearfix">
+
+<?php
+$sitemap = getSitemap();
+$shop = array_shift($sitemap);
+$page = array_shift($shop['list']);
+?>
+
+    <ul class="footer-block">
+        <li class="footer-title"><?= $shop['category_label'] ?></li>
+        <li class="footer-store-list"><a href="<?= "http://{$site['domain']}{$page['url']}" ?>"><?= $page['label'] ?></a></li>
+    </ul>
+
+<?php if (! empty($val['list'])) : ?>
+    <ul class="footer-block">
+<?php foreach ($val['list'] as $page) : ?>
+        <li class="footer-store-detail"><a href="<?= "http://{$site['domain']}{$page['url']}" ?>"><?= $page['label'] ?></a></li>
+<?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+
+
+<?php foreach ($sitemap as $key => $val) : ?>
+<?php if (! empty($val['list'])) : ?>
+    <ul class="footer-block">
+        <li class="footer-title"><?= $val['category_label'] ?></li>
+<?php foreach ($val['list'] as $page) : ?>
+        <li><a href="<?= "http://{$site['domain']}{$page['url']}" ?>"><?= $page['label'] ?></a></li>
+<?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+<?php endforeach; ?>
+
+
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+            <div class="footer-col"></div>
+
+        </div><!-- footer-store -->
+      </div><!-- footer-sitemap-list -->
+    </div><!-- footer-sitemap -->
+
+<div id="footer">
+        <div class="wide-bg"></div>
+        <div class="footer-logo">
+          <span class="left-image"><img src="/common/assets/images/footer/footer_logo_01.png" alt=""></span>
+          <span class="right-image"><img src="/common/assets/images/footer/footer_logo_02.png" alt=""></span>
+        </div>
+
+        <ul class="clearfix">
+            <li><a href="<?= "http://{$site['domain']}/kaijo" ?>">所有権解除</a></li>
+            <li><a href="<?= "http://{$site['domain']}/csr" ?>">CSR 基本方針</a></li>
+            <li><a href="<?= "http://{$site['domain']}/policy" ?>">プライバシーポリシー</a></li>
+            <li><a href="<?= "http://{$site['domain']}/usage" ?>">ご利用にあたって</a></li>
+        </ul>
+        
+        <span class="footer-copy">Copyright ©TOYOTA COROLLA YOKOHAMA CO., LTD.  <br class="br-sp">2015 ALL Right Reserved.</span>
+        <span class="footer-copy-2"><?= $client['permission_name'] ?> <?= $client['permission_num'] ?> <br class="br-sp"><?= $site['company_name'] ?></span>
+ </div>
+
+
+  </footer>
+

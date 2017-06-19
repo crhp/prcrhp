@@ -1,0 +1,648 @@
+.top-contact-container {
+    padding-bottom: 13px;
+    padding-left: 0;
+}
+
+.top-contact-title {
+    margin-bottom: 9px;
+}
+
+.top-dial {
+    padding-left: 13px;
+    line-height: 1;
+    color: #dcdddd;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top-dial-normal {
+    margin-bottom: 0;
+}
+
+.top-dial-normal .top-dial-wrapper {
+    padding-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-dial-icon {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: no-repeat center center;
+    background-size: 11px;
+    content: "";
+    top: 2px;
+    background-color: #ff6e01;
+    float: left;
+    position: relative;
+}
+
+.top-dial-number {
+    position: relative;
+    padding-left: 23px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .02em;
+}
+
+.top-dial-text {
+    color: #c9c9ca;
+}
+
+.top-dial-release {
+    color: #dcdddd;
+    margin-bottom: 10px;
+}
+
+.top-dial-label {
+}
+
+.top-dial-release .top-dial-number {
+}
+
+.top-dial-normal .top-dial-number:after {
+}
+
+.top-dial-wednesday:after, .top-dial-tuesday:after {
+    left: 18px;
+    top: 3px;
+}
+
+.top-dial-date {
+    display: none;
+}
+
+.top-dial-normal .top-dial-date {
+    display: inline-block;
+    color: #c9c9ca;
+    font-size: 18px;
+    position: relative;
+    /* top: -3px; */
+}
+
+.top-dial-attantion {
+    margin-bottom: 29px;
+}
+
+.top-dial-attantion {
+}
+
+.top-dial-label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #dcdddd;
+    padding-bottom: 5px;
+    letter-spacing: .03em;
+    margin: 0 10px 11px;
+}
+
+.top-dial-normal .top-dial-label {
+    border-bottom: none;
+    font-weight: normal;
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    margin: 0;
+    font-size: 14px;
+    padding-right: 0px;
+}
+
+.top-dial-btn a {
+    margin: 0 10px;
+    line-height: 33px;
+    font-size: 14px;
+    height: 34px;
+}
+
+.top-dial-attantion-title {
+    display: none;
+}
+
+.top-dial-date-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    clear: both;
+    padding-right: 6px;
+}
+
+.top-dial.top-dial-wednesday .top-dial-number, .top-dial-tuesday .top-dial-number {
+    display: inline-block;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.top-dial.top-dial-wednesday .top-dial-number:after, .top-dial-tuesday .top-dial-number:after {
+    display: none;
+}
+
+.top-dial.top-dial-wednesday .top-dial-number {
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .top-dial-normal .top-dial-date {
+        display: none;
+    }
+
+    .top-dial-btn {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top-contact-columns {
+    }
+
+    .top-contact-columns:after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+
+    .top-contact-container {
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .top-contact-title {
+        margin-bottom: 16px;
+        padding-left: 0;
+    }
+
+    .top-dial {
+        margin-bottom: 10px;
+        margin-left: 15px;
+        clear: both;
+        overflow: hidden;
+    }
+
+    .top-dial-normal {
+        margin-bottom: 7px;
+        margin-bottom: 0;
+    }
+
+    .top-dial-date-title {
+        font-size: 16px;
+        padding-left: 10px;
+        float: left;
+        clear: none;
+    }
+
+    .top-dial.top-dial-wednesday .top-dial-number, .top-dial-tuesday .top-dial-number {
+        font-size: 16px;
+        float: left;
+        clear: none;
+        /* padding-left: 10px; */
+    }
+
+    .top-dial-attantion {
+        margin-bottom: 30px;
+        clear: both;
+    }
+
+    .top-dial-btn {
+        margin-top: 30px;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top-dial-btn a {
+        width: 100%;
+        height: 31px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        clear: both;
+        margin-left: 0;
+    }
+
+    .top-dial-number {
+        padding-left: 10px;
+        display: inline-block;
+        font-size: 18px;
+        float: left;
+        /* padding-bottom: 7px; */
+    }
+
+    .top-dial-release {
+        padding-bottom: 10px;
+        clear: both;
+    }
+
+    .top-dial-label {
+        margin: 0 16px 16px;
+        padding-bottom: 11px;
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .top-dial-release .top-dial-number {
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .top-dial-attantion {
+        margin-bottom: 28px;
+    }
+
+    .top-dial-btn a {
+        margin-top: -5px;
+        line-height: 21px;
+        height: 23px;
+        margin-left: 10px;
+        font-size: 14px;
+        width: 219px;
+    }
+
+    .top-contact-columns {
+        float: left;
+        height: 100%;
+        width: 25.8%;
+        border-bottom: none;
+        padding-top: 0;
+    }
+
+    .top-contact-container {
+        width: auto;
+        float: none;
+    }
+
+    .top-dial {
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .top-dial-normal {
+        margin-bottom: 0px;
+    }
+
+    .top-dial-wednesday:after, .top-dial-tuesday:after, .top-dial-number:after {
+        top: 2px;
+        left: 2px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .top-dial-date-title {
+        padding-left: 10px;
+        margin-left: 0px;
+        font-size: 14px;
+        clear: none;
+    }
+
+    .top-dial-release {
+    }
+
+    .top-dial-normal .top-dial-date {
+        /* margin-bottom: 5px; */
+        padding-top: 1px;
+        padding-left: 3px;
+    }
+
+    .top-dial-normal .top-dial-date:after {
+        content: ":";
+    }
+
+    .top-dial-label {
+        margin-bottom: 16px;
+        padding-left: 0;
+        padding-left: 0;
+        font-size: 16px;
+        margin: 0 20px 16px 0;
+    }
+
+    .top-dial.top-dial-wednesday .top-dial-number, .top-dial-tuesday .top-dial-number {
+        font-size: 14px;
+        display: block;
+        margin-left: 4px;
+        margin-top: 0px;
+    }
+
+    .top-dial-release .top-dial-number {
+    }
+
+    .top-dial-number {
+        padding-left: 10px;
+        display: block;
+        font-size: 16px;
+        /* margin-top: 10px; */
+    }
+
+    .top-dial-text {
+        font-size: 14px;
+        color: #c9c9ca;
+    }
+
+    .top-contact-title {
+        margin-bottom: 16px;
+        padding-left: 0;
+        padding-left: 0;
+        font-size: 16px;
+        margin: 0 20px 16px 0;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .top-contact-container {
+        margin-top: -15px;
+    }
+
+    .top-dial-btn a {
+        width: 219px;
+        /* line-height: 26px; */
+    }
+
+    .top-contact-columns {
+        width: 25.1%;
+    }
+
+    .top-calendar-attantion {
+        font-size: 12px;
+        float: left;
+        padding-right: 20px;
+        padding-left: 0;
+    }
+
+    .top-calendar-attantion .calendar-icon {
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .top-dial-normal {
+        margin-bottom: 0;
+    }
+
+    .top-contact-title {
+        margin-left: 0;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .top-dial-number {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .top-dial-date-title {
+        font-size: 14px;
+        padding-left: 10px;
+        clear: none;
+    }
+
+    .top-dial-normal .top-dial-date {
+        /* margin-bottom: 5px; */
+        padding-top: 1px;
+        padding-left: 3px;
+    }
+
+    .top-dial-text {
+        font-size: 12px;
+        color: #c9c9ca;
+    }
+
+    .top-dial-wednesday, .top-dial-tuesday {
+        /* padding-left: 10px; */
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .top-dial-wednesday:after, .top-dial-tuesday:after, .top-dial-number:after {
+        left: 1px;
+    }
+
+    .top-dial.top-dial-wednesday .top-dial-number, .top-dial-tuesday .top-dial-number {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .top-dial-attantion {
+        margin-bottom: 28px;
+    }
+
+    .top-dial-release {
+    }
+
+    .top-dial-label {
+        margin-left: 0;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .top-dial-release .top-dial-number {
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .top-dial {
+        padding-bottom: 10px;
+    }
+
+    .top-contact-columns {
+        width: auto;
+    }
+
+    .top-contact-title {
+        margin: 0;
+        background: #4d4d4d;
+        padding-top: 12px;
+        color: #dcdddd;
+        font-size: 20px;
+        padding-bottom: 17px;
+        border-bottom: none;
+    }
+
+    .top-dial-number:after {
+        width: 47px;
+        height: 46px;
+        background-size: 23px;
+        border-radius: 5px;
+        background-image: url(../../images/2/top-tel-icon.png);
+    }
+
+    .top-dial-text:after {
+        background-image: none;
+        top: 2px;
+        left: 2px;
+        width: 12px;
+        height: 12px;
+        border-radius: 0;
+    }
+
+    .top-dial-normal {
+        padding-left: 41px;
+        background: #4d4d4d;
+        margin-bottom: 0;
+        padding-bottom: 9px;
+    }
+
+    .top-dial-normal .top-dial-date {
+        display: block;
+        position: absolute;
+        left: 101px;
+        top: 27px;
+        font-size: 12px;
+        color: #333333;
+        border-top: 1px dashed #ccc;
+        color: #c9c9ca;
+        padding-left: 0;
+        width: 198px;
+    }
+
+    .top-dial-normal .top-dial-number {
+        margin-left: 10px;
+        line-height: 100%;
+        font-size: 27px;
+        height: auto;
+        position: relative;
+        clear: initial;
+        float: left;
+        padding-left: 0;
+        padding-bottom: 2px;
+        background-image: linear-gradient(to right, #fff, #fff 1px, transparent 1px, transparent 5px);
+        background-size: 5px 1px;
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+
+    .top-dial-normal .top-dial-text {
+        font-size: 16px;
+        padding-left: 0;
+        height: auto;
+        line-height: 100%;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: auto;
+        font-size: 27px;
+        float: left;
+        margin-left: 10px;
+        padding-bottom: 2px;
+    }
+
+    .top-dial-normal .top-dial-label {
+        position: absolute;
+        top: 34px;
+        left: 47px;
+        font-size: 12px;
+    }
+
+    .top-contact-columns {
+        float: none;
+        border-left: 0;
+        border-top: 2px solid #;
+    }
+
+    .top-contact-container {
+        margin: 0 28px 0;
+        , argom^npttp: 1;
+        padding-bottom: 10px;
+        border-top: 3px solid #9fa1a0;
+    }
+
+    .top-dial-attantion {
+        background: #4d4d4d;
+        padding-left: 41px;
+        margin-bottom: 13px;
+        padding-bottom: 10px;
+        clear: both;
+    }
+
+    .top-dial.top-dial-wednesday .top-dial-number, .top-dial-tuesday .top-dial-number {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .top-dial-date-title {
+        font-size: 14px;
+        clear: none;
+    }
+
+    .top-dial-tuesday {
+        padding-bottom: 30px;
+    }
+
+    .top-dial-btn a {
+        width: auto;
+        height: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .top-dial-release {
+        background: #4d4d4d;
+        padding-top: 25px;
+        margin-bottom: 19px;
+    }
+
+    .top-dial-release .top-dial-date-title {
+        padding-top: 6px;
+        clear: none;
+    }
+
+    .top-dial-release .top-dial-number {
+        padding-top: 6px;
+    }
+
+    .top-dial-release .top-dial-icon {
+        width: 28px;
+        height: 28px;
+        background-size: 23px;
+        border-radius: 5px;
+        background-image: url(../../images/2/top-tel-icon.png);
+        top: 0;
+        float: left;
+        background-size: 14px;
+        background-color: #666666;
+    }
+
+    .top-dial-label {
+        font-size: 17px;
+        margin-right: 0;
+        border-bottom: 0;
+        margin-bottom: 0px;
+    }
+
+    .top-dial-release .top-dial-number {
+        padding-left: 43px;
+        line-height: 30px;
+        font-size: 18px;
+        height: 30px;
+        position: relative;
+    }
+
+    .top-dial-release .top-dial {
+        display: table;
+        width: auto;
+        margin: auto;
+    }
+
+    .top-dial-release .top-dial-number:after {
+        width: 28px;
+        height: 28px;
+        background-size: 56%;
+        background-color: #666666;
+    }
+}

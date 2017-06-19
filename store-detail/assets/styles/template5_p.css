@@ -1,0 +1,60 @@
+#blog-fixed-btn {
+    background-color: #118175;
+}
+.section h1 {
+    border-bottom: 1px solid #118175;
+    color: #118175;
+}
+.section h2 {
+    border-bottom: 1px solid #118175;
+}
+#google-map .google-map-pc-link a {
+    color: #118175;
+    border: 2px solid #118175;
+}
+#google-map .google-map-pc-link a:hover {
+    background-color: #118175;
+}
+.sub-service li:before {
+    content: "• ";
+    color: #118175;
+}
+#staff-blog h3 {
+    border-bottom: 1px solid #118175;
+}
+.blog-inner .blog-inner-left .blog-text a {
+    color: #118175;
+}
+#staff-blog .blog-more-btn a {
+    color: #118175;
+    border: 2px solid #118175;
+}
+#staff-blog .blog-more-btn a:hover {
+    background-color: #118175;
+}
+@media screen and (min-width: 1280px) {
+    #google-map .google-map-pc-link a {
+        border: 2px solid #118175;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    #google-map .google-map-pc-link a {
+        border: 2px solid #118175;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .section .square {
+        background-color: #118175;
+    }
+    .section h2 {
+        border-bottom: 2px solid #118175;
+    }
+}
+@media screen and (max-width: 767px) {
+    #snav-fixed-sp {
+        background-color: #118175;
+    }
+    .section .square {
+        background-color: #118175;
+    }
+}

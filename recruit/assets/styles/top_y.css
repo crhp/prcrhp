@@ -1,0 +1,23 @@
+.fixed-nav li {
+    background-color: #647d96;
+}
+.introduce h1 {
+    border-color: #647d96;
+}
+
+.introduce h1 .sub-title {
+    color: #647d96;
+}
+
+.section h2 {border-color: #647d96;
+}
+.thumb-item-nav .slick-current:after {
+    position: absolute;
+    top: 0;
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/recruit-top/slide/thumb-item-nav-cover_y.png);
+    background-size: cover;
+}

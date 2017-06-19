@@ -1,0 +1,83 @@
+
+
+table.calendar {
+    padding:0px;
+	margin:0px;
+    border-collapse:collapse;
+   
+}
+
+table.calendar td{
+	padding:0px;
+	margin:0px;
+    border-collapse:collapse;
+}
+
+/*.bg {
+    background-color:#ffffcc;
+}*/
+
+table.calendar tr.headline td {
+	font-size:10px;
+}
+
+table.calendar th {
+	font-family:"Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+	font-size:10px;
+	color:#666666;
+    padding:3px;
+	border: 1px solid #dddddd;
+}
+
+table.calendar th span {
+	font-family:"Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+}
+
+/*table.calendar th a {
+	font-family: verdana;
+    font-weight:normal;
+    text-decoration:none;
+    color:#ffffff;
+    hover:red;
+}*/
+
+table.calendar td {
+	text-align:center;
+	width:22px;
+	height:16px;
+	vertical-align: middle;
+	font-family: "Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+	line-height: normal;
+	font-size:10px;
+	color:#666666;
+}
+
+/*table.calendar td.click {
+	cursor: pointer;
+}*/
+
+table.calendar td.Today {
+	font-size:10px;
+}
+
+table.calendar td.Sat {
+	color:#666666;
+}
+
+table.calendar td.Sun {
+	color: #666666;
+}
+
+table.calendar td.holyday {
+	color:#ff9900;
+}
+
+table.calendar td.xday {
+	color:#ffff00;
+	background-color:#ff9900;
+}
+
+
+
+/* CSS Document */
+

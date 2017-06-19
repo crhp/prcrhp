@@ -1,0 +1,123 @@
+@charset 'UTF-8';
+.anxiety-list-item {
+    background-image: url(/u-car/assets/images/about/about-ico-check.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.anxiety-title{
+    text-align: center;   
+    line-height: 1.5;
+}
+
+.anxiety-solution{
+    text-align: center;
+    color: #022879;
+    font-weight: bold;
+}
+.anxiety-list{
+    border-bottom: 1px solid #dddddd;
+    }
+
+    .tval-content-about{
+        background-image: url(/u-car/assets/images/about/ico-arrow-down.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        -webkit-background-size: 46px auto;
+        background-size: 46px auto;
+    }
+@media screen and (max-width: 767px) {
+    .anxiety-list{
+    padding-bottom: 0px;
+    }
+    .anxiety-list-item {
+        -webkit-background-size: 21px auto;
+        background-size: 21px auto;
+        min-height: 21px;
+        line-height: 21px;
+        padding-left: 33px;
+        margin-bottom: 23px;
+        font-size: 13px;
+    }
+    .anxiety-title{
+        font-size: 18px;
+        margin-bottom: 18px;
+        
+    }
+    .anxiety-solution{
+        margin-top: 18px;
+        line-height: 1.5;
+    }
+    .anxiety-solution br{
+        display: none;
+    }
+
+    .tval-content-about{
+        -webkit-background-size: 46px auto;
+        background-size: 46px auto;
+        padding-bottom: 64px;
+        margin-bottom: 37px;
+    }
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .anxiety-list-container{
+        padding-left: 0;
+    }
+    
+    .anxiety-list{
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 27px;
+    }
+    .anxiety-list-item {
+        -webkit-background-size: 28px auto;
+        background-size: 28px auto;
+        padding-left: 39px;
+        min-height: 28px;
+        line-height: 28px;
+        width: 50%;
+        float: left;
+        margin-bottom: 32px;
+        font-size: 16px;
+    }
+    .anxiety-title{
+        font-size: 24px;
+        margin-bottom: 29px;
+    }
+    .anxiety-solution{
+        margin-top: 32px;
+        font-size: 20px;
+        line-height: 1.4;
+
+    }
+
+    .anxiety-solution .text-block{
+        display: inline;
+    }
+
+    .tval-content-about{
+        -webkit-background-size: 62px auto;
+        background-size: 62px auto;
+        padding-bottom: 80px;
+        margin-bottom: 43px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (min-width: 1280px) {
+    .anxiety-list-container{
+        padding-left: 41px;
+    }
+}
+
+
+

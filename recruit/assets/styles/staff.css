@@ -1,0 +1,515 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  color: #333333;
+}
+img {
+  vertical-align: top;
+}
+.content {
+  line-height: normal;
+}
+
+
+/*page-nav*/
+
+.page-nav h1 {
+  font-weight: bold;
+  color: #ff6e01;
+  text-align: center;
+}
+.page-nav li {
+  background-color: #dddddd;
+  float: left;
+  display: table;
+}
+.page-nav li a {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #000;
+}
+.page-nav li a:hover {
+  background-color: #e2e2e2;
+}
+.page-nav li a span {
+  font-weight: bold;
+}
+.page-nav li a .sub-copy {
+  display: inline-block;
+}
+.page-nav li a .years {
+  display: inline-block;
+}
+.page-nav li a .name {
+  display: block;
+}
+
+/*introduction*/
+
+.introduction-main-pic img {
+  width: 100%;
+  height: auto;
+}
+.introduction .staff-info {
+  text-align: center;
+}
+.introduction .staff-info span {
+  display: block;
+}
+.introduction .staff-comment {
+  color: #ff6e01;
+  text-align: center;
+  display: table;
+  box-sizing: border-box;
+}
+.introduction .staff-comment span {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.introduction .inner li span {
+  display: block;
+}
+.introduction .inner li.text-block {}
+.introduction .inner li.text-block .sub-title {
+  font-weight: bold;
+}
+.introduction .inner li {
+  float: left;
+}
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+
+  /*page-nav*/
+  #page-nav {
+    margin-top: 66px;
+  }
+  .page-nav h1 {
+    font-size: 32px;
+    letter-spacing: 2.2px;
+  }
+  .page-nav ul {
+    margin-top: 20px;
+  }
+  .page-nav li {
+    width: 24.5%;
+    height: 70px;
+    margin-right: 0.66%;
+    margin-bottom: 0.9%;
+  }
+  .page-nav li:nth-child(4n) {
+    margin-right: 0;
+  }
+  .page-nav li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 91% center;
+  }
+  .page-nav li a .sub-copy {
+    font-size: 14px;
+    padding: 0 30px;
+  }
+  .page-nav li a .years {
+    font-size: 14px;
+  }
+  .page-nav li a .name {
+    font-size: 18px;
+  }
+  /*introduction*/
+  #section01 {
+    margin-top: 35px;
+  }
+  .introduction:nth-child(n+2) {
+    margin-top: 112px;
+  }
+  .introduction .staff-info {
+    margin-top: 20px;
+  }
+  .introduction .staff-info .name {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5.3px;
+  }
+  .introduction .staff-info .sub-copy {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .introduction .staff-info .years {
+    font-size: 16px;
+  }
+  .introduction .staff-comment {
+    border: 3px solid #ff6e01;
+    font-size: 28px;
+    margin-top: 28px;
+    width: 100%;
+    height: auto;
+    padding: 35px;
+  }
+  .introduction .inner-01 {
+    margin-top: 58px;
+  }
+  .introduction .inner-02 {
+    margin-top: 60px;
+  }
+  .introduction .inner li.text-block {
+    width: 450px;
+  }
+  .introduction .inner li.text-block .sub-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 1.8;
+  }
+  .introduction .inner li.text-block .inner-text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  .introduction .inner .pic-block {
+    width: 450px;
+    margin-top: 12px;
+    margin-left: 80px;
+  }
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+
+  /*page-nav*/
+  #page-nav {
+    margin-top: 66px;
+  }
+  .page-nav h1 {
+    font-size: 32px;
+    letter-spacing: 2.2px;
+  }
+  .page-nav ul {
+    margin-top: 20px;
+  }
+  .page-nav li {
+    width: 24.5%;
+    height: 70px;
+    margin-right: 0.66%;
+    margin-bottom: 0.9%;
+    font-size: 14px;
+  }
+  .page-nav li:nth-child(4n) {
+    margin-right: 0;
+  }
+  .page-nav li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 91% center;
+  }
+  .page-nav li a .sub-copy {
+    font-size: 14px;
+    padding: 0 30px;
+  }
+  .page-nav li a .years {
+    font-size: 14px;
+  }
+  .page-nav li a .name {
+    font-size: 18px;
+  }
+  /*introduction*/
+  #section01 {
+    margin-top: 35px;
+  }
+  .introduction:nth-child(n+2) {
+    margin-top: 112px;
+  }
+  .introduction .staff-info {
+    margin-top: 20px;
+  }
+  .introduction .staff-info .name {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5.3px;
+  }
+  .introduction .staff-info .sub-copy {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .introduction .staff-info .years {
+    font-size: 16px;
+  }
+  .introduction .staff-comment {
+    border: 3px solid #ff6e01;
+    font-size: 28px;
+    margin-top: 28px;
+    width: 100%;
+    height: auto;
+    padding: 35px;
+  }
+  .introduction .inner-01 {
+    margin-top: 58px;
+  }
+  .introduction .inner-02 {
+    margin-top: 60px;
+  }
+  .introduction .inner li.text-block {
+    width: 450px;
+  }
+  .introduction .inner li.text-block .sub-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 1.8;
+  }
+  .introduction .inner li.text-block .inner-text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  .introduction .inner .pic-block {
+    width: 450px;
+    margin-top: 12px;
+    margin-left: 80px;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+
+  /*page-nav*/
+  #page-nav {
+    margin-top: 66px;
+  }
+  .page-nav h1 {
+    font-size: 34px;
+  }
+  .page-nav ul {
+    margin-top: 3.3%;
+  }
+  .page-nav li {
+    width: 32.8%;
+    height: 90px;
+    margin-right: 0.76%;
+    margin-bottom: 0.9%;
+  }
+  .page-nav li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .page-nav li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 91% center;
+  }
+  .page-nav li a .sub-copy {
+    font-size: 16px;
+    display: block;
+    line-height: 1;
+    padding: 0 30px;
+  }
+  .page-nav li a .years {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .page-nav li a .name {
+    font-size: 20px;
+  }
+  /*introduction*/
+  #section01 {
+    margin-top: 35px;
+  }
+  .introduction:nth-child(n+2) {
+    margin-top: 15.5%;
+  }
+  .introduction .staff-info {
+    margin-top: 20px;
+  }
+  .introduction .staff-info .name {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5.3px;
+  }
+  .introduction .staff-info .sub-copy {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .introduction .staff-info .years {
+    font-size: 16px;
+  }
+  .introduction .staff-comment {
+    border: 3px solid #ff6e01;
+    font-size: 30px;
+    margin-top: 3.5%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .introduction .inner-01 {
+    margin-top: 6%;
+  }
+  .introduction .inner-02 {
+    margin-top: 9%;
+  }
+  .introduction .inner li {
+    float: none;
+  }
+  .introduction .inner li.text-block {
+    width: auto;
+  }
+  .introduction .inner li.text-block .sub-title {
+    font-size: 26px;
+    margin-bottom: 19px;
+    line-height: 1.8;
+  }
+  .introduction .inner li.text-block .inner-text {
+    font-size: 16px;
+    line-height: 2.3;
+  }
+  .introduction .inner .pic-block {
+    width: 61.7%;
+    margin: 6.8% auto 0;
+  }
+  .introduction .inner .pic-block img {
+    width: 100%;
+    height: auto;
+  }
+  .introduction .inner li.left {
+    float: none;
+  }
+  .introduction .inner li.right {
+    float: none;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+
+  /*page-nav*/
+  #page-nav {
+    margin-top: 6%;
+  }
+  .page-nav h1 {
+    font-size: 17px;
+  }
+  .page-nav ul {
+    margin-top: 4.5%;
+  }
+  .page-nav li {
+    width: 49.5%;
+    height: 45px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+  }
+  .page-nav li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .page-nav li a {
+    background: url(../images/recruit-training/arrow.png) no-repeat 93% center;
+    background-size: 5px 3px;
+  }
+  .page-nav li a .sub-copy {
+    font-size: 10px;
+    display: block;
+    line-height: 1;
+    padding: 0 20px;
+  }
+  .page-nav li a .years {
+    font-size: 10px;
+    display: block;
+    line-height: 1;
+  }
+  .page-nav li a .name {
+    font-size: 10px;
+    display: block;
+  }
+  /*introduction*/
+  #section01 {
+    margin-top: 5.6%;
+  }
+  .introduction:nth-child(n+2) {
+    margin-top: 19.5%;
+  }
+  .introduction .staff-comment {
+    border: 2px solid #ff6e01;
+    font-size: 16px;
+    margin-top: 2.7%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    line-height: 1.4;
+  }
+  .introduction .staff-info {
+    margin-top: 4%;
+  }
+  .introduction .staff-info .name {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+  }
+  .introduction .staff-info .sub-copy {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 3px;
+  }
+  .introduction .staff-info .years {
+    font-size: 10px;
+  }
+  .introduction .inner-01 {
+    margin-top: 7%;
+  }
+  .introduction .inner-02 {
+    margin-top: 7%;
+  }
+  .introduction .inner li {
+    float: none;
+  }
+  .introduction .inner li.text-block {
+    width: auto;
+  }
+  .introduction .inner li.text-block .sub-title {
+    font-size: 16px;
+    margin-bottom: 2.1%;
+    line-height: 1.8;
+  }
+  .introduction .inner li.text-block .inner-text {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+  .introduction .inner .pic-block {
+    width: 77%;
+    margin: 8.5% auto 0;
+  }
+  .introduction .inner .pic-block img {
+    width: 100%;
+    height: auto;
+  }
+  .introduction .inner li.left {
+    float: none;
+  }
+  .introduction .inner li.right {
+    float: none;
+  }
+}

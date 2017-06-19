@@ -1,0 +1,36 @@
+li.choice-car-panel-active > a {
+  color: #647d96;
+}
+.choice-car-panel li.choice-car-panel-active {
+  border-color: #647d96;
+}
+.section-title {
+  color: #647d96;
+}
+.sell-car-test {
+  /* background-color: #647d96; */
+  color: #647d96;
+}
+.detail-btn a {
+  background-color: #93a4b6;
+}
+.btn_more {
+  display: none;
+}
+
+
+
+
+.detail-btn {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .detail-btn {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .detail-btn {
+    margin-bottom: 20px;
+  }
+}

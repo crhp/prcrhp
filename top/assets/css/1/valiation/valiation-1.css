@@ -1,0 +1,187 @@
+.tc-title-type-03-reg {
+   border-top-color: #ff6e01;
+   color: #ff6e01;
+}
+
+.tc-btn-a {
+   background: #ff6e01;
+}
+
+.tc-btn-b
+{
+  border-color: #ff6e01;
+  color: #ff6e01;
+}
+
+.top-car-btn
+{
+  background-image: -moz-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+}
+
+.top-dial-btn a {
+   background-image:    -moz-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+   background-image: -webkit-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+   background-image:     -ms-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+}
+
+.top-dial-icon{
+   background-color: #ff6e01;
+   clear: both;
+   float: left;
+   /* top: 2px; */
+   position: relative;
+}
+
+
+.top-date-item:after {
+  color: #ff6e01;
+}
+
+.top-service-item-title {
+   color: #ff6e01;
+}
+
+.news-btn:after {
+   background-image: url(../../../images/1/valiation/1/top-arrow-right-icon-orange.png);
+}
+
+#top-servicemenu-item-1 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-buy-btn-01-sp.png);
+}
+#top-servicemenu-item-2 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-buy-btn-02-sp.png);
+}
+#top-servicemenu-item-3 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-buy-btn-03-sp.png);
+}
+#top-servicemenu-item-4 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-buy-btn-04-sp.png);
+}
+#top-servicemenu-item-5 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-buy-btn-05-sp.png);
+}
+
+#top-servicemenu-item-6 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-maintenance-btn-01-sp.png);
+}
+#top-servicemenu-item-7 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-maintenance-btn-02-sp.png);
+}
+#top-servicemenu-item-8 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-maintenance-btn-03-sp.png);
+}
+#top-servicemenu-item-9 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-maintenance-btn-04-sp.png);
+}
+#top-servicemenu-item-10 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-maintenance-btn-05-sp.png);
+}
+
+#top-servicemenu-item-11 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-other-btn-01-sp.png);
+}
+#top-servicemenu-item-12 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-other-btn-02-sp.png);
+}
+#top-servicemenu-item-13 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-other-btn-03-sp.png);
+}
+#top-servicemenu-item-14 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-other-btn-04-sp.png);
+}
+#top-servicemenu-item-15 .top-servicemenu-item-pic {
+   background-image: url(../../../images/1/valiation/1/top-other-btn-05-sp.png);
+}
+
+.top-date-item-time
+{
+    color: #ff6e01;
+}
+
+.top-dial-normal {
+  color: #ff6e01;
+  margin-bottom: 0;
+}
+
+.top-column-left-title
+{
+  border-top-color: #ff6e01;
+  color: #ff6e01; 
+}
+
+@media screen and (max-width: 768px) {
+  .top-calendar-nav-prev a {
+    background-color: #4d4d4d;
+  }
+
+  .top-calendar-nav a {
+    background-color: #4d4d4d;
+  }
+}
+
+@media screen and (min-width: 768px) {
+   .slick-dots .slick-active {
+      background-image:    -moz-linear-gradient( 90deg, rgb(255,175,115) 0%, rgb(255,143,58) 40%, rgb(255,110,1) 100%);
+      background-image: -webkit-linear-gradient( 90deg, rgb(255,175,115) 0%, rgb(255,143,58) 40%, rgb(255,110,1) 100%);
+      background-image:     -ms-linear-gradient( 90deg, rgb(255,175,115) 0%, rgb(255,143,58) 40%, rgb(255,110,1) 100%);
+   }
+
+   .top-shoplist-btn a {
+    background-image: -moz-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(204,92,9) 0%, rgb(230,104,11) 3%, rgb(255,116,12) 5%, rgb(255,163,94) 100%);
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0 0;
+   }
+
+   #top-servicemenu-item-1 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-buy-btn-01.png);
+   }
+   #top-servicemenu-item-2 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-buy-btn-02.png);
+   }
+   #top-servicemenu-item-3 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-buy-btn-03.png);
+   }
+   #top-servicemenu-item-4 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-buy-btn-04.png);
+   }
+   #top-servicemenu-item-5 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-buy-btn-05.png);
+   }
+
+   #top-servicemenu-item-6 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-maintenance-btn-01.png);
+   }
+   #top-servicemenu-item-7 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-maintenance-btn-02.png);
+   }
+   #top-servicemenu-item-8 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-maintenance-btn-03.png);
+   }
+   #top-servicemenu-item-9 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-maintenance-btn-04.png);
+   }
+   #top-servicemenu-item-10 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-maintenance-btn-05.png);
+   }
+
+   #top-servicemenu-item-11 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-other-btn-01.png);
+   }
+   #top-servicemenu-item-12 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-other-btn-02.png);
+   }
+   #top-servicemenu-item-13 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-other-btn-03.png);
+   }
+   #top-servicemenu-item-14 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-other-btn-04.png);
+   }
+   #top-servicemenu-item-15 .top-servicemenu-item-pic {
+      background-image: url(../../../images/1/valiation/1/top-other-btn-05.png);
+   }
+}

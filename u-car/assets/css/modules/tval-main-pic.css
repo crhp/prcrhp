@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+.tval-main-pic img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (min-width: 768px) {
+    .tval-main-pic{
+        margin-bottom: 75px;
+    }
+    .tval-main-pic-small{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tval-main-pic{
+        margin-bottom: 38px;
+    }
+    .tval-main-pic-small{
+        display: inline-block;
+    }
+
+    .tval-main-pic-wide{
+        display: none;
+    }
+}

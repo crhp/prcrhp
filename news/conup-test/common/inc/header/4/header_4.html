@@ -1,0 +1,96 @@
+   <?php
+$nav_data_list = getNavi();
+ ?>
+
+
+
+
+  <header id="header-<?= $site["designgroup_id"] ?>" class="header-variation-<?= $site["variation_id"] ?>">
+
+  <div class="header-sizedetect"></div>
+
+
+
+  	<div id="header" class="clearfix btn<?= count($nav_data_list) ?>">
+
+    <div class="header-inner clearfix">
+
+      <div class="logo-area">
+    		<h1 class="header-logo">
+          <a href="/">
+      			<img src="/common/clients/<?= $client["client_id"] ?>/assets/images/logo.png" alt="">
+          </a>
+    		</h1>
+      </div>
+
+      <a class="hum-menu" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+          <div class="hum-menu-word">MENU</div>
+
+      </a>
+
+
+
+    </div>
+
+    <div class="gnav-outer">
+
+      <nav id="gnav">
+
+    	 <ul class="first-nav clearfix">
+  <?php foreach ($nav_data_list as $nav_item): ?>
+         <li class="first-nav-list">
+           <a href="javascript:void(0)">
+
+            <?php
+            if($nav_item["category_label"] == "福祉車両（ウェルキャブ）"){
+              echo '福祉車両<br>（ウェルキャブ）';
+            }elseif($nav_item["category_label"] == "中古車（U-CAR）"){
+              echo '中古車<br>（U-CAR）';
+            }else{
+              echo $nav_item["category_label"];
+            }
+            ?>
+
+          </a>
+              <?php if(isset($nav_item["list"])): ?>
+                  <div class="sub-nav">
+                    <ul class="sub-menu">
+                        <?php foreach ($nav_item["list"] as $sub_nav_item): ?>
+                          <li><a href="<?= $sub_nav_item["url"] ?>"><?= $sub_nav_item["label"] ?></a></li>
+                        <?php endforeach ?>
+                    </ul>
+                  </div>
+              <?php endif; ?>
+         </li>
+       <?php endforeach ?>
+</ul>
+
+
+      </nav>
+
+      <div class="gnav-linkarea">
+
+        <ul class="clearfix">
+          <li><a href="/recruit/"><span>採用情報</span></a></li>
+          <?php
+          if($site["ownersite_flg"] == 1){
+            echo '<li><a href="https://toyota-owners.jp/login"><span>TOYOTA OWNER\'S Site</span></a></li>';
+          }
+          ?>
+          <li><a href="http://toyota.jp/recall/"><span>リコール情報</span></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+  	</div>
+  	<!-- #header -->
+
+  </header>

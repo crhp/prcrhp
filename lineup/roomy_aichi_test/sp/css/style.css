@@ -1,0 +1,1197 @@
+@charset "utf-8";
+
+/*estima*/
+
+/* =========================================================
+
+ reset
+ 
+========================================================= */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-style:normal;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{overflow-y:scroll}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none},input,textarea{margin:0;padding:0}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}a:focus{outline:0}.clearfix:after{content:".";display:block;clear:both;height:0;visibility:hidden}.clearfix{min-height:1px}* html .clearfix{height:1px}.both{clear:both}.inline_block{display:inline-block}
+
+
+/***********/
+
+.cf:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+html,body {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 14px;
+    background: #fff;
+    color: #000000;
+    letter-spacing: 0.12em;
+}
+body p{
+    font-size: 1.0rem;
+    line-height: 1.8;
+}
+.notice_item{
+    line-height: 1.5;
+}
+#section_05 .notes {
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 0;
+}
+
+.netz #header {
+    background-color: #00358b;
+}
+
+.pet #header {
+    background-color: #005a49;
+}
+
+#header {
+    background-color: #ff6e01;
+}
+
+#header .logo_corolla a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 4%;
+    top: 46%;
+    width: 47%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.logo_corolla img {
+    vertical-align: middle !important;
+}
+
+#header ul {
+    min-width: 320px;
+    /* background: #ff6e01; */
+    /* height: 46px; */
+    position: relative;
+    overflow: hidden;
+}
+
+#header li.logo_corolla {
+    float: left;
+    width: 67.1875%;
+    /* padding-top: 10px; */
+    height: 100%;
+}
+
+#header li.logo_toyota {
+    width: 32.8125%;
+    float: right
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* =========================================================
+
+ main slide
+ 
+========================================================= */
+#slider {
+}
+#slider .status {
+	margin: -15px 0 15px;
+}
+#slider .status img{
+	width: 10px;	
+	height: 10px;	
+}
+#slider {
+    position: relative;
+    background-color: #000000;
+}
+#slider .content {
+    position: relative;
+}
+#slider .content li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+}
+#slider .content li.current {
+    opacity: 1;
+}
+#slider img {
+    vertical-align: top;
+    width: 100%;
+}
+#slider .status {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+#slider .status img {
+    height: auto;
+    vertical-align: middle;
+}
+.btn_status{
+  display: inline-block;
+   padding: 10px 2px;
+   height: 12px;
+}
+
+.system_section_inner{
+	position: relative;	
+}
+.movie_border{
+	position: absolute;
+	height: 1px;
+	width: 100%;	
+	border-top: 1px solid #000;
+	margin-top: -15%;
+}
+.movie_border.nth{
+	margin-top: -20%;
+}
+.movie_border.nth4{
+	margin-top: -20.7%;
+}
+
+/* =========================================================
+
+ sub nav
+
+ ========================================================= */
+ .sub_nav_wrap {
+	position: relative;
+ }
+ #sub_nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+    padding: 2.5% 0;
+    /* height: 80px; */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #e8e9e9;
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+    z-index: 10;
+    overflow: hidden;
+}
+#sub_nav.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#sub_nav ul {
+    width: 95%;
+    margin: 0 auto;
+    /*margin-top: 8px;*/
+}
+#sub_nav li {
+    float: left;
+    width: 31.6%;
+    /*display: inline-block;*/
+    margin-left: 2.5%;
+}
+#sub_nav li:first-child {
+    margin-left: 0;
+}
+#sub_nav li img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.section sup {
+    font-size: 10px;
+}
+.section .btn_store {
+    text-align: center;
+    margin-top: 10%;
+}
+.section .btn_store img {
+    width: 100%;
+    height: auto;
+}
+
+/* =========================================================
+
+ contents module
+ 
+========================================================= */
+#contents {
+	padding-top: 25%;
+}
+.section {
+    padding-top: 25px;
+     margin-top: 15%; 
+}
+.section_wrap {
+}
+.section_inner {
+    margin: 7% 0 0;
+}
+.head-area {
+    /*background-color: #FFF;*/
+    text-align: center;
+}
+#section_01 .head-title {
+	margin: 20% 0 5%;
+}
+#section_02 .head-title {
+	margin: 0% 0 0%;
+	background: #e8e9e9;
+}
+.head-title img {
+    width: 100%;
+}
+.head-copy {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.section .image {
+	margin: 0 0 7%;
+}
+.section .copy {
+	margin: 0 0 0;
+	padding: 0 0 5%;
+    text-align: center;
+    font-size: 1.38rem !important;
+    line-height: 1.65 !important;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+#section_03.section .copy {
+	letter-spacing: -1px;	
+}
+#section_03 p{
+	letter-spacing: 0px;
+}
+.section .fukidashi {
+	text-align: center;
+}
+.section .fukidashi p {
+	position: relative;
+	display: inline-block;
+	margin: 0 0 7% !important;
+	padding: 0 0 0.3em;
+    text-align: center;
+	font-size: 1.05rem !important;
+    line-height: 1.7 !important;
+    font-weight: bold;
+    letter-spacing: 0px;
+	border-bottom: 3px solid #000;
+}
+.section .fukidashi p:after, .section .fukidashi p:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.section .fukidashi p:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #fff;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.section .fukidashi p:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #000;
+	border-width: 12px;
+	margin-left: -12px;
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+.card-title span {
+	font-weight: normal;
+}
+.card-word {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.card-area.card-type1 {
+    background-color: #fff;
+    padding: 20px;
+}
+.card-note {
+    font-size: 9px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.card-note.card-note-frame {
+    border: 1px solid #000;
+    padding: 5px;
+}
+.card-title-sub {
+    display: block;
+    margin-top: 3px;
+}
+
+.btn-store,
+.btn-biz {
+    text-align: center;
+    margin-top: 16%;
+}
+
+.mt-10 {margin-top: 10px !important;}
+.mt-20 {margin-top: 20px !important;}
+.mt-35 {margin-top: 35px !important;}
+.mt-45 {margin-top: 45px !important;}
+.mt-50 {margin-top: 50px !important;}
+.fs-9  {font-size: 9px !important;}
+.fs-12 {font-size: 12px !important;}
+
+
+/* =========================================================
+
+ section_present
+ 
+========================================================= */
+#section_present {
+	margin: 0;
+    padding: 0 5%;
+}
+#section_present.section {
+}
+
+/* =========================================================
+
+ section_01
+ 
+========================================================= */
+#section_01 {
+	padding: 0 5%;
+}
+#section_01.section {
+    margin-top: 0;
+}
+#section_01 .section_inner {
+    margin-top: 10%;
+}
+#section_01 .section_inner p {
+	font-size: 1.0rem;
+	line-height: 1.8;
+	letter-spacing: 0.4px;
+}
+#section_01 .fukidashi {
+	margin: 10% 0 0;
+}
+#section_01 .mb {
+	margin-bottom: 15%;
+}
+#section_01 #sheet {
+	margin: 15% 0 0;
+	padding: 8% 5% 5%;
+	background: #e8e9e9;
+}
+#section_01 #sheet .fukidashi {
+	margin: 0;
+}
+#section_01 #sheet .fukidashi p:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #e8e9e9;
+	border-width: 8px;
+	margin-left: -8px;
+}
+#section_01 .carousel-area {
+	padding: 0 6% 8%;
+	background: #e8e9e9;
+}
+p.small,
+#section_01 .section_inner .small {
+	margin: 5% 0 0;
+	font-size: 0.6rem;
+	letter-spacing: 0.5px;
+	line-height: 1.2;
+}
+
+/* =========================================================
+
+ section_02
+ 
+========================================================= */
+#section_02 {
+	margin-top: 20%;
+	padding: 30px 0px 1px 0px;
+	background: #e8e9e9;
+}
+#section_02 .copy {
+	margin:  5% 0 0% !important;
+	background: #e8e9e9;
+}
+#section_02 p {
+	background: #e8e9e9;
+}
+#section_02 .section_wrap {
+	padding: 0 5% 0;
+}
+#section_02 .section_inner p {
+	margin: 0 0 5%;
+	font-size: 1.0rem;
+	line-height: 1.8;
+	letter-spacing: 0;	
+}
+#section_02 .card-area {
+    padding: 45px 20px 0;
+}
+#section_02 #strage {
+}
+#section_02 #strage .slider-for {
+	margin: 0 0 5%;
+	padding: 0 5%;
+}
+#section_02 #strage .strage_gallery {
+	position: relative;
+}
+#section_02 #strage .variable-width {
+}
+#section_02 #strage .variable-width .txt {
+	margin: 20px 0 0;
+	font-weight: bold;
+}
+#section_02 #strage .variable-width .txt p {
+	display: inline-block;
+	vertical-align: top;
+	width: 10px;
+	font-size: 0.7rem;
+	line-height: 1.6em;
+}
+#section_02 #strage .variable-width .txt p:last-child {
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 113px;
+	padding: 0 0 0 0.5em;
+	border-left: 1px solid #000;
+}
+#section_02 #strage .variable-width .txt p.long {
+	width: 251px;
+}
+#section_02 #strage .variable-width .slick-slide {
+	padding-left: 20px;
+}
+#section_02 #strage .variable-width .current {
+}
+#section_02 #strage .frame {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 130px;
+	height: 81px;
+	box-sizing: border-box;
+	border: 8px solid #d31928;
+	-webkit-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+#section_02 #strage .frame:after {
+	position: absolute;	
+	top: 0;	
+	right: 0;	
+	content:url(http://toyota-dealers.jp/99015/lp1/roomy/resources/sp/img/icn_modal.png);
+	top: -8px;
+	right: -8px;
+}
+#section_02 #strage .frame.dftM {
+	width: 268px;
+}
+#section_02 .section_inner p.small {
+	margin: 5% 0 16%;
+	font-size: 0.6rem;
+	letter-spacing: 0;
+	line-height: 0.8rem;
+}
+.variable-width .slick-track{
+	position: relative;	
+	left: -10px;
+}
+.variable-width .slick-slide{
+	outline : none;
+}
+
+/* =========================================================
+
+ section_03
+ 
+========================================================= */
+#section_03 {
+	margin: 0;
+	padding: 5% 5% 23.8%;
+}
+#section_03 .head-title {
+	margin: 0 0 10%;
+}
+#section_03 .copy span {
+	font-size: 1rem;
+	font-weight: normal;
+}
+#section_03 .fukidashi {
+	margin: 10% 0 0;
+}
+
+/* =========================================================
+
+ section_04
+ 
+========================================================= */
+#section_04 {
+	margin: 0;
+	padding: 5% 5% 20%;
+	background: #e8e9e9;
+}
+#section_04 .img {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 40px auto 30px;
+}
+
+.btnwrap{
+    margin-bottom:1rem;
+    overflow:hidden;
+}
+.btnwrap img{
+    width:100%;
+}
+.btnwrap > div{
+    width:48%;
+}
+.btnwrap .btn_nomal{
+    float:left;
+}
+.btnwrap .btn_custome{
+    float:right;
+}
+
+.color_changer{
+	margin: 5% 0 0%;
+    padding: 8% 6.25%;
+    background: #FFF;
+}
+.color-changer-img{
+    position:relative;
+	font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 0;
+}
+.color-changer-img img{
+    width: 100%;
+    display: block;
+    margin-bottom: 3%;
+}
+.color-changer-img img:first-child{
+    display: block;
+}
+.color-changer-img span{
+    display: inline-block;
+	line-height: 1.5;
+	font-size: 11px;	
+}
+.color-changer-img > div:first-child {
+    display: block;
+}
+.color-changer-img > div {
+    display: none;
+    position:absolute;
+    width: 100%;
+    min-height: 33vh;
+}
+.color-changer-elem{
+    padding-top: 89%;
+}
+
+.color-changer-elem *{
+    box-sizing:border-box;
+}
+.color-changer-elem ul{
+    overflow: hidden;
+}
+.color-changer-elem ul:not(:first-child){
+    margin-top: 10px;
+}
+.color-changer-elem li{
+    width: 22.8%;
+    height: auto;
+    float: left;
+    cursor:pointer;
+}
+.color-changer-elem li:not(:first-child){
+    margin-left: 2.93%;
+}
+.car_nomal{
+	display:block;
+}
+.car_custome{
+	display:none;
+}
+.car_wrap{
+	position: relative;	
+}
+.car_inner{
+	position: absolute;	
+	top: 0;	
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+	transform: translate(-50%,0);	
+	width: 100%;	
+}
+.car_inner.active{
+	position: static;
+	-webkit-transform: translate(0%,0);
+	transform: translate(0%,0);	
+}
+.car_inner_text{
+	padding-top: 110px;
+	position: relative;	
+	letter-spacing: 0;
+}
+.car_inner_text .car_inner{
+	position: absolute;	
+	top: 0;	
+	left: 0;	
+	display: none;	
+	-webkit-transform: translate(0%,0);
+	transform: translate(0%,0);
+}
+.car_inner_text .car_inner:first-child{
+	display: block;	
+}
+
+.changeImg{
+	display: block;
+}
+
+.changeImg2{
+	display: none;
+}
+
+#section_04 .small{
+	    margin: 5% 0 20%;
+    font-size: 0.6rem;
+    letter-spacing: 0;
+    line-height: 0.8rem;
+}
+
+/* =========================================================
+
+ section_05
+ 
+========================================================= */
+#section_05 {
+	margin: 0;
+	padding: 5% 5% 20%;
+}
+#section_05 .small {
+	margin: 5% 0 0;
+	font-size: 0.6rem;
+	letter-spacing: 0;
+	line-height: 0.8rem;
+}
+
+/* =========================================================
+
+ section_06
+ 
+========================================================= */
+#section_06 {
+	margin: 0;
+	padding: 5% 5% 20%;
+	background: #e8e9e9;
+}
+#section_06 #system {
+	border-top:2px solid #c8c8c8;
+	margin: 15% 0 0;
+	padding: 7% 6%;
+	text-align: center;
+}
+#section_06 #system h2 {
+	font-size: 1.25rem;
+	letter-spacing: 0.15em;
+	line-height: 1.2em;
+	margin-bottom: 5%;	
+	letter-spacing: 4px;
+}
+#section_06 #system h2 span {
+	font-size: 1.0rem;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+#section_06 #system ul li {
+	margin: 3% 0 0;
+}
+#section_06 .system_section_inner {
+	margin: 15% 0 0;
+}
+#section_06 .system_section_inner h3 {
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+#section_06 .system_section_inner .image {
+	margin: 0% 0 10%;
+}
+#section_06 .system_section_inner .image.nmb {
+	margin: 5% 0 5%;
+}
+#section_06 .system_section_inner .image.number {
+	display: inline-block;
+	width: 15%;
+	margin: 5% 0;
+}
+#section_06 p{
+	letter-spacing: 1px;	
+}
+#section_06 .system_section_inner h4 {
+	position: relative;
+	top: 0.7rem;
+	left: 2%;
+	display: inline-block;
+	width: 80%;
+	font-size: 1.2rem;
+	vertical-align: middle;
+}
+#section_06 .system_section_inner h4 span {
+	font-size: 0.9rem;
+	letter-spacing: -0.05em;
+}
+#section_06 .system_section_inner .caution {
+	color: #7a7776;
+	font-size: 0.8rem;
+	letter-spacing: 0;
+}
+#section_06 .system_section_inner .blackbox1,
+#section_06 .system_section_inner .blackbox2 {
+	margin: 5% 0 0;
+}
+#section_06 .system_section_inner .blackbox1 p {
+	display: inline-block;
+	width: 30%;
+	padding: 0.6em 0;
+	background: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0em;
+}
+#section_06 .system_section_inner .blackbox2 p {
+	display: inline-block;
+	width: 30%;
+	padding: 0.5em 0;
+	background: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0em;
+	line-height: 1.4em;
+}
+#section_06 .small {
+	margin: 5% 0 0;
+	font-size: 0.6rem;
+	letter-spacing: 0;
+}
+.bordered{
+	padding-top: 2em;	
+	border-top:2px solid #c8c8c8;
+}
+#section_06 .bordered p.small{
+	margin-top: 0;	
+}
+
+/* =========================================================
+
+ section_07
+ 
+========================================================= */
+#section_07 {
+	margin: 0;
+	padding: 5% 5% 8%;
+}
+#section_07 .copy {
+	margin: 13% 0 0;
+}
+#section_07 .image.grade {
+	margin: 30% 0 0;
+}
+
+/* carousel
+......................................................... */
+.carousel-area {
+    position: relative;
+}
+#section_01 .car-main-img img {
+    vertical-align: bottom;
+    width: 88%;
+}
+.car-main-img img {
+    vertical-align: bottom;
+    width: 100%;
+}
+#section_01 .car-thumb-img {
+    padding-top: 136%;
+    position: relative;
+}
+#section_01 .car-thumb-img *{
+	box-sizing: border-box;
+}
+#section_01 .car-thumb-img li{
+	position: relative;	
+}
+#section_01 .car-thumb-img li.active span{
+	position: absolute;	
+	display: block;	
+	width: 100%;	
+	height: 100%;	
+	border:2px solid #000;
+}
+#section_02 .car-thumb-img {
+/* 	position: absolute; */
+	width: 100%;
+	overflow: hidden;
+    padding-top: 86%;
+}
+#section_02 .car-thumb-img div {
+	width: 100%;
+	overflow-x: scroll;
+}
+#section_02 .car-thumb-img ul {
+	width: 800%;
+}
+#section_02 .car-thumb-img ul li {
+	width: 5%;
+	margin-left: 1%;
+}
+#section_02 .carousel-area li:first-child {
+    margin-left: 0;
+}
+.carousel-area li {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+}
+.carousel-area li:first-child {
+    margin-left: 0;
+}
+.carousel-area .frame {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 19%;
+    padding-top: 67.629%;
+}
+#section_02 .carousel-area .frame {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 40%;
+    padding-top: 86%;
+}
+
+
+/* hybrid
+......................................................... */
+#hybrid {
+    margin-top: 34px;
+    margin-bottom: 4.7%;
+}
+#hybrid .tit_area {
+    text-align: center;
+}
+#hybrid .tit_blue {
+    display: inline-block;
+}
+#hybrid_mark {
+    display: inline-block;
+}
+#hybrid_mark img {
+    width: 70px;
+    height: auto;
+}
+#shift_1 {
+    margin-top: 20px;
+}
+
+.wrap_change_panel {
+    max-width: 640px;
+    margin: 11.7% auto 0;
+}
+
+.img_box {
+    margin: 10.9% auto 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    vertical-align: top;
+}
+.img_box img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.wrap_change_panel .lineup li.current {
+    opacity: 1;
+}
+.lineup img {
+    width: 100%;
+    height: auto;
+}
+
+.color {
+    width: 300px;
+    margin: 15px auto 20px;
+}
+.color ul {
+    font-size: 0;
+    /*margin-left: -3px;*/
+    margin-left: -2px;
+}
+.color li {
+    /* display: inline-block; */
+    font-size: 0;
+    position: relative;
+    float: left;
+    margin: 0px 0px 2px 2px;
+}
+.color li img {
+    width: 58px;
+    height: auto;
+    /* margin: 0px 0px 6px 6px; */
+    /* margin-bottom: 4px; */
+}
+.color li.active:after {
+    content: "";
+    width: 58px;
+    height: 25px;
+    background: url(http://toyota-dealers.jp/99015/recruit/resources/sp/img/common/color-tip-frame.png) left top no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: 100% auto;
+}
+#interior_slide li.active:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+#dressup {
+    background-color: #00163d;
+    padding: 19px 15px 10px 15px;
+    margin-top: 5%;
+}
+#dressup .lead {
+    margin-top: 0px;
+}
+
+#section_08{
+	padding: 5% 5% 25%;
+	background: #e8e9e9;
+}
+
+
+/* modal
+......................................................... */
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 290px;
+    height: auto;
+}
+#cboxOverlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    opacity:0.9;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+button{
+    border: none;
+}
+#colorbox{
+    border: none;
+    outline: none;
+    z-index: 11;
+}
+#cboxClose{
+    position: absolute;
+    top: -33px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    background: transparent url(http://toyota-dealers.jp/99015/recruit/resources/sp/img/modal/btn_close.png) left top no-repeat;
+    background-size: 100% auto;
+    outline: none;
+    border: none;
+}
+
+#section_08 .btn-store{
+    margin-top: 10%;
+}
+
+
+/* =========================================================
+
+ footer
+ 
+========================================================= */
+#footer_logo {
+    text-align: center;
+    margin: 28px 0 10px 0;
+}
+#footer_logo img {
+    width: 62px;
+    height: auto;
+}
+#footer_logo_p{
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+#footer_logo_p img{
+    width: 244px;
+    height: auto;
+}
+.netz #footer_container {
+    background-color: #00358b;
+    height: 50px;
+}
+.pet #footer_container {
+    background-color: #005a49;
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+}
+#footer_container {
+    background-color: #ff6e01;
+    height: 50px;
+}
+
+
+.footer-logo{
+	position: relative;
+	width:100%;
+	height:25px;
+	background-color: #ff6e01;
+}
+
+/* slick-modal */ 
+
+.modal-wrapper
+{
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.modal-wrapper .modal-bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: black;
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;
+}
+
+.sub-block-box-modal-wrapper
+{
+    position: absolute;
+    z-index: 300;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 80%;
+}
+.sub-block-box-modal-wrapper img{	
+	width: 100%;	
+}
+.sub-block-box-modal-wrapper img.button-prev{
+	width: auto;	
+	position: absolute;
+	z-index: 10;
+	top: 0%;
+	left: -11%;
+	width: 10%;
+}
+.sub-block-box-modal-wrapper img.button-next{
+	width: auto;	
+	position: absolute;
+	z-index: 10;
+	top: 0%;
+	right: -11%;
+	width: 10%;
+}
+.sub-block-box-modal-wrapper .button-close
+{
+	width: 30px;	
+    position: absolute;
+	top: -45px;
+	cursor: pointer;
+	right: 0;
+}
+.sub-block-box-modal
+{
+    position: static;
+    margin-top: 37px;
+    margin-left: -63px;
+}
+.sub-block-box-modal-inner
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vw;
+}
+
+
+@media only screen and (max-width: 374px){
+	.color-changer-elem {
+		padding-top: 92%;
+		position:relative;
+		z-index:1000
+	}
+	.car_inner_text {
+		padding: 130px 0 0 0;	
+	}
+}

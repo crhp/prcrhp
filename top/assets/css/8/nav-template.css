@@ -1,0 +1,1247 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*.loading-label*/
+.loading-label{
+  width: 100%;
+  height: 20px;
+  background-color: #ffaa00;
+  position: fixed;
+  z-index: 99;
+}
+span{
+  display: block;
+}
+#nav a{
+  text-decoration: none;
+}
+/********************/
+/********#nav********/
+/********************/
+#nav{
+  font-family: 'Noto Sans Japanese', '�ҥ饮���奴 ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-weight: normal;
+}
+.snav{
+  width: 210px;
+  height: 100%;
+  float: left;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #454545;
+  z-index: 99;
+}
+.snav .logo-area{
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #dee5ec;
+  padding-bottom: 20px;
+}
+.snav .logo-area .header-logo{
+  margin-top: 12px;
+}
+.snav .header-icon img{
+  width: 172px;
+  height: auto;
+}
+.snav .header-logo img{
+  width: 133px;
+  height: auto;
+}
+/*.menu*/
+.snav .menu{
+  font-size: 14px;
+}
+.snav .menu .main-menu{
+  position: relative;
+}
+.snav .menu .main-menu li{
+  font-size: 14px;
+}
+.snav .menu .main-menu li.nav-item-01,
+.snav .menu .main-menu li.nav-item-04,
+.snav .menu .main-menu li.nav-item-06{
+}
+.snav .menu .main-menu li.nav-item-03,
+.snav .menu .main-menu li.nav-item-05,
+.snav .menu .main-menu li.nav-item-07{
+  border-bottom: 1px solid #dee5ec;
+}
+.snav .menu .main-menu li a{
+  display: block;
+  color: #004b96;
+  padding: 13px 0 13px 29px;
+}
+.snav .menu .main-menu li.active a{
+  background-color: #5a7da0;
+  color: #fff;
+}
+.snav .menu .main-menu li a:hover{
+  background-color: #5a7da0;
+  color: #fff;
+}
+.snav .menu .main-menu li.active > ul{
+  display: block;
+}
+.snav .menu .sub-menu{
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  margin-left: 210px;
+  background-color: #5a7da0;
+}
+.snav .menu .sub-menu.shop {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.car_model {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.welcab {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.U-car {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.buy {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.aftersales-service {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.unique-service {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu.csr {
+  display: none;
+  padding-top: 123px;
+}
+.snav .menu .sub-menu li{
+  font-size: 14px;
+}
+.snav .menu .sub-menu li a{
+  background-color: #555;
+  color: #fff;
+}
+.snav .menu .sub-menu li a:hover{
+  background-color: #6e8dac;
+}
+.snav .link-box{
+  padding-top: 20px;
+  width: 156px;
+  margin: 0 auto;
+}
+.snav .link-box li{
+  position: relative;
+  display: inline-block;
+  margin: 0 0 15px;
+}
+.snav .link-box li a{
+  display: block;
+}
+.snav .link-box li a:hover{
+}
+.snav .link-box li span{
+}
+.snav .sns-area{}
+.snav .sns-area ul{
+  width: 97px;
+  margin: 0 auto;
+}
+.snav .sns-area li{
+  float: left;
+  margin-left:15px;
+}
+.snav .sns-area li:first-child{
+  margin-left: 0;
+}
+.snav .sns-area li img{
+  height: 22px;
+  width: auto;
+}
+.gnav{display: none;}
+/**********************************************/
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and (min-width:1680px){
+  /*.loading-label*/
+  .loading-label{
+    width: 100%;
+    max-width: 1920px;
+    height: 20px;
+    margin-left: 210px;
+    background-color: #ffaa00;
+    position: fixed;
+    z-index: 99;
+  }
+  /********************/
+  /********#nav********/
+  /********************/
+  #nav{}
+  .snav{
+    width: 210px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #454545;
+    z-index: 100;
+  }
+  .snav .logo-area{
+    text-align: center;
+    margin-top: 19px;
+    border-bottom: 1px solid #dee5ec;
+    padding-bottom: 20px;
+  }
+  .snav .logo-area .header-logo{
+    margin-top: 13px;
+  }
+  .snav .header-icon img{
+    width: 172px;
+    height: auto;
+  }
+  .snav .header-logo img{
+    width: 133px;
+    height: auto;
+  }
+  /*.menu*/
+  .snav .menu{
+    font-size: 14px;
+  }
+  .snav .menu .main-menu{
+    position: relative;
+  }
+  .snav .menu .main-menu li{
+    font-size: 14px;
+  }
+  .snav .menu .main-menu li.nav-item-01,
+  .snav .menu .main-menu li.nav-item-04,
+  .snav .menu .main-menu li.nav-item-06{
+  }
+  .snav .menu .main-menu li.nav-item-03,
+  .snav .menu .main-menu li.nav-item-05,
+  .snav .menu .main-menu li.nav-item-07{
+    /*border-bottom: 1px solid #dee5ec;*/
+  }
+  .snav .menu .main-menu li a{
+    display: block;
+    color: #004b96;
+    padding: 13px 0 13px 29px;
+  }
+  .snav .menu .main-menu li.active a{
+    background-color: #5a7da0;
+    color: #fff;
+  }
+  .snav .menu .main-menu li a:hover{
+    background-color: #5a7da0;
+    color: #fff;
+  }
+  .snav .menu .main-menu li.active > ul{
+    display: block;
+  }
+  .snav .menu .sub-menu{
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    margin-left: 210px;
+    background-color: #5a7da0;
+  }
+  .snav .menu .sub-menu.shop {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.car_model {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.U-car {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.welcab {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.buy {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.aftersales-service {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.unique-service {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.csr {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu li{
+    font-size: 14px;
+  }
+  .snav .menu .sub-menu li a{
+    background-color: #555;
+    color: #fff;
+  }
+  .snav .menu .sub-menu li a:hover{
+    background-color: #6e8dac;
+  }
+  .snav .link-box{
+    padding-top: 20px;
+    width: 156px;
+    margin: 0 auto;
+  }
+  .snav .link-box li{
+    position: relative;
+    /*border: 1px solid #006ec1;*/
+    display: block;
+    margin: 0 0 15px;
+  }
+  .snav .link-box li a{
+    display: block;
+  }
+  .snav .link-box li a:hover{
+  }
+  .snav .link-box li span{
+  }
+  .snav .sns-area{}
+  .snav .sns-area ul{
+    width: 97px;
+    margin: 0 auto;
+  }
+  .snav .sns-area li{
+    float: left;
+    margin-left:15px;
+  }
+  .snav .sns-area li:first-child{
+    margin-left: 0;
+  }
+  .snav .sns-area li img{
+    height: 22px;
+    width: auto;
+  }
+  .gnav{
+    display: none;
+  }
+}
+
+/**********************************************/
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and (max-width: 1679px) and (min-width: 1280px){
+  /*.loading-label*/
+  .loading-label{
+    width: 100%;
+    height: 20px;
+    background-color: #ffaa00;
+    position: fixed;
+    z-index: 99;
+  }
+
+  /********************/
+  /********#nav********/
+  /********************/
+  #nav{}
+  .snav{
+    width: 210px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #454545;
+    z-index: 100;
+  }
+  .snav .logo-area{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #dee5ec;
+    padding-bottom: 20px;
+  }
+  .snav .logo-area .header-logo{
+    margin-top: 12px;
+  }
+  .snav .header-icon img{
+    width: 172px;
+    height: auto;
+  }
+  .snav .header-logo img{
+    width: 133px;
+    height: auto;
+  }
+  /*.menu*/
+  .snav .menu{
+    font-size: 14px;
+  }
+  .snav .menu .main-menu{
+    position: relative;
+  }
+  .snav .menu .main-menu li{
+    font-size: 14px;
+  }
+  .snav .menu .main-menu li.nav-item-01,
+  .snav .menu .main-menu li.nav-item-04,
+  .snav .menu .main-menu li.nav-item-06{
+  }
+  .snav .menu .main-menu li.nav-item-03,
+  .snav .menu .main-menu li.nav-item-05,
+  .snav .menu .main-menu li.nav-item-07{
+    border-bottom: 1px solid #dee5ec;
+  }
+  .snav .menu .main-menu li a{
+    display: block;
+    color: #004b96;
+    padding: 13px 0 13px 29px;
+    line-height: normal;
+  }
+  .snav .menu .main-menu li.active a{
+    background-color: #5a7da0;
+    color: #fff;
+  }
+  .snav .menu .main-menu li a:hover{
+    background-color: #5a7da0;
+    color: #fff;
+  }
+  .snav .menu .main-menu li.active > ul{
+    display: block;
+  }
+  .snav .menu .sub-menu{
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    margin-left: 210px;
+    background-color: #5a7da0;
+  }
+  .snav .menu .sub-menu.shop {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.car_model {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.welcab {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.U-car {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.buy {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.aftersales-service {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.unique-service {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu.csr {
+    display: none;
+    padding-top: 123px;
+  }
+  .snav .menu .sub-menu li{
+    font-size: 14px;
+  }
+  .snav .menu .sub-menu li a{
+    background-color: #555;
+    color: #fff;
+  }
+  .snav .menu .sub-menu li a:hover{
+    background-color: #6e8dac;
+  }
+  .snav .link-box{
+    padding-top: 20px;
+    width: 156px;
+    margin: 0 auto;
+  }
+  .snav .link-box li{
+    position: relative;
+    /*border: 1px solid #006ec1;*/
+    display: inline-block;
+    margin: 0 0 15px;
+  }
+  .snav .link-box li a{
+    display: block;
+  }
+  .snav .link-box li a:hover{
+  }
+  .snav .link-box li span{
+  }
+  .snav .sns-area{}
+  .snav .sns-area ul{
+    width: 97px;
+    margin: 0 auto;
+  }
+  .snav .sns-area li{
+    float: left;
+    margin-left: 15px;
+  }
+  .snav .sns-area li:first-child{
+    margin-left: 0;
+  }
+  .snav .sns-area li img{
+    height: 22px;
+    width: auto;
+  }
+  .gnav{display: none;}
+}
+/**********************************************/
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+  /*.loading-label*/
+  .loading-label{
+    width: 100%;
+    height: 12px;
+    background-color: #ffaa00;
+    position: relative;
+    z-index: 100;
+  }
+  /********************/
+  /********#nav********/
+  /********************/
+  #nav{}
+  .snav{
+    display: none;
+  }
+  .snav .logo-area{
+    text-align: center;
+  }
+  .snav .header-icon img{
+    width: 172px;
+    height: auto;
+  }
+  .snav .header-logo img{
+    width: 133px;
+    height: auto;
+  }
+  .snav .menu{
+    font-size: 14px;
+  }
+  .gnav{
+    display: block;
+    width: 100%;
+    height: 108px;
+    background-color: #fff;
+    /*margin-top: 12px;*/
+    position: static;
+    z-index: 99;
+    box-shadow: 2px 2px 5px #454545;
+  }
+  .gnav .gnav-wrap{
+    position: relative;
+  }
+  .gnav .logo-area{
+    width: 341px;
+    float: left;
+    margin: 10px 0 0 30px;
+  }
+  .gnav .logo-area span{
+    float: left;
+  }
+  .gnav .logo-area .header-icon{
+  }
+  .gnav .logo-area .header-icon img{
+    width: 164px;
+    height: auto;
+  }
+  .gnav .logo-area .header-logo{
+    margin: 22px 0 0 7px;
+  }
+  .gnav .logo-area .header-logo img{
+    width: 133px;
+    height: auto;
+  }
+  .gnav .header-linkarea{
+    float: right;
+    width: 626px;
+    margin-top: 28px;
+  }
+  .gnav .header-linkarea .link-box{
+    float: left;
+    margin-left:0px;
+  }
+  .gnav .header-linkarea .link-box li{
+    /*position: relative;*/
+    /*border: 1px solid #006ec1;*/
+    display: block;
+    float: left;
+  }
+  .gnav .header-linkarea .link-box li + li{
+    margin-left: 10px;
+  }
+  .gnav .header-linkarea .link-box li a{
+    display: block;
+    /*padding: 5px 20px;*/
+    /*font-size: 11px;*/
+    /*color: #006ec1;*/
+    /*font-weight: bold;*/
+  }
+  .gnav .header-linkarea .link-box li a:hover{
+    /*color: #fff;
+    background: #006ec1;*/
+  }
+  .gnav .header-linkarea .link-box li span{
+    /*position: absolute;
+    right: 3px;
+    top: 3px;*/
+  }
+  .gnav .header-linkarea .sns-area{
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+  }
+
+  .gnav .header-linkarea .sns-area li{
+    float: left;
+    margin-left:20px;
+  }
+  .gnav .header-linkarea .sns-area li:first-child{
+    margin-left: 20px;
+  }
+  .gnav .header-linkarea .sns-area li img{
+    width: auto;
+    height: 18px;
+  }
+  .gnav .menu .nav-title{
+    width: 934px;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px auto 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  .gnav .menu .nav-title li{
+    float: left;
+    font-size: 13px;
+  }
+  .gnav .menu .nav-title li.gnav-01{ width: 116px;}
+  .gnav .menu .nav-title li.gnav-02{ width: 110px;}
+  .gnav .menu .nav-title li.gnav-08{ width: 170px;}
+  .gnav .menu .nav-title li.gnav-03{ width: 63px;}
+  .gnav .menu .nav-title li.gnav-04{ width: 111px;}
+  .gnav .menu .nav-title li.gnav-05{ width: 135px;}
+  .gnav .menu .nav-title li.gnav-06{ width: 144px;}
+  .gnav .menu .nav-title li.gnav-07{ width: 85px;}
+
+  .gnav .menu .nav-title li.gnav-03,
+  .gnav .menu .nav-title li.gnav-05{
+    /*background: url("../img/top/gnav-line.gif") no-repeat right center;
+    margin-right: 20px;
+    padding-right: 20px;*/
+  }
+  .gnav .menu .nav-title li a{
+    color: #004b96;
+    font-weight: bold;
+    display: block;
+  }
+  .gnav .menu .nav-title li.active p a{
+    color: #fff;
+    background-color: #5a7da0;
+    font-weight: bold;
+    display: block;
+  }
+  .gnav .menu .nav-title li a:hover{
+    color: #fff;
+    background-color: #5a7da0;
+  }
+  .gnav .menu .sub-menu li{
+    float: none;
+    background-color: #fff;
+    font-size: 12px;
+  }
+  .gnav .menu  li.active > .sub-menu{
+    display: block;
+    position: absolute;
+    z-index: 10;
+  }
+  .gnav .menu .sub-menu.shop{
+    display: none;
+    width: 220px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.car_model {
+    display: none;
+    width: 140px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.welcab {
+    display: none;
+    width: 180px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.U-car{
+    display: none;
+    width: 168px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.buy{
+    display: none;
+    width: 180px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.aftersales-service{
+    display: none;
+    width: 200px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.unique-service{
+    display: none;
+    width: 194px;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.csr{
+    display: none;
+    width: 196px;
+    text-align: left;
+  }
+
+  .gnav .menu .sub-menu li a {
+    padding-left: 20px;
+  }
+
+  .gnav .menu .gnav-linkarea{
+    display: none;
+  }
+
+  .burger-menu{
+    display: none;
+  }
+}
+/**********************************************/
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and  (max-width: 1023px) and (min-width: 768px){
+  /*.loading-label*/
+  .loading-label{
+    width: 100%;
+    height: 12px;
+    background-color: #ffaa00;
+    position: relative;
+    z-index: 1000;
+  }
+  /********************/
+  /********#nav********/
+  /********************/
+  #nav{}
+  .snav{
+    display: none;
+  }
+  .gnav{
+    display: block;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 90px;
+    background-color: #fff;
+    margin-top: 12px;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 2px 2px 5px #454545;
+  }
+  .gnav .logo-area{
+    width: 400px;
+    float: left;
+    margin: 20px 0 0 30px;
+  }
+  .gnav .logo-area span{
+    float: left;
+  }
+
+  .gnav .logo-area .header-icon{
+  }
+  .gnav .logo-area .header-icon img{
+    width: 143px;
+    height: auto;
+  }
+  .gnav .logo-area .header-logo{
+    margin: 20px 0 0 15px;
+  }
+  .gnav .logo-area .header-logo img{
+    width: 126px;
+    height: auto;
+  }
+  .gnav .header-linkarea{
+    display: none;
+  }
+
+
+  /*.burger-menu*/
+  .burger-menu{}
+  .burger-menu span{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+  }
+  .burger-menu span img{
+    width: 20px;
+    height: auto;
+  }
+
+  .gnav .menu{
+    display: none;
+    width: 320px;
+    height:auto ;
+    position: fixed;
+    right: 0;
+    margin:26px 0 0 0 ;
+    text-align: left;
+    border-top: 2px solid #dee5ec;
+    background-color: #fff;
+    box-shadow:1px 1px 5px #454545;
+  }
+  .gnav .menu.active{
+    display: block;
+  }
+
+
+  .gnav .menu .nav-title{
+
+  }
+  .gnav .menu .nav-title > li{
+    float: left;
+    font-size: 13px;
+    /*background: url("../img/top/gnav-open.png") no-repeat 90% top;
+    background-size: 12px;*/
+  }
+
+  .gnav .menu .nav-title li.gnav-01,
+  .gnav .menu .nav-title li.gnav-02,
+  .gnav .menu .nav-title li.gnav-08,
+  .gnav .menu .nav-title li.gnav-03,
+  .gnav .menu .nav-title li.gnav-04,
+  .gnav .menu .nav-title li.gnav-05,
+  .gnav .menu .nav-title li.gnav-06,
+  .gnav .menu .nav-title li.gnav-07{
+    width:100%;
+    height: auto;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 2px solid #dee5ec;
+  }
+
+  .gnav .menu .nav-title li.gnav-03,
+  .gnav .menu .nav-title li.gnav-05{
+    /*border-bottom: 2px solid #dee5ec;*/
+  }
+  .gnav .menu .nav-title > li p{
+    background: #fff url("../img/top/gnav-open.png") no-repeat 95% center;
+    background-size: 13px 13px;
+  }
+  .gnav .menu .nav-title > li.active p{
+    background:#5a7da0 url("../img/top/gnav-close.png") no-repeat 95% center;
+    background-size: 13px 13px;
+  }
+  .gnav .menu .nav-title li a{
+    color: #004b96;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+  }
+  .gnav .menu .nav-title li.active a{
+    color: #fff;
+  }
+
+  .gnav .menu .sub-menu li{
+    float: none;
+    background-color: #5a7da0;
+    font-size: 12px;
+    border-top: 1px solid #fff;
+  }
+
+
+  .gnav .menu  li.active > .sub-menu{
+    display: block;
+  }
+  .gnav .menu .sub-menu.shop{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.car_model {
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.welcab {
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.U-car{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.buy{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.aftersales-service{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.unique-service{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.csr{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .gnav .menu .sub-menu li a {
+    padding-left: 30px;
+  }
+
+  .gnav .menu .gnav-linkarea .link-box{}
+  .gnav .menu .gnav-linkarea .link-box li{
+    position: relative;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 2px solid #dee5ec;
+    background-color: #f1f1f1;
+  }
+  .gnav .menu .gnav-linkarea .link-box li a{
+    color: #004b96;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+  }
+  .gnav .menu .gnav-linkarea .link-box li a:hover{
+    color: #fff;
+    background-color: #5a7da0;
+  }
+  .gnav .menu .gnav-linkarea .link-box span{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+  }
+  .gnav .menu .gnav-linkarea .link-box span img{
+    width: 21px;
+    height: auto;
+  }
+  .gnav .menu .gnav-linkarea .sns-area{}
+  .gnav .menu .gnav-linkarea .sns-area ul{
+    width: 127px;
+    height: 40px;
+    margin: 20px auto 0;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li{
+    float: left;
+    margin-left: 30px;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li:first-child{
+    margin-left: 0;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li a{}
+  .gnav .menu .gnav-linkarea .sns-area li img{
+    width: auto;
+    height: 22px;
+  }
+}
+
+
+/**********************************************/
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and (max-width: 767px){
+  /*.loading-label*/
+  .loading-label{
+    width: 100%;
+    height: 12px;
+    background-color: #ffaa00;
+    position: relative;
+    z-index: 99;
+    margin-top: -2px;
+    top: 0;
+  }
+  .loading-label.hide{
+    margin-top: 0;
+  }
+
+  /********************/
+  /********#nav********/
+  /********************/
+
+  #nav{}
+  .snav{
+    display: none;
+  }
+
+  .gnav{
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 2px 2px 4px #454545;
+    margin-top: 10px;
+    top: 0;
+  }
+  .gnav.open{
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  .gnav-wrap{
+    height: 100%;
+  }
+
+  .gnav-wrap .header-wrap{
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+
+  .gnav .logo-area{
+    width: auto;
+    float: left;
+    margin: 10px 0 0 20px;
+  }
+  .gnav .logo-area span{
+    float: left;
+  }
+
+  .gnav .logo-area .header-icon{
+  }
+  .gnav .logo-area .header-icon img{
+    width: 90px;
+    height: auto;
+  }
+  .gnav .logo-area .header-logo{
+    margin: 10px 0 0 15px;
+  }
+  .gnav .logo-area .header-logo img{
+    width: 105px;
+    height: auto;
+  }
+  .gnav .header-linkarea{
+    display: none;
+  }
+
+
+  /*.burger-menu*/
+  .burger-menu{}
+  .burger-menu span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 2;
+  }
+  .burger-menu span img{
+    width: 20px;
+    height: auto;
+  }
+
+  .gnav .menu{
+    display: none;
+    width: 100%;
+    height: auto;
+    margin:50px 0 0 0 ;
+    text-align: left;
+    border-top: 2px solid #dee5ec;
+    background-color: #fff;
+    overflow-y: scroll;
+    position: absolute;
+  }
+
+  .gnav .menu.active{
+    display: block;
+    height: 80%;
+    background-color: #fff;
+  }
+
+
+  .gnav .menu .nav-title{
+    height: auto;
+  }
+  .gnav .menu .nav-title > li{
+    float: left;
+    font-size: 13px;
+    /*background: url("../img/top/gnav-open.png") no-repeat 90% top;
+    background-size: 12px;*/
+  }
+
+  .gnav .menu .nav-title li.gnav-01,
+  .gnav .menu .nav-title li.gnav-02,
+  .gnav .menu .nav-title li.gnav-08,
+  .gnav .menu .nav-title li.gnav-03,
+  .gnav .menu .nav-title li.gnav-04,
+  .gnav .menu .nav-title li.gnav-05,
+  .gnav .menu .nav-title li.gnav-06,
+  .gnav .menu .nav-title li.gnav-07{
+    width:100%;
+    height: auto;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 2px solid #dee5ec;
+  }
+
+  .gnav .menu .nav-title li.gnav-03,
+  .gnav .menu .nav-title li.gnav-05{
+
+  }
+  .gnav .menu .nav-title > li p{
+    background: #fff url("../img/top/gnav-open.png") no-repeat 95% center;
+    background-size: 13px 13px;
+  }
+  .gnav .menu .nav-title > li.active p{
+    background:#5a7da0 url("../img/top/gnav-close.png") no-repeat 95% center;
+    background-size: 13px 13px;
+  }
+  .gnav .menu .nav-title li a{
+    color: #004b96;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+  }
+
+  .gnav .menu .nav-title li.active a{
+    color: #fff;
+  }
+
+  .gnav .menu .nav-title li a:hover{
+    /*color: #004b96;*/
+  }
+
+  .gnav .menu .sub-menu li{
+    float: none;
+    background-color: #5a7da0;
+    font-size: 12px;
+    border-top: 2px solid #fff;
+  }
+  .gnav .menu .sub-menu li a{
+    color: #fff;
+  }
+  .gnav .menu .sub-menu li a:hover{
+    color: #fff;
+    background-color: #5a7da0;
+  }
+
+
+  .gnav .menu  li.active > .sub-menu{
+    display: block;
+  }
+  .gnav .menu .sub-menu.shop{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.car_model {
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.welcab {
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.U-car{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.buy{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.aftersales-service{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.unique-service{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+  .gnav .menu .sub-menu.csr{
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .gnav .menu .sub-menu li a {
+    padding-left: 30px;
+  }
+  .gnav .menu .gnav-linkarea{
+    display: block;
+  }
+  .gnav .menu .gnav-linkarea .link-box{}
+  .gnav .menu .gnav-linkarea .link-box li{
+    position: relative;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 2px solid #dee5ec;
+    background-color: #f1f1f1;
+  }
+  .gnav .menu .gnav-linkarea .link-box li a{
+    color: #004b96;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+  }
+  .gnav .menu .gnav-linkarea .link-box span{
+    position: absolute;
+    right: 18px;
+    top: 13px;
+  }
+  .gnav .menu .gnav-linkarea .link-box span img{
+    width: 21px;
+    height: auto;
+  }
+  .gnav .menu .gnav-linkarea .sns-area{}
+  .gnav .menu .gnav-linkarea .sns-area ul{
+    width: 126px;
+    height: 30px;
+    margin: 10px auto 0;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li{
+    float: left;
+    margin-left: 30px;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li:first-child{
+    margin-left: 0;
+  }
+  .gnav .menu .gnav-linkarea .sns-area li a{}
+  .gnav .menu .gnav-linkarea .sns-area li img{
+    width: auto;
+    height: 21px;
+  }
+}

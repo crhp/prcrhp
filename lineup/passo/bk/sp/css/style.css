@@ -1,0 +1,472 @@
+@charset "utf-8";
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/***********/
+
+body {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 14px;
+  background: none;
+  color: #000;
+}
+#header {}
+#header ul {
+  min-width: 320px;
+}
+#header li.logo-corolla {
+  float: left;
+  width: 67.1875%;
+}
+#header li.logo-toyota {
+  width: 32.8125%;
+  float: right;
+}
+#header img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+#slider {
+  position: relative;
+}
+#slider .content {
+  position: relative;
+}
+#slider .content li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+#slider .content li.current {
+  opacity: 1;
+}
+#slider img {
+  vertical-align: top;
+  max-width: 100%;
+}
+#slider .status {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+#slider .status img {
+  width: 14px;
+  height: auto;
+}
+
+/* sub_nav
+==========================================*/
+
+#sub_nav {
+  padding: 10px 0 0 1px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  z-index: 10;
+}
+#sub_nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#sub_nav ul {
+  width: 290px;
+  margin: 0 auto;
+  /*margin-top: 8px;*/
+}
+#sub_nav li {
+  float: left;
+  /*display: inline-block;*/
+  margin-left: 1px;
+}
+#sub_nav li:first-child {
+  margin-left: 0;
+}
+#sub_nav li img {
+  width: 96px;
+  height: auto;
+}
+
+/**********
+contents***
+**********/
+
+
+/****wrapper****/
+
+
+/*#wrapper {
+  margin: 0 4.6875%;
+  }*/
+
+  .bnr-present {
+    margin: 9% 4.6875% 0;
+  }
+  .bnr-present img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*section*/
+
+  .section {
+    border-top: 2px solid #eee;
+    padding-top: 9.3%;
+    margin-top: 7.6%;
+  }
+  .section-wrap {
+    margin: 0 3.8875%;
+  }
+  .section .head {
+    text-align: center;
+  }
+  #contents .section .head img {
+    width: 50px;
+    height: auto;
+  }
+  .section .copy {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 8%;
+  }
+  .section .copy sup {
+    font-size: 10px;
+  }
+  .section .bnr {
+    text-align: center;
+  }
+  .section .bnr img {
+    width: 100%;
+    height: auto;
+  }
+  .section .btn-store {
+    text-align: center;
+    margin-top: 8%;
+  }
+  .section .btn-store img {
+    width: 100%;
+    height: auto;
+  }
+
+/***********
+point01*****
+***********/
+
+
+/*tab_change*/
+
+#tab_change {
+  max-width: 640px;
+  margin: 11.7% auto 0;
+}
+.change-btn {
+  width: auto;
+  margin: 0 auto;
+}
+.change-btn li {
+  width: 49.6551724137931%;
+  float: left;
+  margin-left: 2px;
+}
+.change-btn li:first-child {
+  margin-left: 0;
+}
+.change-btn li img {
+  width: 100%;
+  height: auto;
+}
+.wrap-change-panel {
+  /*position: relative;*/
+}
+.mode {
+  display: none;
+}
+.mode.select {
+  display: block;
+}
+.mode .text-area {
+  margin-top: 6%;
+  line-height: 1.9;
+}
+.mode .text-area p {
+  font-size: 14px;
+}
+.mode .text-area span {
+  display: block;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 3%;
+}
+.img_box {
+  margin: 17.9% auto 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  vertical-align: top;
+}
+.img_box img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+#tab_change .lineup li.current {
+  opacity: 1;
+}
+.lineup img {
+  width: 100%;
+  height: auto;
+}
+.color {
+  margin-top:4%;
+}
+.color ul {
+  font-size: 0;
+}
+.color li {
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+}
+.passo .color li.active {
+  background: url(/resources/sp/img/point01/passo/tip-cover.png) no-repeat top center;
+  background-size: 59px;
+}
+.passo_moda .color li.active {
+  background: url(/resources/sp/img/point01/passo_moda/tip-cover.png) no-repeat top center;
+  background-size: 59px;
+}
+.color li img {
+  width: 59px;
+  height: auto;
+}
+#point01 .bnr {
+  margin-top: 7%;
+}
+#point01 .tit {
+  width: 89.6551724137931%;
+  margin: 0 auto;
+}
+#point01 .bnr-open {
+  margin-top: 2.6%;
+}
+
+/***********
+point02*****
+***********/
+
+#point02 .inner {
+  max-width: 640px;
+  margin: 10.3% auto 0;
+}
+.inner .main-pic {}
+.inner .main-pic img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.reason-wrap {
+  background: url(/resources/sp/img/point02/reasob-bg.gif) repeat-y left top;
+  background-size: 100%;
+  padding: 0 4.6875%;
+}
+.reason {
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.reason.nb {
+  margin-top: 0;
+  border-top: none;
+}
+.reason .label {
+  display: block;
+  text-align: center;
+}
+.reason img {
+  width: 100%;
+  height: auto;
+}
+.reason .label img {
+  width: auto;
+  height: 25px;
+}
+.reason .main-txt {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.reason .main-txt sup{
+  font-size: 10px;
+  padding-right: 3px;
+}
+.reason .sub-txt {
+  font-size: 14px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  line-height: 1.8;
+}
+.reason .notes,
+.reason .cap {
+  font-size: 10px;
+}
+.reason .notes {
+  margin-top: 8%;
+}
+.reason .notes span {
+  display: block;
+}
+.reason .cap {
+  margin-top: 5%;
+}
+.inner .bt-bg img {
+  width: 100%;
+  height: auto;
+}
+
+/***********
+point03*****
+***********/
+
+#point03 .sub-copy {
+  margin-top: 7%;
+}
+#point03 .pic-block {
+  margin-top: 9.5%;
+}
+#point03 .pic-block img {
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+#point03 .pic-block img.mt {
+  margin-top: 5.7%;
+}
+
+/***********
+point04*****
+***********/
+
+#point04 .sub-copy {
+  font-size: 14px;
+  margin-top: 4%;
+  line-height: 1.9;
+}
+#point04 img {
+  width: 100%;
+  height: auto;
+}
+#point04 .sub-copy span {
+  display: block;
+  margin-bottom: 6%;
+}
+#point04 h3 {
+  font-size: 23px;
+}
+#point04 .sub-tit {
+  font-size: 18px;
+  color: #003629;
+  margin-top: 3%;
+}
+#point04 .sub-tit span {
+  font-size: 12px;
+}
+#point04 .sub-tit sup {
+  font-size: 10px;
+}
+#point04 .article {
+  margin-top: 15%;
+}
+#point04 .article .icon img{
+  width: 20px;
+  height: auto;
+  vertical-align: sub;
+  padding-right: 5px;
+}
+#point04 .article .txt {
+  margin-top: 7%;
+  line-height: 1.8;
+  margin-bottom: 8%;
+}
+#point04 .notes{
+  font-size: 10px;
+}
+
+.more-function-btn {
+  margin-top: 13%;
+  margin-bottom: 5%;
+}
+
+/***********
+point05*****
+***********/
+
+#point05 {
+  text-align: center;
+}
+#point05 .sub-copy {
+  margin-top: 5%;
+}
+#point05 .price {}
+#point05 .price .tit {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8%;
+}
+#point05 .price-label {
+  display: block;
+  margin-top: 2%;
+}
+#point05 .price-label img {
+  width: auto;
+  height: 19px;
+}
+
+#point05 .btn-reserve {
+  text-align: center;
+  margin: 8% 0;
+}
+#point05 .btn-reserve img {
+  width: 100%;
+  height: auto;
+}
+#point05 .price-list {
+  margin-top: 6%;
+}
+#point05 .price-list img {
+  width: 100%;
+  height: auto;
+}
+#point05 .notes{
+  font-size: 10px;
+  display: block;
+  margin-top: 6%;
+  text-align: left;
+}
+#point05 .bnr{
+  margin-top: 8%;
+}
+
+#footer_container {
+  width: auto;
+  height: 50px;
+  background-color: #ff6e01;
+}
+
+/*iframe[name="google_conversion_frame"]{
+  height: 0;
+  position: absolute;
+  }*/

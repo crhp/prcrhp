@@ -1,0 +1,6 @@
+.recruit-nav .nav-list li.current {
+    border-color: #647d96;
+}
+.recruit-nav .nav-list li.current a {
+    color: #647d96;
+}

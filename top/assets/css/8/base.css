@@ -1,0 +1,120 @@
+/* CSS Document */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SiteURL: http://www.c-yokohama.com/
+Created: 2007.06/25
+LastUpdate: 2007.07/05by久保田
+Author: 久保田
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*タグ再定義*/
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px !important; /* for MODERN blowser */
+	font-size:85%; /* for WIN IE 5.5 6.0*/
+	font-family:"ＭＳ Ｐゴシック",arial,helvetica,clean,sans-serif;
+	color: #4D4848;
+	background-color:#F4F3F3;
+	line-height:1.4em;
+	letter-spacing:0em;
+	text-align:left;
+}
+
+* html body {
+	font-size:13px;
+}
+
+.text_small {
+	font-size:85%;
+}
+
+
+/*テキストの色など*/
+.txt_orange {color:#FF9900;}
+.txt_red {color: #FF0000;}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+テンプレートbody
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#wrapper {
+	padding:0px;
+	height:auto;
+	width:950px;
+	margin:0px auto 0px auto;}
+
+/*clearfix後の状態　高さをカバー*/
+.clearfix:after {
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;}
+
+.clearfix{min-height:1px;}
+* html .clearfix{height:1px; /*\*//*/ height:auto; overflow:hidden; /**/}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ヘッダー
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#header{height:47px; padding:0px; margin:0px 0px 10px 0px;}
+	
+h1#logotype1{
+    height:47px;
+	margin:0px;
+	padding:0px;
+	float:left;}
+
+h3#logotype2{
+	margin:0px; padding:0px;
+	float:right;
+	background-image: url(../img/grand/logo_2.jpg);
+	background-repeat: no-repeat;
+	width: 130px; height: 57px;
+	font-size:9px; color:#FFFFFF;}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+フッター
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#footer{
+    height:25px; margin:10px 0px 5px 0px; padding:0px;
+    background-image: url(../img/grand/foot.gif);
+	background-repeat: no-repeat; clear:both;}
+
+#footer h3{
+	margin:0px; padding:0px;
+	text-indent: -9999px; overflow: hidden;}
+	
+#copy { 
+    text-align: right;
+	font-size:85%;
+	padding:5px 0 10px 0;
+	letter-spacing:0.1em;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+フラッシュ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#global {
+    position: relative;
+	width:950px;
+	clear:both;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+}
+
+#global #fla { position: absolute; top: 0px; left: 0px; }
+
+
+
+
+
+
+
+
+		

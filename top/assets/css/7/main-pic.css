@@ -1,0 +1,130 @@
+.top-slide-container {
+  margin-bottom: 0;
+
+}
+
+.top-slide-container .top-wave
+{
+  top: -33px;
+  position: relative;
+  z-index: 1;
+}
+
+.top-slide-list
+{
+  padding-bottom: 28px;
+}
+
+.top-slide-item {
+  width: 100%;
+  }
+
+.top-slide-item img {
+  width: 100%;
+  height: auto; }
+
+.top-pager-list {
+  text-align: center; }
+
+.top-pager-item {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #808080;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3px;
+  margin-top: -3px;
+  }
+
+.slick-active .top-pager-item {
+  background: #fff;
+}
+
+.slick-dots {
+  list-style: none;
+  height: 6px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  }
+
+.slick-dots > li {
+  display: inline-block;
+  margin-right: 9px;
+  vertical-align: top;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  }
+
+.slick-dots > li:last-child {
+  margin-right: 0; }
+
+@media screen and (min-width: 641px) {
+  .slick-dots {
+    height: 12px;
+    margin-top: 22px; }
+  .slick-dots > li {
+    margin-right: 12px; }
+  .top-pager-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: -4px;
+    margin-top: -4px;
+    } }
+
+@media screen and (min-width: 768px) {
+  .top-slide-container {
+    margin-bottom: 0;
+    background: #fff;
+    position: relative;
+    }
+  .top-slide-list {
+    position: relative;
+    padding: 0;
+    }
+  .slick-dots {
+    position: absolute;
+    left: 0;
+    /*bottom: 30px;*/
+    display: block !important;
+    width: 100%;
+    }
+  .slick-dots li {
+    margin-right: 4px;
+    border-radius: 50%;
+    }
+  .slick-dots .slick-active{
+     width: 16px;
+     height: 16px;
+  }
+  }
+
+@media screen and (min-width: 980px) {
+  .top-slide-container {
+    margin-bottom: 0;
+    }
+  .slick-dots {
+    left: 0;
+    bottom: -27px;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+  .top-slide-container {
+    margin-bottom: 0;
+    } }

@@ -1,0 +1,216 @@
+.top-shop-title {
+  margin-bottom: 6px;
+  border: none; }
+
+.top-map-container {
+  padding-bottom: 12px;
+  margin-bottom: 0;
+  background: #f5f5f5;
+  border-bottom: 1px solid #fff;
+  }
+
+.top-map-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+#top-shop-information-container:after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top-map-inner {
+  background-color: #f5f5f5; }
+
+.top-map-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.top-map-title {
+  margin-bottom: 11px;
+  padding-top: 13px;
+  }
+
+.top-map {
+  margin: 0 14px 9px;
+  height: 291px;
+  position: relative;
+  }
+
+.top-map > div
+{
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
+
+.top-map img {
+  width: 100%; }
+
+.top-shoplist-btn {
+  margin-bottom: 4px; }
+
+.top-hear-btn {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .top-shoplist-btn {
+    float: left;
+    width: 48.2%;
+    padding-left: 14px;
+    padding-right: 14px;
+    }
+  .top-hear-btn {
+    float: right;
+    width: 50%;
+    padding-right: 14px;
+    display: block; }
+  .top-shoplist-btn {
+    width: 100%;
+    }
+  .top-shoplist-btn a, .top-hear-btn a {
+    padding: 0;
+    margin: 0;
+    border-width: 1px; }
+  .top-hear-btn a {
+    background: url(../../images/5/top-icon-hear.png) no-repeat 10px center;
+    background-color: #fff;
+    background-size: 12px 16px;
+    letter-spacing: 0em;
+    padding-left: 19px; } }
+
+@media screen and (min-width: 768px) {
+  .top-shop-title {
+    margin-bottom: 5px;
+    letter-spacing: 0.2em;
+    }
+  .top-map-container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }
+  .top-map-title {
+    margin-bottom: 20px;
+    padding-top: 35px;
+    font-size: 19px;
+    }
+  .top-map {
+    overflow: hidden;
+    height: 408px;
+    margin: 0 21px 31px;
+    }
+  .top-shoplist-btn {
+    padding-bottom: 25px;
+    } 
+  .top-shoplist-btn a 
+  {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-shop-title {
+    padding-bottom: 26px;
+    background: #fff;
+    letter-spacing: 0.1em;
+    }
+  .top-map {
+    height: 527px;
+    margin-bottom: 43px;
+    }
+  .top-map-container {
+    margin-bottom: 0;
+    border-bottom: 2px solid #fff;
+    } 
+  .top-map-title {
+       padding-top: 36px;
+       margin-bottom: 16px;
+       letter-spacing: 0.17em;
+  }
+  .top-shoplist-btn {
+    padding-bottom: 44px;
+  }
+  .top-shoplist-btn a{
+    width: 278px;
+  }
+
+  #top-shop-information-container{
+  background: #f5f5f5;
+  margin-bottom: 6px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .top-map {
+    padding: 7px 30px 0;
+    height: 639px;
+    margin: 0 30px 36px;
+    } 
+  
+  .top-shop-title {
+    padding-bottom: 39px;
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+  }
+
+  .top-map-inner {
+    
+  }
+
+  .top-map-container {
+    float: right;
+    width: 50%;
+    padding-bottom: 39px;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+
+  .top-map-title {
+    padding-top: 45px;
+    margin-bottom: 33px;
+    text-align: left;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    color: #333333;
+  }
+
+  .top-shoplist-btn a {
+    float: right;
+    margin-right: 32px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .top-map {
+    height: 634px;
+    margin-bottom: 37px;
+    padding: 0;
+    margin: 0 30px 37px;
+    }
+  .top-shoplist-btn {
+    margin-bottom: 28px;
+    }
+  .top-shoplist-btn a {
+    width: 354px;
+    }
+  .top-shop-title {
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 11px;
+    } 
+  .top-map-title {
+    padding-top: 35px;
+    margin-bottom: 33px;
+  }
+  .top-map-container {
+  padding-bottom: 20px;
+  }
+  #top-shop-information-container {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+.slide-inner-wrap {
+	position: relative;
+	overflow: hidden;
+	height: 374px;
+	width: 980px;
+	margin: 0 auto;
+}
+.slide-area li{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.prev,
+.next {
+	z-index: 1;
+	cursor: pointer;
+}

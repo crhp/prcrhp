@@ -1,0 +1,28 @@
+/*
+color variation1
+key color : #a4a4a4;
+*/
+
+#blog-fixed-btn {
+  background-color: #a4a4a4;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/2/slide/thumb-item-nav-cover-val3_p.png);
+  background-size: cover;
+}
+#staff-blog h3 {
+  background-color: #a4a4a4;
+}
+#staff-blog {
+  border-color: #a4a4a4;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #a4a4a4;
+}
+#staff-blog .blog-more-btn {
+  background-color: #a4a4a4;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

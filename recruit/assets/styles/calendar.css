@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*common*/
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background-color: #fff;
+  font-family: 'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  color: #333333;
+}
+img {
+  vertical-align: top;
+}
+.content {
+  line-height: normal;
+}
+
+.anc h1 {
+  text-align: center;
+  color: #ff6e01;
+  font-size: 32px;
+  font-weight: bold;
+}
+.anc li {
+  text-align: center;
+  background-color: #d5d5d5;
+  float: left;
+}
+.anc li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+.anc li a:hover {
+  background-color: #e2e2e2;
+}
+.calendar {
+  text-align: center;
+  width: 980px;
+  margin: 80px auto 0;
+}
+.calendar h1 {
+  color: #ff6e01;
+  font-size: 32px;
+  font-weight: bold;
+}
+.calendar .inner-wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+.calendar .label {
+  color: #fff;
+  font-size: 22px;
+  background-color: #adadad;
+  padding: 15px;
+  margin: 24px 0 41px 0;
+}
+
+/*box*/
+
+.calendar h2 {
+  color: #ff6e01;
+  font-weight: bold;
+  text-align: center;
+}
+.calendar .box ul {
+  border: 1px solid #adadad;
+}
+.calendar .box li {
+  float: left;
+  display: table;
+}
+.calendar .box li span {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.calendar .box .month {
+  color: #fff;
+}
+.calendar .box.type1 .month {
+  background-color: #adadad;
+}
+.calendar .box.type2 .month {
+  width: 0;
+  height: 0;
+}
+.calendar .box .text {
+  color: #ff6e01;
+}
+.calendar .box:after {
+  margin: 24px 0;
+  content: " ";
+  display: inline-block;
+  width: 42px;
+  height: 10px;
+  background: url(../images/recruit-adoption_calendar/arrow.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+.calendar .box.ast-child {
+  background-color: #adadad;
+  color: #fff;
+}
+#conversion {
+  display: none;
+}
+
+/*pcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpc*/
+
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .anc {
+    margin-top: 66px;
+    letter-spacing: 4px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-adoption_calendar/arrow_s.png) no-repeat 95% center;
+  }
+  /*box*/
+  .calendar h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 40px 0;
+  }
+  .calendar .box li {
+    height: 100px;
+  }
+  .calendar .box .month {
+    font-size: 16px;
+  }
+  .calendar .box.type1 .month {
+    width: 160px;
+  }
+  .calendar .box .text {
+    font-size: 22px;
+  }
+  .calendar .box.type1 .text {
+    width: 388px;
+  }
+  .calendar .box.type2 .text {
+    width: 698px;
+  }
+  .calendar .box:after {
+    margin: 25px 0;
+    content: " ";
+    display: inline-block;
+    width: 42px;
+    height: 10px;
+    background: url(../images/recruit-adoption_calendar/arrow.png);
+    background-size: contain;
+    vertical-align: middle;
+  }
+}
+
+/*PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2PC2*/
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .section {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .anc {
+    margin-top: 66px;
+    letter-spacing: 4px;
+  }
+  .anc ul {
+    width: 980px;
+    margin-top: 22px;
+  }
+  .anc li {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-adoption_calendar/arrow.png) no-repeat 95% center;
+  }
+  /*box*/
+  .calendar h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 40px 0;
+  }
+  .calendar .box li {
+    height: 100px;
+  }
+  .calendar .box .month {
+    font-size: 16px;
+  }
+  .calendar .box.type1 .month {
+    width: 160px;
+  }
+  .calendar .box .text {
+    font-size: 22px;
+  }
+  .calendar .box.type1 .text {
+    width: 388px;
+  }
+  .calendar .box.type2 .text {
+    width: 698px;
+  }
+  .calendar .box:after {
+    margin: 24px 0;
+    content: " ";
+    display: inline-block;
+    width: 42px;
+    height: 10px;
+    background: url(../images/recruit-adoption_calendar/arrow.png);
+    background-size: contain;
+    vertical-align: middle;
+  }
+}
+
+/*TABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTABTAB*/
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section {
+    width: auto;
+    margin: 0 2.6041666%;
+  }
+  .anc {
+    margin-top: 9%;
+    letter-spacing: 2.8px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1.2%;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-adoption_calendar/arrow_s.png) no-repeat 95% center;
+  }
+  /*box*/
+  .calendar {
+    width: auto;
+  }
+  .calendar h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #d3d3d3;
+    padding: 0 0 6px 0;
+    margin: 0 0 6.9% 0;
+  }
+  .calendar .label {
+    margin: 34px 0 41px 0;
+  }
+  .calendar .label {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  .calendar .box li {
+    height: 100px;
+  }
+  .calendar .box .month {
+    font-size: 16px;
+  }
+  .calendar .box.type1 .month {
+    width: 160px;
+  }
+  .calendar .box .text {
+    font-size: 24px;
+  }
+  .calendar .box.type1 .text {
+    width: 388px;
+  }
+  .calendar .box.type2 .text {
+    width: 698px;
+  }
+  .calendar .box:after {
+    margin: 24px 0;
+    content: " ";
+    display: inline-block;
+    width: 42px;
+    height: 10px;
+    background: url(../images/recruit-adoption_calendar/arrow.png);
+    background-size: contain;
+    vertical-align: middle;
+  }
+}
+
+/*SPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSPSP*/
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: auto;
+    margin: 0 3.90625%;
+  }
+  .anc {
+    margin-top: 6.4%;
+    letter-spacing: 2.8px;
+  }
+  .anc h1 {
+    font-size: 18px;
+  }
+  .anc ul {
+    width: auto;
+    margin-top: 4.6%;
+  }
+  .anc li {
+    width: 49.4%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 1.2%;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+  .anc li:first-child {
+    margin-left: 0;
+  }
+  .anc li a {
+    background: url(../images/recruit-adoption_calendar/arrow_s.png) no-repeat 95% center;
+    -moz-background-size: 4px auto;
+    background-size: 4px auto;
+  }
+  /*box*/
+  .calendar {
+    text-align: center;
+    width: auto;
+    margin: 6% 3.90625% 0;
+  }
+  .calendar h2 {
+    color: #ff6e01;
+    font-weight: bold;
+    text-align: center;
+  }
+  .calendar .inner-wrap {
+    width: auto;
+  }
+  .calendar .label {
+    font-size: 15px;
+    padding: 10px;
+    margin: 4% 0 4.3% 0;
+  }
+  .calendar .box li {
+    height: 58px;
+  }
+  .calendar .box .month {
+    font-size: 11px;
+  }
+  .calendar .box.type1 .month {
+    width: 20%;
+  }
+  .calendar .box .text {
+    font-size: 12px;
+  }
+  .calendar .box.type1 .text {
+    width: 70%;
+  }
+  .calendar .box.type2 .text {
+    width: 100%;
+    /*text-align: center;*/
+  }
+  .calendar .box:after {
+    margin: 9px 0;
+    content: " ";
+    display: inline-block;
+    width: 21px;
+    height: 5px;
+    background: url(../images/recruit-adoption_calendar/arrow.png);
+    background-size: contain;
+    vertical-align: middle;
+  }
+}

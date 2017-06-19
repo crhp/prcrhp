@@ -1,0 +1,123 @@
+.movie-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.movie-wrap iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media screen and (min-width: 1024px) {
+  .movie {
+    margin: 37px auto 80px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .movie {
+    margin: 5% auto 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .movie {
+    margin: 5% auto;
+  }
+}
+
+/**************/
+
+
+/**************/
+
+
+/* youtube360 */
+
+.youtube360--rabel {
+  text-align: center;
+  line-height: 1;
+  padding: 10px 0;
+  background-color: #adadad;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+.youtube360--rabel .youtube360--rabel__pctxt {
+  margin-left: 10px;
+}
+.youtube360--rabel .youtube360--rabel__sptxt {
+  display: none;
+}
+.annotation_360 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 37px;
+  margin-bottom: -30px;
+}
+@media screen and (min-width: 1024px) {
+  .movie.mb0 {
+    margin-bottom: 0;
+  }
+}
+
+/* tab */
+
+@media screen and (max-width: 1023px) {
+  .youtube360--rabel {
+    padding: 10px;
+  }
+  .youtube360--rabel .youtube360--rabel__pctxt {
+    display: none;
+  }
+  .youtube360--rabel .youtube360--rabel__sptxt {
+    display: inline;
+    margin-left: 10px;
+  }
+  .youtube360--rabel .youtube360--rabel__txt {
+    display: inline;
+    margin-left: 10px;
+  }
+  .annotation_360 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: -3.7%;
+    margin-top: 5%;
+  }
+}
+
+/* sp */
+
+@media screen and (max-width: 767px) {
+  .youtube360--rabel {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .youtube360--rabel img {
+    width: auto;
+    height: 15px;
+    margin: 2px 0 0 0;
+  }
+  .youtube360--rabel .youtube360--rabel__pctxt {
+    display: none;
+  }
+  .youtube360--rabel .youtube360--rabel__sptxt {
+    display: inline;
+    margin-left: 5px;
+    line-height: 1.2;
+  }
+  .youtube360--rabel .youtube360--rabel__txt {
+    display: inline;
+    margin-left: 5px;
+    line-height: 1.2;
+  }
+  .annotation_360 {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-bottom: -4%;
+    margin-top: 5%;
+  }
+}

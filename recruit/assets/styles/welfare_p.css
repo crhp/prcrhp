@@ -1,0 +1,12 @@
+.benefit h1 {
+    color: #118175;
+}
+.table tbody {
+    border: 1px solid #118175;
+}
+.table tr th {
+    background-color: #118175;
+}
+.table tr td {
+    border: 1px solid #118175;
+}

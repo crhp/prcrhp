@@ -1,0 +1,58 @@
+.choice-car-panel li.choice-car-panel-active {
+  position: relative;
+  z-index: 1;
+  border-color: #118175;
+}
+li.choice-car-panel-active {
+  border-color: #118175;
+}
+li.choice-car-panel-active > a {
+  color: #118175;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 15px;
+  color: #118175;
+  border-bottom: 2px solid #d5d5d5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.sell-car-test {
+  background-color: #fff;
+  color: #118175;
+  display: inline-block;
+  font-size: 10px;
+  padding: 3px 5px;
+}
+.detail-btn a {
+  display: block;
+  color: #fff;
+  background-color: #118175;
+  text-align: center;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.btn_more a{
+  background-color: #118175;
+}
+@media screen and (min-width: 768px) {
+  .choice-car-panel li.current {
+    border: 2px solid #118175;
+  }
+}
+
+/* choice-car-panel */
+
+@media screen and (min-width: 1024px) {
+  .choice-car-panel li:nth-child(-n+4) {
+    margin-bottom: 0;
+  }
+  .choice-car-panel li:nth-child(n+5) {
+    margin-top: -3px;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+}

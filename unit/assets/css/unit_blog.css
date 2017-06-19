@@ -1,0 +1,188 @@
+@charset "UTF-8";
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+.unit-blog .unit-blog-left, .unit-blog .unit-blog-right {
+  float: left;
+}
+.unit-blog.no-pic .unit-blog-left, .unit-blog.no-pic .unit-blog-right {
+  float: none;
+}
+.unit-blog .unit-blog-title {
+  font-weight: bold;
+}
+.unit-blog .unit-blog-pic img {
+  width: 100%;
+  height: auto;
+}
+
+/*複数画像*/
+
+.unit-blog.plurality-pic .unit-blog-left, .unit-blog.plurality-pic .unit-blog-right {
+  float: none;
+}
+.unit-blog.plurality-pic .unit-blog-text-block {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  /*複数画像*/
+  .unit-blog.plurality-pic .unit-blog-left, .unit-blog.plurality-pic .unit-blog-right {
+    float: none;
+  }
+  .unit-blog.plurality-pic .unit-blog-text-block {
+    width: 100%;
+  }
+  .unit-blog.plurality-pic .unit-blog-right {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic {
+    width: 980px;
+    text-align: center;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic {
+    float: left;
+    width: 460px;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic:first-child {
+    margin-right: 60px;
+  }
+  .unit-blog {
+    width: 980px;
+    margin: 0 auto 100px;
+  }
+  .unit-blog .unit-blog-right {
+    margin-left: 60px;
+  }
+  .unit-blog .unit-blog-text-block {
+    width: 460px;
+  }
+  .unit-blog.no-pic .unit-blog-text-block {
+    width: 100%;
+  }
+  .unit-blog .unit-blog-title {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    margin-top: -4px;
+  }
+  .unit-blog .unit-blog-text {
+    font-size: 16px;
+    margin-top: 15px;
+    letter-spacing: 2.4px;
+    line-height: 1.9;
+  }
+  .unit-blog .unit-blog-pic {
+    width: 460px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .unit-blog {
+    width: auto;
+    margin: 0 2.6041666% 100px;
+  }
+  .unit-blog .unit-blog-right {
+    margin-left: 6.8493152%;
+  }
+  .unit-blog .unit-blog-text-block {
+    width: 46.5753424%;
+  }
+  .unit-blog.no-pic .unit-blog-text-block {
+    width: 100%;
+  }
+  .unit-blog .unit-blog-title {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    margin-top: -4px;
+  }
+  .unit-blog .unit-blog-text {
+    font-size: 16px;
+    margin-top: 2%;
+    letter-spacing: 2.9px;
+    line-height: 1.9;
+  }
+  .unit-blog .unit-blog-pic {
+    width: 46.5753424%;
+  }
+  /*複数画像*/
+  .unit-blog.plurality-pic .unit-blog-left, .unit-blog.plurality-pic .unit-blog-right {
+    float: none;
+  }
+  .unit-blog.plurality-pic .unit-blog-text-block {
+    width: 100%;
+  }
+  .unit-blog.plurality-pic .unit-blog-right {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic {
+    width: auto;
+    text-align: center;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic {
+    float: left;
+    width: 46.7032967%;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic:first-child {
+    margin-right: 6.5934065%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .unit-blog .unit-blog-left, .unit-blog .unit-blog-right {
+    float: none;
+  }
+  .unit-blog {
+    width: auto;
+    margin: 0 3.90625% 50px;
+  }
+  .unit-blog .unit-blog-text-block {
+    width: auto;
+  }
+  .unit-blog .unit-blog-title {
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    margin-top: 5%;
+  }
+  .unit-blog .unit-blog-text {
+    font-size: 14px;
+    margin-top: 3%;
+    letter-spacing: 0;
+    line-height: 1.8;
+  }
+  .unit-blog .unit-blog-pic {
+    width: 78%;
+    margin: 8% auto 0;
+  }
+  /*複数画像*/
+  .unit-blog.plurality-pic .unit-blog-left, .unit-blog.plurality-pic .unit-blog-right {
+    float: none;
+  }
+  .unit-blog.plurality-pic .unit-blog-text-block {
+    width: 100%;
+  }
+  .unit-blog.plurality-pic .unit-blog-right {
+    margin-top: 8%;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic {
+    width: auto;
+    text-align: center;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic {
+    float: none;
+    width: 78%;
+    margin: 0 auto;
+  }
+  .unit-blog.plurality-pic .unit-blog-pic .pic:first-child {
+    margin-bottom: 6%;
+  }
+}

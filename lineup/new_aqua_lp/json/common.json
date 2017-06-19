@@ -1,0 +1,293 @@
+﻿{
+    "date": "yyyymmddhhmm",
+    "channel": "null",
+    "h_code": "00000",
+    "h_ga1": "null",
+    "h_ga2": "null",
+    "h_name": "トヨタカローラ群馬",
+    "c_name": "aqua",
+    "w_type": "false",
+    "h_logo": "false",
+    "cp_type": "true",
+    "b_plan": "true",
+    "b_select": {
+        "p_zanka": "1",
+        "p_kanzen": "1"
+    },
+    "cv": {
+        "catalog": {
+        	"btn": "true",
+        	"event_header_pc": "ga('send', 'event','c_name','header_catalog', 'pc_ヘッダーリンク_カタログ",
+        	"event_header_sp": "ga('send', 'event','c_name','header_catalog', 'sp_ヘッダーリンク_カタログ",
+        	"event_contents_pc": "ga('send', 'event','c_name','contents_catalog', 'pc_コンテンツリンク_カタログ",
+        	"event_contents_sp": "ga('send', 'event','c_name','contents_catalog', 'sp_コンテンツリンク_カタログ",
+        	"event_footer_pc": "ga('send', 'event','c_name','footer_catalog', 'pc_フッターリンク_カタログ",
+        	"event_footer_sp": "ga('send', 'event','c_name','footer_catalog', 'sp_フッターリンク_カタログ",
+        	"url": "http://dummy.jp",
+        	"url_sp": "null"
+        },
+        "store": {
+        	"btn": "true",
+        	"event_header_pc": "ga('send', 'event','c_name','header_store', 'pc_ヘッダーリンク_店舗検索",
+        	"event_header_sp": "ga('send', 'event','c_name','header_store', 'sp_ヘッダーリンク_店舗検索",
+        	"event_contents_pc": "ga('send', 'event','c_name','contents_store', 'pc_コンテンツリンク_店舗検索",
+        	"event_contents_sp": "ga('send', 'event','c_name','contents_store', 'sp_コンテンツリンク_店舗検索",
+        	"event_footer_pc": "ga('send', 'event','c_name','footer_store', 'pc_フッターリンク_店舗検索",
+        	"event_footer_sp": "ga('send', 'event','c_name','footer_store', 'sp_フッターリンク_店舗検索",
+        	"url": "http://dummy.jp",
+        	"url_sp": "null"
+        },
+        "shodan": {
+        	"btn": "true",
+        	"event_header_pc": "ga('send', 'event','c_name','header_shodan', 'pc_ヘッダーリンク_商談予約",
+        	"event_header_sp": "ga('send', 'event','c_name','header_shodan', 'sp_ヘッダーリンク_商談予約",
+        	"event_contents_pc": "ga('send', 'event','c_name','contents_shodan', 'pc_コンテンツリンク_商談予約",
+        	"event_contents_sp": "ga('send', 'event','c_name','contents_shodan', 'sp_コンテンツリンク_商談予約",
+        	"event_footer_pc": "ga('send', 'event','c_name','footer_shodan', 'pc_フッターリンク_商談予約",
+        	"event_footer_sp": "ga('send', 'event','c_name','footer_shodan', 'sp_フッターリンク_商談予約",
+        	"url": "http://dummy.jp",
+        	"url_sp": "null"
+        },
+        "try": {
+        	"btn": "true",
+        	"event_header_pc": "ga('send', 'event','c_name','header_try', 'pc_ヘッダーリンク_試乗",
+        	"event_header_sp": "ga('send', 'event','c_name','header_try', 'sp_ヘッダーリンク_試乗",
+        	"event_contents_pc": "ga('send', 'event','c_name','contents_try', 'pc_コンテンツリンク_試乗",
+        	"event_contents_sp": "ga('send', 'event','c_name','contents_try', 'sp_コンテンツリンク_試乗",
+        	"event_footer_pc": "ga('send', 'event','c_name','footer_try', 'pc_フッターリンク_試乗",
+        	"event_footer_sp": "ga('send', 'event','c_name','footer_try', 'sp_フッターリンク_試乗",
+        	"url": "http://dummy.jp",
+        	"url_sp": "null"
+        },
+        "online": {
+        	"btn": "ture",
+        	"event_header_pc": "ga('send', 'event','c_name','header_online', 'pc_ヘッダーリンク_見積り",
+        	"event_header_sp": "ga('send', 'event','c_name','header_online', 'sp_ヘッダーリンク_見積り",
+        	"event_contents_pc": "ga('send', 'event','c_name','contents_online', 'pc_コンテンツリンク_見積り",
+        	"event_contents_sp": "ga('send', 'event','c_name','contents_online', 'sp_コンテンツリンク_見積り",
+        	"event_footer_pc": "ga('send', 'event','c_name','footer_online', 'pc_フッターリンク_見積り",
+        	"event_footer_sp": "ga('send', 'event','c_name','footer_online', 'sp_フッターリンク_見積り",
+	        "url": "http://dummy.jp",
+        	"url_sp": "null"
+	    }
+    },
+    "h_url": "http://dummy.jp",
+    "h_tag": "false",
+    "cp": {
+        "cp_name1": "true",
+        "cp_name2": "(ダミー)試乗キャンペーン",
+        "cp_detail1": "true",
+        "cp_detail2": "(ダミー)試乗された方には素敵なプレゼントを差し上げます。",
+        "cp_caution1": "true",
+        "cp_caution2": ["(ダミー)注釈テキスト"],
+        "cp_img": {
+            "num": "1",
+            "cp_list0": "true",
+            "cp_list1": "false",
+            "cp_list2": "false",
+            "cp_list3": "false",
+            "cp_list4": "false",
+            "cp_list5": "false",
+            "cp_list6": "false",
+            "cp_list7": "false",
+            "cp_list8": "false",
+            "cp_list9": "false",
+            "cp_list10": "false",
+            "cp_list11": "false",
+            "cp_list12": "false",
+            "cp_list13": "false",
+            "cp_list14": "false",
+            "cp_list15": "false",
+            "cp_list16": "false",
+            "cp_list17": "false",
+            "cp_list18": "false"
+        }
+    },
+    "zanka1": {
+    	"copy": "(ダミー)スーパーバリュープラン",
+        "grade": "S",
+        "drive": "null",
+        "capacity": "null",
+        "engine": "null",
+        "payment": {
+            "total": "0,000,000",
+            "vehicle": "0,000,000",
+            "acce": "0",
+            "down": "000,000",
+            "principal": "0,000,000",
+            "pay_number": "00",
+            "pay_period": "0",
+            "rate": "0.0",
+            "f_price": "00,000",
+            "f_number": "0",
+            "f_month": "0",
+            "s_price": "00,000",
+            "s_number": "00",
+            "b_price": "000,000",
+            "b_number": "00",
+            "case1": "0",
+            "case2": "0",
+            "case3": "0,000,000",
+            "result1": "0,000,000",
+            "result2": "0,000,000"
+        },
+        "pay_caution": {
+        	"pay_caution1": "true",
+        	"pay_caution2": ["(ダミー)注釈テキスト"],
+        	"pay_caution3": "1"
+    	},
+        "order": "null",
+        "aera": "null"
+    },
+    "zanka2": {
+    	"copy": "(ダミー)スーパーバリュープラン",
+        "grade": "S",
+        "drive": "null",
+        "capacity": "null",
+        "engine": "null",
+        "payment": {
+            "total": "0,000,000",
+            "vehicle": "0,000,000",
+            "acce": "0",
+            "down": "000,000",
+            "principal": "0,000,000",
+            "pay_number": "00",
+            "pay_period": "0",
+            "rate": "0.0",
+            "f_price": "00,000",
+            "f_number": "0",
+            "f_month": "0",
+            "s_price": "00,000",
+            "s_number": "00",
+            "b_price": "000,000",
+            "b_number": "00",
+            "case1": "0",
+            "case2": "0",
+            "case3": "0,000,000",
+            "result1": "0,000,000",
+            "result2": "0,000,000"
+        },
+        "pay_caution": {
+        	"pay_caution1": "ture",
+        	"pay_caution2": ["(ダミー)注釈テキスト"],
+        	"pay_caution3": "1"
+    	},
+        "order": "null",
+        "aera": "null"
+    },
+    "kanzen1": {
+    	"copy": "(ダミー)スーパーバリュープラン",
+        "grade": "S",
+        "drive": "null",
+        "capacity": "null",
+        "engine": "null",
+        "payment": {
+            "total": "0,000,000",
+            "vehicle": "0,000,000",
+            "acce": "0",
+            "down": "000,000",
+            "principal": "0,000,000",
+            "pay_number": "00",
+            "pay_period": "0",
+            "rate": "0.0",
+            "f_price": "00,000",
+            "f_number": "0",
+            "f_month": "0",
+            "s_price": "00,000",
+            "s_number": "00",
+            "b_price": "000,000",
+            "b_number": "00",
+            "result1": "0,000,000"
+        },
+        "pay_caution": {
+        	"pay_caution1": "true",
+        	"pay_caution2": ["(ダミー)注釈テキスト"],
+        	"pay_caution3": "1"
+    	},
+        "order": "null",
+        "aera": "null"
+    },
+    "kanzen2": {
+    	"copy": "(ダミー)スーパーバリュープラン",
+        "grade": "S",
+        "drive": "null",
+        "capacity": "null",
+        "engine": "null",
+        "payment": {
+            "total": "0,000,000",
+            "vehicle": "0,000,000",
+            "acce": "0",
+            "down": "000,000",
+            "principal": "0,000,000",
+            "pay_number": "00",
+            "pay_period": "0",
+            "rate": "0.0",
+            "f_price": "00,000",
+            "f_number": "0",
+            "f_month": "0",
+            "s_price": "00,000",
+            "s_number": "00",
+            "b_price": "000,000",
+            "b_number": "00",
+            "result1": "0,000,000"
+        },
+        "pay_caution": {
+        	"pay_caution1": "true",
+        	"pay_caution2": ["(ダミー)注釈テキスト"],
+        	"pay_caution3": "1"
+    	},
+        "order": "null",
+        "aera": "null"
+    },
+    "staff": {
+    	"name": "null",
+    	"template": "true",
+    	"comment": [
+    		"null"
+		]
+    },
+    "shoparea": {
+    	"area1": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	},
+    	"area2": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	},
+    	"area3": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	},
+    	"area4": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	},
+    	"area5": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	},
+    	"area6": {
+    		"area_name": "null",
+    		"shop_name": [
+    			"null","null","null"
+    		]
+    	}
+    },
+    "tpoint": {
+    	"select": "1",
+    	"comment": [
+    		"null"
+    	]
+    }
+}

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.unit-panel * {
+    box-sizing: border-box;
+}
+
+.unit-panel-btn a {
+    text-decoration: none;
+}
+
+.unit-panel-title {
+    color: #ff6e01;
+    font-weight: bold;
+}
+
+.unit-panel {
+    color: #333333;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.unit-panel-c .unit-panel-title {
+    color: #000;
+}
+
+.unit-panel-btn {
+    background-color: #ff6e01;
+    display: table;
+    width: 100%;
+}
+
+.unit-panel-btn a {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+    line-height: 1.2;
+}
+
+.unit-panel .thumb img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.unit-panel-d-item {
+    overflow: hidden;
+}
+
+.unit-panel-d-item .thumb {
+    margin-top: 0;
+    width: 30%;
+    float: left;
+}
+
+.unit-panel-d-item .unit-panel-btn {
+    margin-top: 0;
+}
+
+.unit-panel-d-item .unit-panel-d-text-area {
+    width: 70%;
+    float: left;
+}
+
+.unit-panel-d-item .unit-panel-title {
+    margin-top: 0;
+    color: #000;
+}
+
+.unit-panel-d-text-area .unit-panel-text {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .unit-panel-a,
+    .unit-panel-b,
+    .unit-panel-c,
+    .unit-panel-d {
+        margin-bottom: 75px;
+    }
+    .unit-panel-c .thumb {
+        margin-top: 12px;
+    }
+    .unit-panel {
+        overflow: hidden;
+    }
+    .unit-panel-title {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 6px;
+    }
+    .unit-panel-b .unit-panel-title,
+    .unit-panel-c .unit-panel-title,
+    .unit-panel-d .unit-panel-title {
+        font-size: 12px;
+    }
+    .unit-panel-b .unit-panel-text,
+    .unit-panel-c .unit-panel-text,
+    .unit-panel-d .unit-panel-text {
+        font-size: 11px;
+    }
+    .unit-panel-d-text-area {
+        padding-left: 16px;
+    }
+    .unit-panel-text {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-top: 6px;
+    }
+    .unit-panel-btn {
+        margin-top: 12px;
+    }
+    .unit-panel-btn a {
+        padding: 10px 10px;
+    }
+    .unit-panel-a-item {
+        margin-top: 50px;
+    }
+    .unit-panel-a-item:first-child {
+        margin-top: 0;
+    }
+    .unit-panel-b-item {
+        box-sizing: border-box;
+        padding: 0 5px;
+        width: 50%;
+        float: left;
+        margin-bottom: 15px;
+    }
+    .unit-panel-b-item:nth-child(even) {
+        padding-right: 0;
+    }
+    .unit-panel-b-item:nth-child(odd) {
+        padding-left: 0;
+    }
+    .unit-panel-d-item .unit-panel-btn {
+        font-size: 11px;
+    }
+    .unit-panel-d-item {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .unit-panel {
+        overflow: hidden;
+    }
+    .unit-panel-a,
+    .unit-panel-b,
+    .unit-panel-c,
+    .unit-panel-d {
+        overflow: hidden;
+        margin-bottom: 65px;
+    }
+    .unit-panel-a,
+    .unit-panel-b,
+    .unit-panel-c {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .unit-panel-c {
+        padding: 0 20px;
+    }
+    .unit-panel-d {
+        margin-left: -18px;
+        margin-right: -18px;
+    }
+    .unit-panel-a .thumb {}
+    .unit-panel-title {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+    .unit-panel-text {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 24px;
+    }
+    .unit-panel-btn {
+        margin-top: 19px;
+    }
+    .unit-panel-btn a {
+        padding: 10px 10px;
+    }
+    .unit-panel-a-item,
+    .unit-panel-b-item {
+        box-sizing: border-box;
+        padding: 0 8px;
+        width: 33.3%;
+        float: left;
+    }
+    .unit-panel-c-item,
+    .unit-panel-d-item {
+        box-sizing: border-box;
+        padding: 0 8px;
+        width: 50%;
+        float: left;
+        margin-bottom: 15px;
+    }
+    .unit-panel-c-item .unit-panel-title {
+        margin-top: 0;
+    }
+    .unit-panel-c-item .thumb {
+        margin-top: 12px;
+    }
+    .unit-panel-d-item {
+        padding: 0 18px;
+    }
+    .unit-panel-d-item .unit-panel-d-text-area {
+        padding-left: 18px;
+    }
+    .unit-panel-d-item:first-child {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (max-width: 1023px) {}

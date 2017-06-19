@@ -1,0 +1,159 @@
+.tc-title-type-03-reg
+{
+  color: #80898e;
+  border-top-color: #80898e;
+}
+
+.tc-btn-a
+{
+  background-color: #80898e;
+}
+
+.top-date-item:after
+{
+  color: #80898e;
+}
+
+.top-date-item-time
+{
+  color: #80898e;
+}
+
+.top-column-left-title
+{
+  border-color: #80898e;
+  color: #80898e;
+}
+
+.slick-dots .slick-active
+{
+  background-color: #80898e;
+}
+
+.top-service-item-title
+{
+  color: #80898e;
+}
+
+.top-dial-wednesday:after, .top-dial-tuesday:after, .top-dial-number:after
+{
+  background-color: #80898e;
+}
+
+.top-news-date
+{
+  color: #80898e;
+}
+.top-dial-icon{
+  background-color: #80898e;  
+}
+.top-dial-normal
+{
+  color: #80898e;
+}
+
+.news-btn:after
+{
+  background-image:url(../../../images/3/valiation/3/top-arrow-right-icon.png);
+}
+
+#top-servicemenu-item-1 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-buy-btn-01-sp.png);
+}
+#top-servicemenu-item-2 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-buy-btn-02-sp.png);
+}
+#top-servicemenu-item-3 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-buy-btn-03-sp.png);
+}
+#top-servicemenu-item-4 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-buy-btn-04-sp.png);
+}
+#top-servicemenu-item-5 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-buy-btn-05-sp.png);
+}
+
+#top-servicemenu-item-6 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-maintenance-btn-01-sp.png);
+}
+#top-servicemenu-item-7 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-maintenance-btn-02-sp.png);
+}
+#top-servicemenu-item-8 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-maintenance-btn-03-sp.png);
+}
+#top-servicemenu-item-9 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-maintenance-btn-04-sp.png);
+}
+#top-servicemenu-item-10 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-maintenance-btn-05-sp.png);
+}
+
+#top-servicemenu-item-11 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-other-btn-01-sp.png);
+}
+#top-servicemenu-item-12 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-other-btn-02-sp.png);
+}
+#top-servicemenu-item-13 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-other-btn-03-sp.png);
+}
+#top-servicemenu-item-14 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-other-btn-04-sp.png);
+}
+#top-servicemenu-item-15 .top-servicemenu-item-pic {
+   background-image: url(../../../images/3/valiation/3/top-other-btn-05-sp.png);
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+   #top-servicemenu-item-1 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-buy-btn-01.png);
+   }
+   #top-servicemenu-item-2 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-buy-btn-02.png);
+   }
+   #top-servicemenu-item-3 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-buy-btn-03.png);
+   }
+   #top-servicemenu-item-4 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-buy-btn-04.png);
+   }
+   #top-servicemenu-item-5 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-buy-btn-05.png);
+   }
+
+   #top-servicemenu-item-6 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-maintenance-btn-01.png);
+   }
+   #top-servicemenu-item-7 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-maintenance-btn-02.png);
+   }
+   #top-servicemenu-item-8 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-maintenance-btn-03.png);
+   }
+   #top-servicemenu-item-9 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-maintenance-btn-04.png);
+   }
+   #top-servicemenu-item-10 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-maintenance-btn-05.png);
+   }
+
+   #top-servicemenu-item-11 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-other-btn-01.png);
+   }
+   #top-servicemenu-item-12 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-other-btn-02.png);
+   }
+   #top-servicemenu-item-13 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-other-btn-03.png);
+   }
+   #top-servicemenu-item-14 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-other-btn-04.png);
+   }
+   #top-servicemenu-item-15 .top-servicemenu-item-pic {
+      background-image: url(../../../images/3/valiation/3/top-other-btn-05.png);
+   }
+}

@@ -1,0 +1,60 @@
+/*
+color variation1
+key color : #ff6e01;
+*/
+
+#snav-fixed-sp {
+  background-color: #ff6e01;
+}
+#blog-fixed-btn {
+  background-color: #ff6e01;
+}
+.section h1 {
+  border-color: #ff6e01;
+  color: #ff6e01;
+}
+.section h2 {
+  border-color: #ff6e01;
+}
+#google-map .google-map-pc-link a {
+  border-color: #ff6e01;
+  color: #ff6e01;
+}
+#google-map .google-map-pc-link a:hover {
+  background-color: #ff6e01;
+}
+.sub-service li:before {
+  color: #ff6e01;
+}
+.slick-prev:before {
+  background: url(../../images/5/slide/store-image-prev-val1.png);
+  background-size: contain;
+}
+.slick-next:before {
+  background: url(../../images/5/slide/store-image-next-val1.png);
+  background-size: contain;
+}
+.thumb-item-nav .slick-current:after {
+  background: url(../../images/5/slide/thumb-item-nav-cover-val1.png);
+  background-size: cover;
+}
+#staff-blog {
+  border-color: #ff6e01;
+}
+#staff-blog h3 {
+  background-color: #ff6e01;
+}
+.blog-inner .blog-inner-left .blog-text a {
+  color: #ff6e01;
+}
+#staff-blog .blog-more-btn a {
+  color: #ff6e01;
+  border-color: #ff6e01;
+}
+#staff-blog .blog-more-btn a:hover {
+  background-color: #ff6e01;
+}
+@media screen and (min-width: 1280px) {}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {}
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+@media screen and (max-width: 767px) {}

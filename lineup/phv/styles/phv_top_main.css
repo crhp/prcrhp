@@ -1,0 +1,454 @@
+  /*top-main*/
+
+  .top-main {
+      /* background-color: #ddd; */
+      /* width: 1600px; */
+      /* margin: 0 auto; */
+  }
+  .top-main__slide {
+      float: left;
+      width: 62.5%;
+  }
+  .top-main__slide > div {
+      width: 100%;
+  }
+  .top-main__slide .slick-dots {
+      text-align: left;
+      bottom: 9px;
+  }
+  .top-main__slide .slick-dots li {
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      margin: 0 0 0 12px;
+  }
+  .top-main__slide .slick-dots li button:before {
+      /* margin: 0 10px 0 0; */
+      content: " ";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: url('../resources/images/slide/slide_peger_off.png');
+      background-size: contain;
+      vertical-align: middle;
+  }
+  .top-main__slide .slick-dots li.slick-active button:before {
+      background: url('../resources/images/slide/slide_peger_on.png');
+  }
+  .top-main__slide img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+  }
+  .top-main__textwrap {
+      float: left;
+      width: 37.5%;
+      /* height: 100%; */
+  }
+  .top-mileage {
+      width: auto;
+      background-color: #fff;
+      position: relative;
+  }
+  .top-mileage-inner {
+      width: 350px;
+      height: 410px;
+      margin: 0 auto;
+      /* padding: 7.2% 0 4.7% 0; */
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+  }
+  .top-mileage ul {
+      line-height: 1;
+  }
+  .top-mileage li {}
+  .top-mileage .notes {
+      margin: 7px 0 0 0;
+  }
+  .section .top-mileage .box_notes {
+      margin: 16px 0 0 0;
+      line-height: 1.5;
+      letter-spacing: -0.5px;
+      padding: 6px;
+      padding-left: 1.5em;
+      text-indent: -1em;
+  }
+  .section .top-mileage .box_notes.box2 {
+      margin: -1px 0 0 0
+  }
+  .top-price__link {
+      font-size: 18px;
+      background-color: #fff;
+      text-align: center;
+      margin: 30px 0 0 0;
+  }
+  .top-price__link a {
+      background: url('..//resources/images/slide/slide_btn_arrow.png') no-repeat 95% center;
+      background-size: 7px 12px;
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      background-color: #00a0d2;
+      width: 100%;
+      height: 100%;
+      padding: 8px 0;
+      transition: .2s;
+  }
+  .top-price__link a:hover {
+      opacity: .8;
+  }
+  /********************************************/
+  /* wrapper へ class="hide_plan" 付与の場合 */
+
+  .wrapper.hide_plan .top-mileage-inner {
+      height: 343px;
+  }
+  .wrapper.hide_plan .top-mileage .notes {
+      margin: 5px 0 0 0;
+  }
+  .wrapper.hide_plan .top-mileage .box_notes {
+      margin: 25px 0 0 0;
+  }
+  .wrapper.hide_plan .top-mileage .box_notes.box2 {
+      margin: -1px 0 0 0;
+  }
+  .wrapper.hide_plan .top-price__link {
+      display: none;
+  }
+  @media screen and (min-width: 1200px) {
+      .top-main {
+          background-color: #fff;
+          max-width: 1600px;
+          margin: 0 auto;
+      }
+      .top-main__textwrap {
+          opacity: 0;
+      }
+  }
+  /*tabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtabtab*/
+
+  @media screen and (max-width: 1199px) and (min-width: 740px) {
+      /*top-main*/
+      .top-main {
+          /* background-color: #f2f2f2; */
+      }
+      .top-main__slide {
+          float: none;
+          width: auto;
+      }
+      .top-main__slide img {
+          width: 100%;
+          height: auto;
+          vertical-align: top;
+      }
+      .top-main__slide .slick-dots {
+          text-align: left;
+          bottom: 9px;
+          margin-left: 17px;
+          width: auto;
+      }
+      .top-main__slide .slick-dots li {
+          width: 12px;
+          height: 12px;
+          padding: 0;
+          margin: 0 0 0 10px;
+      }
+      .top-main__textwrap {
+          float: none;
+          width: auto;
+      }
+      .top-mileage {
+          width: auto;
+          height: auto!important;
+          background-color: #fff;
+          padding: 0 0 27px 0;
+      }
+      .top-mileage-inner {
+          position: static;
+          width: auto;
+          height: auto;
+          margin: 0 auto;
+          padding: 14px 0 0 0;
+      }
+      .top-mileage .top-mileage__text {
+          width: 519px;
+          margin: 0 auto;
+      }
+      .section .top-mileage .notes {
+          margin: 12px 0 0 0;
+          text-align: center;
+      }
+      .section .top-mileage .box_notes_wrap {
+          width: 680px;
+          margin: 12px auto 0;
+      }
+      .section .top-mileage .box_notes {
+          width: 300px;
+          float: left;
+          margin: 0 0 0 0;
+          line-height: 1.5;
+          padding: 5px;
+          padding-left: 2em;
+          text-indent: -1em;
+      }
+      .section .top-mileage .box_notes.box2 {
+          width: 317px;
+          margin: 0 0 0 -1px;
+      }
+      .top-price__link {
+          font-size: 19px;
+          background-color: #00a0d2;
+          text-align: center;
+          padding: 0 0;
+          width: 320px;
+          float: none;
+          margin: 30px auto 0;
+      }
+      .top-price__link a {
+          background: url('..//resources/images/slide/slide_btn_arrow.png') no-repeat 95% center;
+          background-size: 7px 12px;
+          display: block;
+          color: #fff;
+          text-decoration: none;
+      }
+      /********************************************/
+      /* wrapper へ class="hide_plan" 付与の場合 */
+      .wrapper.hide_plan .top-main {
+          background-color: transparent;
+      }
+      .wrapper.hide_plan .top-mileage {
+          padding: 0 0 30px 0;
+      }
+      .wrapper.hide_plan .top-mileage .box_notes_wrap {
+          margin: 9px auto 0;
+      }
+      .wrapper.hide_plan .top-mileage-inner {
+          height: auto;
+      }
+      .wrapper.hide_plan .top-mileage .box_notes {
+          margin: 0;
+      }
+      .wrapper.hide_plan .top-mileage .box_notes.box2 {
+          margin: 0 0 0 -1px;
+      }
+  }
+  /*spspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspspsp*/
+
+  @media screen and (max-width: 739px) {
+      .top-main {
+          background-color: #fff;
+      }
+      .top-main__slide {
+          float: none;
+          width: auto;
+      }
+      .top-main__slide img {
+          width: 100%;
+          height: auto;
+          vertical-align: top;
+      }
+      .top-main__slide .slick-dots {
+          text-align: left;
+          bottom: 9px;
+          margin-left: 0;
+      }
+      .top-main__slide .slick-dots li {
+          width: 12px;
+          height: 12px;
+          padding: 0;
+          margin: 0 0 0 10px;
+      }
+      .top-main__textwrap {
+          float: none;
+          width: auto;
+          padding: 0 0 30px 0;
+      }
+      .top-mileage {
+          width: auto;
+          height: auto!important;
+          background-color: #fff;
+          padding: 0 15px;
+      }
+      .top-mileage-inner {
+          position: static;
+          width: auto;
+          height: auto;
+          margin: 0 auto;
+          padding: 14px 0 0 0;
+      }
+      .top-mileage .top-mileage__text {
+          width: auto;
+          margin: 0 auto;
+      }
+      .top-mileage .top-mileage__text img {
+          width: 100%;
+          height: auto;
+      }
+      .section .top-mileage .notes {
+          margin: 2px 0 0 0;
+          text-align: left;
+      }
+      .section .top-mileage .box_notes_wrap {
+          width: auto;
+          margin: 6px auto 0;
+      }
+      .section .top-mileage .box_notes {
+          width: auto;
+          float: none;
+          margin: 0 0 0 0;
+          line-height: 1.5;
+          padding: 1px 5px;
+          padding-left: 1.5em;
+          text-indent: -1em;
+      }
+      .section .top-mileage .box_notes.box2 {
+          width: auto;
+          margin: -1px 0 0 0;
+      }
+      .top-price__link {
+          font-size: 14px;
+          background-color: #00a0d2;
+          text-align: center;
+          padding: 0 0;
+          width: auto;
+          float: none;
+          margin: 30px auto 0;
+      }
+      .top-price__link a {
+          background: url('..//resources/images/slide/slide_btn_arrow.png') no-repeat 95% center;
+          background-size: 7px 12px;
+          display: block;
+          color: #fff;
+          text-decoration: none;
+      }
+      /********************************************/
+      /* wrapper へ class="hide_plan" 付与の場合 */
+      .wrapper.hide_plan .top-mileage-inner {
+          height: auto;
+      }
+      .wrapper.hide_plan .top-mileage-inner .box_notes_wrap {
+          margin: 3px 0 0 0;
+      }
+      .wrapper.hide_plan .top-mileage .box_notes {
+          margin: 0;
+      }
+  }
+  /******************modalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodalmodal******************/
+
+  .modal-wrapper {
+      position: fixed;
+      z-index: 500;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow-y: scroll;
+  }
+  .modal-wrapper .modal-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /*height: 100%;*/
+      height: 1100px;
+      opacity: .9;
+      background-color: #000;
+      filter: alpha(opacity=90);
+      -moz-opacity: .9;
+  }
+  .sub-block-box-modal-wrapper {
+      position: absolute;
+      z-index: 300;
+      top: 100px;
+      left: 50%;
+      margin-left: -490px;
+      text-align: center;
+  }
+  .button-prev {
+      position: absolute;
+      z-index: 10;
+      top: 46%;
+      left: 6%;
+  }
+  .button-next {
+      position: absolute;
+      z-index: 10;
+      top: 46%;
+      right: 6%;
+  }
+  .sub-block-box-modal-wrapper .button-close {
+      position: absolute;
+      top: -45px;
+      cursor: pointer;
+      right: 0;
+  }
+  .sub-block-box-modal {
+      position: static;
+      margin-top: 37px;
+      margin-left: -63px;
+  }
+  .sub-block-box-modal-inner {
+      position: relative;
+      top: 0;
+      left: 0;
+      min-width: 900px;
+      height: auto;
+  }
+  @media screen and (max-width: 1199px) and (min-width: 740px) {
+      .sub-block-box-modal-wrapper {
+          margin-left: -340px;
+      }
+      .modal-wrapper .modal-bg {
+          height: 110%;
+      }
+      .sub-block-box-modal-inner {
+          min-width: 680px;
+      }
+  }
+  @media screen and (max-width: 739px) {
+      .modal-wrapper .modal-bg {
+          height: 1300px;
+      }
+      .sub-block-box-modal-inner {
+          width: auto;
+          min-width: initial;
+          min-width: auto;
+          margin: 0 15px;
+      }
+      .sub-block-box-modal-wrapper {
+          margin: 0 auto;
+          left: auto;
+          right: auto;
+      }
+  }
+  /**********************IE対応*******************/
+
+  .ie-wrap .ie-main {
+      width: 900px;
+      margin: 50px auto;
+  }
+  @media screen and (max-width: 1199px) and (min-width: 740px) {
+      .ie-wrap .ie-main {
+          width: 680px;
+          margin: 20px auto;
+      }
+      .ie-wrap .ie-main img {
+          width: 100%;
+          height: auto;
+      }
+  }
+  @media screen and (max-width: 739px) {
+      .ie-wrap .ie-main {
+          width: auto;
+          margin: 15px auto;
+          padding: 0 15px;
+      }
+      .ie-wrap .ie-main img {
+          width: 100%;
+          height: auto;
+      }
+  }

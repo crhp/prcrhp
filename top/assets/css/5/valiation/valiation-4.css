@@ -1,0 +1,84 @@
+.tc-btn-a
+{
+  color: #c387be;
+  border-color: #c387be;
+}
+
+.tc-btn-b {
+  color: #c387be;
+  border-color: #c387be;
+}
+
+.tc-title-type-04
+{
+  color: #ff6e01;
+}
+
+.top-column-left-title strong
+{
+  color: #ff6e01;
+}
+
+.top-servicemenu-title
+{
+  color: #ff6e01;
+}
+
+.top-dial-number:after
+{
+  background-color: #ff6e01;
+}
+
+.top-service-item-pic
+{
+  border-top-color: #ff6e01;
+}
+
+.top-servicemenu-item-text
+{
+  color: #c387be;
+}
+
+.top-dial-normal
+{
+  color: #ff6e01;
+}
+
+.top-service-item-btn-a
+{
+  border-color: #c387be;
+  color: #c387be;
+}
+
+@media screen and (max-width: 768px) {
+  .top-calendar-nav-prev .tc-btn-b {
+      color: #c387be;
+      border: solid 2px #c387be;
+      background: url(../../../images/5/parts/top-arrow-left-icon-4.png) 5% center no-repeat;
+      background-size: 5px 8px;
+  }  
+  .top-calendar-nav-next .tc-btn-b {
+      color: #c387be;
+      border: solid 2px #c387be;
+  }  
+  .top-calendar-nav-next .tc-btn-b:after {
+      background: url(../../../images/5/parts/top-arrow-right-icon-4.png) 95% center no-repeat;
+      background-size: 5px 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-calendar-nav-prev a {
+    color: #c387be;
+    background: url(../../../images/5/parts/top-arrow-left-icon-4.png) 10% center no-repeat;
+    background-size: 5px 8px;
+  }
+  .top-calendar-nav-next a {
+    color: #c387be;
+    background: url(../../../images/5/parts/top-arrow-right-icon-4.png) 90% center no-repeat;
+    background-size: 5px 8px;
+  }
+  .top-calendar-nav {
+      border: solid 2px #c387be;
+  }  
+}
