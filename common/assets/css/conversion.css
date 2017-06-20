@@ -522,6 +522,7 @@
   }
   .conversion-4 .conversion-btns ul {
     width: 958px;
+    clear: both;
   }
   .conversion-4 .conversion-btns.btn_count_6 ul {
     width: 821px;
