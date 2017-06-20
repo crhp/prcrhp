@@ -45,7 +45,7 @@
   color: #73654b;
 }
 .top-dial-icon{
-  background-color: #73654b;  
+  background-color: #73654b;
 }
 .top-dial-normal
 {
@@ -173,4 +173,12 @@
 }
 .top-contents {
   background-color: #f8efdf;
+}
+
+
+.top-dial-normal.top-dial-number{
+  color: #73654b;
+}
+.top-dial-btn a{
+  background-color: #73654b;
 }

@@ -1,7 +1,7 @@
 var slick;
 $(document).ready(function() {
   new CRHP.ElementManager([{
-    breakpoint: "sp",
+ breakpoint: "sp",
     target: [".top-column-right", ".top-column-left"],
     order: [
       [
@@ -43,8 +43,10 @@ $(document).ready(function() {
         "#top-servicemenu-container"
       ],
       [
+        "#top-date-container",
         "#top-contact-container",
-        "top-date-container"
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -63,8 +65,10 @@ $(document).ready(function() {
         "#top-servicemenu-container"
       ],
       [
+        "#top-date-container",
         "#top-contact-container",
-        "top-date-container"
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-callendar-container",
@@ -88,14 +92,16 @@ $(document).ready(function() {
       ],
       [
         "#top-contact-container",
-        "top-date-container"
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-callendar-container",
-        ".top-contact-columns"
+        "#top-date-container"
       ],
       [
         "#top-shop-information-container",
+        "#top-contact-columns",
         "#top-car-container",
         "#top-related-container"
       ]
@@ -140,6 +146,15 @@ $(document).ready(function() {
     isAll:false
   });
 
+   var boxHeightAlign3 = new crhp.BoxHeightAlign($('#top-contact-columns'),{
+    isAll:false
+   });
+
+    var topContactColumns = $('#top-contact-columns');
+    var fixItem = $('.fixitem');
+    var topDateContainer = $('#top-date-container');
+
+
   var _terms = $("[data-term]");
   for(var i=0;i<_terms.length;i++){
     var _json = $(_terms[i]).data("term");
@@ -155,10 +170,36 @@ $(document).ready(function() {
    boxHeightAlign.init();
    boxHeightAlign2.init();
 
+      boxHeightAlign.init();
+   boxHeightAlign2.init();
+   fixContactCoulumns();
+
     $(window).resize(function(event) {
        boxHeightAlign.update();
        boxHeightAlign2.update();
+       fixContactCoulumns();
+
     });
+
+  function fixContactCoulumns() {
+        var sizeDetect = $('#size-detect').css('font-family').replace(/"/g,'');
+        if(CRHP.ElementManager.prototype.sort && sizeDetect.indexOf('pc-min') !== -1|| sizeDetect.indexOf('pc-large') !== -1 || sizeDetect.indexOf('tablet') !== -1){
+          $(topContactColumns).each(function() {
+            var maxHeight = 0;
+            $(topContactColumns).find(fixItem).each(function() {
+              if ($(this).height() > maxHeight) {
+                maxHeight = $(this).height();
+              }
+            });
+            $(topContactColumns).find(fixItem).height(maxHeight);
+            if(sizeDetect.indexOf('pc-large') !== -1) {
+              topDateContainer.height('auto');
+            }
+          });
+        } else {
+          $(topContactColumns).find(fixItem).height('auto');
+        }
+      }
 
   CRHP.blogListLines = {
     "pc-large": {title:2, content:2},

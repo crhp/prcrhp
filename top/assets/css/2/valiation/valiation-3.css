@@ -134,3 +134,8 @@
       background-image: url(../../../images/2/valiation/3/top-other-btn-05.png);
    }
 }
+
+
+.top-date-item:after,.top-dial-icon,.top-dial-btn a{
+   background-color: #14bf74;
+}

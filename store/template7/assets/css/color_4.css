@@ -32,3 +32,7 @@
 #section-calendar .calendar-inner .right-wrap .phone-number dl dt.main-tel {
     background-color: #dad42a;
 }
+
+.custom-color {
+    color: #dad42a;
+}

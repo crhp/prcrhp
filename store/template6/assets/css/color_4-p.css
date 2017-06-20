@@ -44,3 +44,7 @@
 #section-calendar .calendar-inner .right-wrap .business_hours dl dt:after{
     color: #0b453f;
 }
+
+.phone-number-label {
+    color: #0b453f;
+}

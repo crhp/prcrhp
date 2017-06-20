@@ -157,3 +157,11 @@
       background-image: url(../../../images/3/valiation/2/top-other-btn-05.png);
    }
 }
+
+
+.top-dial-icon,.top-dial-btn a{
+   background-color: #b5255b;
+}
+.top-dial-normal.top-dial-number{
+  color: #b5255b;
+}

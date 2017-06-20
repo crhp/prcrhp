@@ -73,7 +73,7 @@
     }
   .top-shoplist-btn a, .top-hear-btn a {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     border-width: 1px; }
   .top-hear-btn a {
     background: url(../../images/5/top-icon-hear.png) no-repeat 10px center;
@@ -164,7 +164,6 @@
     width: 50%;
     padding-bottom: 39px;
     border-bottom: none;
-    border-left: 1px solid #fff;
   }
 
   .top-map-title {
@@ -180,6 +179,10 @@
     float: right;
     margin-right: 32px;
     letter-spacing: 0;
+  }
+
+  #top-shop-information-container {
+    margin-bottom: 0;
   }
 }
 

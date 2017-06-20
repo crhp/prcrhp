@@ -45,7 +45,7 @@
   color: #80898e;
 }
 .top-dial-icon{
-  background-color: #80898e;  
+  background-color: #80898e;
 }
 .top-dial-normal
 {
@@ -156,4 +156,11 @@
    #top-servicemenu-item-15 .top-servicemenu-item-pic {
       background-image: url(../../../images/3/valiation/3/top-other-btn-05.png);
    }
+}
+
+.top-dial-icon,.top-dial-btn a{
+   background-color: #80898e;
+}
+.top-dial-normal.top-dial-number{
+  color: #80898e;
 }

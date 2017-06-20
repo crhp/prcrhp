@@ -12,12 +12,16 @@
 }
 
 #section-calendar .calendar-inner .right-wrap .phone-number div {
-    color: white;
-    background: linear-gradient(#ff6e01, #ff6e01);
 }
+
 #section-calendar .calendar-inner .right-wrap .business_hours dl dt {
     background-color: #ff6e01;
 }
+
 #section-calendar .calendar-inner .right-wrap .phone-number dl dt {
-    background-color: #ff6e01;
 }
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+    background-color: #ff6e01;
+    }
+

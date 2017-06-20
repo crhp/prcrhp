@@ -1,136 +1,214 @@
 @charset "UTF-8";
+
+/*営業時間*/
+
+.top-date-container {
+  background-color: #fff;
+  padding-top: 3px;
+  width: 100%;
+}
+.top-date-title.top-block-title {
+  letter-spacing: 0;
+}
+.top-date-list {
+  margin: 11px 0 17px 17px;
+}
 .top-date-container {
   margin-bottom: 22px;
-  }
-
+}
 .top-date-list {
   list-style: none;
-  margin: 11px 0 17px 33px;
-  }
-
+  margin: 11px 0 17px 19px;
+}
 .top-date-item {
-  position: relative;
   margin-bottom: 15px;
-  letter-spacing: .05em;
-  }
-
+  position: relative;
+}
 .top-date-item:after {
-  position: absolute;
-  top: 0px;
-  left: -16px;
+  background: #ff6e01;
+  border-radius: 2px;
   color: #231815;
   content: "";
   font-size: 13px;
-  width: 13px;
-  border-radius: 2px;
-  height: 13px;
-  background: #ff6e01;
-  }
-
+  height: 11px;
+  left: -13px;
+  position: absolute;
+  top: 2px;
+  width: 11px;
+}
 .top-date-item-label {
-  color: #000000;
-  font-size: 13px;
-  margin-bottom: 9px;
-  font-weight: bold;
-  }
-
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 11px;
+  padding-left: 3px;
+}
 .top-date-item-time {
-  letter-spacing: .1em;
-
-  }
-
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  margin-bottom: 15px;
+}
+.top-date-item.top-contact-container__icon--hide:after {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .top-date-container {
-    float: left;
-    width: 50%;
-    height: 100%;
     border-bottom: none;
-    margin-bottom: 0;
-    }
+    float: left;
+    margin-bottom: 8px;
+    /* margin-bottom: 0; */
+    padding: 30px 0 0 0;
+  }
   .top-date-title {
-    margin: 0 15px 15px;
-    }
+    margin: 0 10px 35px;
+  }
   .top-date-list {
-    margin-top: 0;
-    margin-left: 46px;
-    }
+    /* margin: 11px 0 17px 36px; */
+    margin: 0 10px 0;
+  }
   .top-date-item {
-    margin-bottom: 15px;
-    }
+    float: left;
+    letter-spacing: 0em;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 40%;
+  }
+  .top-date-item:nth-child(odd) {
+    margin-left: 6%;
+  }
+  .top-date-item:nth-child(even) {
+    margin-left: 11%;
+  }
   .top-date-item:after {
-    left: -20px;
-    top: 0px;
-    }
+    height: 13px;
+    left: -27px;
+    top: 3px;
+    width: 13px;
+  }
   .top-date-item-label {
     font-size: 16px;
-    margin-bottom: 4px;
-    }
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
   .top-date-item-time {
     font-size: 18px;
-    } }
-
+  }
+  .top-date-item-info {
+    font-size: 15px;
+    /* font-weight: bold; */
+    line-height: 21px;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 980px) {
   .top-date-container {
-    float: none;
-    width: auto;
-    height: auto;
-    margin-bottom: 0px;
-    padding-top: 7px;
+    float: left;
     padding-bottom: 15px;
-    }
+    padding-top: 7px;
+    width: 26%;
+  }
   .top-date-list {
-    margin-bottom: 0;
-    margin-left: 30px;
-    } 
+    margin: 11px 0 17px 16px;
+  }
   .top-date-item {
+    float: left;
+    letter-spacing: -.1em;
     margin-bottom: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .top-date-item:after {
+    left: -15px;
   }
   .top-date-title {
-  margin-left: 10px;
-  padding-left: 0;
-  margin-bottom: 18px;
+    margin: 0 0 18px 0;
+    padding-left: 0;
   }
-
   .top-date-item-label {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 4px;
   }
-
   .top-date-item-time {
     font-size: 16px;
   }
+  .top-date-item-info {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .top-date-item:nth-child(odd) {
+    margin-left: 0;
+  }
+  .top-date-item:nth-child(even) {
+    margin-left: 0;
+  }
 }
-
 @media screen and (min-width: 1366px) {
   .top-date-container {
     padding-bottom: 16px;
     padding-top: 10px;
-    } 
+  }
   .top-date-item:after {
-    left: -23px;
+    left: -14px;
   }
   .top-date-item {
-    margin-bottom: 11px;
+    margin-bottom: 8px;
   }
-}
-
-@media screen and (min-width: 1680px) {
-  .top-date-container {
-    padding-bottom: 21px;
-    padding-left: 0;
-    padding: 10px 20px 0px;
-    margin-bottom: 0;
-    } 
-  .top-date-list {
-  margin-left: 35px;
+  .top-date-item-time {
+    margin: 0 0 10px 0;
   }
-  .top-date-title {
-    margin-bottom: 24px;
+  .top-date-title.top-block-title {
     font-size: 18px;
   }
+}
+@media screen and (min-width: 1680px) {
+  .top-date-container {
+    margin-bottom: 9px;
+    width: 100%;
+    /* padding: 10px 10px 0 */
+  }
+  .top-date-list {
+    /* margin-left: 25px; */
+    margin: 0 auto;
+  }
+  .top-date-title {
+    font-size: 17px;
+    margin: 0;
+  }
   .top-date-item-label {
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin: 0;
+    /* left: -10px; */
+    padding: 0 0 0 22px;
   }
   .top-date-item {
-    margin-bottom: 23px;
+    margin: 18px 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+  }
+  .top-date-item:after {
+    left: 0;
+    top: 3px;
+  }
+  .top-dial-date-title {
+    clear: both;
+    font-size: 14px;
+    margin-top: 0;
+    width: 100%;
+  }
+  .top-date-item-time {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 6px 0 0 22px;
+  }
+  .top-date-item-info {
+    line-height: 1.6;
+    margin: 10px 0 0 22px;
   }
 }

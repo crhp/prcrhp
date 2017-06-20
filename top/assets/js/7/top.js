@@ -29,7 +29,7 @@ $(document).ready(function() {
       [
         "#top-shop-information-container",
         "#top-car-container",
-        "#top-related-container"
+        "#top-related-container",
       ]
     ]
   }, {
@@ -43,8 +43,10 @@ $(document).ready(function() {
         "#top-servicemenu-container",
       ],
       [
+        "#top-date-container",
         "#top-contact-container",
-        "top-date-container"
+        "#top-owner-ship-container",
+        "#top-emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -63,8 +65,10 @@ $(document).ready(function() {
         "#top-servicemenu-container",
       ],
       [
+        "#top-date-container",
         "#top-contact-container",
-        "top-date-container"
+        "#top-owner-ship-container",
+        "#top-emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -82,7 +86,9 @@ $(document).ready(function() {
       ],
       [
         "#top-date-container",
-        "#top-contact-container"
+        "#top-contact-container",
+        "#top-owner-ship-container",
+        "#top-emergency-container"
       ],
       [
         "#top-service-container",
@@ -123,12 +129,19 @@ $(document).ready(function() {
       $('#top-slide-list').slick('slickPlay');
     });
 
-   var boxHeightAlign = new crhp.BoxHeightAlign($("#top-service-list"),{
+ var boxHeightAlign = new crhp.BoxHeightAlign($("#top-service-list"),{
     isAll:false
   });
    var boxHeightAlign2 = new crhp.BoxHeightAlign($(".top-news-container"),{
     isAll:false
   });
+    var boxHeightAlign3 = new crhp.BoxHeightAlign($("#top-contact-columns"),{
+    isAll:false
+  });
+
+    var topDateContainer = $('#top-date-container');
+    var topDateItem = $('.top-date-item');
+
   var _terms = $("[data-term]");
   for(var i=0;i<_terms.length;i++){
     var _json = $(_terms[i]).data("term");
@@ -141,13 +154,35 @@ $(document).ready(function() {
       }
     }
   }
-   boxHeightAlign.init();
+    boxHeightAlign.init();
    boxHeightAlign2.init();
+   boxHeightAlign3.init();
+   fixDateItems();
 
     $(window).resize(function(event) {
        boxHeightAlign.update();
        boxHeightAlign2.update();
+       boxHeightAlign3.update();
+       fixDateItems();
     });
+
+    function fixDateItems () {
+      var sizeDetect = $('#size-detect').css('font-family').replace(/"/g,'');
+
+      if(CRHP.ElementManager.prototype.sort && sizeDetect.indexOf('tablet') !== -1){
+        $(topDateContainer).each(function() {
+          var maxHeight = 0;
+          $(topDateContainer).find(topDateItem).each(function() {
+            if($(this).height() > maxHeight) {
+              maxHeight = $(this).height();
+            }
+          });
+          $(topDateContainer).find(topDateItem).height(maxHeight);
+        });
+      } else {
+        $(topDateContainer).find(topDateItem).height('auto');
+      }
+    }
 
   CRHP.blogListLines = {
     "pc-large": {title:2, content:3},

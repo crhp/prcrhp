@@ -24,17 +24,16 @@
   margin-bottom: 19px;
   letter-spacing: .05em; }
 
-.top-date-item:after {
+/*.top-date-item:after {
   position: absolute;
   top: -4px;
   left: -13px;
   color: #283c96;
-  content: "・"; }
+  content: "・"; }*/
 
 .top-date-item-label {
   color: #ff6e01;
   font-size: 10px;
-  margin-bottom: 5px;
   font-weight: bold;
   }
 
@@ -43,13 +42,17 @@
   font-weight: bold;
   }
 
+  .top-date-item-time {
+    padding-top: 7px;
+  }
+
 @media screen and (min-width: 768px) {
   .top-date-container {
     float: left;
     width: 50%;
-    height: 100%;
+    height: auto;
     padding-top: 26px;
-    border-bottom: none;
+    padding-bottom: 19px;
     }
   .top-date-title {
     margin-bottom: 33px;
@@ -69,17 +72,18 @@
 
 @media screen and (min-width: 980px) {
   .top-date-container {
-    float: none;
-    width: auto;
-    height: auto;
-    margin-bottom: 1px;
-    padding-top: 28px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    border-bottom: 1px solid #fff;
+      float: left;
+      width: 50%;
+      height: auto;
+      padding-left: 10px;
+      padding-bottom: 23px;
+      border-bottom: 1px solid #fff;
+      border-right: none;
     }
+
   .top-date-list {
-    margin-bottom: 0; } 
+    margin-bottom: 0;
+   } 
   .top-date-title {
     margin-bottom: 31px;
   }
@@ -87,13 +91,17 @@
   {
     margin-bottom: 15px;
   }
+
+  .top-date-item-label {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1366px) {
   .top-date-container {
     padding-bottom: 11px;
     padding-left: 10px;
-    width: 50%;
+    width: 100%;
     float: left;
     padding-top: 31px;
     border-bottom: none;
@@ -106,11 +114,10 @@
 
 @media screen and (min-width: 1680px) {
   .top-date-container {
+    width: 100%;
     padding-bottom: 21px;
     padding-left: 10px;
     } 
-
-  
   .top-date-title {
     
   }

@@ -1,17 +1,27 @@
 #size-detect {
-  font-family: "sp"; }
-  @media screen and (min-width: 767px) {
-    #size-detect {
-      font-family: "sp-large"; } }
-  @media screen and (min-width: 768px) and (max-width: 979px) {
-    #size-detect {
-      font-family: "tablet"; } }
-  @media screen and (min-width: 980px) and (max-width: 1365px) {
-    #size-detect {
-      font-family: "pc-min"; } }
-  @media screen and (min-width: 1366px) {
-    #size-detect {
-      font-family: "pc-large"; } }
+  font-family: "sp";
+}
+@media screen and (min-width: 767px) {
+  #size-detect {
+    font-family: "sp-large";
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  #size-detect {
+    font-family: "tablet";
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1365px) {
+  #size-detect {
+    font-family: "pc-min";
+  }
+}
+@media screen and (min-width: 1366px) {
+  #size-detect {
+    font-family: "pc-large";
+  }
+}
+
 
 
 .br-pc {

@@ -294,5 +294,14 @@ $(function(){
 	});
 	*/
 
+	var boxHeightAlign = new crhp.BoxHeightAlign($(".right-wrap"),{
+    isAll:false
+  });
+
+	boxHeightAlign.init();
+
+	$(window).resize(function(event) {
+		boxHeightAlign.update();
+	});
 
 });

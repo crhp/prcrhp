@@ -1,6 +1,5 @@
-.tc-btn-a
-{
-  background-color: #a4a4a4;
+.tc-btn-a {
+   background-color: #a4a4a4;
 }
 
 .slick-active .top-pager-item {
@@ -8,28 +7,24 @@
 }
 
 
-.top-date-item-time
-{
-  color: #a4a4a4;
+.top-date-item-time {
+   color: #a4a4a4;
 }
 
-.top-dial-normal
-{
-  color: #a4a4a4;
+.top-dial-normal {
+   color: #a4a4a4;
 }
 
-.top-dial-wednesday:after, .top-dial-tuesday:after, .top-dial-number:after
-{
-  background-color: #a4a4a4;
+.top-dial-wednesday:after, .top-dial-tuesday:after, .top-dial-number:after {
+   background-color: #a4a4a4;
 }
 
 
-.top-servicemenu-item-text
-{
-  color: #a4a4a4;
+.top-servicemenu-item-text {
+   color: #a4a4a4;
 }
-.top-date-item:after{
-background-color: #a4a4a4;
+.top-date-item:after {
+   background-color: #a4a4a4;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,7 +33,7 @@ background-color: #a4a4a4;
 @media screen and (min-width: 768px) {
 }
 .top-dial-icon {
-    background-color: #a4a4a4;
+   background-color: #a4a4a4;
 }
 
 .news-btn:after {
@@ -146,6 +141,9 @@ background-color: #a4a4a4;
       background-image: url(../../../images/2/valiation-p/3/top-other-btn-05.png);
    }
 }
-#alert-box{
-	border-color:#c30d23;
+#alert-box {
+   border-color: #c30d23;
+}
+.top-dial-btn a {
+   background-color: #a4a4a4;
 }

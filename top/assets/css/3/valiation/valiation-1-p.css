@@ -176,3 +176,11 @@
 .top-contents {
   background-color: #c7e3e0;
 }
+
+
+.top-dial-normal.top-dial-number{
+  color: #118075;
+}
+.top-dial-btn a{
+  background-color: #118075;
+}

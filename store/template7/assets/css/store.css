@@ -87,6 +87,14 @@ a:hover {
   height: 56px;
 }
 
+.custom-color {
+    color: #ff8700;
+}
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd {
+    height: auto;
+}
+
 @media screen and (min-width: 1280px) {
     #sortmenu {
         width: 980px;
@@ -592,8 +600,7 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .left-wrap {
-        width: 510px;
-        float: left;
+        width: 100%;
         padding-left: 16px;
         overflow: hidden;
         /* border: solid 1px #dddddd; */
@@ -614,35 +621,36 @@ a:hover {
 
     #section-calendar .calendar-inner .left-wrap .month {
         padding-top: 12px;
-        padding-left: 44px;
         overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
         /* padding-bottom: 20px; */
     }
 
     #section-calendar .calendar-inner .left-wrap .month .first-month {
-        width: 400px;
+        width: 50%;
         float: left;
         background-color: white;
-        border-radius: 30px 30px 0px 0px;
-        -webkit-border-radius: 30px 30px 0px 0px;
-        -moz-border-radius: 30px 30px 0px 0px;
+        border-radius: 30px 0px 0px 0px;
+        -webkit-border-radius: 30px 0px 0px 0px;
+        -moz-border-radius: 30px 0px 0px 0px;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .first-month img {
-        width: 100%;
+        width: 80%;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .second-month {
-        width: 400px;
+        width: 50%;
         float: left;
         background-color: white;
-        border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        -moz-border-radius: 0px 0px 0px 0px;
+        border-radius: 0px 30px 0px 0px;
+        -webkit-border-radius: 0px 30px 0px 0px;
+        -moz-border-radius: 0px 30px 0px 0px;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .second-month img {
-        width: 100%;
+        width: 80%;
     }
 
     #section-calendar .calendar-inner .left-wrap .btn-next-month {
@@ -656,16 +664,14 @@ a:hover {
     #section-calendar .calendar-inner .left-wrap .caption {
         clear: both;
         font-size: 15px;
-        padding-left: 12px;
         position: relative;
         left: auto;
-        margin-left: 44px;
-        width: 400px;
+        width: 90%;
         background-color: white;
         border-radius: 0px 0px 30px 30px;
         -webkit-border-radius: 0px 0px 30px 30px;
         -moz-border-radius: 0px 0px 30px 30px;
-        margin-bottom: 50px;
+        margin: 0 auto 50px;
     }
 
     #section-calendar .calendar-inner .caption .calendar-icon span {
@@ -680,16 +686,24 @@ a:hover {
         width: 100%;
     }
 
+    .right-wrap:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
     #section-calendar .calendar-inner .right-wrap {
-        float: left;
-        width: 470px;
-        margin-left: -1px;
+        width: 90%;
+        margin: 0 auto;
         background-color: #f5f5f5;
         /* overflow: hidden; */
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours {
         padding-bottom: 10px;
+        width: 50%;
+        float: left;
+        margin-bottom: 34px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .title {
@@ -701,19 +715,18 @@ a:hover {
         padding-bottom: 8px;
         letter-spacing: 0.1em;
         color: #ff8700;
-        margin-top: 46px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl {
         margin-top: 12px;
+        margin-right: 28px;
         background-color: white;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         padding-top: 30px;
-        padding-left: 15px;
-        width: 410px;
         min-height: 220px;
+        padding-bottom: 22px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dt {
@@ -731,6 +744,7 @@ a:hover {
         font-size: 14px;
         font-weight: bold;
         padding-top: 2px;
+        padding-right: 22px;
         padding-left: 22px;
         padding-bottom: 7px;
     }
@@ -740,14 +754,15 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
-        font-size: 20px;
+        font-size: 14px;
+        font-weight: normal;
         padding-top: 6px;
-        padding-bottom: 3px;
-        color: #6f6f6f;
+        padding-bottom: 7px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number {
-        padding-top: 25px;
+        width: 50%;
+        float: left;
         overflow: hidden;
     }
 
@@ -759,17 +774,19 @@ a:hover {
         padding-bottom: 8px;
         letter-spacing: 0.1em;
         color: #ff8700;
+        margin-left: 28px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl {
         margin-top: 12px;
+        margin-left: 28px;
         background-color: white;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         padding-top: 36px;
+        padding-bottom: 15px;
         padding-left: 15px;
-        width: 410px;
         min-height: 220px;
     }
 
@@ -786,6 +803,7 @@ a:hover {
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl dd {
         font-size: 16px;
+        padding-right: 20px;
         padding-bottom: 17px;
         font-weight: normal;
         padding-left: 20px;
@@ -803,7 +821,7 @@ a:hover {
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl dt.main-tel {
         margin-left: 23px;
-        width: 29px;
+        width: 40px;
         background-color: #ff6f00;
         border-radius: 40px;
         -webkit-border-radius: 40px;
@@ -817,6 +835,7 @@ a:hover {
         font-size: 35px;
         color: #ff6e01;
         font-weight: bold;
+        padding-top: 7px;
         padding-bottom: 24px;
     }
 
@@ -828,19 +847,18 @@ a:hover {
 
     #section-calendar .calendar-inner .right-wrap .phone-number div {
         color: white;
-        width: 102%;
+        width: 90%;
         text-align: center;
         font-size: 17px;
         letter-spacing: 0.15em;
         padding: 10px 10px 10px 10px;
         color: white;
-        margin-left: -5%;
         background-color: white;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         background-color: #887f7a;
-        margin-top: 10px;
+        margin: 0 auto;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number div a {
@@ -851,6 +869,15 @@ a:hover {
     footer_function
     ========================================================= */
     #footer_function {
+    }
+
+      #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-text {
+      line-height: 1.5em;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .business_hours-text {
+      line-height: 1.5em;
+      font-weight: normal;
     }
 }
 
@@ -1339,8 +1366,7 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .left-wrap {
-        width: 50%;
-        float: left;
+        width: 100%;
         overflow: hidden;
         padding-bottom: 30px;
     }
@@ -1350,7 +1376,7 @@ a:hover {
         text-align: left;
         padding-top: 55px;
         font-size: 20px;
-        padding-left: 19px;
+        padding-left: 5%;
         font-weight: bold;
         padding-bottom: 8px;
         letter-spacing: 0.1em;
@@ -1360,16 +1386,17 @@ a:hover {
     #section-calendar .calendar-inner .left-wrap .month {
         padding-top: 18px;
         overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .first-month {
-        width: 95%;
+        width: 50%;
         float: left;
         background-color: #ffffff;
-        border-radius: 30px 30px 0px 0px;
-        -webkit-border-radius: 30px 30px 0px 0px;
-        -moz-border-radius: 30px 30px 0px 0px;
-        margin-left: 5%;
+        border-radius: 30px 0px 0px 0px;
+        -webkit-border-radius: 30px 0px 0px 0px;
+        -moz-border-radius: 30px 0px 0px 0px;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .first-month img {
@@ -1377,13 +1404,12 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .left-wrap .month .second-month {
-        width: 95%;
+        width: 50%;
         float: left;
         background-color: #ffffff;
-        border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        -moz-border-radius: 0px 0px 0px 0px;
-        margin-left: 5%;
+        border-radius: 0px 30px 0px 0px;
+        -webkit-border-radius: 0px 30px 0px 0px;
+        -moz-border-radius: 0px 30px 0px 0px;
     }
 
     #section-calendar .calendar-inner .left-wrap .month .second-month img {
@@ -1409,6 +1435,7 @@ a:hover {
         -moz-border-radius: 0px 0px 30px 30px;
         margin-bottom: 50px;
         margin-left: 5%;
+        width: 90%;
     }
 
     #section-calendar .calendar-inner .caption .calendar-icon span {
@@ -1423,9 +1450,7 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .right-wrap {
-        float: left;
-        width: 50%;
-        border-top: solid 2px white;
+        width: 100%;
         margin-top: -2px;
     }
 
@@ -1438,12 +1463,11 @@ a:hover {
     #section-calendar .calendar-inner .right-wrap .business_hours .title {
         width: 100%;
         text-align: left;
-        padding-top: 55px;
         font-size: 20px;
         font-weight: bold;
         padding-bottom: 8px;
         letter-spacing: 0.1em;
-        padding-left: 10px;
+        padding-left: 5%;
         color: #ff8700;
     }
 
@@ -1451,13 +1475,16 @@ a:hover {
         padding-top: 19px;
         width: 90%;
         float: left;
+        height: auto !important;
         background-color: #ffffff;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         margin-left: 5%;
         margin-top: 18px;
-        min-height: 198px;
+        padding-bottom: 22px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dt {
@@ -1475,24 +1502,34 @@ a:hover {
         font-size: 14px;
         font-weight: bold;
         padding-top: 2px;
-        padding-left: 22px;
         padding-bottom: 7px;
     }
 
+    #top-date-container:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .fixitem {
+        float: left;
+        width: 50%;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .label {
-        padding-bottom: 4px;
+        padding-bottom: 10px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
-        font-size: 20px;
-        padding-top: 6px;
-        color: #6f6f6f;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+        padding-bottom: 17px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number {
         padding-top: 6px;
+        padding-bottom: 17px;
         width: 100%;
-        float: left;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .title {
@@ -1502,22 +1539,24 @@ a:hover {
         font-weight: bold;
         padding-bottom: 8px;
         letter-spacing: 0.1em;
-        padding-left: 12px;
+        padding-left: 5%;
         padding-top: 3px;
         color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl {
-        padding-top: 19px;
+        padding-top: 32px;
         width: 90%;
         float: left;
+        height: auto !important;
         background-color: #ffffff;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         margin-left: 5%;
-        margin-top: 18px;
-        min-height: 198px;
+        margin-top: 9px;
+        margin-bottom: 28px;
+        padding-bottom: 22px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl dt {
@@ -1538,7 +1577,7 @@ a:hover {
         font-size: 14px;
         padding-bottom: 17px;
         font-weight: normal;
-        padding-left: 8px;
+        padding-left: 22px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl dd .label {
@@ -1552,7 +1591,7 @@ a:hover {
 
     #section-calendar .calendar-inner .right-wrap .phone-number dl dt.main-tel {
         margin-left: 21px;
-        width: 29px;
+        width: 40px;
         background-color: #ff6f00;
         border-radius: 40px;
         -webkit-border-radius: 40px;
@@ -1574,7 +1613,7 @@ a:hover {
 
     #section-calendar .calendar-inner .right-wrap .phone-number div {
         color: white;
-        width: 97%;
+        width: 41%;
         text-align: center;
         font-size: 13px;
         letter-spacing: 0.15em;
@@ -1584,7 +1623,7 @@ a:hover {
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
-        margin-top: 10px;
+        margin: 10px auto 0;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number div a {
@@ -1597,6 +1636,19 @@ a:hover {
     footer_function
     ========================================================= */
     #footer_function {
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-text {
+      line-height: 1.5em;
+    }
+
+    .business_hours-text {
+      line-height: 1.5em;
+      font-weight: normal;
+    }
+
+    #breadList {
+      margin-top: 0px;
     }
 }
 
@@ -2329,18 +2381,20 @@ a:hover {
         font-size: 13px;
         font-weight: bold;
         padding-top: 2px;
+        padding-right: 22px;
         padding-left: 22px;
         padding-bottom: 10px;
         color: #4d4d4d;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .label {
-        padding-bottom: 4px;
+        padding-bottom: 10px;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time {
         font-size: 14px;
         padding-top: 3px;
+        padding-bottom: 15px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number {
@@ -2468,6 +2522,20 @@ a:hover {
     }
     .change-button-set {
         display:block;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-label {
+        padding-left: 19px;
+    }
+
+    .business_hours-text {
+        font-weight: normal;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-text {
+        padding-left: 19px;
+        padding-right: 19px;
+        line-height: 1.5em;
     }
 
 }

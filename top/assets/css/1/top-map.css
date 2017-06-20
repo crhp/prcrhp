@@ -20,7 +20,7 @@
 
 .top-map {
   margin-bottom: 8px;
-  margin: 0 10px 10px 0px;
+  margin: 0 10px 10px 10px;
   overflow: hidden;
   height: 162px;
   }
@@ -47,7 +47,7 @@
     padding-left: 10px;
     padding-right: 10px;
     }
-  
+
   .top-hear-btn {
     float: right;
     width: 49%;
@@ -94,9 +94,9 @@
     }
   .top-shoplist-btn {
     margin-bottom: 47px;
-    } 
+    }
   .top-shoplist-btn a {
- 
+
     width: 341px;
     border-radius: 2px;
   }
@@ -116,7 +116,7 @@
   .top-map-container {
     margin-bottom: 0;
     padding-top: 38px;
-    } 
+    }
   .top-shoplist-btn a {
     height: 40px;
     line-height: 37px;
@@ -129,7 +129,7 @@
     margin-bottom: 17px;
     padding-left: 2%;
     width: 98%;
-    } 
+    }
   .top-shop-title {
   line-height: 64px;
   }

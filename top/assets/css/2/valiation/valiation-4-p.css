@@ -1,6 +1,6 @@
 .tc-btn-a
 {
-  background-color: #bc4d5c; 
+  background-color: #bc4d5c;
 }
 
 .slick-active .top-pager-item {
@@ -147,4 +147,8 @@ background-color: #bc4d5c;
 }
 #alert-box{
 	border-color:#c30d23;
+}
+
+.top-dial-btn a {
+   background-color: #bc4d5c;
 }
