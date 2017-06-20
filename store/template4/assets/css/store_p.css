@@ -39,6 +39,26 @@
         background-image: url(../images/icn-arrow_p.png);
     }
 
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .time {
+            color: #118075;
+    }
+
 }
 
 @media screen and (max-width: 1469px) and (min-width: 980px) {
@@ -82,6 +102,26 @@
 
     #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
         background-image: url(../images/icn-arrow_p.png);
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .time {
+            color: #118075;
     }
 
 }
@@ -129,6 +169,26 @@
         background-image: url(../images/icn-arrow_p.png);
     }
 
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .time {
+            color: #118075;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -169,5 +229,25 @@
 
     #section-calendar .calendar-inner .right-wrap .phone-number a.form-button {
         background-image: url(../images/icn-arrow_p.png);
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+        color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+        background-color: #118075;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .time {
+            color: #118075;
     }
 }

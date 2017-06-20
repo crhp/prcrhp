@@ -147,9 +147,9 @@
     margin-bottom: 100px;
     }
   .news-btn {
-    font-size: 16px;
+    font-size: 15px;
     right: 23px;
-    height: 35px;
+    height: 31px;
     line-height: 29px;
     letter-spacing: 0.2em;
     padding: 0 10px;
@@ -166,6 +166,7 @@
   .top-news-information,
   .top-news-sns {
     float: left;
+    height: 502px;
     width: 50%;
     border-right: 1px solid #ddd; 
   }
@@ -179,12 +180,13 @@
     width: 100%;
   }
   .news-btn {
-    top: 34px;
+    top: 29px;
     right: 18px;
     font-size: 16px; 
   } 
   .three-contents-width div {
     width: 33.3333%;
+    text-align: center;
   }
   .top-news-container .top-news-list{
     height: 350px;

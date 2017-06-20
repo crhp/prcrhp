@@ -37,3 +37,11 @@
     line-height: 43px;
     font-size: 17px;
     margin: 0 auto; } }
+
+@media screen and (min-width: 1680px) {
+  .tc-btn-a {
+    width: 21%;
+    height: 49px;s
+    line-height: 43px;
+    font-size: 17px;
+    margin: 0 auto; } }

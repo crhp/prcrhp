@@ -2,23 +2,26 @@ var slick;
 $(document).ready(function() {
   new CRHP.ElementManager([{
     breakpoint: "sp",
-    target: ["#top-shop-information-container",".top-column-right", ".top-column-left"],
+    target: ["#top-shop-information-container",".top-column-right",".top-column-left"],
     order: [
       [
         "#top-map-container",
         "#top-callendar-container",
-        "#top-contact-columns"
+        "#top-date-container",
+        "#top-contact-container",
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
-      [
-        "#top-shop-information-container"
-      ],
+
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
         "#top-servicemenu-container",
-        "#top-car-container",
-        "#top-related-container"
+        "#top-shop-information-container"
+      ],
+      [
+
       ]
     ]
   }, {
@@ -29,14 +32,16 @@ $(document).ready(function() {
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
-         "#top-servicemenu-container",
+        "#top-servicemenu-container",
         "#top-shop-information-container",
       ],
       [
         "#top-map-container",
         "#top-callendar-container",
-
-         "#top-contact-columns"
+        "#top-date-container",
+        "#top-contact-container",
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-car-container",
@@ -54,8 +59,13 @@ $(document).ready(function() {
         "#top-servicemenu-container"
       ],
       [
+        "#top-map-container",
+        "#top-callendar-container",
         "#top-contact-container",
-        "top-date-container"
+        "#top-date-container",
+        "#top-contact-container",
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -65,22 +75,25 @@ $(document).ready(function() {
     ]
   }, {
     breakpoint: "pc-min",
-    target: [".top-column-right", ".top-contact-columns","#top-calendar-contact",".top-column-left"],
+     target: [".top-column-right","#top-shop-information-container",".top-contact-columns",".top-column-left"],
     order: [
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
+        "#top-servicemenu-container",
          "#top-shop-information-container",
-         ".top-contact-columns",
-        "#top-servicemenu-container"
+         ".top-contact-columns"
+      ],
+      [
+        "#top-map-container",
+        "#top-callendar-container",
+        "#top-date-container"
       ],
       [
         "#top-contact-container",
-        "top-date-container"
-      ],
-      [
-        "#top-callendar-container",
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-car-container",
@@ -89,22 +102,25 @@ $(document).ready(function() {
     ]
   }, {
     breakpoint: "pc-large",
-     target: [".top-column-right", ".top-contact-columns","#top-calendar-contact",".top-column-left"],
+     target: [".top-column-right","#top-shop-information-container",".top-contact-columns",".top-column-left"],
     order: [
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
+        "#top-servicemenu-container",
          "#top-shop-information-container",
-         ".top-contact-columns",
-        "#top-servicemenu-container"
+         ".top-contact-columns"
+      ],
+      [
+        "#top-map-container",
+        "#top-callendar-container",
+        "#top-date-container"
       ],
       [
         "#top-contact-container",
-        "top-date-container"
-      ],
-      [
-        "#top-callendar-container",
+        "#top-ownership-container",
+        "#top-emergency-container"
       ],
       [
         "#top-car-container",
@@ -182,6 +198,10 @@ $(document).ready(function() {
    var boxHeightAlign2 = new crhp.BoxHeightAlign($(".top-news-container"),{
     isAll:false
   });
+   var boxHeightAlign3 = new crhp.BoxHeightAlign($('#top-contact-columns'),{
+    isAll:false
+   });
+
 	var _terms = $("[data-term]");
 	for(var i=0;i<_terms.length;i++){
 		var _json = $(_terms[i]).data("term");
@@ -196,11 +216,13 @@ $(document).ready(function() {
 	}
    boxHeightAlign.init();
    boxHeightAlign2.init();
+  　boxHeightAlign3.init();
 
     $(window).resize(function(event) {
        setDisplayCalendar();
        boxHeightAlign.update();
        boxHeightAlign2.update();
+       boxHeightAlign3.update();
     });
 
 	CRHP.blogListLines = {
@@ -222,7 +244,7 @@ $(document).ready(function() {
 
   CRHP.facebookWidth = {
   "pc-twitter-empty-width": 500,
-  "pc-min-twitter-empty-width": 500
+  "pc-min-twitter-empty-width": 380
   }
 
   CRHP.twitterWidth = {

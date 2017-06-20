@@ -1,107 +1,128 @@
 @charset "UTF-8";
 .top-date-container {
+  border-bottom: 1px solid #ddd;
   margin-bottom: 24px;
-  border-bottom: 1px solid #dddddd;
-  }
-
+}
 .top-date-list {
   list-style: none;
   margin: 20px 21px 25px;
-  }
-
+}
 .top-date-item {
-  position: relative;
-  margin-bottom: 17px;
   letter-spacing: .05em;
-  }
-
+  margin-bottom: 17px;
+}
 .top-date-item:after {
+  color: #283c96;
+  content: "・";
+  left: -13px;
   position: absolute;
   top: -4px;
-  left: -13px;
-  color: #283c96;
-  content: "・"; }
-
+}
 .top-date-item-label {
   color: #283c96;
-  font-size: 10px;
+  font-size: 11px;
   margin-bottom: 4px;
-  }
-
+}
 .top-date-item-time {
-  letter-spacing: .1em;
   font-weight: bold;
-  }
-
+  letter-spacing: .1em;
+}
+.top-date-item-info {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 10px 0 0 0;
+}
 @media screen and (min-width: 768px) {
   .top-date-container {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0px;
+  }
+  .top-date-container {
+    border-bottom: 1px solid #eee;
     float: left;
+    height: auto;
+    padding-bottom: 30px;
+    /* border-bottom: none; */
+    padding-top: 30px;
     width: 50%;
-    height: 100%;
-    border-bottom: none;
-    padding-top: 38px;
-    }
+  }
   .top-date-title {
     margin-bottom: 30px;
-    }
+    padding-left: 20px;
+  }
   .top-date-list {
-    margin-top: 0; }
+    margin-top: 0;
+  }
   .top-date-item {
     margin-bottom: 15px;
-    }
+  }
   .top-date-item:after {
-    content: ""; }
+    content: "";
+  }
   .top-date-item-label {
-    font-size: 14px; }
+    font-size: 13px;
+  }
   .top-date-item-time {
-    font-size: 20px; } }
-
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 980px) {
   .top-date-container {
-    float: none;
-    width: auto;
+    border-left: 1px solid #eee;
+    float: left;
     height: auto;
-    margin-bottom: 30px;
-    padding-top: 27px;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #ddd;
-    }
+    margin-left: -1px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-top: 30px;
+    width: 32.5%;
+    border-bottom: none;
+  }
   .top-date-list {
     margin-bottom: 0;
     margin-left: 18px;
-    } 
-
-  
-   .top-date-item-label {
-     margin-bottom: 9px;
-   }
+  }
+  .top-date-item-label {
+    margin-bottom: 9px;
+  }
 }
-
 @media screen and (min-width: 1366px) {
   .top-date-container {
-    padding-bottom: 2px;
-    padding-left: 13px;
-    padding-top: 29px;
-    } }
-
-@media screen and (min-width: 1680px) {
-  .top-date-title {
-    padding-left: 23px;
-    margin-bottom: 21px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 20px;
+    padding-top: 30px;
   }
   .top-date-container {
-    padding-bottom: 9px;
+    border-left: 1px solid #eee;
+    float: left;
+    margin-left: -1px;
+    padding-bottom: 0px;
     padding-left: 0;
-    margin-bottom: 1px;
-    } 
-
-  
-  .top-date-list {
-    margin-left: 36px;
+    padding-top: 30px;
+    width: 32.5%;
   }
-  
+}
+@media screen and (min-width: 1680px) {
+  .top-date-container {
+    /* height: 500px; */
+    float: none;
+    padding-bottom: 30px;
+    padding-left: 67.5%;
+    padding-right: 0px;
+    padding-top: 30px;
+    width: auto;
+  }
+  .top-date-title {
+    margin-bottom: 21px;
+    padding-left: 23px;
+  }
+  .top-date-container {
+    height: auto;
+    padding-left: 0;
+    border-bottom: 1px solid #eee;
+  }
   .top-date-item {
     margin-bottom: 19px;
   }
-
 }

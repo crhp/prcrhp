@@ -42,12 +42,13 @@
 
 .tc-title-type-03-reg {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 0.14em;
   text-align: center;
   line-height: 1;
   color: #ff6e01;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: "游明朝体",  "YuMincho", "Yu Mincho",  "ヒラギノ明朝ProN W3", "Hiragino Mincho ProN", "HG明朝B", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   line-height: 1.5;
   }
@@ -61,7 +62,7 @@
 
 @media screen and (min-width: 768px) {
   .tc-title-type-03-reg {
-    font-size: 30px;
+    font-size: 26px;
     padding-bottom: 22px;
     letter-spacing: 0.1em;
     }
@@ -73,5 +74,14 @@
     font-size: 15px;
     letter-spacing: 0.05em;
     margin-bottom: 13px;
+    font-weight: normal;
   }
+}
+
+@media screen and (min-width: 1366px) {
+  .tc-title-type-03-reg {
+    font-size: 32px;
+    padding-bottom: 22px;
+    letter-spacing: 0.1em;
+    }
 }

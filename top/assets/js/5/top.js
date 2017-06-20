@@ -2,7 +2,7 @@ var slick;
 $(document).ready(function() {
   new CRHP.ElementManager([{
     breakpoint: "sp",
-    target: [".top-column-right", ".top-column-left"],
+    target: [".top-column-right", ".top-column-left", ".top-contact-columns"],
     order: [
       [
         "#top-shop-information-container"
@@ -11,40 +11,56 @@ $(document).ready(function() {
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
-      "#top-servicemenu-container",
+        "#top-servicemenu-container",
         "#top-car-container",
         "#top-related-container"
+      ],
+      [
+        "#top-map-container",
+        "#top-callendar-container",
+        "#top-date-container",
+        "#top-contact-container",
+        "#ownership-container",
+        "#emergency-container"
       ]
     ]
   }, {
     breakpoint: "sp-large",
-    target: [".top-column-right", ".top-column-left"],
+    target: [".top-column-right", ".top-column-left", ".top-contact-columns"],
     order: [
+      [
+        "#top-shop-information-container"
+      ],
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
         "#top-servicemenu-container",
-      ],
-      [
-        "#top-shop-information-container",
         "#top-car-container",
         "#top-related-container"
+      ],
+      [
+        "#top-date-container",
+        "#top-contact-container",
+        "#ownership-container",
+        "#emergency-container"
       ]
     ]
   }, {
     breakpoint: "tablet",
-    target: [".top-column-right", ".top-contact-columns", ".top-column-left"],
+    target: [".top-column-right",".top-contact-columns",".top-column-left"],
     order: [
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
-        "#top-servicemenu-container",
+        "#top-servicemenu-container"
       ],
       [
+        "#top-date-container",
         "#top-contact-container",
-        "top-date-container"
+        "#ownership-container",
+        "#emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -54,7 +70,7 @@ $(document).ready(function() {
     ]
   }, {
     breakpoint: "pc-min",
-    target: [".top-column-right", ".top-contact-columns",".top-column-left"],
+    target: [".top-column-right", "#top-shop-information-container", ".top-contact-columns", ".top-column-left"],
     order: [
       [
         "#top-service-container",
@@ -63,8 +79,15 @@ $(document).ready(function() {
         "#top-servicemenu-container",
       ],
       [
+        "#top-map-container",
+        "#top-callendar-container",
         "#top-date-container",
-        "#top-contact-container"
+        "#top-contact-columns"
+      ],
+      [
+        "#top-contact-container",
+        "#ownership-container",
+        "#emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -74,7 +97,7 @@ $(document).ready(function() {
     ]
   }, {
     breakpoint: "pc-middle",
-    target: [".top-column-right", ".top-contact-columns",".top-column-left"],
+    target: [".top-column-right", "#top-shop-information-container", ".top-contact-columns", ".top-column-left"],
     order: [
       [
         "#top-service-container",
@@ -83,8 +106,15 @@ $(document).ready(function() {
         "#top-servicemenu-container",
       ],
       [
+        "#top-map-container",
+        "#top-callendar-container",
         "#top-date-container",
-        "#top-contact-container"
+        "#top-contact-columns"
+      ],
+      [
+        "#top-contact-container",
+        "#ownership-container",
+        "#emergency-container"
       ],
       [
         "#top-shop-information-container",
@@ -105,15 +135,19 @@ $(document).ready(function() {
         "#top-related-container"
       ],
       [
+        // "#top-map-container",
+        // "#top-callendar-container",
         "#top-date-container",
-        "#top-contact-container"
+        "#top-contact-container",
+        "#ownership-container",
+        "#emergency-container"
       ],
       [
         "#top-shop-information-container"
       ]
     ]
   }]);
-  //  #top-map-container
+  // #top-map-container
   // #top-callendar-container
   // #top-date-container
   // #top-contact-container
@@ -135,14 +169,14 @@ $(document).ready(function() {
     dots: true,
     responsive: true
   });
-  	$("header").bind("openHumMenu", function(){
-  		console.log("top.js: openMenu");
-  		$('#top-slide-list').slick('slickPause');
-  	});
-  	$("header").bind("closeHumMenu", function(){
-  		console.log("top.js: closeMenu");
-  		$('#top-slide-list').slick('slickPlay');
-  	});
+    $("header").bind("openHumMenu", function(){
+      console.log("top.js: openMenu");
+      $('#top-slide-list').slick('slickPause');
+    });
+    $("header").bind("closeHumMenu", function(){
+      console.log("top.js: closeMenu");
+      $('#top-slide-list').slick('slickPlay');
+    });
 
    var boxHeightAlign = new crhp.BoxHeightAlign($("#top-service-list"),{
     isAll:false
@@ -150,34 +184,41 @@ $(document).ready(function() {
    var boxHeightAlign2 = new crhp.BoxHeightAlign($(".top-news-container"),{
     isAll:false
   });
-	var _terms = $("[data-term]");
-	for(var i=0;i<_terms.length;i++){
-		var _json = $(_terms[i]).data("term");
-		if(_json && _json.length > 1){
-			if(parseInt(_json["day"][0], 10) == _date.getDay()){
-				$(_terms[i]).fadeTo(0, 0.5);
-			}
-			if(_json["color"].length == 7){
-				$(_terms[i]).find(".top-dial-icon").css("background-color",_json["color"]);
-			}
-		}
-	}
+   var boxHeightAlign3 = new crhp.BoxHeightAlign($('#top-contact-columns'),{
+    isAll:false
+   });
+
+
+  var _terms = $("[data-term]");
+  for(var i=0;i<_terms.length;i++){
+    var _json = $(_terms[i]).data("term");
+    if(_json && _json.length > 1){
+      if(parseInt(_json["day"][0], 10) == _date.getDay()){
+        $(_terms[i]).fadeTo(0, 0.5);
+      }
+      if(_json["color"].length == 7){
+        $(_terms[i]).find(".top-dial-icon").css("background-color",_json["color"]);
+      }
+    }
+  }
    boxHeightAlign.init();
    boxHeightAlign2.init();
+  　boxHeightAlign3.init();
 
-    $(window).resize(function(event) {
-       boxHeightAlign.update();
-       boxHeightAlign2.update();
-    });
+  $(window).resize(function(event) {
+    boxHeightAlign.update();
+    boxHeightAlign2.update();
+    boxHeightAlign3.update();
+  });
 
-	CRHP.blogListLines = {
-		"pc-large":	{title:2, content:2},
-		"pc-middle":	{title:2, content:2},
-		"pc-min":	{title:2, content:3},
-		"tablet":	{title:1, content:2},
-		"sp-large":	{title:1, content:2},
-		"sp":		{title:2, content:2}
-	};
+  CRHP.blogListLines = {
+    "pc-large": {title:2, content:2},
+    "pc-middle":  {title:2, content:2},
+    "pc-min": {title:2, content:3},
+    "tablet": {title:1, content:2},
+    "sp-large": {title:1, content:2},
+    "sp":   {title:2, content:2}
+  };
 
   CRHP.facebookHeights = {
   "pc-large": 380,
@@ -190,7 +231,7 @@ $(document).ready(function() {
   };
 
   CRHP.facebookWidth = {
-  "pc-twitter-empty-width": 500,
+  "pc-twitter-empty-width": 355,
   }
 
   CRHP.twitterWidth = {

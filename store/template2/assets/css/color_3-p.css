@@ -12,12 +12,29 @@
 }
 
 #section-calendar .calendar-inner .right-wrap .phone-number div {
-    color: white;
-    background: linear-gradient(#a4a4a4, #a4a4a4);
+/*    color: white;
+    background: linear-gradient(#a4a4a4, #a4a4a4);*/
 }
+
 #section-calendar .calendar-inner .right-wrap .business_hours dl dt {
     background-color: #a4a4a4;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number dl dt {
+/*    background-color: #a4a4a4;*/
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
     background-color: #a4a4a4;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+    background-color: #a4a4a4;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+    color: #a4a4a4;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+    color: #a4a4a4;
 }

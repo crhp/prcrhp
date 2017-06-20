@@ -37,6 +37,23 @@
     background-color: #ff9601;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number div {
-    color: white;
+/*    color: white;
+    background-color: #ff9601;*/
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+        background-color: #ff9601;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+        color: #ff9601;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+    color: #ff9601;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
     background-color: #ff9601;
 }
+

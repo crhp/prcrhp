@@ -44,7 +44,7 @@ var CRHP = CRHP || {};
 
 	function sort()
 	{
-		if( _lastSizeDetect.indexOf($('#size-detect').css('font-family')) < 0){
+		if( _lastSizeDetect !== $('#size-detect').css('font-family') ){
 			var item = {};
 			for(var i = 0; i < this.target.length; i++){
 				if(this.target[i].breakpoint == SizeDetect.size){
