@@ -68,7 +68,7 @@
   .top-calendar-nav-next .tc-btn-b {
       color: #f9b81e;
       border: solid 2px #f9b81e;
-  }  
+  }
   .top-calendar-nav-next .tc-btn-b:after {
       background: url(../../../images/5/parts_p/top-arrow-right-icon-2.png) 95% center no-repeat;
       background-size: 5px 8px;
@@ -89,8 +89,13 @@
   .top-calendar-nav {
       border: solid 2px #f9b81e;
   }
-  
+
 }
 #alert-box{
 	border-color:#c30d23;
+}
+
+
+.top-dial-date-title{
+    color: #f9b81e;
 }

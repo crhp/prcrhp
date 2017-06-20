@@ -67,7 +67,7 @@
     }
     .top-calendar-nav-next .tc-btn-b:after {
         background: url(../../../images/5/parts_p/top-arrow-right-icon-1.png) 95% center no-repeat;
-        background-size: 5px 8px;    
+        background-size: 5px 8px;
     }
 }
 
@@ -76,7 +76,7 @@
         color: #118075;
         background: url(../../../images/5/parts_p/top-arrow-left-icon-1.png) 10% center no-repeat;
         background-size: 5px 8px;
-    }    
+    }
     .top-calendar-nav-next a {
         color: #118075;
         background: url(../../../images/5/parts_p/top-arrow-right-icon-1.png) 90% center no-repeat;
@@ -84,9 +84,13 @@
     }
     .top-calendar-nav {
         border: solid 2px #118075;
-    }    
+    }
 }
 
 #alert-box {
     border-color: #c30d23;
+}
+
+.top-dial-date-title{
+    color: #118075;
 }

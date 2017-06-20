@@ -364,7 +364,7 @@
     }
 
     .top-contact-subtitle {
-        margin-bottom: 20px;
+        margin-bottom: 7px;
         font-size: 16px;
         line-height: 20.5px;
         color: #333333;
@@ -391,7 +391,6 @@
         margin-left: 0;
         width: 100%;
        /* border-bottom: 1px solid #f0f0f0; */
-        float: left;
     }*/
 
     .top-dial-date-title {
@@ -597,7 +596,7 @@
 
     .top-dial-normal {
         margin-right: 0;
-        padding-bottom: 6px;
+        padding-bottom: 8px;
         border-bottom: none;
         padding-right: 20px;
         /* text-align: right; */
