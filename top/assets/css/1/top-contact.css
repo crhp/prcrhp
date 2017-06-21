@@ -432,8 +432,7 @@
   .top-emergency-container .top-dial {
     margin: 18px 0 0 0;
   }
-  .top-ownership-container .top-dial-date-title,
-  .top-emergency-container .top-dial-date-title{
+  .top-ownership-container .top-dial-date-title, .top-emergency-container .top-dial-date-title {
     margin-bottom: 4px;
   }
 }
@@ -456,7 +455,8 @@
     /* margin: 0 22px; */
   }
   .top-contact-columns {
-    float: left;
+    clear: both;
+    float: none;
     margin: 0 0 0 0;
     padding: 0 30px 30px;
     width: 100%;
@@ -675,10 +675,9 @@
     margin: 0 0 10px 0;
     padding: 0;
   }
-  .top-contact-container .top-dial-label{
+  .top-contact-container .top-dial-label {
     padding: 15px 0 0 0;
   }
-
   .top-ownership-container .top-dial-date-title {
     font-size: 12px;
     margin-bottom: 10px;

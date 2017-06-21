@@ -444,7 +444,7 @@
       letter-spacing: 0em;
       margin-left: 0;
       margin-right: 20px;
-      width: auto;
+      width: 100%;
     }
     .top-date-title.top-block-t itle {
       margin-left: 0;
@@ -456,6 +456,7 @@
       margin: 10px 30px 0;
       padding: 0 0 24px 0;
     }
+
     .top-dial-wrapper {
       margin: 20px 0 0 0;
     }
