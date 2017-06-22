@@ -37,3 +37,11 @@
 #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
     color: #e4b00a;
 }
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+    color: #e4b00a;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+    color: #e4b00a;
+}

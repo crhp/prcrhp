@@ -39,3 +39,11 @@
 #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
   background-color: #14bf74;
 }
+
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+  color: #14bf74;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+  color: #14bf74;
+}

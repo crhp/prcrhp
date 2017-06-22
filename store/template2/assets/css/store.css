@@ -670,6 +670,10 @@ a:hover {
         padding-bottom: 14px;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+        color: #ff6e01;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .info {
         line-height: 1.5em;
         font-weight: normal;
@@ -718,6 +722,10 @@ a:hover {
         font-size: 20px;
         color: #ff6e01;
         padding: 0 0 0 5px;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {
@@ -1392,6 +1400,10 @@ a:hover {
         padding-bottom: 14px;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+        color: #ff6e01;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .info {
         line-height: 1.5em;
         font-weight: normal;
@@ -1439,6 +1451,10 @@ a:hover {
         font-size: 20px;
         color: #ff6e01;
         padding: 0 0 0 5px;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {
@@ -2196,6 +2212,10 @@ a:hover {
         padding-bottom: 14px;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+        color: #ff6e01;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours dl dd .info {
         line-height: 1.5em;
         font-weight: normal;
@@ -2243,6 +2263,10 @@ a:hover {
         font-size: 20px;
         color: #ff6e01;
         padding: 0 0 0 5px;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {

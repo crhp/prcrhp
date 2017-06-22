@@ -12,9 +12,27 @@
     color: #116ec0;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number div a {
-    color: #116ec0;
+    color: #ff6f00;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number div {
-    color: #116ec0;
-    border: solid 2px #116ec0;
+/*    color: #116ec0;
+    border: solid 2px #116ec0;*/
 }
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+/*  color: #116ec0;*/
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+/*  background-color: #116ec0;*/
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+      border: 2px solid #116ec0;
+      color: #116ec0;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn a {
+    color: #116ec0;
+}
+

@@ -508,6 +508,13 @@
 }
 
 @media screen and (min-width: 1366px) {
+    .top-dial-date-title {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: normal;
+        color: #ff6e01;
+        padding-bottom: 12px; 
+    }
     .label-worktime{
 }
     .top-dial-normal2 .top-dial-number2 {
@@ -577,7 +584,7 @@
     }
 
     .top-contact-title {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .top-dial-attantion {
@@ -617,13 +624,13 @@
         vertical-align: middle;
         width: 100%;
         padding: 5px 0 15px;
-        margin-top: 50px;
+        margin-top: 63px;
     }
     .top-dial-btn2 {
         position: inherit;
         vertical-align: middle;
         width: 100%;
-        margin: 0 auto;
+        padding: 5px 0 15px;
 }
     .top-dial-release {
         left: 51%;

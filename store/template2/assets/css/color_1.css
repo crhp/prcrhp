@@ -25,3 +25,10 @@
     background-color: #ff6e01;
     }
 
+#section-calendar .calendar-inner .right-wrap .business_hours dl dd .time .tel_a {
+    color: #ff6e01;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+    color: #ff6e01;
+}

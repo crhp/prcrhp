@@ -662,10 +662,11 @@ a:hover {
     #section-calendar .calendar-inner .right-wrap .business_hours .business_hours_column {
         font-size: 16px;
         font-weight: bold;
-        padding-top: 24px;
-        padding-bottom: 86px;
+        padding: 24px 0 7px 0;
         border-bottom: 1px solid #dddddd;
-        margin: 0 0 0 32px;
+        margin: 0 0 10px 32px;
+        display: inline-block;
+        width: 90%;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .label {
@@ -683,6 +684,10 @@ a:hover {
         color: #ff6e01;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours .time .tel_a {
+        color: #ff6e01;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours .info {
         clear: both;
     }
@@ -696,7 +701,7 @@ a:hover {
      #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column {
         width: 100%;
         clear: both;
-        margin: 17px 0 0 32px;
+        margin: 0 0 0 32px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .title {
@@ -714,25 +719,29 @@ a:hover {
         font-size: 13px;
         color: #ff6e01;
         width: 100%;
-        margin: 17px 0 0 0;
+        margin: 0 0 13px 0;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
         width: 23px;
         height: 23px;
         float: left;x;
-        margin: 13px 0 0 0;
+        margin: 0 0 0 0;
         background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
         position: relative;
         float: left;
-        margin: 9px 0 12px 0;
+        margin: 0 0 12px 0;
         color: #ff6e01;
         padding: 0 0 0 5px;
         font-size: 28px;
         font-weight: bold;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {
@@ -1374,9 +1383,10 @@ a:hover {
         color: #333333;
         border-bottom: 1px solid #dddddd;
         clear: both;
-        margin: 0 0 10px 32px;
+        margin: 0 0 7px 32px;
         width: 90%;
-        padding: 0 0 10px 0;
+        padding: 13px 0 10px 0;
+        display: inline-block;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .label {
@@ -1393,6 +1403,10 @@ a:hover {
         margin: 0 0 5px 0;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours .time .tel_a {
+        color: #ff6e01;
+    }
+
     #section-calendar .calendar-inner .right-wrap .business_hours .info {
         font-size: 16px;
         width: 100%;
@@ -1407,13 +1421,13 @@ a:hover {
      #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column {
         width: 100%;
         clear: both;
-        margin: 17px 0 0 32px;
+        margin: 10px 0 0 32px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .title {
         width: 100%;
         text-align: left;
-        padding: 36px 0 8px 32px;
+        padding: 36px 0 25px 32px;
         font-size: 24px;
         letter-spacing: 0.1em;
         font-weight: bold;
@@ -1424,25 +1438,29 @@ a:hover {
         font-size: 13px;
         color: #ff6e01;
         width: 100%;
-        margin: 17px 0 0 0;
+        margin: 0 0 10px 0;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
         width: 32px;
         height: 32px;
         float: left;x;
-        margin: 13px 0 0 0;
+        margin: 0 0 0 0;
         background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
         position: relative;
         float: left;
-        margin: 12px 0 12px 0;
+        margin: 0 0 12px 0;
         color: #ff6e01;
         padding: 0 0 0 18px;
         font-size: 28px;
         font-weight: bold;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {
@@ -2085,12 +2103,13 @@ a:hover {
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .business_hours_column{
-        padding: 0 0 70px 0;
+        padding: 0 0 10px 0;
         color: #333333;
         border-bottom: 1px solid #dddddd;
         clear: both;
-        margin: 0 0 10px 32px;
+        margin: 13px 0 7px 32px;
         width: 90%;
+        display: inline-block;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .label {
@@ -2108,6 +2127,11 @@ a:hover {
         margin: 0 0 5px 0;
     }
 
+    #section-calendar .calendar-inner .right-wrap .business_hours .time .tel_a {
+        color: #ff6e01;
+    }
+
+
     #section-calendar .calendar-inner .right-wrap .business_hours .info {
         font-size: 19px;
         float: left;
@@ -2121,13 +2145,13 @@ a:hover {
      #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column {
         width: 100%;
         clear: both;
-        margin: 17px 0 0 32px;
+        margin: 13px 0 0 32px;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .title {
         width: 100%;
         text-align: center;
-        padding: 36px 0 8px 32px;
+        padding: 36px 0 25px 32px;
         font-size: 24px;
         letter-spacing: 0.1em;
         font-weight: bold;
@@ -2138,25 +2162,29 @@ a:hover {
         font-size: 18px;
         color: #ff6e01;
         width: 100%;
-        margin: 17px 0 0 0;
+        margin: 0 0 13px 0;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
         width: 23px;
         height: 23px;
         float: left;
-        margin: 13px 0 0 0;
+        margin: 0 0 0 0;
         background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
         position: relative;
         float: left;
-        margin: 9px 0 12px 0;
+        margin: 0 0 12px 0;
         color: #ff6e01;
         padding: 0 0 0 5px;
         font-size: 26px;
         font-weight: bold;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {
@@ -2888,12 +2916,15 @@ a:hover {
         font-family: "æ¸¸æ˜Žæœä½“", "YuMincho", "Yu Mincho", "ãƒ’ãƒ©ã‚®ãƒŽæ˜ŽæœProN W3", "Hiragino Mincho ProN", "HGæ˜ŽæœB", "ï¼­ï¼³ ï¼°æ˜Žæœ", "ï¼­ï¼³ æ˜Žæœ", serif;
     }
 
-    #section-calendar .calendar-inner .right-wrap .business_hours .business_hours_column{
+    #section-calendar .calendar-inner .right-wrap .business_hours .business_hours_column {
         font-size: 11px;
         font-weight: bold;
         padding-top: 14px;
         border-bottom: 1px solid #dddddd;
-        padding-bottom: 70px;
+        padding-bottom: 7px;
+        display: inline-block;
+        margin: 13px 0 10px 0;
+        width: 90%;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .label {
@@ -2908,6 +2939,10 @@ a:hover {
         float: right;
         color: #ff6e01;
         margin: 0 0 5px 0;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .business_hours .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .business_hours .info {
@@ -2941,24 +2976,28 @@ a:hover {
         font-size: 13px;
         color: #ff6e01;
         width: 100%;
-        margin: 17px 0 0 0;
+        margin: 0 0 13px 0;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
         width: 20px;
         height: 20px;
         float: left;
-        margin: 6px 0 0 0;
+        margin: 0 0 0 0;
         background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
         position: relative;
         float: left;
-        margin: 7px 0 7px 0;
+        margin: 0 0 7px 0;
         font-size: 20px;
         color: #ff6e01;
         padding: 0 0 0 5px;
+    }
+
+    #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time .tel_a {
+        color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .info {

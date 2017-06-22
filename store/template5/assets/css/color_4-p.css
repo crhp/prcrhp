@@ -28,12 +28,13 @@
     color: #c56e3d;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number div a {
-    color: #c56e3d;
+    color: #118075;
 }
 #section-calendar .calendar-inner .right-wrap .phone-number div {
-    color: #c56e3d;
-    border: solid 2px #c56e3d;
+/*    color: #c56e3d;
+    border: solid 2px #c56e3d;*/
 }
+
 #store-list .inner .store_btn_detail a {
     color: #c56e3d;
 }
@@ -42,5 +43,26 @@
    background-color:#c56e3d;
 }
 #section-calendar .calendar-inner .right-wrap .business_hours dl dd .label {
+/*    color: #c56e3d;*/
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
+    color: #118075;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
+    color: #118075;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+    background-color: #118075;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
+    border: 2px solid #c56e3d;
+    color: #c56e3d;
+}
+
+#section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn a {
     color: #c56e3d;
 }
