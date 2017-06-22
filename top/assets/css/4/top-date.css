@@ -26,6 +26,7 @@
   margin-bottom: 11px;
   padding-bottom: 4px;
   line-height: 1.5em;
+  border-bottom: 1px solid #eee;
   }
 
 .top-date-item:after {
@@ -121,6 +122,7 @@ line-height: 1.5em;
     }
   .top-date-item {
     margin-bottom: 10px;
+    border-bottom: 1px solid #ddd
     }  
   .top-date-container {
     padding: 0;

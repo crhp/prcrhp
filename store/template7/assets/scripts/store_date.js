@@ -1,7 +1,6 @@
 $(function() {
 
-  var storeDateContainer = $('#store-date-container');
-  var fixItem = $('.fixitem');
+  var storeDateContainer = $("#store-date-container");
   var dateItemTimer = false;
 
   fixDateItems();
@@ -16,16 +15,20 @@ $(function() {
     }, 200);
   });
 
-    function fixDateItems () {
-        $(storeDateContainer).each(function() {
-          var maxHeight = 0;
-          $(storeDateContainer).find(fixItem).each(function() {
-            $(this).height("auto");
-            if($(this).height() > maxHeight) {
-              maxHeight = $(this).height();
-            }
-          });
-          $(storeDateContainer).find(fixItem).height(maxHeight);
-        });
+  function fixDateItems () {
+
+    var alignFixItems = $(storeDateContainer).find(".fixitem");
+    for (var ii=0; ii < alignFixItems.length; ii+=2) {
+      if (alignFixItems[ii+1] && $(alignFixItems[ii]).offset().top == $(alignFixItems[ii+1]).offset().top) {
+        var fixItem = $(alignFixItems[ii]);
+        var nextFixItem = $(alignFixItems[ii+1]);
+        if (fixItem.height() <= nextFixItem.height()) {
+          fixItem.height( nextFixItem.height() );
+        } else {
+          nextFixItem.height(fixItem.height());
+        }
+      }
     }
+  }
+
 });

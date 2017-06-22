@@ -3,7 +3,6 @@
     overflow:hidden;
 }
 .label-worktime{
-    border-bottom: 1px solid #eee;
 }
 
 .top-contact-container {
@@ -201,7 +200,6 @@
     display: inline-block;
     letter-spacing: 0.07em;
     color: #fff;
-    font-size: 16px;
 }
 
 .top-dial-attantion-title {
@@ -364,7 +362,7 @@
     }
 
     .top-contact-subtitle {
-        margin-bottom: 7px;
+        margin-bottom: 20px;
         font-size: 16px;
         line-height: 20.5px;
         color: #333333;
@@ -391,6 +389,7 @@
         margin-left: 0;
         width: 100%;
        /* border-bottom: 1px solid #f0f0f0; */
+        float: left;
     }*/
 
     .top-dial-date-title {
@@ -510,7 +509,6 @@
 
 @media screen and (min-width: 1366px) {
     .label-worktime{
-    border-bottom: 1px solid #ddd;
 }
     .top-dial-normal2 .top-dial-number2 {
         padding-left: 45px;
@@ -596,10 +594,10 @@
 
     .top-dial-normal {
         margin-right: 0;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
         border-bottom: none;
         padding-right: 20px;
-        /* text-align: right; */
+        margin-top: 10px;
     }
 
     .top-dial {
@@ -618,8 +616,8 @@
         position: inherit;
         vertical-align: middle;
         width: 100%;
-        margin: 0 auto;
         padding: 5px 0 15px;
+        margin-top: 50px;
     }
     .top-dial-btn2 {
         position: inherit;

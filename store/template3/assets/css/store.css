@@ -1371,6 +1371,7 @@ a:hover {
         float: left;
         border-radius: 5px;
         margin: 6px 0 0 0;
+        background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
@@ -2131,6 +2132,7 @@ a:hover {
         float: left;
         border-radius: 5px;
         margin: 6px 0 0 0;
+        background-color: #ff6e01;
     }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {

@@ -45,4 +45,8 @@
 #section-calendar .calendar-inner .right-wrap .phone-number div {
 }
 
+#section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
+    background-color: #ff6e01;
+}
+
 

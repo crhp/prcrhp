@@ -746,7 +746,7 @@ a:hover {
     #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
         clear: both;
         text-align: center;
-        width: 60%;
+        width: 90%;
         font-size: 14px;
         color: #4d4d4d;
         cursor: pointer;
@@ -1456,7 +1456,7 @@ a:hover {
     #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
         clear: both;
         text-align: center;
-        width: 60%;
+        width: 90%;
         font-size: 14px;
         color: #4d4d4d;
         cursor: pointer;
@@ -2170,7 +2170,7 @@ a:hover {
     #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
         clear: both;
         text-align: left;
-        width: 60%;
+        width: 90%;
         font-size: 14px;
         color: #4d4d4d;
         cursor: pointer;
@@ -2978,7 +2978,7 @@ a:hover {
         background-color: #ff6e01;
         clear: both;
         height: 40px;
-        width: 60%;
+        width: 100%;
         text-align: center;
     }
 

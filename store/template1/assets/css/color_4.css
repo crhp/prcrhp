@@ -40,17 +40,17 @@
 }
 
     #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .icon img {
-    background-color: #003476;
+    background-color: #000000;
 }
 
 #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .label {
-    color: #003476;
+    color: #000000;
 }
 
 #section-calendar .calendar-inner .right-wrap .phone-number .phone-number-column .time {
-    color: #003476;
+    color: #000000;
 }
 
 #section-calendar .calendar-inner .right-wrap .phone-number .top-dial-btn {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #003476), color-stop(0.00, #6685ad));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #000000), color-stop(0.00, #6d6b6b));
 }
