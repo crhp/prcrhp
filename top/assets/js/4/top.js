@@ -2,7 +2,7 @@ var slick;
 $(document).ready(function() {
   new CRHP.ElementManager([{
     breakpoint: "sp",
-    target: ["#top-shop-information-container",".top-column-right",".top-column-left"],
+    target: [".top-column-right",".top-column-left"],
     order: [
       [
         "#top-map-container",
@@ -12,16 +12,14 @@ $(document).ready(function() {
         "#top-ownership-container",
         "#top-emergency-container"
       ],
-
       [
         "#top-service-container",
         "#top-news-container",
         "#top-blog-container",
         "#top-servicemenu-container",
-        "#top-shop-information-container"
-      ],
-      [
-
+        "#top-shop-information-container",
+        "#top-car-container",
+        "#top-related-container"
       ]
     ]
   }, {

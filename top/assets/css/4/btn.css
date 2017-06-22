@@ -1,4 +1,4 @@
-.tc-btn-a {font-size: 12px;color: #666666;letter-spacing: 0.07em;padding-left: 12px;background: url(../../images/4/parts/top-arrow-right.png) no-repeat left center;background-size: 5px 8px;margin-left: -12px;}
+.tc-btn-a {font-size: 12px;color: #333333;letter-spacing: 0.07em;padding-left: 12px;background: url(../../images/4/parts/top-arrow-right.png) no-repeat left center;background-size: 5px 8px;margin-left: -12px;}
 
 .tc-btn-b {
   border-style: solid;
@@ -20,15 +20,17 @@
   text-align: center;
   }
 
+.tc-btn-c {font-size: 15px;color: #fff;letter-spacing: 0.07em;padding-left: 12px;background: url(/top/assets/images/4/top-slide-right.png) no-repeat left center;background-size: 5px;margin-left: -12px;}
+
 @media screen and (min-width: 768px) {
   .tc-btn-a {
     font-size: 14px;
     margin: 0 auto;
-    line-height: 43px;
+    line-height: 50px;
     } }
 
 @media screen and (min-width: 1366px) {
  .tc-btn-a {
-  font-size: 14px;
+  font-size: 15px;
   }
 }
